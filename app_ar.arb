@@ -1,0 +1,285 @@
+{
+    "appTitle":  "ReadItLater",
+    "homeTitle":  "ReadItLater",
+    "searchHint":  "البحث في الروابط والعلامات...",
+    "noLinksYet":  "لم يتم حفظ أي روابط حتى الآن",
+    "noMatchingLinks":  "لم يتم العثور على روابط مطابقة",
+    "tapToAdd":  "اضغط على + لإضافة رابطك الأول",
+    "deleteLinkTitle":  "حذف الرابط",
+    "deleteLinkContent":  "هل أنت متأكد أنك تريد حذف \"{name}\"؟",
+    "@deleteLinkContent":  {
+                               "placeholders":  {
+                                                    "name":  {
+                                                                 "type":  "String"
+                                                             }
+                                                }
+                           },
+    "cancel":  "يلغي",
+    "delete":  "يمسح",
+    "undo":  "تراجع",
+    "deleted":  "{name} محذوف",
+    "@deleted":  {
+                     "placeholders":  {
+                                          "name":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "errorLoading":  "خطأ في تحميل البيانات: {error}",
+    "@errorLoading":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "couldNotOpen":  "لا يمكن فتح {url}",
+    "@couldNotOpen":  {
+                          "placeholders":  {
+                                               "url":  {
+                                                           "type":  "String"
+                                                       }
+                                           }
+                      },
+    "addLinkTitle":  "إضافة رابط",
+    "editLinkTitle":  "تعديل الرابط",
+    "linkTitleLabel":  "عنوان",
+    "urlLabel":  "عنوان URL",
+    "addTagLabel":  "إضافة علامة",
+    "save":  "يحفظ",
+    "pleaseEnterUrl":  "الرجاء إدخال عنوان URL",
+    "accountTitle":  "إعدادات",
+    "language":  "لغة",
+    "navHome":  "بيت",
+    "navAccount":  "إعدادات",
+    "backupRestoreTitle":  "النسخ الاحتياطي والاستعادة",
+    "exportLinksTitle":  "روابط التصدير",
+    "exportLinksSubtitle":  "احفظ الروابط الخاصة بك في ملف",
+    "enterPassword":  "أدخل كلمة المرور (اختياري)",
+    "password":  "كلمة المرور",
+    "encryptFile":  "تشفير",
+    "instagram":  "انستغرام",
+    "faqTitle":  "الأسئلة المتداولة",
+    "importLinksTitle":  "استعادة الروابط",
+    "importLinksSubtitle":  "استعادة الروابط من ملف",
+    "importSuccess":  "تم استيراد {count} من الروابط بنجاح",
+    "@importSuccess":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "importFailed":  "فشل الاستيراد: {error}",
+    "@importFailed":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "decryptFailed":  "فشل فك التشفير أو التنسيق غير صالح",
+    "wrongPassword":  "كلمة مرور خاطئة أو ملف غير صالح",
+    "favoriteLimitReached":  "الحد الأقصى المسموح به هو 3 مفضلات",
+    "termsOfService":  "شروط الخدمة",
+    "privacyPolicy":  "سياسة الخصوصية",
+    "welcomeTitle":  "مرحبًا بك في ReadItLater",
+    "welcomeMessage":  "يرجى قراءة وقبول شروط الخدمة وسياسة الخصوصية الخاصة بنا للمتابعة.",
+    "accept":  "يقبل",
+    "decline":  "انخفاض",
+    "setReminder":  "تعيين تذكير",
+    "reminderSet":  "تم ضبط التذكير بتاريخ {date}",
+    "recentlyDeleted":  "تم حذفه مؤخرًا",
+    "@reminderSet":  {
+                         "placeholders":  {
+                                              "date":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "reminderLimitReached":  "تم الوصول إلى حد التذكير (10)",
+    "proVersion":  "النسخة الاحترافية",
+    "notAvailableInYourCountry":  "غير متوفر في بلدك",
+    "upgradeToPro":  "الترقية إلى Pro للحصول على تذكيرات غير محدودة",
+    "restored":  "تمت استعادة {name}.",
+    "@restored":  {
+                      "placeholders":  {
+                                           "name":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "deletePermanentlyTitle":  "هل تريد الحذف نهائيًا؟",
+    "deletePermanentlyContent":  "لا يمكن التراجع عن هذا الإجراء.",
+    "selectAll":  "حدد الكل",
+    "selectedCount":  "مختارة",
+    "deleteSelectedContent":  "هل تريد حذف {count} من الروابط؟",
+    "@deleteSelectedContent":  {
+                                   "placeholders":  {
+                                                        "count":  {
+                                                                      "type":  "int"
+                                                                  }
+                                                    }
+                               },
+    "loginTitle":  "تسجيل الدخول",
+    "emailLabel":  "بريد إلكتروني",
+    "usernameLabel":  "اسم المستخدم",
+    "passwordLabel":  "كلمة المرور",
+    "loginButton":  "تسجيل الدخول",
+    "logoutButton":  "تسجيل الخروج",
+    "skipLabel":  "تخطي الآن",
+    "loggedInAs":  "تم تسجيل الدخول باسم {email}",
+    "@loggedInAs":  {
+                        "placeholders":  {
+                                             "email":  {
+                                                           "type":  "String"
+                                                       }
+                                         }
+                    },
+    "createAccount":  "إنشاء حساب",
+    "nameLabel":  "الاسم الكامل",
+    "confirmPasswordLabel":  "تأكيد كلمة المرور",
+    "registerButton":  "يسجل",
+    "signInWithGoogle":  "قم بتسجيل الدخول باستخدام جوجل",
+    "googleSignInNotSupported":  "لم يتم تكوين تسجيل الدخول بـ Google في هذا العرض التوضيحي.",
+    "accountCreated":  "تم إنشاء الحساب بنجاح",
+    "invalidCredentials":  "اسم المستخدم أو كلمة المرور غير صالحة",
+    "emailExists":  "البريد الإلكتروني موجود بالفعل",
+    "noAccountCreateOne":  "لا يوجد حساب؟ قم بإنشاء واحدة.",
+    "getStarted":  "ابدأ",
+    "acceptAndContinue":  "قبول ومتابعة",
+    "acceptAndFinish":  "قبول وإنهاء",
+    "stepTos":  "شروط الخدمة",
+    "stepPrivacy":  "سياسة الخصوصية",
+    "addedOn":  "تمت الإضافة في: {date}",
+    "@addedOn":  {
+                     "placeholders":  {
+                                          "date":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "sendFeedback":  "إرسال الملاحظات",
+    "feedbackSubject":  "قراءة في وقت لاحق ردود الفعل",
+    "feedbackTitle":  "إرسال الملاحظات",
+    "feedbackName":  "الاسم (اختياري)",
+    "feedbackEmail":  "البريد الإلكتروني (اختياري)",
+    "feedbackMessage":  "رسالة",
+    "verifyHuman":  "يرجى التحقق من أنك إنسان",
+    "send":  "يرسل",
+    "tabLinks":  "روابط",
+    "tabDeleted":  "تم الحذف",
+    "topLinksTitle":  "أعلى الروابط",
+    "noDeletedLinks":  "لا توجد روابط محذوفة",
+    "restoreTooltip":  "يعيد",
+    "remindersTitle":  "تذكيرات",
+    "noReminders":  "لا توجد تذكيرات قادمة",
+    "didYouKnow":  "هل تعلم؟",
+    "shareToAppTip":  "يمكنك إضافة روابط من خلال مشاركتها على ReadItLater!",
+    "commentsLabel":  "التعليقات (اختياري)",
+    "accountSettings":  "إعدادات الحساب",
+    "signIn":  "تسجيل الدخول",
+    "collectionsTitle":  "المجموعات",
+    "newCollection":  "مجموعة جديدة",
+    "collectionName":  "اسم المجموعة",
+    "gridView":  "عرض الشبكة",
+    "listView":  "عرض القائمة",
+    "editAccountTitle":  "تحرير الحساب",
+    "changePasswordTitle":  "تغيير كلمة مرور الحساب",
+    "signOutTitle":  "تسجيل الخروج",
+    "signOutConfirm":  "هل أنت متأكد أنك تريد تسجيل الخروج من حسابك في هذا الجهاز؟",
+    "deleteAccountTitle":  "حذف الحساب",
+    "deleteAccountWarning":  "حذف الحساب: يرجى قراءة هذا بعناية.",
+    "deleteAccountConfirm":  "ستقوم بحذف حسابك وجميع البيانات المرتبطة به. لا يمكن التراجع عن هذا. هل أنت متأكد؟",
+    "deleteSuccess":  "نأسف لرؤيتك تغادر! لقد تم حذف حسابك.",
+    "deleteFail":  "فشل في حذف الحساب. يرجى المحاولة مرة أخرى في وقت لاحق.",
+    "continueButton":  "متابعة",
+    "noCollectionsYet":  "لا توجد مجموعات بعد",
+    "emptyFolder":  "مجلد فارغ",
+    "folderColor":  "لون المجلد",
+    "editAction":  "تحرير",
+    "editCollection":  "Edit collection",
+    "changeColor":  "تغيير اللون",
+    "deleteCollectionWarning":  "سيتم نقل الروابط الموجودة بالداخل إلى الجذر.",
+    "moveAction":  "نقل",
+    "moveToCollection":  "نقل إلى مجموعة",
+    "noCollection":  "بدون مجموعة",
+    "noInternetConnection":  "لا يوجد اتصال بالإنترنت",
+    "dismiss":  "تجاهل",
+    "tagAll":  "الكل",
+    "camera":  "الكاميرا",
+    "gallery":  "المعرض",
+    "classicAvatars":  "صور رمزية كلاسيكية",
+    "classic":  "كلاسيكي",
+    "usernameLengthError":  "يجب أن يكون اسم المستخدم بين 3 و 45 حرفًا",
+    "usernameFormatError":  "صيغة اسم المستخدم غير صالحة.",
+    "usernameConsecutiveSymbols":  "لا يمكن أن يحتوي اسم المستخدم على رموز متتالية.",
+    "usernameRestrictedWords":  "اسم المستخدم يحتوي على كلمات محظورة.",
+    "failedUploadPic":  "فشل في رفع صورة الملف الشخصي.",
+    "accountUpdated":  "تم تحديث الحساب بنجاح",
+    "failedUpdateAccount":  "فشل في تحديث الحساب. قد يكون البريد الإلكتروني مستخدمًا بالفعل.",
+    "editAccountHint":  "اترك الحقول فارغة إذا لم ترد تغييرها. انقر على الصورة لتحديث الصورة الرمزية.",
+    "saveChanges":  "حفظ التغييرات",
+    "verifyIdentity":  "التحقق من الهوية",
+    "enterCurrentPassword":  "يرجى إدخال كلمة المرور الحالية للمتابعة.",
+    "currentPassword":  "كلمة المرور الحالية",
+    "incorrectPassword":  "كلمة المرور غير صحيحة",
+    "verify":  "تحقق",
+    "googleVerifyFailed":  "فشل التحقق من الهوية عبر Google.",
+    "confirmIdentity":  "للمتابعة، تأكد من أنك أنت أولاً.",
+    "verifyIdentityDesc":  "نحتاج للتحقق من هويتك لحماية حسابك.",
+    "continueWithGoogle":  "المتابعة مع Google",
+    "editPassword":  "تعديل كلمة المرور",
+    "newPassword":  "كلمة مرور جديدة",
+    "passwordUpdated":  "تم تحديث كلمة المرور بنجاح",
+    "failedUpdatePassword":  "فشل في تحديث كلمة المرور",
+    "savePassword":  "حفظ كلمة المرور",
+    "passwordsDoNotMatch":  "كلمتا المرور غير متطابقتين",
+    "none":  "لا شيء",
+    "visitCount":  "{count} زيارة",
+    "aiSettings":  "إعدادات الذكاء الاصطناعي",
+    "aiSettingsSubtitle":  "التحكم في فرز الذكاء الاصطناعي وذاكرة النمط للمجموعات.",
+    "useAiSorting":  "استخدام فرز الذكاء الاصطناعي",
+    "useAiSortingSubtitle":  "يقترح تجميع المجلدات تلقائياً بناءً على روابطك.",
+    "styleMemory":  "ذاكرة النمط",
+    "styleMemoryEmpty":  "حدد شكل أسماء المجموعات.",
+    "styleMemoryDesc":  "تتعلم ذاكرة النمط بهدوء طريقة تسميتك وتنظيمك للمجموعات - سواء كنت تفضل الرموز التعبيرية أو الأحرف الكبيرة أو المظهر البسيط - وتطبق ذلك لاحقاً.",
+    "styleMemorySpecificHint":  "كن محدداً. مثال: \"استخدم رموزاً للتقنية، أحرفاً كبيرة للعمل، ومظهراً بسيطاً للشخصي.\"",
+    "styleMemoryTextHint":  "صف أسلوبك في تسمية المجلدات...",
+    "styleMemorySaved":  "تم حفظ ذاكرة النمط.",
+    "enableAiSortingFirst":  "فعّل استخدام فرز الذكاء الاصطناعي من الإعدادات أولاً.",
+    "saveMoreLinksTryAgain":  "احفظ المزيد من الروابط ثم حاول مرة أخرى",
+    "linksTooUnrelated":  "هذه الروابط غير مترابطة جداً.",
+    "linksAlreadySimilar":  "هذه الروابط متشابهة بالفعل إلى حد كبير.",
+    "aiSortingSaved":  "تم حفظ فرز الذكاء الاصطناعي.",
+    "tryAgainTitle":  "المحاولة مرة أخرى؟",
+    "tryAgainQuestion":  "هل ترغب في المحاولة مرة أخرى؟",
+    "aiSortingResult":  "نتيجة فرز الذكاء الاصطناعي",
+    "saveFolderTree":  "حفظ شجرة المجلدات هذه؟",
+    "yes":  "نعم",
+    "no":  "لا",
+    "autoSortLinks":  "فرز الروابط تلقائياً",
+    "folderCount":  "مجلد: {name} ({count})",
+    "moreCount":  "- +{count} المزيد",
+    "@folderCount":  {
+                         "placeholders":  {
+                                              "name":  {
+                                                           "type":  "String"
+                                                       },
+                                              "count":  {
+                                                            "type":  "int"
+                                                        }
+                                          }
+                     },
+    "@moreCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "feedbackConsumerButton":  "ملاحظات المستخدم",
+    "feedbackTranslationsButton":  "ملاحظات الترجمة",
+    "feedbackConsumerNote":  "ملاحظات المستخدم: شارك تجربتك في استخدام التطبيق، مثل الأخطاء، ومشكلات الأداء، والميزات، أو سهولة الاستخدام بشكل عام.",
+    "feedbackTranslationsNote":  "ملاحظات الترجمة: أبلغ عن مشكلات اللغة، مثل الترجمات غير الصحيحة، أو الصياغة غير الواضحة، أو الأخطاء النحوية."
+}

@@ -1,0 +1,286 @@
+{
+    "appTitle":  "ReadItLater",
+    "homeTitle":  "ReadItLater",
+    "searchHint":  "搜尋連結和標籤...",
+    "noLinksYet":  "尚未儲存連結",
+    "noMatchingLinks":  "找不到符合的連結",
+    "tapToAdd":  "點擊 + 新增您的第一個連結",
+    "deleteLinkTitle":  "刪除連結",
+    "deleteLinkContent":  "您確定要刪除“{name}”嗎？",
+    "@deleteLinkContent":  {
+                               "placeholders":  {
+                                                    "name":  {
+                                                                 "type":  "String"
+                                                             }
+                                                }
+                           },
+    "cancel":  "取消",
+    "delete":  "刪除",
+    "undo":  "復原",
+    "deleted":  "{name}已刪除",
+    "@deleted":  {
+                     "placeholders":  {
+                                          "name":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "errorLoading":  "載入資料時發生錯誤：{error}",
+    "@errorLoading":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "couldNotOpen":  "無法打開 {url}",
+    "@couldNotOpen":  {
+                          "placeholders":  {
+                                               "url":  {
+                                                           "type":  "String"
+                                                       }
+                                           }
+                      },
+    "addLinkTitle":  "新增連結",
+    "editLinkTitle":  "編輯連結",
+    "linkTitleLabel":  "標題",
+    "urlLabel":  "網址",
+    "addTagLabel":  "新增標籤",
+    "save":  "儲存",
+    "pleaseEnterUrl":  "請輸入網址",
+    "accountTitle":  "設定",
+    "language":  "語言",
+    "navHome":  "主頁",
+    "navAccount":  "設定",
+    "backupRestoreTitle":  "備份與復原",
+    "exportLinksTitle":  "匯出連結",
+    "exportLinksSubtitle":  "將連結儲存到文件",
+    "enterPassword":  "輸入密碼（可選）",
+    "password":  "密碼",
+    "encryptFile":  "加密",
+    "instagram":  "Instagram",
+    "faqTitle":  "常見問題解答",
+    "importLinksTitle":  "恢復連結",
+    "importLinksSubtitle":  "從檔案匯入連結",
+    "importSuccess":  "已成功匯入 {count} 個連結",
+    "@importSuccess":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "importFailed":  "匯入失敗：{error}",
+    "@importFailed":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "decryptFailed":  "解密失敗或格式無效",
+    "wrongPassword":  "密碼錯誤或檔案無效",
+    "favoriteLimitReached":  "最多允許 3 個收藏夾",
+    "termsOfService":  "服務條款",
+    "privacyPolicy":  "隱私權政策",
+    "welcomeTitle":  "歡迎ReadItLater",
+    "welcomeMessage":  "請閱讀並接受我們的服務條款和隱私權政策以繼續。",
+    "accept":  "接受",
+    "decline":  "拒絕",
+    "setReminder":  "設定提醒",
+    "reminderSet":  "設定為 {date} 的提醒",
+    "recentlyDeleted":  "最近刪除",
+    "@reminderSet":  {
+                         "placeholders":  {
+                                              "date":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "reminderLimitReached":  "已達到提醒限制 (10)",
+    "notificationsOrExactAlarmPermissionsBlocked":  "通知和/或精確鬧鐘權限遭到封鎖",
+    "proVersion":  "專業版",
+    "notAvailableInYourCountry":  "在您所在的國家/地區不可用",
+    "upgradeToPro":  "升級至專業版可無限次提醒",
+    "restored":  "{name}已恢復",
+    "@restored":  {
+                      "placeholders":  {
+                                           "name":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "deletePermanentlyTitle":  "永久刪除？",
+    "deletePermanentlyContent":  "此操作無法撤銷。",
+    "selectAll":  "選擇全部",
+    "selectedCount":  "已選擇",
+    "deleteSelectedContent":  "刪除 {count} 個連結？",
+    "@deleteSelectedContent":  {
+                                   "placeholders":  {
+                                                        "count":  {
+                                                                      "type":  "int"
+                                                                  }
+                                                    }
+                               },
+    "loginTitle":  "登入",
+    "emailLabel":  "電子郵件",
+    "usernameLabel":  "使用者名稱",
+    "passwordLabel":  "密碼",
+    "loginButton":  "登入",
+    "logoutButton":  "登出",
+    "skipLabel":  "暫時跳過",
+    "loggedInAs":  "以 {email} 登入",
+    "@loggedInAs":  {
+                        "placeholders":  {
+                                             "email":  {
+                                                           "type":  "String"
+                                                       }
+                                         }
+                    },
+    "createAccount":  "建立帳戶",
+    "nameLabel":  "姓名",
+    "confirmPasswordLabel":  "確認密碼",
+    "registerButton":  "登記",
+    "signInWithGoogle":  "使用 Google 登入",
+    "googleSignInNotSupported":  "此示範中未配置 Google Sign In。",
+    "accountCreated":  "帳戶創建成功",
+    "invalidCredentials":  "帳號或密碼錯誤",
+    "emailExists":  "電子郵件已存在",
+    "noAccountCreateOne":  "沒有帳戶？立即建立。",
+    "getStarted":  "開始使用",
+    "acceptAndContinue":  "接受並繼續",
+    "acceptAndFinish":  "接受並完成",
+    "stepTos":  "服務條款",
+    "stepPrivacy":  "隱私權政策",
+    "addedOn":  "新增日期：{date}",
+    "@addedOn":  {
+                     "placeholders":  {
+                                          "date":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "sendFeedback":  "傳送回饋",
+    "feedbackSubject":  "稍後閱讀回饋",
+    "feedbackTitle":  "傳送回饋",
+    "feedbackName":  "姓名（可選）",
+    "feedbackEmail":  "電子郵件（可選）",
+    "feedbackMessage":  "訊息",
+    "verifyHuman":  "請驗證您是人類",
+    "send":  "傳送",
+    "tabLinks":  "連結",
+    "tabDeleted":  "已刪除",
+    "topLinksTitle":  "熱門連結",
+    "noDeletedLinks":  "沒有刪除的連結",
+    "restoreTooltip":  "恢復",
+    "remindersTitle":  "提醒事項",
+    "noReminders":  "沒有即將到來的提醒",
+    "didYouKnow":  "你可知道？",
+    "shareToAppTip":  "您可以透過將其分享到 ReadItLater 來新增連結！",
+    "commentsLabel":  "評論（可選）",
+    "accountSettings":  "帳戶設定",
+    "signIn":  "登入",
+    "collectionsTitle":  "收藏夾",
+    "newCollection":  "新收藏夾",
+    "collectionName":  "收藏夾名稱",
+    "gridView":  "網格視圖",
+    "listView":  "清單視圖",
+    "editAccountTitle":  "編輯帳戶",
+    "changePasswordTitle":  "更改帳號密碼",
+    "signOutTitle":  "登出",
+    "signOutConfirm":  "您確定要從此裝置中的帳戶登出嗎？",
+    "deleteAccountTitle":  "刪除帳戶",
+    "deleteAccountWarning":  "刪除帳戶：請仔細閱讀此內容。",
+    "deleteAccountConfirm":  "您將刪除您的帳戶以及所有相關資料。這是無法撤銷的。你確定嗎？",
+    "deleteSuccess":  "很遺憾看到您離開。您的帳戶已被刪除。",
+    "deleteFail":  "刪除帳戶失敗。請稍後重試。",
+    "continueButton":  "繼續",
+    "noCollectionsYet":  "暫無收藏夾",
+    "emptyFolder":  "空資料夾",
+    "folderColor":  "資料夾顏色",
+    "editAction":  "編輯",
+    "editCollection":  "編輯收藏夾",
+    "changeColor":  "更改顏色",
+    "deleteCollectionWarning":  "裡面的連結將被移至根目錄。",
+    "moveAction":  "移動",
+    "moveToCollection":  "移至收藏夾",
+    "noCollection":  "無收藏夾",
+    "noInternetConnection":  "無網路連接",
+    "dismiss":  "關閉",
+    "tagAll":  "全部",
+    "camera":  "相機",
+    "gallery":  "相簿",
+    "classicAvatars":  "經典頭像",
+    "classic":  "經典",
+    "usernameLengthError":  "使用者名稱必須在3到45個字元之間",
+    "usernameFormatError":  "使用者名稱格式無效。",
+    "usernameConsecutiveSymbols":  "使用者名稱不能包含連續的符號。",
+    "usernameRestrictedWords":  "使用者名稱包含受限詞彙。",
+    "failedUploadPic":  "上傳頭像失敗。",
+    "accountUpdated":  "帳戶更新成功",
+    "failedUpdateAccount":  "帳戶更新失敗。電子郵件可能已被使用。",
+    "editAccountHint":  "如果不想更改，請將欄位留空。點擊圖片更新頭像。",
+    "saveChanges":  "儲存變更",
+    "verifyIdentity":  "驗證身份",
+    "enterCurrentPassword":  "請輸入目前密碼以繼續。",
+    "currentPassword":  "目前密碼",
+    "incorrectPassword":  "密碼不正確",
+    "verify":  "驗證",
+    "googleVerifyFailed":  "透過Google驗證身份失敗。",
+    "confirmIdentity":  "要繼續，請先確認是您本人。",
+    "verifyIdentityDesc":  "我們需要驗證您的身份以保護您的帳戶。",
+    "continueWithGoogle":  "使用Google繼續",
+    "editPassword":  "修改密碼",
+    "newPassword":  "新密碼",
+    "passwordUpdated":  "密碼更新成功",
+    "failedUpdatePassword":  "密碼更新失敗",
+    "savePassword":  "儲存密碼",
+    "passwordsDoNotMatch":  "兩次密碼不一致",
+    "none":  "無",
+    "visitCount":  "{count} 次造訪",
+    "aiSettings":  "AI 設定",
+    "aiSettingsSubtitle":  "控制集合的 AI 排序與風格記憶。",
+    "useAiSorting":  "使用 AI 排序",
+    "useAiSortingSubtitle":  "根據你的連結自動建議資料夾分組。",
+    "styleMemory":  "風格記憶",
+    "styleMemoryEmpty":  "設定集合命名風格。",
+    "styleMemoryDesc":  "風格記憶會悄悄學習你如何命名與整理集合 - 無論你偏好表情符號、全大寫或更簡潔的風格 - 並在下次整理時套用。",
+    "styleMemorySpecificHint":  "請盡量具體。例如：「技術類用表情，工作類用全大寫，個人類保持簡潔。」",
+    "styleMemoryTextHint":  "描述你的資料夾命名風格...",
+    "styleMemorySaved":  "風格記憶已儲存。",
+    "enableAiSortingFirst":  "請先在設定中啟用「使用 AI 排序」。",
+    "saveMoreLinksTryAgain":  "請再儲存一些連結後重試",
+    "linksTooUnrelated":  "這些連結關聯性太低。",
+    "linksAlreadySimilar":  "這些連結已經很相似了。",
+    "aiSortingSaved":  "AI 排序已儲存。",
+    "tryAgainTitle":  "再試一次？",
+    "tryAgainQuestion":  "你想再試一次嗎？",
+    "aiSortingResult":  "AI 排序結果",
+    "saveFolderTree":  "儲存這個資料夾樹嗎？",
+    "yes":  "是",
+    "no":  "否",
+    "autoSortLinks":  "自動排序連結",
+    "folderCount":  "資料夾：{name}（{count}）",
+    "moreCount":  "- 另外 {count} 項",
+    "@folderCount":  {
+                         "placeholders":  {
+                                              "name":  {
+                                                           "type":  "String"
+                                                       },
+                                              "count":  {
+                                                            "type":  "int"
+                                                        }
+                                          }
+                     },
+    "@moreCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "feedbackConsumerButton":  "使用者回饋",
+    "feedbackTranslationsButton":  "翻譯回饋",
+    "feedbackConsumerNote":  "使用者回饋：分享你使用應用程式的體驗，例如錯誤、效能問題、功能或整體易用性。",
+    "feedbackTranslationsNote":  "翻譯回饋：回報語言問題，例如翻譯不正確、措辭不清楚或文法錯誤。"
+}

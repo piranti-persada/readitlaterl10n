@@ -1,0 +1,285 @@
+{
+    "appTitle":  "ReadItLater",
+    "homeTitle":  "ReadItLater",
+    "searchHint":  "Поиск ссылок и тегов...",
+    "noLinksYet":  "Ссылки пока не сохранены",
+    "noMatchingLinks":  "Подходящих ссылок не найдено",
+    "tapToAdd":  "Нажмите +, чтобы добавить первую ссылку.",
+    "deleteLinkTitle":  "Удалить ссылку",
+    "deleteLinkContent":  "Вы уверены, что хотите удалить \"{name}\"?",
+    "@deleteLinkContent":  {
+                               "placeholders":  {
+                                                    "name":  {
+                                                                 "type":  "String"
+                                                             }
+                                                }
+                           },
+    "cancel":  "Отмена",
+    "delete":  "Удалить",
+    "undo":  "Отменить",
+    "deleted":  "{name} удалено",
+    "@deleted":  {
+                     "placeholders":  {
+                                          "name":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "errorLoading":  "Ошибка загрузки данных: {error}.",
+    "@errorLoading":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "couldNotOpen":  "Не удалось открыть {url}",
+    "@couldNotOpen":  {
+                          "placeholders":  {
+                                               "url":  {
+                                                           "type":  "String"
+                                                       }
+                                           }
+                      },
+    "addLinkTitle":  "Добавить ссылку",
+    "editLinkTitle":  "Изменить ссылку",
+    "linkTitleLabel":  "Заголовок",
+    "urlLabel":  "URL-адрес",
+    "addTagLabel":  "Добавить тег",
+    "save":  "Сохранять",
+    "pleaseEnterUrl":  "Пожалуйста, введите URL",
+    "accountTitle":  "Настройки",
+    "language":  "Язык",
+    "navHome":  "Дом",
+    "navAccount":  "Настройки",
+    "backupRestoreTitle":  "Резервное копирование и восстановление",
+    "exportLinksTitle":  "Экспортировать ссылки",
+    "exportLinksSubtitle":  "Сохраните ссылки в файл",
+    "enterPassword":  "Введите пароль (необязательно)",
+    "password":  "Пароль",
+    "encryptFile":  "Шифровать",
+    "instagram":  "Инстаграм",
+    "faqTitle":  "Часто задаваемые вопросы",
+    "importLinksTitle":  "Восстановить ссылки",
+    "importLinksSubtitle":  "Восстановить ссылки из файла",
+    "importSuccess":  "Ссылки успешно импортированы: {count}.",
+    "@importSuccess":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "importFailed":  "Не удалось импортировать: {error}",
+    "@importFailed":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "decryptFailed":  "Не удалось расшифровать или неверный формат.",
+    "wrongPassword":  "Неправильный пароль или неверный файл",
+    "favoriteLimitReached":  "Разрешено максимум 3 избранных",
+    "termsOfService":  "Условия использования",
+    "privacyPolicy":  "политика конфиденциальности",
+    "welcomeTitle":  "Добро пожаловать в ReadItLater",
+    "welcomeMessage":  "Пожалуйста, прочитайте и примите наши Условия обслуживания и Политику конфиденциальности, чтобы продолжить.",
+    "accept":  "Принимать",
+    "decline":  "Отклонить",
+    "setReminder":  "Установить напоминание",
+    "reminderSet":  "Напоминание установлено на {date}",
+    "recentlyDeleted":  "Недавно удалено",
+    "@reminderSet":  {
+                         "placeholders":  {
+                                              "date":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "reminderLimitReached":  "Достигнут лимит напоминаний (10)",
+    "proVersion":  "Профессиональная версия",
+    "notAvailableInYourCountry":  "Недоступно в вашей стране",
+    "upgradeToPro":  "Обновите до Pro, чтобы получить неограниченное количество напоминаний",
+    "restored":  "{name} восстановлено",
+    "@restored":  {
+                      "placeholders":  {
+                                           "name":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "deletePermanentlyTitle":  "Удалить навсегда?",
+    "deletePermanentlyContent":  "Это действие невозможно отменить.",
+    "selectAll":  "Выбрать все",
+    "selectedCount":  "выбрано",
+    "deleteSelectedContent":  "Удалить ссылки: {count}?",
+    "@deleteSelectedContent":  {
+                                   "placeholders":  {
+                                                        "count":  {
+                                                                      "type":  "int"
+                                                                  }
+                                                    }
+                               },
+    "loginTitle":  "Авторизоваться",
+    "emailLabel":  "Электронная почта",
+    "usernameLabel":  "Имя пользователя",
+    "passwordLabel":  "Пароль",
+    "loginButton":  "Авторизоваться",
+    "logoutButton":  "Выйти",
+    "skipLabel":  "Пропустить сейчас",
+    "loggedInAs":  "Вошёл как {email}",
+    "@loggedInAs":  {
+                        "placeholders":  {
+                                             "email":  {
+                                                           "type":  "String"
+                                                       }
+                                         }
+                    },
+    "createAccount":  "Зарегистрироваться",
+    "nameLabel":  "Полное имя",
+    "confirmPasswordLabel":  "Подтвердите пароль",
+    "registerButton":  "Зарегистрироваться",
+    "signInWithGoogle":  "Войти через Google",
+    "googleSignInNotSupported":  "В этой демонстрации не настроен вход в Google.",
+    "accountCreated":  "Аккаунт успешно создан",
+    "invalidCredentials":  "Неверное имя пользователя или пароль",
+    "emailExists":  "Электронная почта уже существует",
+    "noAccountCreateOne":  "Нет аккаунта? Создайте его.",
+    "getStarted":  "Начать",
+    "acceptAndContinue":  "Принять и продолжить",
+    "acceptAndFinish":  "Принять и завершить",
+    "stepTos":  "Условия использования",
+    "stepPrivacy":  "политика конфиденциальности",
+    "addedOn":  "Добавлено: {date}",
+    "@addedOn":  {
+                     "placeholders":  {
+                                          "date":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "sendFeedback":  "Отправить отзыв",
+    "feedbackSubject":  "ПрочитатьПоздний отзыв",
+    "feedbackTitle":  "Отправить отзыв",
+    "feedbackName":  "Имя (необязательно)",
+    "feedbackEmail":  "Электронная почта (необязательно)",
+    "feedbackMessage":  "Сообщение",
+    "verifyHuman":  "Пожалуйста, подтвердите, что вы человек",
+    "send":  "Отправлять",
+    "tabLinks":  "Ссылки",
+    "tabDeleted":  "Удалено",
+    "topLinksTitle":  "Лучшие ссылки",
+    "noDeletedLinks":  "Нет удаленных ссылок",
+    "restoreTooltip":  "Восстановить",
+    "remindersTitle":  "Напоминания",
+    "noReminders":  "Нет предстоящих напоминаний",
+    "didYouKnow":  "Вы знали?",
+    "shareToAppTip":  "Вы можете добавлять ссылки, поделившись ими в ReadItLater!",
+    "commentsLabel":  "Комментарии (необязательно)",
+    "accountSettings":  "Настройки учетной записи",
+    "signIn":  "Войти",
+    "collectionsTitle":  "Коллекции",
+    "newCollection":  "Новая коллекция",
+    "collectionName":  "Название коллекции",
+    "gridView":  "Представление в виде сетки",
+    "listView":  "Просмотр списка",
+    "editAccountTitle":  "Редактировать аккаунт",
+    "changePasswordTitle":  "Изменить пароль учетной записи",
+    "signOutTitle":  "выход",
+    "signOutConfirm":  "Вы уверены, что хотите выйти из своей учетной записи на этом устройстве?",
+    "deleteAccountTitle":  "Удалить аккаунт",
+    "deleteAccountWarning":  "Удалить учетную запись: пожалуйста, прочитайте это внимательно.",
+    "deleteAccountConfirm":  "Вы собираетесь удалить свою учетную запись и все связанные с ней данные. Этого нельзя было отменить. Вы уверены?",
+    "deleteSuccess":  "Нам жаль, что вы уходите! Ваш аккаунт был удален.",
+    "deleteFail":  "Не удалось удалить учетную запись. Пожалуйста, повторите попытку позже.",
+    "continueButton":  "Продолжить",
+    "noCollectionsYet":  "Пока нет коллекций",
+    "emptyFolder":  "Пустая папка",
+    "folderColor":  "Цвет папки",
+    "editAction":  "Редактировать",
+    "editCollection":  "Edit collection",
+    "changeColor":  "Изменить цвет",
+    "deleteCollectionWarning":  "Ссылки внутри будут перемещены в корень.",
+    "moveAction":  "Переместить",
+    "moveToCollection":  "Переместить в коллекцию",
+    "noCollection":  "Нет коллекции",
+    "noInternetConnection":  "Нет подключения к интернету",
+    "dismiss":  "ЗАКРЫТЬ",
+    "tagAll":  "Все",
+    "camera":  "Камера",
+    "gallery":  "Галерея",
+    "classicAvatars":  "Классические аватары",
+    "classic":  "Классический",
+    "usernameLengthError":  "Имя пользователя должно быть от 3 до 45 символов",
+    "usernameFormatError":  "Недопустимый формат имени пользователя.",
+    "usernameConsecutiveSymbols":  "Имя пользователя не может содержать последовательные символы.",
+    "usernameRestrictedWords":  "Имя пользователя содержит запрещённые слова.",
+    "failedUploadPic":  "Не удалось загрузить фото профиля.",
+    "accountUpdated":  "Аккаунт успешно обновлён",
+    "failedUpdateAccount":  "Не удалось обновить аккаунт. Возможно, email уже используется.",
+    "editAccountHint":  "Оставьте поля пустыми, если не хотите их менять. Нажмите на изображение, чтобы обновить аватар.",
+    "saveChanges":  "Сохранить изменения",
+    "verifyIdentity":  "Подтвердить личность",
+    "enterCurrentPassword":  "Пожалуйста, введите текущий пароль для продолжения.",
+    "currentPassword":  "Текущий пароль",
+    "incorrectPassword":  "Неверный пароль",
+    "verify":  "Подтвердить",
+    "googleVerifyFailed":  "Не удалось подтвердить личность через Google.",
+    "confirmIdentity":  "Чтобы продолжить, сначала подтвердите, что это вы.",
+    "verifyIdentityDesc":  "Нам нужно подтвердить вашу личность для защиты аккаунта.",
+    "continueWithGoogle":  "Продолжить через Google",
+    "editPassword":  "Изменить пароль",
+    "newPassword":  "Новый пароль",
+    "passwordUpdated":  "Пароль успешно обновлён",
+    "failedUpdatePassword":  "Не удалось обновить пароль",
+    "savePassword":  "Сохранить пароль",
+    "passwordsDoNotMatch":  "Пароли не совпадают",
+    "none":  "Нет",
+    "visitCount":  "{count} посещений",
+    "aiSettings":  "Настройки ИИ",
+    "aiSettingsSubtitle":  "Управляйте ИИ-сортировкой и памятью стиля для коллекций.",
+    "useAiSorting":  "Использовать ИИ-сортировку",
+    "useAiSortingSubtitle":  "Автоматически предлагает группировку папок на основе ваших ссылок.",
+    "styleMemory":  "Память стиля",
+    "styleMemoryEmpty":  "Задайте стиль названий коллекций.",
+    "styleMemoryDesc":  "Память стиля незаметно запоминает, как вы называете и организуете коллекции - эмодзи, ВЕРХНИЙ РЕГИСТР или простой стиль - и применяет это в следующий раз.",
+    "styleMemorySpecificHint":  "Будьте конкретны. Пример: \"Эмодзи для техно, ВЕРХНИЙ РЕГИСТР для работы, личное — проще.\"",
+    "styleMemoryTextHint":  "Опишите ваш стиль именования папок...",
+    "styleMemorySaved":  "Память стиля сохранена.",
+    "enableAiSortingFirst":  "Сначала включите ИИ-сортировку в Настройках.",
+    "saveMoreLinksTryAgain":  "Сохраните ещё несколько ссылок и попробуйте снова",
+    "linksTooUnrelated":  "Эти ссылки слишком несвязанные.",
+    "linksAlreadySimilar":  "Эти ссылки уже довольно похожи.",
+    "aiSortingSaved":  "ИИ-сортировка сохранена.",
+    "tryAgainTitle":  "Попробовать снова?",
+    "tryAgainQuestion":  "Хотите попробовать ещё раз?",
+    "aiSortingResult":  "Результат ИИ-сортировки",
+    "saveFolderTree":  "Сохранить это дерево папок?",
+    "yes":  "Да",
+    "no":  "Нет",
+    "autoSortLinks":  "Автосортировка ссылок",
+    "folderCount":  "Папка: {name} ({count})",
+    "moreCount":  "- +{count} ещё",
+    "@folderCount":  {
+                         "placeholders":  {
+                                              "name":  {
+                                                           "type":  "String"
+                                                       },
+                                              "count":  {
+                                                            "type":  "int"
+                                                        }
+                                          }
+                     },
+    "@moreCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "feedbackConsumerButton":  "Отзыв пользователей",
+    "feedbackTranslationsButton":  "Отзыв о переводах",
+    "feedbackConsumerNote":  "Отзыв пользователей: поделитесь своим опытом использования приложения, например ошибками, проблемами производительности, функциями или общей удобностью.",
+    "feedbackTranslationsNote":  "Отзыв о переводах: сообщайте о языковых проблемах, например о неверных переводах, неясных формулировках или грамматических ошибках."
+}

@@ -1,0 +1,285 @@
+{
+    "appTitle":  "ReadItLater",
+    "homeTitle":  "ReadItLater",
+    "searchHint":  "搜索链接和标签...",
+    "noLinksYet":  "尚未保存链接",
+    "noMatchingLinks":  "没有找到匹配的链接",
+    "tapToAdd":  "点击 + 添加您的第一个链接",
+    "deleteLinkTitle":  "删除链接",
+    "deleteLinkContent":  "您确定要删除“{name}”吗？",
+    "@deleteLinkContent":  {
+                               "placeholders":  {
+                                                    "name":  {
+                                                                 "type":  "String"
+                                                             }
+                                                }
+                           },
+    "cancel":  "取消",
+    "delete":  "删除",
+    "undo":  "撤消",
+    "deleted":  "{name}已删除",
+    "@deleted":  {
+                     "placeholders":  {
+                                          "name":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "errorLoading":  "加载数据时出错：{error}",
+    "@errorLoading":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "couldNotOpen":  "无法打开 {url}",
+    "@couldNotOpen":  {
+                          "placeholders":  {
+                                               "url":  {
+                                                           "type":  "String"
+                                                       }
+                                           }
+                      },
+    "addLinkTitle":  "添加链接",
+    "editLinkTitle":  "编辑链接",
+    "linkTitleLabel":  "标题",
+    "urlLabel":  "网址",
+    "addTagLabel":  "添加标签",
+    "save":  "节省",
+    "pleaseEnterUrl":  "请输入网址",
+    "accountTitle":  "设定",
+    "language":  "语言",
+    "navHome":  "家",
+    "navAccount":  "设定",
+    "backupRestoreTitle":  "备份与恢复",
+    "exportLinksTitle":  "导出链接",
+    "exportLinksSubtitle":  "将链接保存到文件",
+    "enterPassword":  "输入密码（可选）",
+    "password":  "密码",
+    "encryptFile":  "加密",
+    "instagram":  "Instagram",
+    "faqTitle":  "常见问题解答",
+    "importLinksTitle":  "恢复链接",
+    "importLinksSubtitle":  "从文件恢复链接",
+    "importSuccess":  "已成功导入 {count} 个链接",
+    "@importSuccess":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "importFailed":  "导入失败：{error}",
+    "@importFailed":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "decryptFailed":  "解密失败或格式无效",
+    "wrongPassword":  "密码错误或文件无效",
+    "favoriteLimitReached":  "最多允许 3 个收藏夹",
+    "termsOfService":  "服务条款",
+    "privacyPolicy":  "隐私政策",
+    "welcomeTitle":  "欢迎ReadItLater",
+    "welcomeMessage":  "请阅读并接受我们的服务条款和隐私政策以继续。",
+    "accept":  "接受",
+    "decline":  "衰退",
+    "setReminder":  "设定提醒",
+    "reminderSet":  "设定为 {date} 的提醒",
+    "recentlyDeleted":  "最近删除",
+    "@reminderSet":  {
+                         "placeholders":  {
+                                              "date":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "reminderLimitReached":  "已达到提醒限制 (10)",
+    "proVersion":  "专业版",
+    "notAvailableInYourCountry":  "在您所在的国家/地区不可用",
+    "upgradeToPro":  "升级至专业版可无限次提醒",
+    "restored":  "{name}已恢复",
+    "@restored":  {
+                      "placeholders":  {
+                                           "name":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "deletePermanentlyTitle":  "永久删除？",
+    "deletePermanentlyContent":  "此操作无法撤消。",
+    "selectAll":  "选择全部",
+    "selectedCount":  "已选择",
+    "deleteSelectedContent":  "删除 {count} 个链接？",
+    "@deleteSelectedContent":  {
+                                   "placeholders":  {
+                                                        "count":  {
+                                                                      "type":  "int"
+                                                                  }
+                                                    }
+                               },
+    "loginTitle":  "登录",
+    "emailLabel":  "电子邮件",
+    "usernameLabel":  "用户名",
+    "passwordLabel":  "密码",
+    "loginButton":  "登录",
+    "logoutButton":  "退出",
+    "skipLabel":  "暂时跳过",
+    "loggedInAs":  "以 {email} 身份登录",
+    "@loggedInAs":  {
+                        "placeholders":  {
+                                             "email":  {
+                                                           "type":  "String"
+                                                       }
+                                         }
+                    },
+    "createAccount":  "创建账户",
+    "nameLabel":  "姓名",
+    "confirmPasswordLabel":  "确认密码",
+    "registerButton":  "登记",
+    "signInWithGoogle":  "使用 Google 登录",
+    "googleSignInNotSupported":  "此演示中未配置 Google Sign In。",
+    "accountCreated":  "账户创建成功",
+    "invalidCredentials":  "用户名或密码无效",
+    "emailExists":  "电子邮件已存在",
+    "noAccountCreateOne":  "没有帐户？创建一个。",
+    "getStarted":  "开始使用",
+    "acceptAndContinue":  "接受并继续",
+    "acceptAndFinish":  "接受并完成",
+    "stepTos":  "服务条款",
+    "stepPrivacy":  "隐私政策",
+    "addedOn":  "添加日期：{date}",
+    "@addedOn":  {
+                     "placeholders":  {
+                                          "date":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "sendFeedback":  "发送反馈",
+    "feedbackSubject":  "稍后阅读反馈",
+    "feedbackTitle":  "发送反馈",
+    "feedbackName":  "姓名（可选）",
+    "feedbackEmail":  "电子邮件（可选）",
+    "feedbackMessage":  "信息",
+    "verifyHuman":  "请验证您是人类",
+    "send":  "发送",
+    "tabLinks":  "链接",
+    "tabDeleted":  "已删除",
+    "topLinksTitle":  "热门链接",
+    "noDeletedLinks":  "没有删除的链接",
+    "restoreTooltip":  "恢复",
+    "remindersTitle":  "提醒事项",
+    "noReminders":  "没有即将到来的提醒",
+    "didYouKnow":  "你可知道？",
+    "shareToAppTip":  "您可以通过将其分享到 ReadItLater 来添加链接！",
+    "commentsLabel":  "评论（可选）",
+    "accountSettings":  "账户设定",
+    "signIn":  "登入",
+    "collectionsTitle":  "收藏",
+    "newCollection":  "新收藏",
+    "collectionName":  "收藏名称",
+    "gridView":  "网格视图",
+    "listView":  "列表视图",
+    "editAccountTitle":  "编辑帐户",
+    "changePasswordTitle":  "更改账户密码",
+    "signOutTitle":  "登出",
+    "signOutConfirm":  "您确定要从此设备中的帐户注销吗？",
+    "deleteAccountTitle":  "删除帐户",
+    "deleteAccountWarning":  "删除帐户：请仔细阅读此内容。",
+    "deleteAccountConfirm":  "您将删除您的帐户以及所有相关数据。这是无法撤销的。你确定吗？",
+    "deleteSuccess":  "看到你离开我们感到很遗憾！您的帐户已被删除。",
+    "deleteFail":  "删除帐户失败。请稍后重试。",
+    "continueButton":  "继续",
+    "noCollectionsYet":  "暂无收藏",
+    "emptyFolder":  "空文件夹",
+    "folderColor":  "文件夹颜色",
+    "editAction":  "编辑",
+    "editCollection":  "编辑收藏夹",
+    "changeColor":  "更改颜色",
+    "deleteCollectionWarning":  "里面的链接将被移至根目录。",
+    "moveAction":  "移动",
+    "moveToCollection":  "移至收藏",
+    "noCollection":  "无收藏",
+    "noInternetConnection":  "无网络连接",
+    "dismiss":  "关闭",
+    "tagAll":  "全部",
+    "camera":  "相机",
+    "gallery":  "相册",
+    "classicAvatars":  "经典头像",
+    "classic":  "经典",
+    "usernameLengthError":  "用户名必须在3到45个字符之间",
+    "usernameFormatError":  "用户名格式无效。",
+    "usernameConsecutiveSymbols":  "用户名不能包含连续的符号。",
+    "usernameRestrictedWords":  "用户名包含受限词汇。",
+    "failedUploadPic":  "上传头像失败。",
+    "accountUpdated":  "账户更新成功",
+    "failedUpdateAccount":  "账户更新失败。邮箱可能已被使用。",
+    "editAccountHint":  "如果不想更改，请将字段留空。点击图片更新头像。",
+    "saveChanges":  "保存更改",
+    "verifyIdentity":  "验证身份",
+    "enterCurrentPassword":  "请输入当前密码以继续。",
+    "currentPassword":  "当前密码",
+    "incorrectPassword":  "密码不正确",
+    "verify":  "验证",
+    "googleVerifyFailed":  "通过Google验证身份失败。",
+    "confirmIdentity":  "要继续，请先确认是您本人。",
+    "verifyIdentityDesc":  "我们需要验证您的身份以保护您的账户。",
+    "continueWithGoogle":  "使用Google继续",
+    "editPassword":  "修改密码",
+    "newPassword":  "新密码",
+    "passwordUpdated":  "密码更新成功",
+    "failedUpdatePassword":  "密码更新失败",
+    "savePassword":  "保存密码",
+    "passwordsDoNotMatch":  "两次密码不一致",
+    "none":  "无",
+    "visitCount":  "{count} 次访问",
+    "aiSettings":  "AI 设置",
+    "aiSettingsSubtitle":  "控制集合的 AI 排序和风格记忆。",
+    "useAiSorting":  "使用 AI 排序",
+    "useAiSortingSubtitle":  "根据你的链接自动建议文件夹分组。",
+    "styleMemory":  "风格记忆",
+    "styleMemoryEmpty":  "设置集合命名的风格。",
+    "styleMemoryDesc":  "风格记忆会悄悄学习你如何命名和整理集合，并在下次整理时应用。",
+    "styleMemorySpecificHint":  "请尽量具体。",
+    "styleMemoryTextHint":  "描述你的文件夹命名风格...",
+    "styleMemorySaved":  "风格记忆已保存。",
+    "enableAiSortingFirst":  "请先在设置中启用“使用 AI 排序”。",
+    "saveMoreLinksTryAgain":  "请再保存一些链接后重试",
+    "linksTooUnrelated":  "这些链接关联性太弱。",
+    "linksAlreadySimilar":  "这些链接已经很相似了。",
+    "aiSortingSaved":  "AI 排序已保存。",
+    "tryAgainTitle":  "再试一次？",
+    "tryAgainQuestion":  "你想再试一次吗？",
+    "aiSortingResult":  "AI 排序结果",
+    "saveFolderTree":  "保存这个文件夹树吗？",
+    "yes":  "是",
+    "no":  "否",
+    "autoSortLinks":  "自动排序链接",
+    "folderCount":  "文件夹：{name}（{count}）",
+    "moreCount":  "- 另外 {count} 项",
+    "@folderCount":  {
+                         "placeholders":  {
+                                              "name":  {
+                                                           "type":  "String"
+                                                       },
+                                              "count":  {
+                                                            "type":  "int"
+                                                        }
+                                          }
+                     },
+    "@moreCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "feedbackConsumerButton":  "用户反馈",
+    "feedbackTranslationsButton":  "翻译反馈",
+    "feedbackConsumerNote":  "用户反馈：分享你使用应用的体验，例如漏洞、性能问题、功能或整体易用性。",
+    "feedbackTranslationsNote":  "翻译反馈：反馈语言问题，例如翻译不正确、措辞不清晰或语法错误。"
+}

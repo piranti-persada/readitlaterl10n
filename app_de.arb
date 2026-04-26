@@ -1,0 +1,285 @@
+{
+    "appTitle":  "ReadItLater",
+    "homeTitle":  "ReadItLater",
+    "searchHint":  "Suchlinks und Tags...",
+    "noLinksYet":  "Noch keine Links gespeichert",
+    "noMatchingLinks":  "Keine passenden Links gefunden",
+    "tapToAdd":  "Tippen Sie auf +, um Ihren ersten Link hinzuzufügen",
+    "deleteLinkTitle":  "Link löschen",
+    "deleteLinkContent":  "Sind Sie sicher, dass Sie „{name}“ löschen möchten?",
+    "@deleteLinkContent":  {
+                               "placeholders":  {
+                                                    "name":  {
+                                                                 "type":  "String"
+                                                             }
+                                                }
+                           },
+    "cancel":  "Stornieren",
+    "delete":  "Löschen",
+    "undo":  "Rückgängig machen",
+    "deleted":  "{name} gelöscht",
+    "@deleted":  {
+                     "placeholders":  {
+                                          "name":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "errorLoading":  "Fehler beim Laden der Daten: {error}",
+    "@errorLoading":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "couldNotOpen":  "{url} konnte nicht geöffnet werden",
+    "@couldNotOpen":  {
+                          "placeholders":  {
+                                               "url":  {
+                                                           "type":  "String"
+                                                       }
+                                           }
+                      },
+    "addLinkTitle":  "Link hinzufügen",
+    "editLinkTitle":  "Link bearbeiten",
+    "linkTitleLabel":  "Titel",
+    "urlLabel":  "URL",
+    "addTagLabel":  "Tag hinzufügen",
+    "save":  "Speichern",
+    "pleaseEnterUrl":  "Bitte geben Sie eine URL ein",
+    "accountTitle":  "Einstellungen",
+    "language":  "Sprache",
+    "navHome":  "Heim",
+    "navAccount":  "Einstellungen",
+    "backupRestoreTitle":  "Sichern und Wiederherstellen",
+    "exportLinksTitle":  "Links exportieren",
+    "exportLinksSubtitle":  "Speichern Sie Ihre Links in einer Datei",
+    "enterPassword":  "Passwort eingeben (optional)",
+    "password":  "Passwort",
+    "encryptFile":  "Verschlüsseln",
+    "instagram":  "Instagram",
+    "faqTitle":  "Häufig gestellte Fragen",
+    "importLinksTitle":  "Links wiederherstellen",
+    "importLinksSubtitle":  "Stellen Sie Links aus einer Datei wieder her",
+    "importSuccess":  "{count} Links erfolgreich importiert",
+    "@importSuccess":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "importFailed":  "Import fehlgeschlagen: {error}",
+    "@importFailed":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "decryptFailed":  "Entschlüsselung fehlgeschlagen oder ungültiges Format",
+    "wrongPassword":  "Falsches Passwort oder ungültige Datei",
+    "favoriteLimitReached":  "Maximal 3 Favoriten erlaubt",
+    "termsOfService":  "Nutzungsbedingungen",
+    "privacyPolicy":  "Datenschutzrichtlinie",
+    "welcomeTitle":  "Willkommen bei ReadItLater",
+    "welcomeMessage":  "Bitte lesen und akzeptieren Sie unsere Nutzungsbedingungen und Datenschutzbestimmungen, um fortzufahren.",
+    "accept":  "Akzeptieren",
+    "decline":  "Abfall",
+    "setReminder":  "Erinnerung festlegen",
+    "reminderSet":  "Erinnerung für {date} eingerichtet",
+    "recentlyDeleted":  "Kürzlich gelöscht",
+    "@reminderSet":  {
+                         "placeholders":  {
+                                              "date":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "reminderLimitReached":  "Erinnerungslimit erreicht (10)",
+    "proVersion":  "Pro-Version",
+    "notAvailableInYourCountry":  "In Ihrem Land nicht verfügbar",
+    "upgradeToPro":  "Upgrade auf Pro für unbegrenzte Erinnerungen",
+    "restored":  "{name} wiederhergestellt",
+    "@restored":  {
+                      "placeholders":  {
+                                           "name":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "deletePermanentlyTitle":  "Endgültig löschen?",
+    "deletePermanentlyContent":  "Diese Aktion kann nicht rückgängig gemacht werden.",
+    "selectAll":  "Wählen Sie „Alle“ aus",
+    "selectedCount":  "ausgewählt",
+    "deleteSelectedContent":  "{count} Links löschen?",
+    "@deleteSelectedContent":  {
+                                   "placeholders":  {
+                                                        "count":  {
+                                                                      "type":  "int"
+                                                                  }
+                                                    }
+                               },
+    "loginTitle":  "Login",
+    "emailLabel":  "E-Mail",
+    "usernameLabel":  "Benutzername",
+    "passwordLabel":  "Passwort",
+    "loginButton":  "Einloggen",
+    "logoutButton":  "Abmelden",
+    "skipLabel":  "Überspringen Sie es vorerst",
+    "loggedInAs":  "Angemeldet als {email}",
+    "@loggedInAs":  {
+                        "placeholders":  {
+                                             "email":  {
+                                                           "type":  "String"
+                                                       }
+                                         }
+                    },
+    "createAccount":  "Benutzerkonto erstellen",
+    "nameLabel":  "Vollständiger Name",
+    "confirmPasswordLabel":  "Passwort bestätigen",
+    "registerButton":  "Registrieren",
+    "signInWithGoogle":  "Melden Sie sich mit Google an",
+    "googleSignInNotSupported":  "Google Sign In ist in dieser Demo nicht konfiguriert.",
+    "accountCreated":  "Konto erfolgreich erstellt",
+    "invalidCredentials":  "Ungültiger Benutzername oder Passwort",
+    "emailExists":  "E-Mail existiert bereits",
+    "noAccountCreateOne":  "Kein Konto? Erstellen Sie eins.",
+    "getStarted":  "Legen Sie los",
+    "acceptAndContinue":  "Akzeptieren und fortfahren",
+    "acceptAndFinish":  "Akzeptieren und beenden",
+    "stepTos":  "Nutzungsbedingungen",
+    "stepPrivacy":  "Datenschutzrichtlinie",
+    "addedOn":  "Hinzugefügt am: {date}",
+    "@addedOn":  {
+                     "placeholders":  {
+                                          "date":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "sendFeedback":  "Feedback senden",
+    "feedbackSubject":  "ReadItLater-Feedback",
+    "feedbackTitle":  "Feedback senden",
+    "feedbackName":  "Name (optional)",
+    "feedbackEmail":  "E-Mail (optional)",
+    "feedbackMessage":  "Nachricht",
+    "verifyHuman":  "Bitte stellen Sie sicher, dass Sie ein Mensch sind",
+    "send":  "Schicken",
+    "tabLinks":  "Links",
+    "tabDeleted":  "Gelöscht",
+    "topLinksTitle":  "Top-Links",
+    "noDeletedLinks":  "Keine gelöschten Links",
+    "restoreTooltip":  "Wiederherstellen",
+    "remindersTitle":  "Erinnerungen",
+    "noReminders":  "Keine bevorstehenden Erinnerungen",
+    "didYouKnow":  "Wussten Sie?",
+    "shareToAppTip":  "Sie können Links hinzufügen, indem Sie sie mit ReadItLater teilen!",
+    "commentsLabel":  "Kommentare (optional)",
+    "accountSettings":  "Kontoeinstellungen",
+    "signIn":  "Anmelden",
+    "collectionsTitle":  "Sammlungen",
+    "newCollection":  "Neue Kollektion",
+    "collectionName":  "Sammlungsname",
+    "gridView":  "Rasteransicht",
+    "listView":  "Listenansicht",
+    "editAccountTitle":  "Konto bearbeiten",
+    "changePasswordTitle":  "Kontopasswort ändern",
+    "signOutTitle":  "Abmelden",
+    "signOutConfirm":  "Sind Sie sicher, dass Sie sich auf diesem Gerät von Ihrem Konto abmelden möchten?",
+    "deleteAccountTitle":  "Konto löschen",
+    "deleteAccountWarning":  "Konto löschen: Bitte lesen Sie dies sorgfältig durch.",
+    "deleteAccountConfirm":  "Sie werden Ihr Konto und alle damit verbundenen Daten löschen. Dies konnte nicht rückgängig gemacht werden. Bist du sicher?",
+    "deleteSuccess":  "Es tut uns leid, Sie gehen zu sehen! Ihr Konto wurde gelöscht.",
+    "deleteFail":  "Konto konnte nicht gelöscht werden. Bitte versuchen Sie es später noch einmal.",
+    "continueButton":  "Weiter",
+    "noCollectionsYet":  "Noch keine Sammlungen",
+    "emptyFolder":  "Leerer Ordner",
+    "folderColor":  "Ordnerfarbe",
+    "editAction":  "Bearbeiten",
+    "editCollection":  "Edit collection",
+    "changeColor":  "Farbe ändern",
+    "deleteCollectionWarning":  "Links darin werden ins Hauptverzeichnis verschoben.",
+    "moveAction":  "Verschieben",
+    "moveToCollection":  "In Sammlung verschieben",
+    "noCollection":  "Keine Sammlung",
+    "noInternetConnection":  "Keine Internetverbindung",
+    "dismiss":  "SCHLIESSEN",
+    "tagAll":  "Alle",
+    "camera":  "Kamera",
+    "gallery":  "Galerie",
+    "classicAvatars":  "Klassische Avatare",
+    "classic":  "Klassisch",
+    "usernameLengthError":  "Benutzername muss zwischen 3 und 45 Zeichen lang sein",
+    "usernameFormatError":  "Ungültiges Benutzernamenformat.",
+    "usernameConsecutiveSymbols":  "Benutzername darf keine aufeinanderfolgenden Symbole enthalten.",
+    "usernameRestrictedWords":  "Benutzername enthält eingeschränkte Wörter.",
+    "failedUploadPic":  "Profilbild konnte nicht hochgeladen werden.",
+    "accountUpdated":  "Konto erfolgreich aktualisiert",
+    "failedUpdateAccount":  "Konto konnte nicht aktualisiert werden. E-Mail wird möglicherweise bereits verwendet.",
+    "editAccountHint":  "Lassen Sie Felder leer, wenn Sie sie nicht ändern möchten. Tippen Sie auf das Bild, um den Avatar zu ändern.",
+    "saveChanges":  "Änderungen speichern",
+    "verifyIdentity":  "Identität bestätigen",
+    "enterCurrentPassword":  "Bitte geben Sie Ihr aktuelles Passwort ein, um fortzufahren.",
+    "currentPassword":  "Aktuelles Passwort",
+    "incorrectPassword":  "Falsches Passwort",
+    "verify":  "Bestätigen",
+    "googleVerifyFailed":  "Identitätsbestätigung mit Google fehlgeschlagen.",
+    "confirmIdentity":  "Um fortzufahren, bestätigen Sie zuerst Ihre Identität.",
+    "verifyIdentityDesc":  "Wir müssen Ihre Identität überprüfen, um Ihr Konto zu schützen.",
+    "continueWithGoogle":  "Weiter mit Google",
+    "editPassword":  "Passwort bearbeiten",
+    "newPassword":  "Neues Passwort",
+    "passwordUpdated":  "Passwort erfolgreich aktualisiert",
+    "failedUpdatePassword":  "Passwort konnte nicht aktualisiert werden",
+    "savePassword":  "Passwort speichern",
+    "passwordsDoNotMatch":  "Passwörter stimmen nicht überein",
+    "none":  "Keine",
+    "visitCount":  "{count} Besuche",
+    "aiSettings":  "KI-Einstellungen",
+    "aiSettingsSubtitle":  "Steuere KI-Sortierung und Stil-Speicher für Sammlungen.",
+    "useAiSorting":  "KI-Sortierung verwenden",
+    "useAiSortingSubtitle":  "Schlägt automatisch Ordnergruppen basierend auf deinen Links vor.",
+    "styleMemory":  "Stilspeicher",
+    "styleMemoryEmpty":  "Lege fest, wie Sammlungsnamen aussehen sollen.",
+    "styleMemoryDesc":  "Der Stilspeicher lernt unauffällig, wie du Sammlungen benennst und organisierst - mit Emojis, GROSSBUCHSTABEN oder schlicht - und wendet den Stil beim nächsten Mal an.",
+    "styleMemorySpecificHint":  "Sei konkret. Beispiel: \"Emojis für Technik, GROSSBUCHSTABEN für Arbeit, privat schlicht.\"",
+    "styleMemoryTextHint":  "Beschreibe deinen Stil für Ordnernamen...",
+    "styleMemorySaved":  "Stilspeicher gespeichert.",
+    "enableAiSortingFirst":  "Aktiviere zuerst KI-Sortierung in den Einstellungen.",
+    "saveMoreLinksTryAgain":  "Speichere ein paar weitere Links und versuche es erneut",
+    "linksTooUnrelated":  "Diese Links sind zu unterschiedlich.",
+    "linksAlreadySimilar":  "Diese Links sind bereits ziemlich ähnlich.",
+    "aiSortingSaved":  "KI-Sortierung gespeichert.",
+    "tryAgainTitle":  "Erneut versuchen?",
+    "tryAgainQuestion":  "Möchtest du es erneut versuchen?",
+    "aiSortingResult":  "Ergebnis der KI-Sortierung",
+    "saveFolderTree":  "Diesen Ordnerbaum speichern?",
+    "yes":  "Ja",
+    "no":  "Nein",
+    "autoSortLinks":  "Links automatisch sortieren",
+    "folderCount":  "Ordner: {name} ({count})",
+    "moreCount":  "- +{count} mehr",
+    "@folderCount":  {
+                         "placeholders":  {
+                                              "name":  {
+                                                           "type":  "String"
+                                                       },
+                                              "count":  {
+                                                            "type":  "int"
+                                                        }
+                                          }
+                     },
+    "@moreCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "feedbackConsumerButton":  "Nutzerfeedback",
+    "feedbackTranslationsButton":  "Uebersetzungsfeedback",
+    "feedbackConsumerNote":  "Nutzerfeedback: Teile deine Erfahrung mit der App, z. B. Fehler, Leistungsprobleme, Funktionen oder die allgemeine Benutzerfreundlichkeit.",
+    "feedbackTranslationsNote":  "Uebersetzungsfeedback: Melde Sprachprobleme, z. B. falsche Uebersetzungen, unklare Formulierungen oder Grammatikfehler."
+}

@@ -1,0 +1,285 @@
+{
+    "appTitle":  "ReadItLater",
+    "homeTitle":  "ReadItLater",
+    "searchHint":  "リンクとタグを検索...",
+    "noLinksYet":  "リンクはまだ保存されていません",
+    "noMatchingLinks":  "一致するリンクが見つかりませんでした",
+    "tapToAdd":  "＋をタップして最初のリンクを追加してください",
+    "deleteLinkTitle":  "リンクの削除",
+    "deleteLinkContent":  "「{name}」を削除してもよろしいですか?",
+    "@deleteLinkContent":  {
+                               "placeholders":  {
+                                                    "name":  {
+                                                                 "type":  "String"
+                                                             }
+                                                }
+                           },
+    "cancel":  "キャンセル",
+    "delete":  "消去",
+    "undo":  "元に戻す",
+    "deleted":  "{name} が削除されました",
+    "@deleted":  {
+                     "placeholders":  {
+                                          "name":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "errorLoading":  "データのロード中にエラーが発生しました: {error}",
+    "@errorLoading":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "couldNotOpen":  "{url}を開けませんでした",
+    "@couldNotOpen":  {
+                          "placeholders":  {
+                                               "url":  {
+                                                           "type":  "String"
+                                                       }
+                                           }
+                      },
+    "addLinkTitle":  "リンクを追加",
+    "editLinkTitle":  "リンクの編集",
+    "linkTitleLabel":  "タイトル",
+    "urlLabel":  "URL",
+    "addTagLabel":  "タグの追加",
+    "save":  "保存",
+    "pleaseEnterUrl":  "URLを入力してください",
+    "accountTitle":  "設定",
+    "language":  "言語",
+    "navHome":  "家",
+    "navAccount":  "設定",
+    "backupRestoreTitle":  "バックアップと復元",
+    "exportLinksTitle":  "リンクのエクスポート",
+    "exportLinksSubtitle":  "リンクをファイルに保存する",
+    "enterPassword":  "パスワードを入力してください (オプション)",
+    "password":  "パスワード",
+    "encryptFile":  "暗号化する",
+    "instagram":  "インスタグラム",
+    "faqTitle":  "よくある質問",
+    "importLinksTitle":  "リンクを復元する",
+    "importLinksSubtitle":  "ファイルからリンクを復元する",
+    "importSuccess":  "{count} 個のリンクが正常にインポートされました",
+    "@importSuccess":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "importFailed":  "インポートに失敗しました: {error}",
+    "@importFailed":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "decryptFailed":  "復号化に失敗したか、形式が無効です",
+    "wrongPassword":  "パスワードが間違っているか、ファイルが無効です",
+    "favoriteLimitReached":  "お気に入りは最大 3 つまで許可されます",
+    "termsOfService":  "利用規約",
+    "privacyPolicy":  "プライバシーポリシー",
+    "welcomeTitle":  "ReadItLater へようこそ",
+    "welcomeMessage":  "続行するには、サービス利用規約とプライバシー ポリシーを読んで同意してください。",
+    "accept":  "受け入れる",
+    "decline":  "衰退",
+    "setReminder":  "リマインダーを設定する",
+    "reminderSet":  "{date}にリマインダーを設定しました",
+    "recentlyDeleted":  "最近削除されたもの",
+    "@reminderSet":  {
+                         "placeholders":  {
+                                              "date":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "reminderLimitReached":  "リマインダー制限に達しました (10)",
+    "proVersion":  "プロ版",
+    "notAvailableInYourCountry":  "あなたの国では利用できません",
+    "upgradeToPro":  "Pro にアップグレードすると、無制限のリマインダーが得られます",
+    "restored":  "{name}が復元されました",
+    "@restored":  {
+                      "placeholders":  {
+                                           "name":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "deletePermanentlyTitle":  "完全に削除しますか?",
+    "deletePermanentlyContent":  "この操作は元に戻すことができません。",
+    "selectAll":  "すべて選択",
+    "selectedCount":  "選択された",
+    "deleteSelectedContent":  "{count} 個のリンクを削除しますか?",
+    "@deleteSelectedContent":  {
+                                   "placeholders":  {
+                                                        "count":  {
+                                                                      "type":  "int"
+                                                                  }
+                                                    }
+                               },
+    "loginTitle":  "ログイン",
+    "emailLabel":  "電子メール",
+    "usernameLabel":  "ユーザー名",
+    "passwordLabel":  "パスワード",
+    "loginButton":  "ログイン",
+    "logoutButton":  "ログアウト",
+    "skipLabel":  "今のところスキップしてください",
+    "loggedInAs":  "{email} としてログインしています",
+    "@loggedInAs":  {
+                        "placeholders":  {
+                                             "email":  {
+                                                           "type":  "String"
+                                                       }
+                                         }
+                    },
+    "createAccount":  "アカウントを作成する",
+    "nameLabel":  "フルネーム",
+    "confirmPasswordLabel":  "パスワードを認証する",
+    "registerButton":  "登録する",
+    "signInWithGoogle":  "Googleでサインイン",
+    "googleSignInNotSupported":  "このデモでは Google サインインは構成されていません。",
+    "accountCreated":  "アカウントが正常に作成されました",
+    "invalidCredentials":  "無効なユーザー名またはパスワード",
+    "emailExists":  "電子メールはすでに存在します",
+    "noAccountCreateOne":  "アカウントがありませんか?作成してください。",
+    "getStarted":  "始めましょう",
+    "acceptAndContinue":  "同意して続行",
+    "acceptAndFinish":  "受け入れて終了",
+    "stepTos":  "利用規約",
+    "stepPrivacy":  "プライバシーポリシー",
+    "addedOn":  "追加日: {date}",
+    "@addedOn":  {
+                     "placeholders":  {
+                                          "date":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "sendFeedback":  "フィードバックを送信する",
+    "feedbackSubject":  "後で読んでください フィードバック",
+    "feedbackTitle":  "フィードバックを送信する",
+    "feedbackName":  "名前 (オプション)",
+    "feedbackEmail":  "電子メール (オプション)",
+    "feedbackMessage":  "メッセージ",
+    "verifyHuman":  "あなたが人間であることを確認してください",
+    "send":  "送信",
+    "tabLinks":  "リンク",
+    "tabDeleted":  "削除されました",
+    "topLinksTitle":  "トップリンク",
+    "noDeletedLinks":  "削除されたリンクはありません",
+    "restoreTooltip":  "復元する",
+    "remindersTitle":  "リマインダー",
+    "noReminders":  "今後のリマインダーはありません",
+    "didYouKnow":  "知っていましたか？",
+    "shareToAppTip":  "ReadItLater で共有することでリンクを追加できます。",
+    "commentsLabel":  "コメント (オプション)",
+    "accountSettings":  "アカウント設定",
+    "signIn":  "サインイン",
+    "collectionsTitle":  "コレクション",
+    "newCollection":  "新しいコレクション",
+    "collectionName":  "コレクション名",
+    "gridView":  "グリッドビュー",
+    "listView":  "リストビュー",
+    "editAccountTitle":  "アカウントの編集",
+    "changePasswordTitle":  "アカウントのパスワードを変更する",
+    "signOutTitle":  "サインアウト",
+    "signOutConfirm":  "このデバイスのアカウントからサインアウトしてもよろしいですか?",
+    "deleteAccountTitle":  "アカウントを削除する",
+    "deleteAccountWarning":  "アカウントの削除: これをよくお読みください。",
+    "deleteAccountConfirm":  "アカウントと関連するすべてのデータを削除します。これは取り消しできませんでした。本気ですか？",
+    "deleteSuccess":  "去ってしまうのは残念です！あなたのアカウントは削除されました。",
+    "deleteFail":  "アカウントの削除に失敗しました。後でもう一度試してください。",
+    "continueButton":  "続ける",
+    "noCollectionsYet":  "まだコレクションはありません",
+    "emptyFolder":  "空のフォルダー",
+    "folderColor":  "フォルダーの色",
+    "editAction":  "編集",
+    "editCollection":  "Edit collection",
+    "changeColor":  "色を変更",
+    "deleteCollectionWarning":  "中のリンクはルートに移動されます。",
+    "moveAction":  "移動",
+    "moveToCollection":  "コレクションに移動",
+    "noCollection":  "コレクションなし",
+    "noInternetConnection":  "インターネット接続なし",
+    "dismiss":  "閉じる",
+    "tagAll":  "すべて",
+    "camera":  "カメラ",
+    "gallery":  "ギャラリー",
+    "classicAvatars":  "クラシックアバター",
+    "classic":  "クラシック",
+    "usernameLengthError":  "ユーザー名は3~45文字で入力してください",
+    "usernameFormatError":  "ユーザー名の形式が無効です。",
+    "usernameConsecutiveSymbols":  "ユーザー名に連続した記号は使用できません。",
+    "usernameRestrictedWords":  "ユーザー名に制限された単語が含まれています。",
+    "failedUploadPic":  "プロフィール画像のアップロードに失敗しました。",
+    "accountUpdated":  "アカウントが正常に更新されました",
+    "failedUpdateAccount":  "アカウントの更新に失敗しました。メールアドレスが既に使用されている可能性があります。",
+    "editAccountHint":  "変更しない場合はフィールドを空白のままにしてください。画像をタップしてアバターを更新してください。",
+    "saveChanges":  "変更を保存",
+    "verifyIdentity":  "本人確認",
+    "enterCurrentPassword":  "続行するには現在のパスワードを入力してください。",
+    "currentPassword":  "現在のパスワード",
+    "incorrectPassword":  "パスワードが正しくありません",
+    "verify":  "確認",
+    "googleVerifyFailed":  "Googleでの本人確認に失敗しました。",
+    "confirmIdentity":  "続行するには、まずご本人であることを確認してください。",
+    "verifyIdentityDesc":  "アカウントを保護するため、本人確認が必要です。",
+    "continueWithGoogle":  "Googleで続行",
+    "editPassword":  "パスワードを編集",
+    "newPassword":  "新しいパスワード",
+    "passwordUpdated":  "パスワードが正常に更新されました",
+    "failedUpdatePassword":  "パスワードの更新に失敗しました",
+    "savePassword":  "パスワードを保存",
+    "passwordsDoNotMatch":  "パスワードが一致しません",
+    "none":  "なし",
+    "visitCount":  "{count} 回訪問",
+    "aiSettings":  "AI設定",
+    "aiSettingsSubtitle":  "コレクションのAI並べ替えとスタイルメモリーを管理します。",
+    "useAiSorting":  "AI並べ替えを使用",
+    "useAiSortingSubtitle":  "リンクに基づいてフォルダーのグループ分けを自動提案します。",
+    "styleMemory":  "スタイルメモリー",
+    "styleMemoryEmpty":  "コレクション名の見た目を設定します。",
+    "styleMemoryDesc":  "スタイルメモリーは、絵文字・全大文字・シンプル表示など、あなたの命名や整理の好みを静かに学習し、次回の整理に反映します。",
+    "styleMemorySpecificHint":  "具体的に書いてください。例:「技術は絵文字、仕事は全大文字、個人はシンプル」。",
+    "styleMemoryTextHint":  "フォルダー名のスタイルを入力してください...",
+    "styleMemorySaved":  "スタイルメモリーを保存しました。",
+    "enableAiSortingFirst":  "先に設定で「AI並べ替えを使用」を有効にしてください。",
+    "saveMoreLinksTryAgain":  "もう少しリンクを保存してから再試行してください",
+    "linksTooUnrelated":  "これらのリンクは関連性が低すぎます。",
+    "linksAlreadySimilar":  "これらのリンクはすでにかなり似ています。",
+    "aiSortingSaved":  "AI並べ替えを保存しました。",
+    "tryAgainTitle":  "再試行しますか？",
+    "tryAgainQuestion":  "もう一度試しますか？",
+    "aiSortingResult":  "AI並べ替え結果",
+    "saveFolderTree":  "このフォルダーツリーを保存しますか？",
+    "yes":  "はい",
+    "no":  "いいえ",
+    "autoSortLinks":  "リンクを自動並べ替え",
+    "folderCount":  "フォルダー: {name} ({count})",
+    "moreCount":  "- 他 {count} 件",
+    "@folderCount":  {
+                         "placeholders":  {
+                                              "name":  {
+                                                           "type":  "String"
+                                                       },
+                                              "count":  {
+                                                            "type":  "int"
+                                                        }
+                                          }
+                     },
+    "@moreCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "feedbackConsumerButton":  "ユーザーフィードバック",
+    "feedbackTranslationsButton":  "翻訳フィードバック",
+    "feedbackConsumerNote":  "ユーザーフィードバック: バグ、パフォーマンスの問題、機能、全体的な使いやすさなど、アプリ利用体験を共有してください。",
+    "feedbackTranslationsNote":  "翻訳フィードバック: 誤訳、不明瞭な表現、文法ミスなど、言語に関する問題を報告してください。"
+}

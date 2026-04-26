@@ -1,0 +1,285 @@
+{
+    "appTitle":  "ReadItLater",
+    "homeTitle":  "ReadItLater",
+    "searchHint":  "Tìm kiếm liên kết và thẻ...",
+    "noLinksYet":  "Chưa có liên kết nào được lưu",
+    "noMatchingLinks":  "Không tìm thấy liên kết phù hợp",
+    "tapToAdd":  "Nhấn + để thêm liên kết đầu tiên của bạn",
+    "deleteLinkTitle":  "Xóa liên kết",
+    "deleteLinkContent":  "Bạn có chắc chắn muốn xóa \"{name}\" không?",
+    "@deleteLinkContent":  {
+                               "placeholders":  {
+                                                    "name":  {
+                                                                 "type":  "String"
+                                                             }
+                                                }
+                           },
+    "cancel":  "Hủy bỏ",
+    "delete":  "Xóa bỏ",
+    "undo":  "Hoàn tác",
+    "deleted":  "{name} đã bị xóa",
+    "@deleted":  {
+                     "placeholders":  {
+                                          "name":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "errorLoading":  "Lỗi tải dữ liệu: {error}",
+    "@errorLoading":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "couldNotOpen":  "Không thể mở {url}",
+    "@couldNotOpen":  {
+                          "placeholders":  {
+                                               "url":  {
+                                                           "type":  "String"
+                                                       }
+                                           }
+                      },
+    "addLinkTitle":  "Thêm liên kết",
+    "editLinkTitle":  "Chỉnh sửa liên kết",
+    "linkTitleLabel":  "Tiêu đề",
+    "urlLabel":  "URL",
+    "addTagLabel":  "Thêm thẻ",
+    "save":  "Cứu",
+    "pleaseEnterUrl":  "Vui lòng nhập một URL",
+    "accountTitle":  "Cài đặt",
+    "language":  "Ngôn ngữ",
+    "navHome":  "Trang chủ",
+    "navAccount":  "Cài đặt",
+    "backupRestoreTitle":  "Sao lưu \u0026 Khôi phục",
+    "exportLinksTitle":  "Xuất liên kết",
+    "exportLinksSubtitle":  "Lưu liên kết của bạn vào một tập tin",
+    "enterPassword":  "Nhập mật khẩu (Tùy chọn)",
+    "password":  "Mật khẩu",
+    "encryptFile":  "Mã hóa",
+    "instagram":  "Instagram",
+    "faqTitle":  "Câu hỏi thường gặp",
+    "importLinksTitle":  "Khôi phục liên kết",
+    "importLinksSubtitle":  "Khôi phục liên kết từ một tập tin",
+    "importSuccess":  "Đã nhập thành công liên kết {count}",
+    "@importSuccess":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "importFailed":  "Nhập không thành công: {error}",
+    "@importFailed":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "decryptFailed":  "Giải mã không thành công hoặc định dạng không hợp lệ",
+    "wrongPassword":  "Sai mật khẩu hoặc tập tin không hợp lệ",
+    "favoriteLimitReached":  "Cho phép tối đa 3 mục yêu thích",
+    "termsOfService":  "Điều khoản dịch vụ",
+    "privacyPolicy":  "Chính sách bảo mật",
+    "welcomeTitle":  "Chào mừng đến với ReadItLater",
+    "welcomeMessage":  "Vui lòng đọc và chấp nhận Điều khoản dịch vụ và Chính sách quyền riêng tư của chúng tôi để tiếp tục.",
+    "accept":  "Chấp nhận",
+    "decline":  "Sự suy sụp",
+    "setReminder":  "Đặt lời nhắc",
+    "reminderSet":  "Đã đặt lời nhắc cho {date}",
+    "recentlyDeleted":  "Đã xóa gần đây",
+    "@reminderSet":  {
+                         "placeholders":  {
+                                              "date":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "reminderLimitReached":  "Đã đạt đến giới hạn lời nhắc (10)",
+    "proVersion":  "Phiên bản chuyên nghiệp",
+    "notAvailableInYourCountry":  "Không có sẵn ở quốc gia của bạn",
+    "upgradeToPro":  "Nâng cấp lên Pro để nhận được lời nhắc không giới hạn",
+    "restored":  "{name} đã được khôi phục",
+    "@restored":  {
+                      "placeholders":  {
+                                           "name":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "deletePermanentlyTitle":  "Xóa vĩnh viễn?",
+    "deletePermanentlyContent":  "Không thể hoàn tác hành động này.",
+    "selectAll":  "Chọn tất cả",
+    "selectedCount":  "đã chọn",
+    "deleteSelectedContent":  "Xóa liên kết {count}?",
+    "@deleteSelectedContent":  {
+                                   "placeholders":  {
+                                                        "count":  {
+                                                                      "type":  "int"
+                                                                  }
+                                                    }
+                               },
+    "loginTitle":  "Đăng nhập",
+    "emailLabel":  "E-mail",
+    "usernameLabel":  "Tên người dùng",
+    "passwordLabel":  "Mật khẩu",
+    "loginButton":  "Đăng nhập",
+    "logoutButton":  "Đăng xuất",
+    "skipLabel":  "Bỏ qua bây giờ",
+    "loggedInAs":  "Đăng nhập bằng {email}",
+    "@loggedInAs":  {
+                        "placeholders":  {
+                                             "email":  {
+                                                           "type":  "String"
+                                                       }
+                                         }
+                    },
+    "createAccount":  "Tạo tài khoản",
+    "nameLabel":  "Tên đầy đủ",
+    "confirmPasswordLabel":  "Xác nhận mật khẩu",
+    "registerButton":  "Đăng ký",
+    "signInWithGoogle":  "Đăng nhập bằng Google",
+    "googleSignInNotSupported":  "Đăng nhập bằng Google không được định cấu hình trong bản demo này.",
+    "accountCreated":  "Tài khoản được tạo thành công",
+    "invalidCredentials":  "Tên người dùng hoặc mật khẩu không hợp lệ",
+    "emailExists":  "Email đã tồn tại",
+    "noAccountCreateOne":  "Không có tài khoản? Tạo một.",
+    "getStarted":  "Bắt đầu",
+    "acceptAndContinue":  "Chấp nhận và tiếp tục",
+    "acceptAndFinish":  "Chấp nhận \u0026 Kết thúc",
+    "stepTos":  "Điều khoản dịch vụ",
+    "stepPrivacy":  "Chính sách bảo mật",
+    "addedOn":  "Đã thêm vào: {date}",
+    "@addedOn":  {
+                     "placeholders":  {
+                                          "date":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "sendFeedback":  "Gửi phản hồi",
+    "feedbackSubject":  "Phản hồi về Đọc sau",
+    "feedbackTitle":  "Gửi phản hồi",
+    "feedbackName":  "Tên (Tùy chọn)",
+    "feedbackEmail":  "Email (Tùy chọn)",
+    "feedbackMessage":  "Tin nhắn",
+    "verifyHuman":  "Vui lòng xác minh bạn là con người",
+    "send":  "Gửi",
+    "tabLinks":  "Liên kết",
+    "tabDeleted":  "Đã xóa",
+    "topLinksTitle":  "Liên kết hàng đầu",
+    "noDeletedLinks":  "Không có liên kết bị xóa",
+    "restoreTooltip":  "Khôi phục",
+    "remindersTitle":  "Lời nhắc",
+    "noReminders":  "Không có lời nhắc sắp tới",
+    "didYouKnow":  "Bạn có biết không?",
+    "shareToAppTip":  "Bạn có thể thêm liên kết bằng cách chia sẻ nó lên ReadItLater!",
+    "commentsLabel":  "Nhận xét (Tùy chọn)",
+    "accountSettings":  "Cài đặt tài khoản",
+    "signIn":  "Đăng nhập",
+    "collectionsTitle":  "Bộ sưu tập",
+    "newCollection":  "Bộ sưu tập mới",
+    "collectionName":  "Tên bộ sưu tập",
+    "gridView":  "Chế độ xem lưới",
+    "listView":  "Xem danh sách",
+    "editAccountTitle":  "Chỉnh sửa tài khoản",
+    "changePasswordTitle":  "Thay đổi mật khẩu tài khoản",
+    "signOutTitle":  "Đăng xuất",
+    "signOutConfirm":  "Bạn có chắc chắn muốn đăng xuất khỏi tài khoản của mình trên thiết bị này không?",
+    "deleteAccountTitle":  "Xóa tài khoản",
+    "deleteAccountWarning":  "Xóa tài khoản: vui lòng đọc kỹ phần này.",
+    "deleteAccountConfirm":  "Bạn sẽ xóa tài khoản của mình và tất cả dữ liệu liên quan. Không thể hoàn tác việc này. Bạn có chắc không?",
+    "deleteSuccess":  "Chúng tôi rất tiếc khi thấy bạn rời đi! Tài khoản của bạn đã bị xóa.",
+    "deleteFail":  "Không thể xóa tài khoản. Vui lòng thử lại sau.",
+    "continueButton":  "Tiếp tục",
+    "noCollectionsYet":  "Chưa có bộ sưu tập",
+    "emptyFolder":  "Thư mục trống",
+    "folderColor":  "Màu thư mục",
+    "editAction":  "Chỉnh sửa",
+    "editCollection":  "Edit collection",
+    "changeColor":  "Đổi màu",
+    "deleteCollectionWarning":  "Các liên kết bên trong sẽ được di chuyển đến thư mục gốc.",
+    "moveAction":  "Di chuyển",
+    "moveToCollection":  "Di chuyển đến Bộ sưu tập",
+    "noCollection":  "Không có bộ sưu tập",
+    "noInternetConnection":  "Không có kết nối internet",
+    "dismiss":  "BỎ QUA",
+    "tagAll":  "Tất cả",
+    "camera":  "Máy ảnh",
+    "gallery":  "Thư viện ảnh",
+    "classicAvatars":  "Ảnh đại diện cổ điển",
+    "classic":  "Cổ điển",
+    "usernameLengthError":  "Tên người dùng phải từ 3 đến 45 ký tự",
+    "usernameFormatError":  "Định dạng tên người dùng không hợp lệ.",
+    "usernameConsecutiveSymbols":  "Tên người dùng không được chứa ký tự liên tiếp.",
+    "usernameRestrictedWords":  "Tên người dùng chứa từ bị hạn chế.",
+    "failedUploadPic":  "Không thể tải ảnh đại diện lên.",
+    "accountUpdated":  "Cập nhật tài khoản thành công",
+    "failedUpdateAccount":  "Không thể cập nhật tài khoản. Email có thể đã được sử dụng.",
+    "editAccountHint":  "Để trống nếu bạn không muốn thay đổi. Nhấn vào ảnh để cập nhật ảnh đại diện.",
+    "saveChanges":  "Lưu thay đổi",
+    "verifyIdentity":  "Xác minh danh tính",
+    "enterCurrentPassword":  "Vui lòng nhập mật khẩu hiện tại để tiếp tục.",
+    "currentPassword":  "Mật khẩu hiện tại",
+    "incorrectPassword":  "Mật khẩu không đúng",
+    "verify":  "Xác minh",
+    "googleVerifyFailed":  "Không thể xác minh danh tính với Google.",
+    "confirmIdentity":  "Để tiếp tục, hãy xác nhận đó là bạn trước.",
+    "verifyIdentityDesc":  "Chúng tôi cần xác minh danh tính của bạn để bảo vệ tài khoản.",
+    "continueWithGoogle":  "Tiếp tục với Google",
+    "editPassword":  "Sửa mật khẩu",
+    "newPassword":  "Mật khẩu mới",
+    "passwordUpdated":  "Cập nhật mật khẩu thành công",
+    "failedUpdatePassword":  "Không thể cập nhật mật khẩu",
+    "savePassword":  "Lưu mật khẩu",
+    "passwordsDoNotMatch":  "Mật khẩu không khớp",
+    "none":  "Không có",
+    "visitCount":  "{count} lượt truy cập",
+    "aiSettings":  "Cài đặt AI",
+    "aiSettingsSubtitle":  "Kiểm soát sắp xếp AI và ghi nhớ phong cách cho bộ sưu tập.",
+    "useAiSorting":  "Dùng sắp xếp AI",
+    "useAiSortingSubtitle":  "Tự động gợi ý nhóm thư mục dựa trên liên kết của bạn.",
+    "styleMemory":  "Ghi nhớ phong cách",
+    "styleMemoryEmpty":  "Đặt cách tên bộ sưu tập nên hiển thị.",
+    "styleMemoryDesc":  "Ghi nhớ phong cách âm thầm học cách bạn đặt tên và sắp xếp bộ sưu tập - dùng emoji, CHỮ HOA hay đơn giản - rồi áp dụng cho lần sau.",
+    "styleMemorySpecificHint":  "Hãy cụ thể. Ví dụ: \"Dùng emoji cho công nghệ, CHỮ HOA cho công việc, đơn giản cho cá nhân.\"",
+    "styleMemoryTextHint":  "Mô tả phong cách đặt tên thư mục của bạn...",
+    "styleMemorySaved":  "Đã lưu ghi nhớ phong cách.",
+    "enableAiSortingFirst":  "Hãy bật Dùng sắp xếp AI trong Cài đặt trước.",
+    "saveMoreLinksTryAgain":  "Lưu thêm vài liên kết rồi thử lại",
+    "linksTooUnrelated":  "Các liên kết này quá rời rạc.",
+    "linksAlreadySimilar":  "Các liên kết này đã khá giống nhau.",
+    "aiSortingSaved":  "Đã lưu sắp xếp AI.",
+    "tryAgainTitle":  "Thử lại?",
+    "tryAgainQuestion":  "Bạn có muốn thử lại không?",
+    "aiSortingResult":  "Kết quả sắp xếp AI",
+    "saveFolderTree":  "Lưu cây thư mục này?",
+    "yes":  "Có",
+    "no":  "Không",
+    "autoSortLinks":  "Tự động sắp xếp liên kết",
+    "folderCount":  "Thư mục: {name} ({count})",
+    "moreCount":  "- +{count} thêm",
+    "@folderCount":  {
+                         "placeholders":  {
+                                              "name":  {
+                                                           "type":  "String"
+                                                       },
+                                              "count":  {
+                                                            "type":  "int"
+                                                        }
+                                          }
+                     },
+    "@moreCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "feedbackConsumerButton":  "Phan hoi nguoi dung",
+    "feedbackTranslationsButton":  "Phan hoi ban dich",
+    "feedbackConsumerNote":  "Phan hoi nguoi dung: chia se trai nghiem su dung ung dung cua ban, nhu loi, van de hieu nang, tinh nang hoac muc do de su dung tong the.",
+    "feedbackTranslationsNote":  "Phan hoi ban dich: bao cao cac van de ngon ngu, nhu ban dich sai, cau chu kho hieu hoac loi ngu phap."
+}

@@ -1,0 +1,1 @@
+export 'app_localizations_zh.dart' show AppLocalizationsZhHant;

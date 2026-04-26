@@ -1,0 +1,293 @@
+{
+    "appTitle":  "ReadItLater",
+    "homeTitle":  "ReadItLater",
+    "searchHint":  "Search links and tags...",
+    "noLinksYet":  "No links saved yet",
+    "noMatchingLinks":  "No matching links found",
+    "tapToAdd":  "Tap + to add your first link",
+    "deleteLinkTitle":  "Delete link",
+    "deleteLinkContent":  "Are you sure you want to delete \"{name}\"?",
+    "@deleteLinkContent":  {
+                               "placeholders":  {
+                                                    "name":  {
+                                                                 "type":  "String"
+                                                             }
+                                                }
+                           },
+    "cancel":  "Cancel",
+    "delete":  "Delete",
+    "undo":  "Undo",
+    "deleted":  "{name} deleted",
+    "@deleted":  {
+                     "placeholders":  {
+                                          "name":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "errorLoading":  "Error loading data: {error}",
+    "@errorLoading":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "couldNotOpen":  "Could not open {url}",
+    "@couldNotOpen":  {
+                          "placeholders":  {
+                                               "url":  {
+                                                           "type":  "String"
+                                                       }
+                                           }
+                      },
+    "addLinkTitle":  "Add link",
+    "editLinkTitle":  "Edit link",
+    "linkTitleLabel":  "Title",
+    "urlLabel":  "URL",
+    "addTagLabel":  "Add tag",
+    "save":  "Save",
+    "pleaseEnterUrl":  "Please enter a URL",
+    "accountTitle":  "Settings",
+    "language":  "Language",
+    "navHome":  "Home",
+    "navAccount":  "Settings",
+    "backupRestoreTitle":  "Backup \u0026 restore",
+    "exportLinksTitle":  "Export links",
+    "exportLinksSubtitle":  "Save your links to a file",
+    "enterPassword":  "Enter password (optional)",
+    "password":  "Password",
+    "encryptFile":  "Encrypt",
+    "instagram":  "Instagram",
+    "faqTitle":  "Frequently asked questions",
+    "importLinksTitle":  "Import links",
+    "importLinksSubtitle":  "Import links from a file",
+    "importSuccess":  "Successfully imported {count} links",
+    "@importSuccess":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "importFailed":  "Import failed: {error}",
+    "@importFailed":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "decryptFailed":  "Decryption failed or invalid format",
+    "wrongPassword":  "Wrong password or invalid file",
+    "favoriteLimitReached":  "Maximum 3 favourites allowed",
+    "termsOfService":  "Terms of Service",
+    "privacyPolicy":  "Privacy Policy",
+    "welcomeTitle":  "Welcome to ReadItLater",
+    "welcomeMessage":  "Please read and accept our Terms of Service and Privacy Policy to continue.",
+    "accept":  "Accept",
+    "decline":  "Decline",
+    "setReminder":  "Set reminder",
+    "reminderSet":  "Reminder set for {date}",
+    "recentlyDeleted":  "Recently deleted",
+    "@reminderSet":  {
+                         "placeholders":  {
+                                              "date":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "reminderLimitReached":  "Reminder limit reached (10)",
+    "notificationsOrExactAlarmPermissionsBlocked":  "Notifications and/or exact alarm permissions blocked",
+    "proVersion":  "Pro version",
+    "notAvailableInYourCountry":  "Not available in your country",
+    "upgradeToPro":  "Upgrade to Pro for unlimited reminders",
+    "restored":  "{name} restored",
+    "@restored":  {
+                      "placeholders":  {
+                                           "name":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "deletePermanentlyTitle":  "Delete permanently?",
+    "deletePermanentlyContent":  "This action cannot be undone.",
+    "selectAll":  "Select all",
+    "selectedCount":  "selected",
+    "deleteSelectedContent":  "Delete {count} links?",
+    "@deleteSelectedContent":  {
+                                   "placeholders":  {
+                                                        "count":  {
+                                                                      "type":  "int"
+                                                                  }
+                                                    }
+                               },
+    "loginTitle":  "Sign in",
+    "emailLabel":  "Email",
+    "usernameLabel":  "Username",
+    "passwordLabel":  "Password",
+    "loginButton":  "Sign in",
+    "logoutButton":  "Sign out",
+    "skipLabel":  "Skip for now",
+    "loggedInAs":  "Signed in as {email}",
+    "@loggedInAs":  {
+                        "placeholders":  {
+                                             "email":  {
+                                                           "type":  "String"
+                                                       }
+                                         }
+                    },
+    "createAccount":  "Create account",
+    "nameLabel":  "Full name",
+    "confirmPasswordLabel":  "Confirm password",
+    "registerButton":  "Register",
+    "signInWithGoogle":  "Sign in with Google",
+    "googleSignInNotSupported":  "Google sign in is not configured in this demo.",
+    "accountCreated":  "Account created successfully",
+    "invalidCredentials":  "Invalid username or password",
+    "emailExists":  "Email already exists",
+    "noAccountCreateOne":  "Don't have an account? Create one!",
+    "getStarted":  "Get started",
+    "acceptAndContinue":  "Accept \u0026 continue",
+    "acceptAndFinish":  "Accept \u0026 finish",
+    "stepTos":  "Terms of Service",
+    "stepPrivacy":  "Privacy Policy",
+    "addedOn":  "Added on: {date}",
+    "@addedOn":  {
+                     "placeholders":  {
+                                          "date":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "sendFeedback":  "Send feedback",
+    "feedbackSubject":  "ReadItLater Feedback",
+    "feedbackTitle":  "Send feedback",
+    "feedbackName":  "Name (optional)",
+    "feedbackEmail":  "Email (optional)",
+    "feedbackMessage":  "Message",
+    "verifyHuman":  "Please verify that you are human",
+    "send":  "Send",
+    "tabLinks":  "Links",
+    "tabDeleted":  "Deleted",
+    "topLinksTitle":  "Top links",
+    "noDeletedLinks":  "No deleted links",
+    "restoreTooltip":  "Restore",
+    "remindersTitle":  "Reminders",
+    "noReminders":  "No upcoming reminders",
+    "didYouKnow":  "Did you know?",
+    "shareToAppTip":  "You can add links by sharing them to ReadItLater!",
+    "commentsLabel":  "Comments (optional)",
+    "accountSettings":  "Account settings",
+    "signIn":  "Sign in",
+    "collectionsTitle":  "Collections",
+    "newCollection":  "New collection",
+    "collectionName":  "Collection name",
+    "gridView":  "Grid view",
+    "listView":  "List view",
+    "editAccountTitle":  "Edit account",
+    "changePasswordTitle":  "Change account password",
+    "signOutTitle":  "Sign out",
+    "signOutConfirm":  "Are you sure you want to sign out of your account on this device?",
+    "deleteAccountTitle":  "Delete account",
+    "deleteAccountWarning":  "Delete account: please read this carefully.",
+    "deleteAccountConfirm":  "You are going to delete your account, and all associated data. This can\u0027t be undone. Are you sure?",
+    "deleteSuccess":  "We\u0027re sorry to see you leave! Your account has been deleted.",
+    "deleteFail":  "Failed to delete account. Please try again later.",
+    "continueButton":  "Continue",
+    "noCollectionsYet":  "No collections yet.",
+    "emptyFolder":  "Empty folder",
+    "folderColor":  "Folder colour",
+    "editAction":  "Edit",
+    "editCollection":  "Edit collection",
+    "changeColor":  "Change colour",
+    "deleteCollectionWarning":  "Links inside will be moved to root.",
+    "moveAction":  "Move",
+    "moveToCollection":  "Move to collection",
+    "noCollection":  "No collection",
+    "noInternetConnection":  "No internet connection",
+    "dismiss":  "Dismiss",
+    "tagAll":  "All",
+    "camera":  "Camera",
+    "gallery":  "Gallery",
+    "classicAvatars":  "Classic avatars",
+    "classic":  "Classic",
+    "usernameLengthError":  "Username must be between 3 and 45 characters",
+    "usernameFormatError":  "Invalid username format.",
+    "visitCount":  "{count} visits",
+    "@visitCount":  {
+                        "placeholders":  {
+                                             "count":  {
+                                                           "type":  "int"
+                                                       }
+                                         }
+                    },
+    "usernameConsecutiveSymbols":  "Username cannot contain consecutive symbols.",
+    "usernameRestrictedWords":  "Username contains restricted words.",
+    "failedUploadPic":  "Failed to upload profile picture.",
+    "accountUpdated":  "Account updated successfully",
+    "failedUpdateAccount":  "Failed to update account. Email may already be in use.",
+    "editAccountHint":  "Leave fields blank if you do not want to change them. Tap the image to update avatar.",
+    "saveChanges":  "Save changes",
+    "verifyIdentity":  "Verify identity",
+    "enterCurrentPassword":  "Please enter your current password to continue.",
+    "currentPassword":  "Current password",
+    "incorrectPassword":  "Incorrect password",
+    "verify":  "Verify",
+    "googleVerifyFailed":  "Failed to verify identity with Google.",
+    "confirmIdentity":  "To continue, confirm it\u0027s you first.",
+    "verifyIdentityDesc":  "We need to verify your identity to protect your account.",
+    "continueWithGoogle":  "Continue with Google",
+    "editPassword":  "Edit password",
+    "newPassword":  "New password",
+    "passwordUpdated":  "Password updated successfully",
+    "failedUpdatePassword":  "Failed to update password",
+    "savePassword":  "Save password",
+    "passwordsDoNotMatch":  "Passwords do not match",
+    "none":  "None",
+    "feedbackConsumerButton":  "Consumer feedback",
+    "feedbackTranslationsButton":  "Translations feedback",
+    "feedbackConsumerNote":  "Consumer feedback: share your experience using the app - such as bugs, performance issues, features, or overall usability.",
+    "feedbackTranslationsNote":  "Translation feedback: report issues with language - such as incorrect translations, unclear wording, or grammar mistakes.",
+    "aiSettings":  "AI Settings",
+    "aiSettingsSubtitle":  "Control AI sorting and style memory for collections.",
+    "useAiSorting":  "Use AI Sorting",
+    "useAiSortingSubtitle":  "Automatically suggests folder groupings based on your links.",
+    "styleMemory":  "Style Memory",
+    "styleMemoryEmpty":  "Set how collection names should look and feel.",
+    "styleMemoryDesc":  "Style Memory quietly learns how you name and organise your collections - whether you prefer emojis, ALL CAPS, or a simpler look - and applies that style the next time you organise your links.",
+    "styleMemorySpecificHint":  "Be specific. Example: \"Use emojis for tech folders, ALL CAPS for work, keep personal folders simple.\"",
+    "styleMemoryTextHint":  "Describe your folder naming style...",
+    "styleMemorySaved":  "Style memory saved.",
+    "enableAiSortingFirst":  "Enable Use AI Sorting in Settings first.",
+    "saveMoreLinksTryAgain":  "Save a few more links and try again",
+    "linksTooUnrelated":  "These links are too unrelated.",
+    "linksAlreadySimilar":  "These links are already quite similar.",
+    "aiSortingSaved":  "AI sorting saved.",
+    "tryAgainTitle":  "Try again?",
+    "tryAgainQuestion":  "Would you like to try again?",
+    "aiSortingResult":  "AI sorting result",
+    "saveFolderTree":  "Save this folder tree?",
+    "yes":  "Yes",
+    "no":  "No",
+    "autoSortLinks":  "Auto sort links",
+    "folderCount":  "Folder: {name} ({count})",
+    "moreCount":  "- +{count} more",
+    "@folderCount":  {
+                         "placeholders":  {
+                                              "name":  {
+                                                           "type":  "String"
+                                                       },
+                                              "count":  {
+                                                            "type":  "int"
+                                                        }
+                                          }
+                     },
+    "@moreCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   }
+}

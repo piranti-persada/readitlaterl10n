@@ -1,0 +1,285 @@
+{
+    "appTitle":  "ReadItLater",
+    "homeTitle":  "ReadItLater",
+    "searchHint":  "링크 및 태그 검색...",
+    "noLinksYet":  "아직 저장된 링크가 없습니다.",
+    "noMatchingLinks":  "일치하는 링크가 없습니다.",
+    "tapToAdd":  "첫 번째 링크를 추가하려면 +를 탭하세요.",
+    "deleteLinkTitle":  "링크 삭제",
+    "deleteLinkContent":  "정말로 \"{name}\"을(를) 삭제하시겠습니까?",
+    "@deleteLinkContent":  {
+                               "placeholders":  {
+                                                    "name":  {
+                                                                 "type":  "String"
+                                                             }
+                                                }
+                           },
+    "cancel":  "취소",
+    "delete":  "삭제",
+    "undo":  "끄르다",
+    "deleted":  "{name}이(가) 삭제되었습니다",
+    "@deleted":  {
+                     "placeholders":  {
+                                          "name":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "errorLoading":  "데이터 로드 중 오류 발생: {error}",
+    "@errorLoading":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "couldNotOpen":  "{url}을 열 수 없습니다.",
+    "@couldNotOpen":  {
+                          "placeholders":  {
+                                               "url":  {
+                                                           "type":  "String"
+                                                       }
+                                           }
+                      },
+    "addLinkTitle":  "링크 추가",
+    "editLinkTitle":  "링크 편집",
+    "linkTitleLabel":  "제목",
+    "urlLabel":  "URL",
+    "addTagLabel":  "태그 추가",
+    "save":  "구하다",
+    "pleaseEnterUrl":  "URL을 입력하세요",
+    "accountTitle":  "설정",
+    "language":  "언어",
+    "navHome":  "집",
+    "navAccount":  "설정",
+    "backupRestoreTitle":  "백업 및 복원",
+    "exportLinksTitle":  "링크 내보내기",
+    "exportLinksSubtitle":  "링크를 파일에 저장",
+    "enterPassword":  "비밀번호 입력(선택사항)",
+    "password":  "비밀번호",
+    "encryptFile":  "암호화",
+    "instagram":  "인스타그램",
+    "faqTitle":  "자주 묻는 질문",
+    "importLinksTitle":  "링크 복원",
+    "importLinksSubtitle":  "파일에서 링크 복원",
+    "importSuccess":  "{count}개의 링크를 성공적으로 가져왔습니다.",
+    "@importSuccess":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "importFailed":  "가져오기 실패: {error}",
+    "@importFailed":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "decryptFailed":  "암호 해독에 실패했거나 형식이 잘못되었습니다.",
+    "wrongPassword":  "잘못된 비밀번호 또는 잘못된 파일",
+    "favoriteLimitReached":  "최대 3개의 즐겨찾기가 허용됩니다.",
+    "termsOfService":  "서비스 약관",
+    "privacyPolicy":  "개인 정보 보호 정책",
+    "welcomeTitle":  "ReadItLater에 오신 것을 환영합니다",
+    "welcomeMessage":  "계속하려면 서비스 약관과 개인정보 보호정책을 읽고 동의하세요.",
+    "accept":  "수용하다",
+    "decline":  "감소",
+    "setReminder":  "알림 설정",
+    "reminderSet":  "{date}에 알림이 설정되었습니다.",
+    "recentlyDeleted":  "최근 삭제된 항목",
+    "@reminderSet":  {
+                         "placeholders":  {
+                                              "date":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "reminderLimitReached":  "알림 한도에 도달함(10)",
+    "proVersion":  "프로 버전",
+    "notAvailableInYourCountry":  "해당 국가에서는 사용할 수 없습니다.",
+    "upgradeToPro":  "무제한 알림을 받으려면 Pro로 업그레이드하세요.",
+    "restored":  "{name}이(가) 복원되었습니다",
+    "@restored":  {
+                      "placeholders":  {
+                                           "name":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "deletePermanentlyTitle":  "영구적으로 삭제하시겠습니까?",
+    "deletePermanentlyContent":  "이 작업은 취소할 수 없습니다.",
+    "selectAll":  "모두 선택",
+    "selectedCount":  "선택된",
+    "deleteSelectedContent":  "{count}개의 링크를 삭제하시겠습니까?",
+    "@deleteSelectedContent":  {
+                                   "placeholders":  {
+                                                        "count":  {
+                                                                      "type":  "int"
+                                                                  }
+                                                    }
+                               },
+    "loginTitle":  "로그인",
+    "emailLabel":  "이메일",
+    "usernameLabel":  "사용자 이름",
+    "passwordLabel":  "비밀번호",
+    "loginButton":  "로그인",
+    "logoutButton":  "로그아웃",
+    "skipLabel":  "지금은 건너뛰세요",
+    "loggedInAs":  "{email}(으)로 로그인됨",
+    "@loggedInAs":  {
+                        "placeholders":  {
+                                             "email":  {
+                                                           "type":  "String"
+                                                       }
+                                         }
+                    },
+    "createAccount":  "계정 만들기",
+    "nameLabel":  "성명",
+    "confirmPasswordLabel":  "비밀번호 확인",
+    "registerButton":  "등록하다",
+    "signInWithGoogle":  "Google로 로그인",
+    "googleSignInNotSupported":  "이 데모에서는 Google 로그인이 구성되지 않았습니다.",
+    "accountCreated":  "계정이 성공적으로 생성되었습니다",
+    "invalidCredentials":  "잘못된 사용자 이름 또는 비밀번호",
+    "emailExists":  "이메일이 이미 존재합니다.",
+    "noAccountCreateOne":  "계정이 없나요? 하나를 만드세요.",
+    "getStarted":  "시작하기",
+    "acceptAndContinue":  "동의 및 계속",
+    "acceptAndFinish":  "수락 및 완료",
+    "stepTos":  "서비스 약관",
+    "stepPrivacy":  "개인 정보 보호 정책",
+    "addedOn":  "추가 날짜: {date}",
+    "@addedOn":  {
+                     "placeholders":  {
+                                          "date":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "sendFeedback":  "피드백 보내기",
+    "feedbackSubject":  "ReadItLater 피드백",
+    "feedbackTitle":  "피드백 보내기",
+    "feedbackName":  "이름(선택사항)",
+    "feedbackEmail":  "이메일(선택사항)",
+    "feedbackMessage":  "메시지",
+    "verifyHuman":  "당신이 인간인지 확인해주세요",
+    "send":  "보내다",
+    "tabLinks":  "모래밭",
+    "tabDeleted":  "삭제됨",
+    "topLinksTitle":  "상위 링크",
+    "noDeletedLinks":  "삭제된 링크 없음",
+    "restoreTooltip":  "복원하다",
+    "remindersTitle":  "알림",
+    "noReminders":  "예정된 알림이 없습니다.",
+    "didYouKnow":  "알고 계셨나요?",
+    "shareToAppTip":  "ReadItLater에 공유하여 링크를 추가할 수 있습니다!",
+    "commentsLabel":  "설명(선택사항)",
+    "accountSettings":  "계정 설정",
+    "signIn":  "로그인",
+    "collectionsTitle":  "컬렉션",
+    "newCollection":  "새로운 컬렉션",
+    "collectionName":  "컬렉션 이름",
+    "gridView":  "그리드 보기",
+    "listView":  "목록 보기",
+    "editAccountTitle":  "계정 수정",
+    "changePasswordTitle":  "계정 비밀번호 변경",
+    "signOutTitle":  "로그아웃",
+    "signOutConfirm":  "이 기기의 계정에서 로그아웃하시겠습니까?",
+    "deleteAccountTitle":  "계정 삭제",
+    "deleteAccountWarning":  "계정 삭제: 이 내용을 주의 깊게 읽어보시기 바랍니다.",
+    "deleteAccountConfirm":  "귀하의 계정 및 모든 관련 데이터가 삭제됩니다. 이 작업은 취소할 수 없습니다. 확실합니까?",
+    "deleteSuccess":  "떠나시다니 안타깝습니다! 귀하의 계정이 삭제되었습니다.",
+    "deleteFail":  "계정을 삭제하지 못했습니다. 나중에 다시 시도해 주세요.",
+    "continueButton":  "계속하기",
+    "noCollectionsYet":  "아직 컬렉션이 없습니다",
+    "emptyFolder":  "빈 폴더",
+    "folderColor":  "폴더 색상",
+    "editAction":  "편집",
+    "editCollection":  "Edit collection",
+    "changeColor":  "색상 변경",
+    "deleteCollectionWarning":  "내부의 링크는 루트로 이동됩니다.",
+    "moveAction":  "이동",
+    "moveToCollection":  "컬렉션으로 이동",
+    "noCollection":  "컬렉션 없음",
+    "noInternetConnection":  "인터넷 연결 안됨",
+    "dismiss":  "닫기",
+    "tagAll":  "전체",
+    "camera":  "카메라",
+    "gallery":  "갤러리",
+    "classicAvatars":  "클래식 아바타",
+    "classic":  "클래식",
+    "usernameLengthError":  "사용자 이름은 3~45자 사이여야 합니다",
+    "usernameFormatError":  "잘못된 사용자 이름 형식입니다.",
+    "usernameConsecutiveSymbols":  "사용자 이름에 연속된 기호를 사용할 수 없습니다.",
+    "usernameRestrictedWords":  "사용자 이름에 제한된 단어가 포함되어 있습니다.",
+    "failedUploadPic":  "프로필 사진 업로드에 실패했습니다.",
+    "accountUpdated":  "계정이 성공적으로 업데이트되었습니다",
+    "failedUpdateAccount":  "계정 업데이트에 실패했습니다. 이메일이 이미 사용 중일 수 있습니다.",
+    "editAccountHint":  "변경하지 않으려면 필드를 비워 두세요. 이미지를 눌러 아바타를 업데이트하세요.",
+    "saveChanges":  "변경 사항 저장",
+    "verifyIdentity":  "본인 확인",
+    "enterCurrentPassword":  "계속하려면 현재 비밀번호를 입력하세요.",
+    "currentPassword":  "현재 비밀번호",
+    "incorrectPassword":  "잘못된 비밀번호",
+    "verify":  "확인",
+    "googleVerifyFailed":  "Google을 통한 본인 확인에 실패했습니다.",
+    "confirmIdentity":  "계속하려면 먼저 본인임을 확인하세요.",
+    "verifyIdentityDesc":  "계정을 보호하기 위해 본인 확인이 필요합니다.",
+    "continueWithGoogle":  "Google로 계속하기",
+    "editPassword":  "비밀번호 편집",
+    "newPassword":  "새 비밀번호",
+    "passwordUpdated":  "비밀번호가 성공적으로 업데이트되었습니다",
+    "failedUpdatePassword":  "비밀번호 업데이트에 실패했습니다",
+    "savePassword":  "비밀번호 저장",
+    "passwordsDoNotMatch":  "비밀번호가 일치하지 않습니다",
+    "none":  "없음",
+    "visitCount":  "{count}회 방문",
+    "aiSettings":  "AI 설정",
+    "aiSettingsSubtitle":  "컬렉션의 AI 정렬과 스타일 메모리를 관리합니다.",
+    "useAiSorting":  "AI 정렬 사용",
+    "useAiSortingSubtitle":  "링크를 기반으로 폴더 그룹을 자동으로 제안합니다.",
+    "styleMemory":  "스타일 메모리",
+    "styleMemoryEmpty":  "컬렉션 이름 표시 스타일을 설정하세요.",
+    "styleMemoryDesc":  "스타일 메모리는 이모지, 대문자, 단순한 스타일 등 당신의 컬렉션 이름 규칙을 조용히 학습해 다음 정리에 적용합니다.",
+    "styleMemorySpecificHint":  "구체적으로 작성하세요. 예: \"기술 폴더는 이모지, 업무는 대문자, 개인은 단순하게\".",
+    "styleMemoryTextHint":  "폴더 이름 스타일을 설명해 주세요...",
+    "styleMemorySaved":  "스타일 메모리가 저장되었습니다.",
+    "enableAiSortingFirst":  "먼저 설정에서 AI 정렬 사용을 켜세요.",
+    "saveMoreLinksTryAgain":  "링크를 조금 더 저장한 후 다시 시도하세요",
+    "linksTooUnrelated":  "이 링크들은 서로 관련성이 너무 낮습니다.",
+    "linksAlreadySimilar":  "이 링크들은 이미 꽤 비슷합니다.",
+    "aiSortingSaved":  "AI 정렬이 저장되었습니다.",
+    "tryAgainTitle":  "다시 시도할까요?",
+    "tryAgainQuestion":  "다시 시도하시겠어요?",
+    "aiSortingResult":  "AI 정렬 결과",
+    "saveFolderTree":  "이 폴더 트리를 저장할까요?",
+    "yes":  "예",
+    "no":  "아니요",
+    "autoSortLinks":  "링크 자동 정렬",
+    "folderCount":  "폴더: {name} ({count})",
+    "moreCount":  "- +{count}개 더",
+    "@folderCount":  {
+                         "placeholders":  {
+                                              "name":  {
+                                                           "type":  "String"
+                                                       },
+                                              "count":  {
+                                                            "type":  "int"
+                                                        }
+                                          }
+                     },
+    "@moreCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "feedbackConsumerButton":  "사용자 피드백",
+    "feedbackTranslationsButton":  "번역 피드백",
+    "feedbackConsumerNote":  "사용자 피드백: 버그, 성능 문제, 기능, 전반적인 사용성 등 앱 사용 경험을 공유해 주세요.",
+    "feedbackTranslationsNote":  "번역 피드백: 잘못된 번역, 불명확한 표현, 문법 오류 등 언어 관련 문제를 알려 주세요."
+}

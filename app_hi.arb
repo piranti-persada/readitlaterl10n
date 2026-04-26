@@ -1,0 +1,285 @@
+{
+    "appTitle":  "ReadItLater",
+    "homeTitle":  "ReadItLater",
+    "searchHint":  "लिंक और टैग खोजें...",
+    "noLinksYet":  "अभी तक कोई लिंक सहेजा नहीं गया",
+    "noMatchingLinks":  "कोई मेल खाता लिंक नहीं मिला",
+    "tapToAdd":  "अपना पहला लिंक जोड़ने के लिए + टैप करें",
+    "deleteLinkTitle":  "लिंक हटाएँ",
+    "deleteLinkContent":  "क्या आप वाकई \"{name}\" को हटाना चाहते हैं?",
+    "@deleteLinkContent":  {
+                               "placeholders":  {
+                                                    "name":  {
+                                                                 "type":  "String"
+                                                             }
+                                                }
+                           },
+    "cancel":  "रद्द करना",
+    "delete":  "मिटाना",
+    "undo":  "पूर्ववत",
+    "deleted":  "{name} हटा दिया गया",
+    "@deleted":  {
+                     "placeholders":  {
+                                          "name":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "errorLoading":  "डेटा लोड करने में त्रुटि: {error}",
+    "@errorLoading":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "couldNotOpen":  "{url} नहीं खुल सका",
+    "@couldNotOpen":  {
+                          "placeholders":  {
+                                               "url":  {
+                                                           "type":  "String"
+                                                       }
+                                           }
+                      },
+    "addLinkTitle":  "लिंक जोड़ें",
+    "editLinkTitle":  "लिंक संपादित करें",
+    "linkTitleLabel":  "शीर्षक",
+    "urlLabel":  "यूआरएल",
+    "addTagLabel":  "टैग जोड़ें",
+    "save":  "बचाना",
+    "pleaseEnterUrl":  "कृपया एक यूआरएल दर्ज करें",
+    "accountTitle":  "सेटिंग्स",
+    "language":  "भाषा",
+    "navHome":  "घर",
+    "navAccount":  "सेटिंग्स",
+    "backupRestoreTitle":  "बैकअप और पुनर्स्थापना",
+    "exportLinksTitle":  "लिंक निर्यात करें",
+    "exportLinksSubtitle":  "अपने लिंक को किसी फ़ाइल में सहेजें",
+    "enterPassword":  "पासवर्ड दर्ज करें (वैकल्पिक)",
+    "password":  "पासवर्ड",
+    "encryptFile":  "एन्क्रिप्ट",
+    "instagram":  "Instagram",
+    "faqTitle":  "अक्सर पूछे जाने वाले प्रश्नों",
+    "importLinksTitle":  "लिंक पुनर्स्थापित करें",
+    "importLinksSubtitle":  "किसी फ़ाइल से लिंक पुनर्स्थापित करें",
+    "importSuccess":  "{count} लिंक सफलतापूर्वक आयात किए गए",
+    "@importSuccess":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "importFailed":  "आयात विफल: {error}",
+    "@importFailed":  {
+                          "placeholders":  {
+                                               "error":  {
+                                                             "type":  "String"
+                                                         }
+                                           }
+                      },
+    "decryptFailed":  "डिक्रिप्शन विफल या अमान्य प्रारूप",
+    "wrongPassword":  "ग़लत पासवर्ड या अमान्य फ़ाइल",
+    "favoriteLimitReached":  "अधिकतम 3 पसंदीदा की अनुमति है",
+    "termsOfService":  "सेवा की शर्तें",
+    "privacyPolicy":  "गोपनीयता नीति",
+    "welcomeTitle":  "ReadItLater में आपका स्वागत है",
+    "welcomeMessage":  "जारी रखने के लिए कृपया हमारी सेवा की शर्तें और गोपनीयता नीति पढ़ें और स्वीकार करें।",
+    "accept":  "स्वीकार करना",
+    "decline":  "गिरावट",
+    "setReminder":  "अनुस्मारक सेट करें",
+    "reminderSet":  "{date} के लिए अनुस्मारक सेट",
+    "recentlyDeleted":  "हाल ही में हटाया गया",
+    "@reminderSet":  {
+                         "placeholders":  {
+                                              "date":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "reminderLimitReached":  "अनुस्मारक सीमा पूरी हो गई (10)",
+    "proVersion":  "प्रो संस्करण",
+    "notAvailableInYourCountry":  "आपके देश में उपलब्ध नहीं है",
+    "upgradeToPro":  "असीमित अनुस्मारक के लिए प्रो में अपग्रेड करें",
+    "restored":  "{name} पुनर्स्थापित किया गया",
+    "@restored":  {
+                      "placeholders":  {
+                                           "name":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "deletePermanentlyTitle":  "स्थायी रूप से हटाएँ?",
+    "deletePermanentlyContent":  "इस एक्शन को वापस नहीं किया जा सकता।",
+    "selectAll":  "सबका चयन करें",
+    "selectedCount":  "चयनित",
+    "deleteSelectedContent":  "{count} लिंक हटाएं?",
+    "@deleteSelectedContent":  {
+                                   "placeholders":  {
+                                                        "count":  {
+                                                                      "type":  "int"
+                                                                  }
+                                                    }
+                               },
+    "loginTitle":  "लॉग इन करें",
+    "emailLabel":  "ईमेल",
+    "usernameLabel":  "उपयोगकर्ता नाम",
+    "passwordLabel":  "पासवर्ड",
+    "loginButton":  "लॉग इन करें",
+    "logoutButton":  "लॉग आउट",
+    "skipLabel":  "अभी के लिए छोड़ दे",
+    "loggedInAs":  "{email} के रूप में लॉग इन किया गया",
+    "@loggedInAs":  {
+                        "placeholders":  {
+                                             "email":  {
+                                                           "type":  "String"
+                                                       }
+                                         }
+                    },
+    "createAccount":  "खाता बनाएं",
+    "nameLabel":  "पूरा नाम",
+    "confirmPasswordLabel":  "पासवर्ड की पुष्टि कीजिये",
+    "registerButton":  "पंजीकरण करवाना",
+    "signInWithGoogle":  "Google से साइन इन करें",
+    "googleSignInNotSupported":  "इस डेमो में Google साइन इन कॉन्फ़िगर नहीं किया गया है।",
+    "accountCreated":  "खाता सफलतापूर्वक बनाया गया",
+    "invalidCredentials":  "अमान्य उपयोगकर्ता नाम या पासवर्ड",
+    "emailExists":  "ईमेल पहले से ही मौजूद है",
+    "noAccountCreateOne":  "खाता नहीं? एक तैयार करें।",
+    "getStarted":  "शुरू हो जाओ",
+    "acceptAndContinue":  "स्वीकार करें और जारी रखें",
+    "acceptAndFinish":  "स्वीकार करें और समाप्त करें",
+    "stepTos":  "सेवा की शर्तें",
+    "stepPrivacy":  "गोपनीयता नीति",
+    "addedOn":  "जोड़ा गया: {date}",
+    "@addedOn":  {
+                     "placeholders":  {
+                                          "date":  {
+                                                       "type":  "String"
+                                                   }
+                                      }
+                 },
+    "sendFeedback":  "प्रतिक्रिया भेजें",
+    "feedbackSubject":  "इसे बाद में पढ़ें प्रतिक्रिया",
+    "feedbackTitle":  "प्रतिक्रिया भेजें",
+    "feedbackName":  "नाम: (वैकल्पिक)",
+    "feedbackEmail":  "ईमेल वैकल्पिक)",
+    "feedbackMessage":  "संदेश",
+    "verifyHuman":  "कृपया सत्यापित करें कि आप इंसान हैं",
+    "send":  "भेजना",
+    "tabLinks":  "लिंक",
+    "tabDeleted":  "हटाए गए",
+    "topLinksTitle":  "शीर्ष लिंक",
+    "noDeletedLinks":  "कोई हटाया गया लिंक नहीं",
+    "restoreTooltip":  "पुनर्स्थापित करना",
+    "remindersTitle":  "अनुस्मारक",
+    "noReminders":  "कोई आगामी अनुस्मारक नहीं",
+    "didYouKnow":  "क्या आप जानते हैं?",
+    "shareToAppTip":  "आप इसे ReadItLater पर साझा करके लिंक जोड़ सकते हैं!",
+    "commentsLabel":  "टिप्पणियां (वैकल्पिक)",
+    "accountSettings":  "अकाउंट सेटिंग",
+    "signIn":  "दाखिल करना",
+    "collectionsTitle":  "संग्रह",
+    "newCollection":  "नया संग्रह",
+    "collectionName":  "संग्रह का नाम",
+    "gridView":  "जालक दृश्य",
+    "listView":  "लिस्ट व्यू",
+    "editAccountTitle":  "खाता संपादित करें",
+    "changePasswordTitle":  "खाते का पासवर्ड बदलें",
+    "signOutTitle":  "साइन आउट",
+    "signOutConfirm":  "क्या आप वाकई इस डिवाइस में अपने खाते से साइन आउट करना चाहते हैं?",
+    "deleteAccountTitle":  "खाता हटा दो",
+    "deleteAccountWarning":  "खाता हटाएं: कृपया इसे ध्यान से पढ़ें।",
+    "deleteAccountConfirm":  "आप अपना खाता और सभी संबद्ध डेटा हटाने जा रहे हैं। इसे पूर्ववत नहीं किया जा सका. क्या आपको यकीन है?",
+    "deleteSuccess":  "हमें आपके चले जाने का दुख है! आपका खाता हटा दिया गया है।",
+    "deleteFail":  "खाता हटाने में विफल. कृपया बाद में पुन: प्रयास करें।",
+    "continueButton":  "जारी रखें",
+    "noCollectionsYet":  "अभी कोई संग्रह नहीं",
+    "emptyFolder":  "खाली फ़ोल्डर",
+    "folderColor":  "फ़ोल्डर का रंग",
+    "editAction":  "संपादित करें",
+    "editCollection":  "Edit collection",
+    "changeColor":  "रंग बदलें",
+    "deleteCollectionWarning":  "अंदर के लिंक रूट में ले जाए जाएंगे।",
+    "moveAction":  "स्थानांतरित करें",
+    "moveToCollection":  "संग्रह में ले जाएं",
+    "noCollection":  "कोई संग्रह नहीं",
+    "noInternetConnection":  "कोई इंटरनेट कनेक्शन नहीं",
+    "dismiss":  "खारिज करें",
+    "tagAll":  "सभी",
+    "camera":  "कैमरा",
+    "gallery":  "गैलरी",
+    "classicAvatars":  "क्लासिक अवतार",
+    "classic":  "क्लासिक",
+    "usernameLengthError":  "उपयोगकर्ता नाम 3 से 45 अक्षरों के बीच होना चाहिए",
+    "usernameFormatError":  "अमान्य उपयोगकर्ता नाम प्रारूप।",
+    "usernameConsecutiveSymbols":  "उपयोगकर्ता नाम में लगातार प्रतीक नहीं हो सकते।",
+    "usernameRestrictedWords":  "उपयोगकर्ता नाम में प्रतिबंधित शब्द हैं।",
+    "failedUploadPic":  "प्रोफ़ाइल चित्र अपलोड करने में विफल।",
+    "accountUpdated":  "खाता सफलतापूर्वक अपडेट किया गया",
+    "failedUpdateAccount":  "खाता अपडेट करने में विफल। ईमेल पहले से उपयोग में हो सकता है।",
+    "editAccountHint":  "यदि आप बदलना नहीं चाहते तो फ़ील्ड खाली छोड़ दें। अवतार बदलने के लिए छवि पर टैप करें।",
+    "saveChanges":  "परिवर्तन सहेजें",
+    "verifyIdentity":  "पहचान सत्यापित करें",
+    "enterCurrentPassword":  "जारी रखने के लिए कृपया अपना वर्तमान पासवर्ड दर्ज करें।",
+    "currentPassword":  "वर्तमान पासवर्ड",
+    "incorrectPassword":  "गलत पासवर्ड",
+    "verify":  "सत्यापित करें",
+    "googleVerifyFailed":  "Google से पहचान सत्यापित करने में विफल।",
+    "confirmIdentity":  "जारी रखने के लिए, पहले पुष्टि करें कि यह आप हैं।",
+    "verifyIdentityDesc":  "आपके खाते की सुरक्षा के लिए हमें आपकी पहचान सत्यापित करनी होगी।",
+    "continueWithGoogle":  "Google से जारी रखें",
+    "editPassword":  "पासवर्ड संपादित करें",
+    "newPassword":  "नया पासवर्ड",
+    "passwordUpdated":  "पासवर्ड सफलतापूर्वक अपडेट किया गया",
+    "failedUpdatePassword":  "पासवर्ड अपडेट करने में विफल",
+    "savePassword":  "पासवर्ड सहेजें",
+    "passwordsDoNotMatch":  "पासवर्ड मेल नहीं खाते",
+    "none":  "कोई नहीं",
+    "visitCount":  "{count} बार देखा गया",
+    "aiSettings":  "AI सेटिंग्स",
+    "aiSettingsSubtitle":  "कलेक्शंस के लिए AI सॉर्टिंग और स्टाइल मेमोरी नियंत्रित करें।",
+    "useAiSorting":  "AI सॉर्टिंग उपयोग करें",
+    "useAiSortingSubtitle":  "आपके लिंक के आधार पर फ़ोल्डर समूह अपने-आप सुझाता है।",
+    "styleMemory":  "स्टाइल मेमोरी",
+    "styleMemoryEmpty":  "कलेक्शन नाम कैसे दिखें, यह सेट करें।",
+    "styleMemoryDesc":  "स्टाइल मेमोरी चुपचाप सीखती है कि आप कलेक्शंस को कैसे नाम देते और व्यवस्थित करते हैं - इमोजी, ALL CAPS या सरल शैली - और अगली बार वही शैली लागू करती है।",
+    "styleMemorySpecificHint":  "स्पष्ट लिखें। उदाहरण: \"टेक फ़ोल्डर के लिए इमोजी, काम के लिए ALL CAPS, निजी के लिए सरल शैली।\"",
+    "styleMemoryTextHint":  "अपने फ़ोल्डर नामकरण शैली का वर्णन करें...",
+    "styleMemorySaved":  "स्टाइल मेमोरी सेव हो गई।",
+    "enableAiSortingFirst":  "पहले सेटिंग्स में Use AI Sorting चालू करें।",
+    "saveMoreLinksTryAgain":  "कुछ और लिंक सेव करें और फिर कोशिश करें",
+    "linksTooUnrelated":  "ये लिंक बहुत असंबंधित हैं।",
+    "linksAlreadySimilar":  "ये लिंक पहले से ही काफी समान हैं।",
+    "aiSortingSaved":  "AI सॉर्टिंग सेव हो गई।",
+    "tryAgainTitle":  "फिर से कोशिश करें?",
+    "tryAgainQuestion":  "क्या आप फिर से कोशिश करना चाहेंगे?",
+    "aiSortingResult":  "AI सॉर्टिंग परिणाम",
+    "saveFolderTree":  "क्या यह फ़ोल्डर ट्री सेव करें?",
+    "yes":  "हाँ",
+    "no":  "नहीं",
+    "autoSortLinks":  "लिंक स्वतः सॉर्ट करें",
+    "folderCount":  "फ़ोल्डर: {name} ({count})",
+    "moreCount":  "- +{count} और",
+    "@folderCount":  {
+                         "placeholders":  {
+                                              "name":  {
+                                                           "type":  "String"
+                                                       },
+                                              "count":  {
+                                                            "type":  "int"
+                                                        }
+                                          }
+                     },
+    "@moreCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "feedbackConsumerButton":  "उपयोगकर्ता फ़ीडबैक",
+    "feedbackTranslationsButton":  "अनुवाद फ़ीडबैक",
+    "feedbackConsumerNote":  "उपयोगकर्ता फ़ीडबैक: ऐप इस्तेमाल करने का अपना अनुभव साझा करें, जैसे बग, परफॉर्मेंस समस्याएँ, फीचर या कुल उपयोगिता।",
+    "feedbackTranslationsNote":  "अनुवाद फ़ीडबैक: भाषा से जुड़ी समस्याएँ बताएं, जैसे गलत अनुवाद, अस्पष्ट शब्दांकन या व्याकरण की गलतियाँ।"
+}
