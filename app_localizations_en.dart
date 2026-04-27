@@ -522,10 +522,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get feedbackConsumerButton => 'Consumer feedback';
 
   @override
+  String get translationsGitHubButton => 'GitHub feedback';
+
+  @override
   String get feedbackTranslationsButton => 'Translations feedback';
 
   @override
   String get feedbackConsumerNote => 'Consumer feedback: share your experience using the app - such as bugs, performance issues, features, or overall usability.';
+
+  @override
+  String get translationsGitHubNote => 'GitHub feedback: report issues with language on GitHub, such as incorrect translations, unclear wording, or grammar mistakes.';
 
   @override
   String get feedbackTranslationsNote => 'Translation feedback: report issues with language - such as incorrect translations, unclear wording, or grammar mistakes.';

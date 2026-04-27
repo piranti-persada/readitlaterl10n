@@ -279,7 +279,9 @@
                                         }
                    },
     "feedbackConsumerButton":  "Nutzerfeedback",
+    "translationsGitHubButton":  "GitHub-Feedback",
     "feedbackTranslationsButton":  "Uebersetzungsfeedback",
     "feedbackConsumerNote":  "Nutzerfeedback: Teile deine Erfahrung mit der App, z. B. Fehler, Leistungsprobleme, Funktionen oder die allgemeine Benutzerfreundlichkeit.",
+    "translationsGitHubNote":  "GitHub-Feedback: Melde Sprachprobleme auf GitHub, z. B. falsche Uebersetzungen, unklare Formulierungen oder Grammatikfehler.",
     "feedbackTranslationsNote":  "Uebersetzungsfeedback: Melde Sprachprobleme, z. B. falsche Uebersetzungen, unklare Formulierungen oder Grammatikfehler."
 }

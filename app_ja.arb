@@ -279,7 +279,9 @@
                                         }
                    },
     "feedbackConsumerButton":  "ユーザーフィードバック",
+    "translationsGitHubButton":  "GitHubでフィードバック",
     "feedbackTranslationsButton":  "翻訳フィードバック",
     "feedbackConsumerNote":  "ユーザーフィードバック: バグ、パフォーマンスの問題、機能、全体的な使いやすさなど、アプリ利用体験を共有してください。",
+    "translationsGitHubNote":  "GitHubでフィードバック: GitHub上で、誤訳、不明瞭な表現、文法ミスなど、言語に関する問題を報告してください。",
     "feedbackTranslationsNote":  "翻訳フィードバック: 誤訳、不明瞭な表現、文法ミスなど、言語に関する問題を報告してください。"
 }

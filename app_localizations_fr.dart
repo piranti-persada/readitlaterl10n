@@ -522,10 +522,16 @@ class AppLocalizationsFr extends AppLocalizations {
   String get feedbackConsumerButton => 'Retours utilisateurs';
 
   @override
+  String get translationsGitHubButton => 'Retours sur GitHub';
+
+  @override
   String get feedbackTranslationsButton => 'Retours sur les traductions';
 
   @override
   String get feedbackConsumerNote => 'Retours utilisateurs : partagez votre experience d\'utilisation de l\'application, comme les bugs, les problemes de performance, les fonctionnalites ou l\'ergonomie globale.';
+
+  @override
+  String get translationsGitHubNote => 'Retours sur GitHub : signalez les problemes de langue sur GitHub, comme les traductions incorrectes, les formulations ambigues ou les fautes de grammaire.';
 
   @override
   String get feedbackTranslationsNote => 'Retours sur les traductions : signalez les problemes de langue, comme les traductions incorrectes, les formulations ambigues ou les fautes de grammaire.';

@@ -522,10 +522,16 @@ class AppLocalizationsJa extends AppLocalizations {
   String get feedbackConsumerButton => 'ユーザーフィードバック';
 
   @override
+  String get translationsGitHubButton => 'GitHubでフィードバック';
+
+  @override
   String get feedbackTranslationsButton => '翻訳フィードバック';
 
   @override
   String get feedbackConsumerNote => 'ユーザーフィードバック: バグ、パフォーマンスの問題、機能、全体的な使いやすさなど、アプリ利用体験を共有してください。';
+
+  @override
+  String get translationsGitHubNote => 'GitHubでフィードバック: GitHub上で、誤訳、不明瞭な表現、文法ミスなど、言語に関する問題を報告してください。';
 
   @override
   String get feedbackTranslationsNote => '翻訳フィードバック: 誤訳、不明瞭な表現、文法ミスなど、言語に関する問題を報告してください。';

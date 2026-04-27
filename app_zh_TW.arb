@@ -280,7 +280,9 @@
                                         }
                    },
     "feedbackConsumerButton":  "使用者回饋",
+    "translationsGitHubButton":  "GitHub 回饋",
     "feedbackTranslationsButton":  "翻譯回饋",
     "feedbackConsumerNote":  "使用者回饋：分享你使用應用程式的體驗，例如錯誤、效能問題、功能或整體易用性。",
+    "translationsGitHubNote":  "GitHub 回饋：在 GitHub 上回報語言問題，例如翻譯不正確、措辭不清楚或文法錯誤。",
     "feedbackTranslationsNote":  "翻譯回饋：回報語言問題，例如翻譯不正確、措辭不清楚或文法錯誤。"
 }

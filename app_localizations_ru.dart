@@ -522,10 +522,16 @@ class AppLocalizationsRu extends AppLocalizations {
   String get feedbackConsumerButton => 'Отзыв пользователей';
 
   @override
+  String get translationsGitHubButton => 'Обратная связь на GitHub';
+
+  @override
   String get feedbackTranslationsButton => 'Отзыв о переводах';
 
   @override
   String get feedbackConsumerNote => 'Отзыв пользователей: поделитесь своим опытом использования приложения, например ошибками, проблемами производительности, функциями или общей удобностью.';
+
+  @override
+  String get translationsGitHubNote => 'Обратная связь на GitHub: сообщайте о языковых проблемах на GitHub, например о неверных переводах, неясных формулировках или грамматических ошибках.';
 
   @override
   String get feedbackTranslationsNote => 'Отзыв о переводах: сообщайте о языковых проблемах, например о неверных переводах, неясных формулировках или грамматических ошибках.';

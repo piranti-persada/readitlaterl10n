@@ -279,7 +279,9 @@
                                         }
                    },
     "feedbackConsumerButton":  "Retours utilisateurs",
+    "translationsGitHubButton":  "Retours sur GitHub",
     "feedbackTranslationsButton":  "Retours sur les traductions",
     "feedbackConsumerNote":  "Retours utilisateurs : partagez votre experience d\u0027utilisation de l\u0027application, comme les bugs, les problemes de performance, les fonctionnalites ou l\u0027ergonomie globale.",
+    "translationsGitHubNote":  "Retours sur GitHub : signalez les problemes de langue sur GitHub, comme les traductions incorrectes, les formulations ambigues ou les fautes de grammaire.",
     "feedbackTranslationsNote":  "Retours sur les traductions : signalez les problemes de langue, comme les traductions incorrectes, les formulations ambigues ou les fautes de grammaire."
 }

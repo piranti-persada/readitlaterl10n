@@ -522,10 +522,16 @@ class AppLocalizationsEs extends AppLocalizations {
   String get feedbackConsumerButton => 'Comentarios de usuarios';
 
   @override
+  String get translationsGitHubButton => 'Comentarios en GitHub';
+
+  @override
   String get feedbackTranslationsButton => 'Comentarios de traduccion';
 
   @override
   String get feedbackConsumerNote => 'Comentarios de usuarios: comparte tu experiencia al usar la app, como errores, problemas de rendimiento, funciones o usabilidad general.';
+
+  @override
+  String get translationsGitHubNote => 'Comentarios en GitHub: informa problemas de idioma en GitHub, como traducciones incorrectas, redaccion poco clara o errores gramaticales.';
 
   @override
   String get feedbackTranslationsNote => 'Comentarios de traduccion: informa problemas de idioma, como traducciones incorrectas, redaccion poco clara o errores gramaticales.';

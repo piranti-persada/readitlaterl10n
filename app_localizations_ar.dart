@@ -522,10 +522,16 @@ class AppLocalizationsAr extends AppLocalizations {
   String get feedbackConsumerButton => 'ملاحظات المستخدم';
 
   @override
+  String get translationsGitHubButton => 'ملاحظات GitHub';
+
+  @override
   String get feedbackTranslationsButton => 'ملاحظات الترجمة';
 
   @override
   String get feedbackConsumerNote => 'ملاحظات المستخدم: شارك تجربتك في استخدام التطبيق، مثل الأخطاء، ومشكلات الأداء، والميزات، أو سهولة الاستخدام بشكل عام.';
+
+  @override
+  String get translationsGitHubNote => 'ملاحظات GitHub: أبلغ عن مشكلات اللغة على GitHub، مثل الترجمات غير الصحيحة، أو الصياغة غير الواضحة، أو الأخطاء النحوية.';
 
   @override
   String get feedbackTranslationsNote => 'ملاحظات الترجمة: أبلغ عن مشكلات اللغة، مثل الترجمات غير الصحيحة، أو الصياغة غير الواضحة، أو الأخطاء النحوية.';

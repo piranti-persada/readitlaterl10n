@@ -279,7 +279,9 @@
                                         }
                    },
     "feedbackConsumerButton":  "Comentarios de usuarios",
+    "translationsGitHubButton":  "Comentarios en GitHub",
     "feedbackTranslationsButton":  "Comentarios de traduccion",
     "feedbackConsumerNote":  "Comentarios de usuarios: comparte tu experiencia al usar la app, como errores, problemas de rendimiento, funciones o usabilidad general.",
+    "translationsGitHubNote":  "Comentarios en GitHub: informa problemas de idioma en GitHub, como traducciones incorrectas, redaccion poco clara o errores gramaticales.",
     "feedbackTranslationsNote":  "Comentarios de traduccion: informa problemas de idioma, como traducciones incorrectas, redaccion poco clara o errores gramaticales."
 }

@@ -279,7 +279,9 @@
                                         }
                    },
     "feedbackConsumerButton":  "Phan hoi nguoi dung",
+    "translationsGitHubButton":  "Phan hoi tren GitHub",
     "feedbackTranslationsButton":  "Phan hoi ban dich",
     "feedbackConsumerNote":  "Phan hoi nguoi dung: chia se trai nghiem su dung ung dung cua ban, nhu loi, van de hieu nang, tinh nang hoac muc do de su dung tong the.",
+    "translationsGitHubNote":  "Phan hoi tren GitHub: bao cao cac van de ngon ngu tren GitHub, nhu ban dich sai, cau chu kho hieu hoac loi ngu phap.",
     "feedbackTranslationsNote":  "Phan hoi ban dich: bao cao cac van de ngon ngu, nhu ban dich sai, cau chu kho hieu hoac loi ngu phap."
 }

@@ -279,7 +279,9 @@
                                         }
                    },
     "feedbackConsumerButton":  "Feedback de usuarios",
+    "translationsGitHubButton":  "Feedback no GitHub",
     "feedbackTranslationsButton":  "Feedback de traducoes",
     "feedbackConsumerNote":  "Feedback de usuarios: compartilhe sua experiencia usando o app, como bugs, problemas de desempenho, recursos ou usabilidade geral.",
+    "translationsGitHubNote":  "Feedback no GitHub: relate problemas de idioma no GitHub, como traducoes incorretas, redacao pouco clara ou erros gramaticais.",
     "feedbackTranslationsNote":  "Feedback de traducoes: relate problemas de idioma, como traducoes incorretas, redacao pouco clara ou erros gramaticais."
 }

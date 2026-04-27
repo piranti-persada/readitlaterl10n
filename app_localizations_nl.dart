@@ -522,10 +522,16 @@ class AppLocalizationsNl extends AppLocalizations {
   String get feedbackConsumerButton => 'Gebruikersfeedback';
 
   @override
+  String get translationsGitHubButton => 'GitHub-feedback';
+
+  @override
   String get feedbackTranslationsButton => 'Vertalingsfeedback';
 
   @override
   String get feedbackConsumerNote => 'Gebruikersfeedback: deel je ervaring met de app, zoals bugs, prestatieproblemen, functies of algemene gebruiksvriendelijkheid.';
+
+  @override
+  String get translationsGitHubNote => 'GitHub-feedback: meld taalproblemen op GitHub, zoals onjuiste vertalingen, onduidelijke formuleringen of grammaticafouten.';
 
   @override
   String get feedbackTranslationsNote => 'Vertalingsfeedback: meld taalproblemen, zoals onjuiste vertalingen, onduidelijke formuleringen of grammaticafouten.';

@@ -1102,6 +1102,12 @@ abstract class AppLocalizations {
   /// **'Consumer feedback'**
   String get feedbackConsumerButton;
 
+  /// No description provided for @translationsGitHubButton.
+  ///
+  /// In en, this message translates to:
+  /// **'GitHub feedback'**
+  String get translationsGitHubButton;
+
   /// No description provided for @feedbackTranslationsButton.
   ///
   /// In en, this message translates to:
@@ -1113,6 +1119,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Consumer feedback: share your experience using the app - such as bugs, performance issues, features, or overall usability.'**
   String get feedbackConsumerNote;
+
+  /// No description provided for @translationsGitHubNote.
+  ///
+  /// In en, this message translates to:
+  /// **'GitHub feedback: report issues with language on GitHub, such as incorrect translations, unclear wording, or grammar mistakes.'**
+  String get translationsGitHubNote;
 
   /// No description provided for @feedbackTranslationsNote.
   ///

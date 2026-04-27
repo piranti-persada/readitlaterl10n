@@ -522,10 +522,16 @@ class AppLocalizationsVi extends AppLocalizations {
   String get feedbackConsumerButton => 'Phan hoi nguoi dung';
 
   @override
+  String get translationsGitHubButton => 'Phan hoi tren GitHub';
+
+  @override
   String get feedbackTranslationsButton => 'Phan hoi ban dich';
 
   @override
   String get feedbackConsumerNote => 'Phan hoi nguoi dung: chia se trai nghiem su dung ung dung cua ban, nhu loi, van de hieu nang, tinh nang hoac muc do de su dung tong the.';
+
+  @override
+  String get translationsGitHubNote => 'Phan hoi tren GitHub: bao cao cac van de ngon ngu tren GitHub, nhu ban dich sai, cau chu kho hieu hoac loi ngu phap.';
 
   @override
   String get feedbackTranslationsNote => 'Phan hoi ban dich: bao cao cac van de ngon ngu, nhu ban dich sai, cau chu kho hieu hoac loi ngu phap.';

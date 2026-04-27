@@ -522,10 +522,16 @@ class AppLocalizationsKo extends AppLocalizations {
   String get feedbackConsumerButton => '사용자 피드백';
 
   @override
+  String get translationsGitHubButton => 'GitHub 피드백';
+
+  @override
   String get feedbackTranslationsButton => '번역 피드백';
 
   @override
   String get feedbackConsumerNote => '사용자 피드백: 버그, 성능 문제, 기능, 전반적인 사용성 등 앱 사용 경험을 공유해 주세요.';
+
+  @override
+  String get translationsGitHubNote => 'GitHub 피드백: GitHub에서 잘못된 번역, 불명확한 표현, 문법 오류 등 언어 관련 문제를 알려 주세요.';
 
   @override
   String get feedbackTranslationsNote => '번역 피드백: 잘못된 번역, 불명확한 표현, 문법 오류 등 언어 관련 문제를 알려 주세요.';

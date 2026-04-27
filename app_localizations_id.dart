@@ -522,10 +522,16 @@ class AppLocalizationsId extends AppLocalizations {
   String get feedbackConsumerButton => 'Masukan pengguna';
 
   @override
+  String get translationsGitHubButton => 'Masukan di GitHub';
+
+  @override
   String get feedbackTranslationsButton => 'Masukan terjemahan';
 
   @override
   String get feedbackConsumerNote => 'Masukan pengguna: bagikan pengalaman Anda menggunakan aplikasi, seperti bug, masalah performa, fitur, atau kegunaan secara keseluruhan.';
+
+  @override
+  String get translationsGitHubNote => 'Masukan di GitHub: laporkan masalah bahasa di GitHub, seperti terjemahan yang salah, kalimat yang kurang jelas, atau kesalahan tata bahasa.';
 
   @override
   String get feedbackTranslationsNote => 'Masukan terjemahan: laporkan masalah bahasa, seperti terjemahan yang salah, kalimat yang kurang jelas, atau kesalahan tata bahasa.';

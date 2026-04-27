@@ -522,10 +522,16 @@ class AppLocalizationsZh extends AppLocalizations {
   String get feedbackConsumerButton => '用户反馈';
 
   @override
+  String get translationsGitHubButton => 'GitHub 反馈';
+
+  @override
   String get feedbackTranslationsButton => '翻译反馈';
 
   @override
   String get feedbackConsumerNote => '用户反馈：分享你使用应用的体验，例如漏洞、性能问题、功能或整体易用性。';
+
+  @override
+  String get translationsGitHubNote => 'GitHub 反馈：在 GitHub 上反馈语言问题，例如翻译不正确、措辞不清晰或语法错误。';
 
   @override
   String get feedbackTranslationsNote => '翻译反馈：反馈语言问题，例如翻译不正确、措辞不清晰或语法错误。';
