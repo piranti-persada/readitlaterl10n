@@ -1,4 +1,4 @@
-// ignore: unused_import
+﻿// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
@@ -9,606 +9,607 @@ class AppLocalizationsKo extends AppLocalizations {
   AppLocalizationsKo([String locale = 'ko']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
-  String get searchHint => '링크 및 태그 검색...';
+  String get searchHint => 'ë§í¬ ë° íƒœê·¸ ê²€ìƒ‰...';
 
   @override
-  String get noLinksYet => '아직 저장된 링크가 없습니다.';
+  String get noLinksYet => 'ì•„ì§ ì €ìž¥ëœ ë§í¬ê°€ ì—†ìŠµë‹ˆë‹¤.';
 
   @override
-  String get noMatchingLinks => '일치하는 링크가 없습니다.';
+  String get noMatchingLinks => 'ì¼ì¹˜í•˜ëŠ” ë§í¬ê°€ ì—†ìŠµë‹ˆë‹¤.';
 
   @override
-  String get tapToAdd => '첫 번째 링크를 추가하려면 +를 탭하세요.';
+  String get tapToAdd => 'ì²« ë²ˆì§¸ ë§í¬ë¥¼ ì¶”ê°€í•˜ë ¤ë©´ +ë¥¼ íƒ­í•˜ì„¸ìš”.';
 
   @override
-  String get deleteLinkTitle => '링크 삭제';
+  String get deleteLinkTitle => 'ë§í¬ ì‚­ì œ';
 
   @override
   String deleteLinkContent(String name) {
-    return '정말로 \"$name\"을(를) 삭제하시겠습니까?';
+    return 'ì •ë§ë¡œ \"$name\"ì„(ë¥¼) ì‚­ì œí•˜ì‹œê² ìŠµë‹ˆê¹Œ?';
   }
 
   @override
-  String get cancel => '취소';
+  String get cancel => 'ì·¨ì†Œ';
 
   @override
-  String get delete => '삭제';
+  String get delete => 'ì‚­ì œ';
 
   @override
-  String get undo => '끄르다';
+  String get undo => 'ë„ë¥´ë‹¤';
 
   @override
   String deleted(String name) {
-    return '$name이(가) 삭제되었습니다';
+    return '$nameì´(ê°€) ì‚­ì œë˜ì—ˆìŠµë‹ˆë‹¤';
   }
 
   @override
   String errorLoading(String error) {
-    return '데이터 로드 중 오류 발생: $error';
+    return 'ë°ì´í„° ë¡œë“œ ì¤‘ ì˜¤ë¥˜ ë°œìƒ: $error';
   }
 
   @override
   String couldNotOpen(String url) {
-    return '$url을 열 수 없습니다.';
+    return '$urlì„ ì—´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.';
   }
 
   @override
-  String get addLinkTitle => '링크 추가';
+  String get addLinkTitle => 'ë§í¬ ì¶”ê°€';
 
   @override
-  String get editLinkTitle => '링크 편집';
+  String get editLinkTitle => 'ë§í¬ íŽ¸ì§‘';
 
   @override
-  String get linkTitleLabel => '제목';
+  String get linkTitleLabel => 'ì œëª©';
 
   @override
   String get urlLabel => 'URL';
 
   @override
-  String get addTagLabel => '태그 추가';
+  String get addTagLabel => 'íƒœê·¸ ì¶”ê°€';
 
   @override
-  String get save => '구하다';
+  String get save => 'êµ¬í•˜ë‹¤';
 
   @override
-  String get pleaseEnterUrl => 'URL을 입력하세요';
+  String get pleaseEnterUrl => 'URLì„ ìž…ë ¥í•˜ì„¸ìš”';
 
   @override
-  String get accountTitle => '설정';
+  String get accountTitle => 'ì„¤ì •';
 
   @override
-  String get language => '언어';
+  String get language => 'ì–¸ì–´';
 
   @override
-  String get navHome => '집';
+  String get navHome => 'ì§‘';
 
   @override
-  String get navAccount => '설정';
+  String get navAccount => 'ì„¤ì •';
 
   @override
-  String get backupRestoreTitle => '백업 및 복원';
+  String get backupRestoreTitle => 'ë°±ì—… ë° ë³µì›';
 
   @override
-  String get exportLinksTitle => '링크 내보내기';
+  String get exportLinksTitle => 'ë§í¬ ë‚´ë³´ë‚´ê¸°';
 
   @override
-  String get exportLinksSubtitle => '링크를 파일에 저장';
+  String get exportLinksSubtitle => 'ë§í¬ë¥¼ íŒŒì¼ì— ì €ìž¥';
 
   @override
-  String get enterPassword => '비밀번호 입력(선택사항)';
+  String get enterPassword => 'ë¹„ë°€ë²ˆí˜¸ ìž…ë ¥(ì„ íƒì‚¬í•­)';
 
   @override
-  String get password => '비밀번호';
+  String get password => 'ë¹„ë°€ë²ˆí˜¸';
 
   @override
-  String get encryptFile => '암호화';
+  String get encryptFile => 'ì•”í˜¸í™”';
 
   @override
-  String get instagram => '인스타그램';
+  String get instagram => 'ì¸ìŠ¤íƒ€ê·¸ëž¨';
 
   @override
-  String get faqTitle => '자주 묻는 질문';
+  String get faqTitle => 'ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸';
 
   @override
-  String get importLinksTitle => '링크 복원';
+  String get importLinksTitle => 'ë§í¬ ë³µì›';
 
   @override
-  String get importLinksSubtitle => '파일에서 링크 복원';
+  String get importLinksSubtitle => 'íŒŒì¼ì—ì„œ ë§í¬ ë³µì›';
 
   @override
   String importSuccess(int count) {
-    return '$count개의 링크를 성공적으로 가져왔습니다.';
+    return '$countê°œì˜ ë§í¬ë¥¼ ì„±ê³µì ìœ¼ë¡œ ê°€ì ¸ì™”ìŠµë‹ˆë‹¤.';
   }
 
   @override
   String importFailed(String error) {
-    return '가져오기 실패: $error';
+    return 'ê°€ì ¸ì˜¤ê¸° ì‹¤íŒ¨: $error';
   }
 
   @override
-  String get decryptFailed => '암호 해독에 실패했거나 형식이 잘못되었습니다.';
+  String get decryptFailed => 'ì•”í˜¸ í•´ë…ì— ì‹¤íŒ¨í–ˆê±°ë‚˜ í˜•ì‹ì´ ìž˜ëª»ë˜ì—ˆìŠµë‹ˆë‹¤.';
 
   @override
-  String get wrongPassword => '잘못된 비밀번호 또는 잘못된 파일';
+  String get wrongPassword => 'ìž˜ëª»ëœ ë¹„ë°€ë²ˆí˜¸ ë˜ëŠ” ìž˜ëª»ëœ íŒŒì¼';
 
   @override
-  String get favoriteLimitReached => '최대 3개의 즐겨찾기가 허용됩니다.';
+  String get favoriteLimitReached => 'ìµœëŒ€ 3ê°œì˜ ì¦ê²¨ì°¾ê¸°ê°€ í—ˆìš©ë©ë‹ˆë‹¤.';
 
   @override
-  String get termsOfService => '서비스 약관';
+  String get termsOfService => 'ì„œë¹„ìŠ¤ ì•½ê´€';
 
   @override
-  String get privacyPolicy => '개인 정보 보호 정책';
+  String get privacyPolicy => 'ê°œì¸ ì •ë³´ ë³´í˜¸ ì •ì±…';
 
   @override
-  String get welcomeTitle => 'ReadItLater에 오신 것을 환영합니다';
+  String get welcomeTitle => 'Pileì— ì˜¤ì‹  ê²ƒì„ í™˜ì˜í•©ë‹ˆë‹¤';
 
   @override
-  String get welcomeMessage => '계속하려면 서비스 약관과 개인정보 보호정책을 읽고 동의하세요.';
+  String get welcomeMessage => 'ê³„ì†í•˜ë ¤ë©´ ì„œë¹„ìŠ¤ ì•½ê´€ê³¼ ê°œì¸ì •ë³´ ë³´í˜¸ì •ì±…ì„ ì½ê³  ë™ì˜í•˜ì„¸ìš”.';
 
   @override
-  String get accept => '수용하다';
+  String get accept => 'ìˆ˜ìš©í•˜ë‹¤';
 
   @override
-  String get decline => '감소';
+  String get decline => 'ê°ì†Œ';
 
   @override
-  String get setReminder => '알림 설정';
+  String get setReminder => 'ì•Œë¦¼ ì„¤ì •';
 
   @override
   String reminderSet(String date) {
-    return '$date에 알림이 설정되었습니다.';
+    return '$dateì— ì•Œë¦¼ì´ ì„¤ì •ë˜ì—ˆìŠµë‹ˆë‹¤.';
   }
 
   @override
-  String get recentlyDeleted => '최근 삭제된 항목';
+  String get recentlyDeleted => 'ìµœê·¼ ì‚­ì œëœ í•­ëª©';
 
   @override
-  String get reminderLimitReached => '알림 한도에 도달함(10)';
+  String get reminderLimitReached => 'ì•Œë¦¼ í•œë„ì— ë„ë‹¬í•¨(10)';
 
   @override
   String get notificationsOrExactAlarmPermissionsBlocked => 'Notifications and/or exact alarm permissions blocked';
 
   @override
-  String get proVersion => '프로 버전';
+  String get proVersion => 'í”„ë¡œ ë²„ì „';
 
   @override
-  String get notAvailableInYourCountry => '해당 국가에서는 사용할 수 없습니다.';
+  String get notAvailableInYourCountry => 'í•´ë‹¹ êµ­ê°€ì—ì„œëŠ” ì‚¬ìš©í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.';
 
   @override
-  String get upgradeToPro => '무제한 알림을 받으려면 Pro로 업그레이드하세요.';
+  String get upgradeToPro => 'ë¬´ì œí•œ ì•Œë¦¼ì„ ë°›ìœ¼ë ¤ë©´ Proë¡œ ì—…ê·¸ë ˆì´ë“œí•˜ì„¸ìš”.';
 
   @override
   String restored(String name) {
-    return '$name이(가) 복원되었습니다';
+    return '$nameì´(ê°€) ë³µì›ë˜ì—ˆìŠµë‹ˆë‹¤';
   }
 
   @override
-  String get deletePermanentlyTitle => '영구적으로 삭제하시겠습니까?';
+  String get deletePermanentlyTitle => 'ì˜êµ¬ì ìœ¼ë¡œ ì‚­ì œí•˜ì‹œê² ìŠµë‹ˆê¹Œ?';
 
   @override
-  String get deletePermanentlyContent => '이 작업은 취소할 수 없습니다.';
+  String get deletePermanentlyContent => 'ì´ ìž‘ì—…ì€ ì·¨ì†Œí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.';
 
   @override
-  String get selectAll => '모두 선택';
+  String get selectAll => 'ëª¨ë‘ ì„ íƒ';
 
   @override
-  String get selectedCount => '선택된';
+  String get selectedCount => 'ì„ íƒëœ';
 
   @override
   String deleteSelectedContent(int count) {
-    return '$count개의 링크를 삭제하시겠습니까?';
+    return '$countê°œì˜ ë§í¬ë¥¼ ì‚­ì œí•˜ì‹œê² ìŠµë‹ˆê¹Œ?';
   }
 
   @override
-  String get loginTitle => '로그인';
+  String get loginTitle => 'ë¡œê·¸ì¸';
 
   @override
-  String get emailLabel => '이메일';
+  String get emailLabel => 'ì´ë©”ì¼';
 
   @override
-  String get usernameLabel => '사용자 이름';
+  String get usernameLabel => 'ì‚¬ìš©ìž ì´ë¦„';
 
   @override
-  String get passwordLabel => '비밀번호';
+  String get passwordLabel => 'ë¹„ë°€ë²ˆí˜¸';
 
   @override
-  String get loginButton => '로그인';
+  String get loginButton => 'ë¡œê·¸ì¸';
 
   @override
-  String get logoutButton => '로그아웃';
+  String get logoutButton => 'ë¡œê·¸ì•„ì›ƒ';
 
   @override
-  String get skipLabel => '지금은 건너뛰세요';
+  String get skipLabel => 'ì§€ê¸ˆì€ ê±´ë„ˆë›°ì„¸ìš”';
 
   @override
   String loggedInAs(String email) {
-    return '$email(으)로 로그인됨';
+    return '$email(ìœ¼)ë¡œ ë¡œê·¸ì¸ë¨';
   }
 
   @override
-  String get createAccount => '계정 만들기';
+  String get createAccount => 'ê³„ì • ë§Œë“¤ê¸°';
 
   @override
-  String get nameLabel => '성명';
+  String get nameLabel => 'ì„±ëª…';
 
   @override
-  String get confirmPasswordLabel => '비밀번호 확인';
+  String get confirmPasswordLabel => 'ë¹„ë°€ë²ˆí˜¸ í™•ì¸';
 
   @override
-  String get registerButton => '등록하다';
+  String get registerButton => 'ë“±ë¡í•˜ë‹¤';
 
   @override
-  String get signInWithGoogle => 'Google로 로그인';
+  String get signInWithGoogle => 'Googleë¡œ ë¡œê·¸ì¸';
 
   @override
-  String get googleSignInNotSupported => '이 데모에서는 Google 로그인이 구성되지 않았습니다.';
+  String get googleSignInNotSupported => 'ì´ ë°ëª¨ì—ì„œëŠ” Google ë¡œê·¸ì¸ì´ êµ¬ì„±ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.';
 
   @override
-  String get accountCreated => '계정이 성공적으로 생성되었습니다';
+  String get accountCreated => 'ê³„ì •ì´ ì„±ê³µì ìœ¼ë¡œ ìƒì„±ë˜ì—ˆìŠµë‹ˆë‹¤';
 
   @override
-  String get invalidCredentials => '잘못된 사용자 이름 또는 비밀번호';
+  String get invalidCredentials => 'ìž˜ëª»ëœ ì‚¬ìš©ìž ì´ë¦„ ë˜ëŠ” ë¹„ë°€ë²ˆí˜¸';
 
   @override
-  String get emailExists => '이메일이 이미 존재합니다.';
+  String get emailExists => 'ì´ë©”ì¼ì´ ì´ë¯¸ ì¡´ìž¬í•©ë‹ˆë‹¤.';
 
   @override
-  String get noAccountCreateOne => '계정이 없나요? 하나를 만드세요.';
+  String get noAccountCreateOne => 'ê³„ì •ì´ ì—†ë‚˜ìš”? í•˜ë‚˜ë¥¼ ë§Œë“œì„¸ìš”.';
 
   @override
-  String get getStarted => '시작하기';
+  String get getStarted => 'ì‹œìž‘í•˜ê¸°';
 
   @override
-  String get acceptAndContinue => '동의 및 계속';
+  String get acceptAndContinue => 'ë™ì˜ ë° ê³„ì†';
 
   @override
-  String get acceptAndFinish => '수락 및 완료';
+  String get acceptAndFinish => 'ìˆ˜ë½ ë° ì™„ë£Œ';
 
   @override
-  String get stepTos => '서비스 약관';
+  String get stepTos => 'ì„œë¹„ìŠ¤ ì•½ê´€';
 
   @override
-  String get stepPrivacy => '개인 정보 보호 정책';
+  String get stepPrivacy => 'ê°œì¸ ì •ë³´ ë³´í˜¸ ì •ì±…';
 
   @override
   String addedOn(String date) {
-    return '추가 날짜: $date';
+    return 'ì¶”ê°€ ë‚ ì§œ: $date';
   }
 
   @override
-  String get sendFeedback => '피드백 보내기';
+  String get sendFeedback => 'í”¼ë“œë°± ë³´ë‚´ê¸°';
 
   @override
-  String get feedbackSubject => 'ReadItLater 피드백';
+  String get feedbackSubject => 'Pile í”¼ë“œë°±';
 
   @override
-  String get feedbackTitle => '피드백 보내기';
+  String get feedbackTitle => 'í”¼ë“œë°± ë³´ë‚´ê¸°';
 
   @override
-  String get feedbackName => '이름(선택사항)';
+  String get feedbackName => 'ì´ë¦„(ì„ íƒì‚¬í•­)';
 
   @override
-  String get feedbackEmail => '이메일(선택사항)';
+  String get feedbackEmail => 'ì´ë©”ì¼(ì„ íƒì‚¬í•­)';
 
   @override
-  String get feedbackMessage => '메시지';
+  String get feedbackMessage => 'ë©”ì‹œì§€';
 
   @override
-  String get verifyHuman => '당신이 인간인지 확인해주세요';
+  String get verifyHuman => 'ë‹¹ì‹ ì´ ì¸ê°„ì¸ì§€ í™•ì¸í•´ì£¼ì„¸ìš”';
 
   @override
-  String get send => '보내다';
+  String get send => 'ë³´ë‚´ë‹¤';
 
   @override
-  String get tabLinks => '모래밭';
+  String get tabLinks => 'ëª¨ëž˜ë°­';
 
   @override
-  String get tabDeleted => '삭제됨';
+  String get tabDeleted => 'ì‚­ì œë¨';
 
   @override
-  String get topLinksTitle => '상위 링크';
+  String get topLinksTitle => 'ìƒìœ„ ë§í¬';
 
   @override
-  String get noDeletedLinks => '삭제된 링크 없음';
+  String get noDeletedLinks => 'ì‚­ì œëœ ë§í¬ ì—†ìŒ';
 
   @override
-  String get restoreTooltip => '복원하다';
+  String get restoreTooltip => 'ë³µì›í•˜ë‹¤';
 
   @override
-  String get remindersTitle => '알림';
+  String get remindersTitle => 'ì•Œë¦¼';
 
   @override
-  String get noReminders => '예정된 알림이 없습니다.';
+  String get noReminders => 'ì˜ˆì •ëœ ì•Œë¦¼ì´ ì—†ìŠµë‹ˆë‹¤.';
 
   @override
-  String get didYouKnow => '알고 계셨나요?';
+  String get didYouKnow => 'ì•Œê³  ê³„ì…¨ë‚˜ìš”?';
 
   @override
-  String get shareToAppTip => 'ReadItLater에 공유하여 링크를 추가할 수 있습니다!';
+  String get shareToAppTip => 'Pileì— ê³µìœ í•˜ì—¬ ë§í¬ë¥¼ ì¶”ê°€í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤!';
 
   @override
-  String get commentsLabel => '설명(선택사항)';
+  String get commentsLabel => 'ì„¤ëª…(ì„ íƒì‚¬í•­)';
 
   @override
-  String get accountSettings => '계정 설정';
+  String get accountSettings => 'ê³„ì • ì„¤ì •';
 
   @override
-  String get signIn => '로그인';
+  String get signIn => 'ë¡œê·¸ì¸';
 
   @override
-  String get collectionsTitle => '컬렉션';
+  String get collectionsTitle => 'ì»¬ë ‰ì…˜';
 
   @override
-  String get newCollection => '새로운 컬렉션';
+  String get newCollection => 'ìƒˆë¡œìš´ ì»¬ë ‰ì…˜';
 
   @override
-  String get collectionName => '컬렉션 이름';
+  String get collectionName => 'ì»¬ë ‰ì…˜ ì´ë¦„';
 
   @override
-  String get gridView => '그리드 보기';
+  String get gridView => 'ê·¸ë¦¬ë“œ ë³´ê¸°';
 
   @override
-  String get listView => '목록 보기';
+  String get listView => 'ëª©ë¡ ë³´ê¸°';
 
   @override
-  String get editAccountTitle => '계정 수정';
+  String get editAccountTitle => 'ê³„ì • ìˆ˜ì •';
 
   @override
-  String get changePasswordTitle => '계정 비밀번호 변경';
+  String get changePasswordTitle => 'ê³„ì • ë¹„ë°€ë²ˆí˜¸ ë³€ê²½';
 
   @override
-  String get signOutTitle => '로그아웃';
+  String get signOutTitle => 'ë¡œê·¸ì•„ì›ƒ';
 
   @override
-  String get signOutConfirm => '이 기기의 계정에서 로그아웃하시겠습니까?';
+  String get signOutConfirm => 'ì´ ê¸°ê¸°ì˜ ê³„ì •ì—ì„œ ë¡œê·¸ì•„ì›ƒí•˜ì‹œê² ìŠµë‹ˆê¹Œ?';
 
   @override
-  String get deleteAccountTitle => '계정 삭제';
+  String get deleteAccountTitle => 'ê³„ì • ì‚­ì œ';
 
   @override
-  String get deleteAccountWarning => '계정 삭제: 이 내용을 주의 깊게 읽어보시기 바랍니다.';
+  String get deleteAccountWarning => 'ê³„ì • ì‚­ì œ: ì´ ë‚´ìš©ì„ ì£¼ì˜ ê¹Šê²Œ ì½ì–´ë³´ì‹œê¸° ë°”ëžë‹ˆë‹¤.';
 
   @override
-  String get deleteAccountConfirm => '귀하의 계정 및 모든 관련 데이터가 삭제됩니다. 이 작업은 취소할 수 없습니다. 확실합니까?';
+  String get deleteAccountConfirm => 'ê·€í•˜ì˜ ê³„ì • ë° ëª¨ë“  ê´€ë ¨ ë°ì´í„°ê°€ ì‚­ì œë©ë‹ˆë‹¤. ì´ ìž‘ì—…ì€ ì·¨ì†Œí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤. í™•ì‹¤í•©ë‹ˆê¹Œ?';
 
   @override
-  String get deleteSuccess => '떠나시다니 안타깝습니다! 귀하의 계정이 삭제되었습니다.';
+  String get deleteSuccess => 'ë– ë‚˜ì‹œë‹¤ë‹ˆ ì•ˆíƒ€ê¹ìŠµë‹ˆë‹¤! ê·€í•˜ì˜ ê³„ì •ì´ ì‚­ì œë˜ì—ˆìŠµë‹ˆë‹¤.';
 
   @override
-  String get deleteFail => '계정을 삭제하지 못했습니다. 나중에 다시 시도해 주세요.';
+  String get deleteFail => 'ê³„ì •ì„ ì‚­ì œí•˜ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ë‚˜ì¤‘ì— ë‹¤ì‹œ ì‹œë„í•´ ì£¼ì„¸ìš”.';
 
   @override
-  String get continueButton => '계속하기';
+  String get continueButton => 'ê³„ì†í•˜ê¸°';
 
   @override
-  String get noCollectionsYet => '아직 컬렉션이 없습니다';
+  String get noCollectionsYet => 'ì•„ì§ ì»¬ë ‰ì…˜ì´ ì—†ìŠµë‹ˆë‹¤';
 
   @override
-  String get emptyFolder => '빈 폴더';
+  String get emptyFolder => 'ë¹ˆ í´ë”';
 
   @override
-  String get folderColor => '폴더 색상';
+  String get folderColor => 'í´ë” ìƒ‰ìƒ';
 
   @override
-  String get editAction => '편집';
+  String get editAction => 'íŽ¸ì§‘';
 
   @override
   String get editCollection => 'Edit collection';
 
   @override
-  String get changeColor => '색상 변경';
+  String get changeColor => 'ìƒ‰ìƒ ë³€ê²½';
 
   @override
-  String get deleteCollectionWarning => '내부의 링크는 루트로 이동됩니다.';
+  String get deleteCollectionWarning => 'ë‚´ë¶€ì˜ ë§í¬ëŠ” ë£¨íŠ¸ë¡œ ì´ë™ë©ë‹ˆë‹¤.';
 
   @override
-  String get moveAction => '이동';
+  String get moveAction => 'ì´ë™';
 
   @override
-  String get moveToCollection => '컬렉션으로 이동';
+  String get moveToCollection => 'ì»¬ë ‰ì…˜ìœ¼ë¡œ ì´ë™';
 
   @override
-  String get noCollection => '컬렉션 없음';
+  String get noCollection => 'ì»¬ë ‰ì…˜ ì—†ìŒ';
 
   @override
-  String get noInternetConnection => '인터넷 연결 안됨';
+  String get noInternetConnection => 'ì¸í„°ë„· ì—°ê²° ì•ˆë¨';
 
   @override
-  String get dismiss => '닫기';
+  String get dismiss => 'ë‹«ê¸°';
 
   @override
-  String get tagAll => '전체';
+  String get tagAll => 'ì „ì²´';
 
   @override
-  String get camera => '카메라';
+  String get camera => 'ì¹´ë©”ë¼';
 
   @override
-  String get gallery => '갤러리';
+  String get gallery => 'ê°¤ëŸ¬ë¦¬';
 
   @override
-  String get classicAvatars => '클래식 아바타';
+  String get classicAvatars => 'í´ëž˜ì‹ ì•„ë°”íƒ€';
 
   @override
-  String get classic => '클래식';
+  String get classic => 'í´ëž˜ì‹';
 
   @override
-  String get usernameLengthError => '사용자 이름은 3~45자 사이여야 합니다';
+  String get usernameLengthError => 'ì‚¬ìš©ìž ì´ë¦„ì€ 3~45ìž ì‚¬ì´ì—¬ì•¼ í•©ë‹ˆë‹¤';
 
   @override
-  String get usernameFormatError => '잘못된 사용자 이름 형식입니다.';
+  String get usernameFormatError => 'ìž˜ëª»ëœ ì‚¬ìš©ìž ì´ë¦„ í˜•ì‹ìž…ë‹ˆë‹¤.';
 
   @override
   String visitCount(int count) {
-    return '$count회 방문';
+    return '$countíšŒ ë°©ë¬¸';
   }
 
   @override
-  String get usernameConsecutiveSymbols => '사용자 이름에 연속된 기호를 사용할 수 없습니다.';
+  String get usernameConsecutiveSymbols => 'ì‚¬ìš©ìž ì´ë¦„ì— ì—°ì†ëœ ê¸°í˜¸ë¥¼ ì‚¬ìš©í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.';
 
   @override
-  String get usernameRestrictedWords => '사용자 이름에 제한된 단어가 포함되어 있습니다.';
+  String get usernameRestrictedWords => 'ì‚¬ìš©ìž ì´ë¦„ì— ì œí•œëœ ë‹¨ì–´ê°€ í¬í•¨ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.';
 
   @override
-  String get failedUploadPic => '프로필 사진 업로드에 실패했습니다.';
+  String get failedUploadPic => 'í”„ë¡œí•„ ì‚¬ì§„ ì—…ë¡œë“œì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤.';
 
   @override
-  String get accountUpdated => '계정이 성공적으로 업데이트되었습니다';
+  String get accountUpdated => 'ê³„ì •ì´ ì„±ê³µì ìœ¼ë¡œ ì—…ë°ì´íŠ¸ë˜ì—ˆìŠµë‹ˆë‹¤';
 
   @override
-  String get failedUpdateAccount => '계정 업데이트에 실패했습니다. 이메일이 이미 사용 중일 수 있습니다.';
+  String get failedUpdateAccount => 'ê³„ì • ì—…ë°ì´íŠ¸ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. ì´ë©”ì¼ì´ ì´ë¯¸ ì‚¬ìš© ì¤‘ì¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.';
 
   @override
-  String get editAccountHint => '변경하지 않으려면 필드를 비워 두세요. 이미지를 눌러 아바타를 업데이트하세요.';
+  String get editAccountHint => 'ë³€ê²½í•˜ì§€ ì•Šìœ¼ë ¤ë©´ í•„ë“œë¥¼ ë¹„ì›Œ ë‘ì„¸ìš”. ì´ë¯¸ì§€ë¥¼ ëˆŒëŸ¬ ì•„ë°”íƒ€ë¥¼ ì—…ë°ì´íŠ¸í•˜ì„¸ìš”.';
 
   @override
-  String get saveChanges => '변경 사항 저장';
+  String get saveChanges => 'ë³€ê²½ ì‚¬í•­ ì €ìž¥';
 
   @override
-  String get verifyIdentity => '본인 확인';
+  String get verifyIdentity => 'ë³¸ì¸ í™•ì¸';
 
   @override
-  String get enterCurrentPassword => '계속하려면 현재 비밀번호를 입력하세요.';
+  String get enterCurrentPassword => 'ê³„ì†í•˜ë ¤ë©´ í˜„ìž¬ ë¹„ë°€ë²ˆí˜¸ë¥¼ ìž…ë ¥í•˜ì„¸ìš”.';
 
   @override
-  String get currentPassword => '현재 비밀번호';
+  String get currentPassword => 'í˜„ìž¬ ë¹„ë°€ë²ˆí˜¸';
 
   @override
-  String get incorrectPassword => '잘못된 비밀번호';
+  String get incorrectPassword => 'ìž˜ëª»ëœ ë¹„ë°€ë²ˆí˜¸';
 
   @override
-  String get verify => '확인';
+  String get verify => 'í™•ì¸';
 
   @override
-  String get googleVerifyFailed => 'Google을 통한 본인 확인에 실패했습니다.';
+  String get googleVerifyFailed => 'Googleì„ í†µí•œ ë³¸ì¸ í™•ì¸ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤.';
 
   @override
-  String get confirmIdentity => '계속하려면 먼저 본인임을 확인하세요.';
+  String get confirmIdentity => 'ê³„ì†í•˜ë ¤ë©´ ë¨¼ì € ë³¸ì¸ìž„ì„ í™•ì¸í•˜ì„¸ìš”.';
 
   @override
-  String get verifyIdentityDesc => '계정을 보호하기 위해 본인 확인이 필요합니다.';
+  String get verifyIdentityDesc => 'ê³„ì •ì„ ë³´í˜¸í•˜ê¸° ìœ„í•´ ë³¸ì¸ í™•ì¸ì´ í•„ìš”í•©ë‹ˆë‹¤.';
 
   @override
-  String get continueWithGoogle => 'Google로 계속하기';
+  String get continueWithGoogle => 'Googleë¡œ ê³„ì†í•˜ê¸°';
 
   @override
-  String get editPassword => '비밀번호 편집';
+  String get editPassword => 'ë¹„ë°€ë²ˆí˜¸ íŽ¸ì§‘';
 
   @override
-  String get newPassword => '새 비밀번호';
+  String get newPassword => 'ìƒˆ ë¹„ë°€ë²ˆí˜¸';
 
   @override
-  String get passwordUpdated => '비밀번호가 성공적으로 업데이트되었습니다';
+  String get passwordUpdated => 'ë¹„ë°€ë²ˆí˜¸ê°€ ì„±ê³µì ìœ¼ë¡œ ì—…ë°ì´íŠ¸ë˜ì—ˆìŠµë‹ˆë‹¤';
 
   @override
-  String get failedUpdatePassword => '비밀번호 업데이트에 실패했습니다';
+  String get failedUpdatePassword => 'ë¹„ë°€ë²ˆí˜¸ ì—…ë°ì´íŠ¸ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤';
 
   @override
-  String get savePassword => '비밀번호 저장';
+  String get savePassword => 'ë¹„ë°€ë²ˆí˜¸ ì €ìž¥';
 
   @override
-  String get passwordsDoNotMatch => '비밀번호가 일치하지 않습니다';
+  String get passwordsDoNotMatch => 'ë¹„ë°€ë²ˆí˜¸ê°€ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤';
 
   @override
-  String get none => '없음';
+  String get none => 'ì—†ìŒ';
 
   @override
-  String get feedbackConsumerButton => '사용자 피드백';
+  String get feedbackConsumerButton => 'ì‚¬ìš©ìž í”¼ë“œë°±';
 
   @override
-  String get translationsGitHubButton => 'GitHub 피드백';
+  String get translationsGitHubButton => 'GitHub í”¼ë“œë°±';
 
   @override
-  String get feedbackTranslationsButton => '번역 피드백';
+  String get feedbackTranslationsButton => 'ë²ˆì—­ í”¼ë“œë°±';
 
   @override
-  String get feedbackConsumerNote => '사용자 피드백: 버그, 성능 문제, 기능, 전반적인 사용성 등 앱 사용 경험을 공유해 주세요.';
+  String get feedbackConsumerNote => 'ì‚¬ìš©ìž í”¼ë“œë°±: ë²„ê·¸, ì„±ëŠ¥ ë¬¸ì œ, ê¸°ëŠ¥, ì „ë°˜ì ì¸ ì‚¬ìš©ì„± ë“± ì•± ì‚¬ìš© ê²½í—˜ì„ ê³µìœ í•´ ì£¼ì„¸ìš”.';
 
   @override
-  String get translationsGitHubNote => 'GitHub 피드백: GitHub에서 잘못된 번역, 불명확한 표현, 문법 오류 등 언어 관련 문제를 알려 주세요.';
+  String get translationsGitHubNote => 'GitHub í”¼ë“œë°±: GitHubì—ì„œ ìž˜ëª»ëœ ë²ˆì—­, ë¶ˆëª…í™•í•œ í‘œí˜„, ë¬¸ë²• ì˜¤ë¥˜ ë“± ì–¸ì–´ ê´€ë ¨ ë¬¸ì œë¥¼ ì•Œë ¤ ì£¼ì„¸ìš”.';
 
   @override
-  String get feedbackTranslationsNote => '번역 피드백: 잘못된 번역, 불명확한 표현, 문법 오류 등 언어 관련 문제를 알려 주세요.';
+  String get feedbackTranslationsNote => 'ë²ˆì—­ í”¼ë“œë°±: ìž˜ëª»ëœ ë²ˆì—­, ë¶ˆëª…í™•í•œ í‘œí˜„, ë¬¸ë²• ì˜¤ë¥˜ ë“± ì–¸ì–´ ê´€ë ¨ ë¬¸ì œë¥¼ ì•Œë ¤ ì£¼ì„¸ìš”.';
 
   @override
-  String get aiSettings => 'AI 설정';
+  String get aiSettings => 'AI ì„¤ì •';
 
   @override
-  String get aiSettingsSubtitle => '컬렉션의 AI 정렬과 스타일 메모리를 관리합니다.';
+  String get aiSettingsSubtitle => 'ì»¬ë ‰ì…˜ì˜ AI ì •ë ¬ê³¼ ìŠ¤íƒ€ì¼ ë©”ëª¨ë¦¬ë¥¼ ê´€ë¦¬í•©ë‹ˆë‹¤.';
 
   @override
-  String get useAiSorting => 'AI 정렬 사용';
+  String get useAiSorting => 'AI ì •ë ¬ ì‚¬ìš©';
 
   @override
-  String get useAiSortingSubtitle => '링크를 기반으로 폴더 그룹을 자동으로 제안합니다.';
+  String get useAiSortingSubtitle => 'ë§í¬ë¥¼ ê¸°ë°˜ìœ¼ë¡œ í´ë” ê·¸ë£¹ì„ ìžë™ìœ¼ë¡œ ì œì•ˆí•©ë‹ˆë‹¤.';
 
   @override
-  String get styleMemory => '스타일 메모리';
+  String get styleMemory => 'ìŠ¤íƒ€ì¼ ë©”ëª¨ë¦¬';
 
   @override
-  String get styleMemoryEmpty => '컬렉션 이름 표시 스타일을 설정하세요.';
+  String get styleMemoryEmpty => 'ì»¬ë ‰ì…˜ ì´ë¦„ í‘œì‹œ ìŠ¤íƒ€ì¼ì„ ì„¤ì •í•˜ì„¸ìš”.';
 
   @override
-  String get styleMemoryDesc => '스타일 메모리는 이모지, 대문자, 단순한 스타일 등 당신의 컬렉션 이름 규칙을 조용히 학습해 다음 정리에 적용합니다.';
+  String get styleMemoryDesc => 'ìŠ¤íƒ€ì¼ ë©”ëª¨ë¦¬ëŠ” ì´ëª¨ì§€, ëŒ€ë¬¸ìž, ë‹¨ìˆœí•œ ìŠ¤íƒ€ì¼ ë“± ë‹¹ì‹ ì˜ ì»¬ë ‰ì…˜ ì´ë¦„ ê·œì¹™ì„ ì¡°ìš©ížˆ í•™ìŠµí•´ ë‹¤ìŒ ì •ë¦¬ì— ì ìš©í•©ë‹ˆë‹¤.';
 
   @override
-  String get styleMemorySpecificHint => '구체적으로 작성하세요. 예: \"기술 폴더는 이모지, 업무는 대문자, 개인은 단순하게\".';
+  String get styleMemorySpecificHint => 'êµ¬ì²´ì ìœ¼ë¡œ ìž‘ì„±í•˜ì„¸ìš”. ì˜ˆ: \"ê¸°ìˆ  í´ë”ëŠ” ì´ëª¨ì§€, ì—…ë¬´ëŠ” ëŒ€ë¬¸ìž, ê°œì¸ì€ ë‹¨ìˆœí•˜ê²Œ\".';
 
   @override
-  String get styleMemoryTextHint => '폴더 이름 스타일을 설명해 주세요...';
+  String get styleMemoryTextHint => 'í´ë” ì´ë¦„ ìŠ¤íƒ€ì¼ì„ ì„¤ëª…í•´ ì£¼ì„¸ìš”...';
 
   @override
-  String get styleMemorySaved => '스타일 메모리가 저장되었습니다.';
+  String get styleMemorySaved => 'ìŠ¤íƒ€ì¼ ë©”ëª¨ë¦¬ê°€ ì €ìž¥ë˜ì—ˆìŠµë‹ˆë‹¤.';
 
   @override
-  String get enableAiSortingFirst => '먼저 설정에서 AI 정렬 사용을 켜세요.';
+  String get enableAiSortingFirst => 'ë¨¼ì € ì„¤ì •ì—ì„œ AI ì •ë ¬ ì‚¬ìš©ì„ ì¼œì„¸ìš”.';
 
   @override
-  String get saveMoreLinksTryAgain => '링크를 조금 더 저장한 후 다시 시도하세요';
+  String get saveMoreLinksTryAgain => 'ë§í¬ë¥¼ ì¡°ê¸ˆ ë” ì €ìž¥í•œ í›„ ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”';
 
   @override
-  String get linksTooUnrelated => '이 링크들은 서로 관련성이 너무 낮습니다.';
+  String get linksTooUnrelated => 'ì´ ë§í¬ë“¤ì€ ì„œë¡œ ê´€ë ¨ì„±ì´ ë„ˆë¬´ ë‚®ìŠµë‹ˆë‹¤.';
 
   @override
-  String get linksAlreadySimilar => '이 링크들은 이미 꽤 비슷합니다.';
+  String get linksAlreadySimilar => 'ì´ ë§í¬ë“¤ì€ ì´ë¯¸ ê½¤ ë¹„ìŠ·í•©ë‹ˆë‹¤.';
 
   @override
-  String get aiSortingSaved => 'AI 정렬이 저장되었습니다.';
+  String get aiSortingSaved => 'AI ì •ë ¬ì´ ì €ìž¥ë˜ì—ˆìŠµë‹ˆë‹¤.';
 
   @override
-  String get tryAgainTitle => '다시 시도할까요?';
+  String get tryAgainTitle => 'ë‹¤ì‹œ ì‹œë„í• ê¹Œìš”?';
 
   @override
-  String get tryAgainQuestion => '다시 시도하시겠어요?';
+  String get tryAgainQuestion => 'ë‹¤ì‹œ ì‹œë„í•˜ì‹œê² ì–´ìš”?';
 
   @override
-  String get aiSortingResult => 'AI 정렬 결과';
+  String get aiSortingResult => 'AI ì •ë ¬ ê²°ê³¼';
 
   @override
-  String get saveFolderTree => '이 폴더 트리를 저장할까요?';
+  String get saveFolderTree => 'ì´ í´ë” íŠ¸ë¦¬ë¥¼ ì €ìž¥í• ê¹Œìš”?';
 
   @override
-  String get yes => '예';
+  String get yes => 'ì˜ˆ';
 
   @override
-  String get no => '아니요';
+  String get no => 'ì•„ë‹ˆìš”';
 
   @override
-  String get autoSortLinks => '링크 자동 정렬';
+  String get autoSortLinks => 'ë§í¬ ìžë™ ì •ë ¬';
 
   @override
   String folderCount(String name, int count) {
-    return '폴더: $name ($count)';
+    return 'í´ë”: $name ($count)';
   }
 
   @override
   String moreCount(int count) {
-    return '- +$count개 더';
+    return '- +$countê°œ ë”';
   }
 }
+

@@ -1,4 +1,4 @@
-// ignore: unused_import
+﻿// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
@@ -9,10 +9,10 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Search links and tags...';
@@ -147,7 +147,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get privacyPolicy => 'Privacy Policy';
 
   @override
-  String get welcomeTitle => 'Welcome to ReadItLater';
+  String get welcomeTitle => 'Welcome to Pile';
 
   @override
   String get welcomeMessage => 'Please read and accept our Terms of Service and Privacy Policy to continue.';
@@ -286,7 +286,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get sendFeedback => 'Send feedback';
 
   @override
-  String get feedbackSubject => 'ReadItLater Feedback';
+  String get feedbackSubject => 'Pile Feedback';
 
   @override
   String get feedbackTitle => 'Send feedback';
@@ -331,7 +331,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get didYouKnow => 'Did you know?';
 
   @override
-  String get shareToAppTip => 'You can add links by sharing them to ReadItLater!';
+  String get shareToAppTip => 'You can add links by sharing them to Pile!';
 
   @override
   String get commentsLabel => 'Comments (optional)';
@@ -612,3 +612,4 @@ class AppLocalizationsEn extends AppLocalizations {
     return '- +$count more';
   }
 }
+

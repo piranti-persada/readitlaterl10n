@@ -1,4 +1,4 @@
-// ignore: unused_import
+﻿// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
@@ -9,19 +9,19 @@ class AppLocalizationsFr extends AppLocalizations {
   AppLocalizationsFr([String locale = 'fr']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Rechercher des liens et des balises...';
 
   @override
-  String get noLinksYet => 'Aucun lien enregistré pour l\'instant';
+  String get noLinksYet => 'Aucun lien enregistrÃ© pour l\'instant';
 
   @override
-  String get noMatchingLinks => 'Aucun lien correspondant trouvé';
+  String get noMatchingLinks => 'Aucun lien correspondant trouvÃ©';
 
   @override
   String get tapToAdd => 'Appuyez sur + pour ajouter votre premier lien';
@@ -31,7 +31,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String deleteLinkContent(String name) {
-    return 'Êtes-vous sûr de vouloir supprimer « $name » ?';
+    return 'ÃŠtes-vous sÃ»r de vouloir supprimer Â«Â $nameÂ Â»Â ?';
   }
 
   @override
@@ -41,16 +41,16 @@ class AppLocalizationsFr extends AppLocalizations {
   String get delete => 'Supprimer';
 
   @override
-  String get undo => 'Défaire';
+  String get undo => 'DÃ©faire';
 
   @override
   String deleted(String name) {
-    return '$name supprimé';
+    return '$name supprimÃ©';
   }
 
   @override
   String errorLoading(String error) {
-    return 'Erreur de chargement des données : $error';
+    return 'Erreur de chargement des donnÃ©esÂ : $error';
   }
 
   @override
@@ -80,7 +80,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get pleaseEnterUrl => 'Veuillez saisir une URL';
 
   @override
-  String get accountTitle => 'Paramètres';
+  String get accountTitle => 'ParamÃ¨tres';
 
   @override
   String get language => 'Langue';
@@ -89,7 +89,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get navHome => 'Maison';
 
   @override
-  String get navAccount => 'Paramètres';
+  String get navAccount => 'ParamÃ¨tres';
 
   @override
   String get backupRestoreTitle => 'Sauvegarde et restauration';
@@ -119,55 +119,55 @@ class AppLocalizationsFr extends AppLocalizations {
   String get importLinksTitle => 'Restaurer les liens';
 
   @override
-  String get importLinksSubtitle => 'Restaurer les liens à partir d\'un fichier';
+  String get importLinksSubtitle => 'Restaurer les liens Ã  partir d\'un fichier';
 
   @override
   String importSuccess(int count) {
-    return '$count liens ont été importés avec succès';
+    return '$countÂ liens ont Ã©tÃ© importÃ©s avec succÃ¨s';
   }
 
   @override
   String importFailed(String error) {
-    return 'Échec de l\'importation : $error';
+    return 'Ã‰chec de l\'importationÂ : $error';
   }
 
   @override
-  String get decryptFailed => 'Échec du décryptage ou format invalide';
+  String get decryptFailed => 'Ã‰chec du dÃ©cryptage ou format invalide';
 
   @override
-  String get wrongPassword => 'Mot de passe erroné ou fichier invalide';
+  String get wrongPassword => 'Mot de passe erronÃ© ou fichier invalide';
 
   @override
-  String get favoriteLimitReached => 'Max 3 favoris autorisés';
+  String get favoriteLimitReached => 'Max 3 favoris autorisÃ©s';
 
   @override
   String get termsOfService => 'Conditions d\'utilisation';
 
   @override
-  String get privacyPolicy => 'politique de confidentialité';
+  String get privacyPolicy => 'politique de confidentialitÃ©';
 
   @override
-  String get welcomeTitle => 'Bienvenue sur ReadItLater';
+  String get welcomeTitle => 'Bienvenue sur Pile';
 
   @override
-  String get welcomeMessage => 'Veuillez lire et accepter nos conditions d\'utilisation et notre politique de confidentialité pour continuer.';
+  String get welcomeMessage => 'Veuillez lire et accepter nos conditions d\'utilisation et notre politique de confidentialitÃ© pour continuer.';
 
   @override
   String get accept => 'Accepter';
 
   @override
-  String get decline => 'Déclin';
+  String get decline => 'DÃ©clin';
 
   @override
-  String get setReminder => 'Définir un rappel';
+  String get setReminder => 'DÃ©finir un rappel';
 
   @override
   String reminderSet(String date) {
-    return 'Rappel défini pour $date';
+    return 'Rappel dÃ©fini pour $date';
   }
 
   @override
-  String get recentlyDeleted => 'Récemment supprimé';
+  String get recentlyDeleted => 'RÃ©cemment supprimÃ©';
 
   @override
   String get reminderLimitReached => 'Limite de rappel atteinte (10)';
@@ -182,28 +182,28 @@ class AppLocalizationsFr extends AppLocalizations {
   String get notAvailableInYourCountry => 'Non disponible dans votre pays';
 
   @override
-  String get upgradeToPro => 'Passez à Pro pour des rappels illimités';
+  String get upgradeToPro => 'Passez Ã  Pro pour des rappels illimitÃ©s';
 
   @override
   String restored(String name) {
-    return '$name restauré';
+    return '$name restaurÃ©';
   }
 
   @override
-  String get deletePermanentlyTitle => 'Supprimer définitivement ?';
+  String get deletePermanentlyTitle => 'Supprimer dÃ©finitivementÂ ?';
 
   @override
-  String get deletePermanentlyContent => 'Cette action ne peut pas être annulée.';
+  String get deletePermanentlyContent => 'Cette action ne peut pas Ãªtre annulÃ©e.';
 
   @override
-  String get selectAll => 'Sélectionner tout';
+  String get selectAll => 'SÃ©lectionner tout';
 
   @override
   String get selectedCount => 'choisi';
 
   @override
   String deleteSelectedContent(int count) {
-    return 'Supprimer $count liens ?';
+    return 'Supprimer $countÂ liensÂ ?';
   }
 
   @override
@@ -222,21 +222,21 @@ class AppLocalizationsFr extends AppLocalizations {
   String get loginButton => 'Se connecter';
 
   @override
-  String get logoutButton => 'Se déconnecter';
+  String get logoutButton => 'Se dÃ©connecter';
 
   @override
   String get skipLabel => 'Passer pour l\'instant';
 
   @override
   String loggedInAs(String email) {
-    return 'Connecté en tant que $email';
+    return 'ConnectÃ© en tant que $email';
   }
 
   @override
-  String get createAccount => 'Créer un compte';
+  String get createAccount => 'CrÃ©er un compte';
 
   @override
-  String get nameLabel => 'Nom et prénom';
+  String get nameLabel => 'Nom et prÃ©nom';
 
   @override
   String get confirmPasswordLabel => 'Confirmez le mot de passe';
@@ -248,19 +248,19 @@ class AppLocalizationsFr extends AppLocalizations {
   String get signInWithGoogle => 'Connectez-vous avec Google';
 
   @override
-  String get googleSignInNotSupported => 'Google Sign In n\'est pas configuré dans cette démo.';
+  String get googleSignInNotSupported => 'Google Sign In n\'est pas configurÃ© dans cette dÃ©mo.';
 
   @override
-  String get accountCreated => 'Compte créé avec succès';
+  String get accountCreated => 'Compte crÃ©Ã© avec succÃ¨s';
 
   @override
   String get invalidCredentials => 'Nom d\'utilisateur ou mot de passe invalide';
 
   @override
-  String get emailExists => 'L\'e-mail existe déjà';
+  String get emailExists => 'L\'e-mail existe dÃ©jÃ ';
 
   @override
-  String get noAccountCreateOne => 'Pas de compte ? Créez-en un.';
+  String get noAccountCreateOne => 'Pas de compte ? CrÃ©ez-en un.';
 
   @override
   String get getStarted => 'Commencer';
@@ -275,18 +275,18 @@ class AppLocalizationsFr extends AppLocalizations {
   String get stepTos => 'Conditions d\'utilisation';
 
   @override
-  String get stepPrivacy => 'politique de confidentialité';
+  String get stepPrivacy => 'politique de confidentialitÃ©';
 
   @override
   String addedOn(String date) {
-    return 'Ajouté le : $date';
+    return 'AjoutÃ© leÂ :Â $date';
   }
 
   @override
   String get sendFeedback => 'Envoyer des commentaires';
 
   @override
-  String get feedbackSubject => 'Commentaires à lire plus tard';
+  String get feedbackSubject => 'Commentaires Ã  lire plus tard';
 
   @override
   String get feedbackTitle => 'Envoyer des commentaires';
@@ -301,7 +301,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get feedbackMessage => 'Message';
 
   @override
-  String get verifyHuman => 'Veuillez vérifier que vous êtes humain';
+  String get verifyHuman => 'Veuillez vÃ©rifier que vous Ãªtes humain';
 
   @override
   String get send => 'Envoyer';
@@ -310,13 +310,13 @@ class AppLocalizationsFr extends AppLocalizations {
   String get tabLinks => 'Links';
 
   @override
-  String get tabDeleted => 'Supprimé';
+  String get tabDeleted => 'SupprimÃ©';
 
   @override
   String get topLinksTitle => 'Principaux liens';
 
   @override
-  String get noDeletedLinks => 'Aucun lien supprimé';
+  String get noDeletedLinks => 'Aucun lien supprimÃ©';
 
   @override
   String get restoreTooltip => 'Restaurer';
@@ -325,19 +325,19 @@ class AppLocalizationsFr extends AppLocalizations {
   String get remindersTitle => 'Rappels';
 
   @override
-  String get noReminders => 'Aucun rappel à venir';
+  String get noReminders => 'Aucun rappel Ã  venir';
 
   @override
   String get didYouKnow => 'Saviez-vous?';
 
   @override
-  String get shareToAppTip => 'Vous pouvez ajouter des liens en les partageant sur ReadItLater !';
+  String get shareToAppTip => 'Vous pouvez ajouter des liens en les partageant sur PileÂ !';
 
   @override
   String get commentsLabel => 'Commentaires (facultatif)';
 
   @override
-  String get accountSettings => 'Paramètres du compte';
+  String get accountSettings => 'ParamÃ¨tres du compte';
 
   @override
   String get signIn => 'Se connecter';
@@ -364,25 +364,25 @@ class AppLocalizationsFr extends AppLocalizations {
   String get changePasswordTitle => 'Changer le mot de passe du compte';
 
   @override
-  String get signOutTitle => 'se déconnecter';
+  String get signOutTitle => 'se dÃ©connecter';
 
   @override
-  String get signOutConfirm => 'Êtes-vous sûr de vouloir vous déconnecter de votre compte sur cet appareil ?';
+  String get signOutConfirm => 'ÃŠtes-vous sÃ»r de vouloir vous dÃ©connecter de votre compte sur cet appareilÂ ?';
 
   @override
   String get deleteAccountTitle => 'Supprimer le compte';
 
   @override
-  String get deleteAccountWarning => 'Supprimer le compte : veuillez lire ceci attentivement.';
+  String get deleteAccountWarning => 'Supprimer le compteÂ : veuillez lire ceci attentivement.';
 
   @override
-  String get deleteAccountConfirm => 'Vous allez supprimer votre compte et toutes les données associées. Cela ne pouvait pas être annulé. Es-tu sûr?';
+  String get deleteAccountConfirm => 'Vous allez supprimer votre compte et toutes les donnÃ©es associÃ©es. Cela ne pouvait pas Ãªtre annulÃ©. Es-tu sÃ»r?';
 
   @override
-  String get deleteSuccess => 'Nous sommes désolés de vous voir partir ! Votre compte a été supprimé.';
+  String get deleteSuccess => 'Nous sommes dÃ©solÃ©s de vous voir partir ! Votre compte a Ã©tÃ© supprimÃ©.';
 
   @override
-  String get deleteFail => 'Échec de la suppression du compte. Veuillez réessayer plus tard.';
+  String get deleteFail => 'Ã‰chec de la suppression du compte. Veuillez rÃ©essayer plus tard.';
 
   @override
   String get continueButton => 'Continuer';
@@ -406,13 +406,13 @@ class AppLocalizationsFr extends AppLocalizations {
   String get changeColor => 'Changer la couleur';
 
   @override
-  String get deleteCollectionWarning => 'Les liens à l\'intérieur seront déplacés vers la racine.';
+  String get deleteCollectionWarning => 'Les liens Ã  l\'intÃ©rieur seront dÃ©placÃ©s vers la racine.';
 
   @override
-  String get moveAction => 'Déplacer';
+  String get moveAction => 'DÃ©placer';
 
   @override
-  String get moveToCollection => 'Déplacer vers la collection';
+  String get moveToCollection => 'DÃ©placer vers la collection';
 
   @override
   String get noCollection => 'Aucune collection';
@@ -439,7 +439,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get classic => 'Classique';
 
   @override
-  String get usernameLengthError => 'Le nom d\'utilisateur doit comporter entre 3 et 45 caractères';
+  String get usernameLengthError => 'Le nom d\'utilisateur doit comporter entre 3 et 45 caractÃ¨res';
 
   @override
   String get usernameFormatError => 'Format de nom d\'utilisateur invalide.';
@@ -450,28 +450,28 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String get usernameConsecutiveSymbols => 'Le nom d\'utilisateur ne peut pas contenir de symboles consécutifs.';
+  String get usernameConsecutiveSymbols => 'Le nom d\'utilisateur ne peut pas contenir de symboles consÃ©cutifs.';
 
   @override
   String get usernameRestrictedWords => 'Le nom d\'utilisateur contient des mots interdits.';
 
   @override
-  String get failedUploadPic => 'Échec du téléchargement de la photo de profil.';
+  String get failedUploadPic => 'Ã‰chec du tÃ©lÃ©chargement de la photo de profil.';
 
   @override
-  String get accountUpdated => 'Compte mis à jour avec succès';
+  String get accountUpdated => 'Compte mis Ã  jour avec succÃ¨s';
 
   @override
-  String get failedUpdateAccount => 'Échec de la mise à jour du compte. L\'e-mail est peut-être déjà utilisé.';
+  String get failedUpdateAccount => 'Ã‰chec de la mise Ã  jour du compte. L\'e-mail est peut-Ãªtre dÃ©jÃ  utilisÃ©.';
 
   @override
-  String get editAccountHint => 'Laissez les champs vides si vous ne souhaitez pas les modifier. Appuyez sur l\'image pour mettre à jour l\'avatar.';
+  String get editAccountHint => 'Laissez les champs vides si vous ne souhaitez pas les modifier. Appuyez sur l\'image pour mettre Ã  jour l\'avatar.';
 
   @override
   String get saveChanges => 'Enregistrer les modifications';
 
   @override
-  String get verifyIdentity => 'Vérifier l\'identité';
+  String get verifyIdentity => 'VÃ©rifier l\'identitÃ©';
 
   @override
   String get enterCurrentPassword => 'Veuillez entrer votre mot de passe actuel pour continuer.';
@@ -483,16 +483,16 @@ class AppLocalizationsFr extends AppLocalizations {
   String get incorrectPassword => 'Mot de passe incorrect';
 
   @override
-  String get verify => 'Vérifier';
+  String get verify => 'VÃ©rifier';
 
   @override
-  String get googleVerifyFailed => 'Échec de la vérification d\'identité avec Google.';
+  String get googleVerifyFailed => 'Ã‰chec de la vÃ©rification d\'identitÃ© avec Google.';
 
   @override
   String get confirmIdentity => 'Pour continuer, confirmez d\'abord que c\'est bien vous.';
 
   @override
-  String get verifyIdentityDesc => 'Nous devons vérifier votre identité pour protéger votre compte.';
+  String get verifyIdentityDesc => 'Nous devons vÃ©rifier votre identitÃ© pour protÃ©ger votre compte.';
 
   @override
   String get continueWithGoogle => 'Continuer avec Google';
@@ -504,10 +504,10 @@ class AppLocalizationsFr extends AppLocalizations {
   String get newPassword => 'Nouveau mot de passe';
 
   @override
-  String get passwordUpdated => 'Mot de passe mis à jour avec succès';
+  String get passwordUpdated => 'Mot de passe mis Ã  jour avec succÃ¨s';
 
   @override
-  String get failedUpdatePassword => 'Échec de la mise à jour du mot de passe';
+  String get failedUpdatePassword => 'Ã‰chec de la mise Ã  jour du mot de passe';
 
   @override
   String get savePassword => 'Enregistrer le mot de passe';
@@ -537,58 +537,58 @@ class AppLocalizationsFr extends AppLocalizations {
   String get feedbackTranslationsNote => 'Retours sur les traductions : signalez les problemes de langue, comme les traductions incorrectes, les formulations ambigues ou les fautes de grammaire.';
 
   @override
-  String get aiSettings => 'Paramètres IA';
+  String get aiSettings => 'ParamÃ¨tres IA';
 
   @override
-  String get aiSettingsSubtitle => 'Contrôlez le tri IA et la mémoire de style pour les collections.';
+  String get aiSettingsSubtitle => 'ContrÃ´lez le tri IA et la mÃ©moire de style pour les collections.';
 
   @override
   String get useAiSorting => 'Utiliser le tri IA';
 
   @override
-  String get useAiSortingSubtitle => 'Suggère automatiquement des regroupements de dossiers selon vos liens.';
+  String get useAiSortingSubtitle => 'SuggÃ¨re automatiquement des regroupements de dossiers selon vos liens.';
 
   @override
-  String get styleMemory => 'Mémoire de style';
+  String get styleMemory => 'MÃ©moire de style';
 
   @override
-  String get styleMemoryEmpty => 'Définissez le style des noms de collections.';
+  String get styleMemoryEmpty => 'DÃ©finissez le style des noms de collections.';
 
   @override
-  String get styleMemoryDesc => 'La mémoire de style apprend discrètement comment vous nommez et organisez vos collections - emojis, MAJUSCULES ou style simple - et applique ce style la prochaine fois.';
+  String get styleMemoryDesc => 'La mÃ©moire de style apprend discrÃ¨tement comment vous nommez et organisez vos collections - emojis, MAJUSCULES ou style simple - et applique ce style la prochaine fois.';
 
   @override
-  String get styleMemorySpecificHint => 'Soyez précis. Exemple : \"Emojis pour la tech, MAJUSCULES pour le travail, simple pour le perso.\"';
+  String get styleMemorySpecificHint => 'Soyez prÃ©cis. Exemple : \"Emojis pour la tech, MAJUSCULES pour le travail, simple pour le perso.\"';
 
   @override
-  String get styleMemoryTextHint => 'Décrivez votre style de noms de dossiers...';
+  String get styleMemoryTextHint => 'DÃ©crivez votre style de noms de dossiers...';
 
   @override
-  String get styleMemorySaved => 'Mémoire de style enregistrée.';
+  String get styleMemorySaved => 'MÃ©moire de style enregistrÃ©e.';
 
   @override
-  String get enableAiSortingFirst => 'Activez d\'abord Utiliser le tri IA dans les paramètres.';
+  String get enableAiSortingFirst => 'Activez d\'abord Utiliser le tri IA dans les paramÃ¨tres.';
 
   @override
-  String get saveMoreLinksTryAgain => 'Enregistrez encore quelques liens puis réessayez';
+  String get saveMoreLinksTryAgain => 'Enregistrez encore quelques liens puis rÃ©essayez';
 
   @override
-  String get linksTooUnrelated => 'Ces liens sont trop peu liés.';
+  String get linksTooUnrelated => 'Ces liens sont trop peu liÃ©s.';
 
   @override
-  String get linksAlreadySimilar => 'Ces liens sont déjà assez similaires.';
+  String get linksAlreadySimilar => 'Ces liens sont dÃ©jÃ  assez similaires.';
 
   @override
-  String get aiSortingSaved => 'Tri IA enregistré.';
+  String get aiSortingSaved => 'Tri IA enregistrÃ©.';
 
   @override
-  String get tryAgainTitle => 'Réessayer ?';
+  String get tryAgainTitle => 'RÃ©essayer ?';
 
   @override
-  String get tryAgainQuestion => 'Voulez-vous réessayer ?';
+  String get tryAgainQuestion => 'Voulez-vous rÃ©essayer ?';
 
   @override
-  String get aiSortingResult => 'Résultat du tri IA';
+  String get aiSortingResult => 'RÃ©sultat du tri IA';
 
   @override
   String get saveFolderTree => 'Enregistrer cet arbre de dossiers ?';
@@ -612,3 +612,4 @@ class AppLocalizationsFr extends AppLocalizations {
     return '- +$count de plus';
   }
 }
+

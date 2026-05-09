@@ -1,4 +1,4 @@
-// ignore: unused_import
+﻿// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
@@ -9,10 +9,10 @@ class AppLocalizationsId extends AppLocalizations {
   AppLocalizationsId([String locale = 'id']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Cari tautan dan label...';
@@ -147,7 +147,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get privacyPolicy => 'Kebijakan Privasi';
 
   @override
-  String get welcomeTitle => 'Selamat datang di ReadItLater';
+  String get welcomeTitle => 'Selamat datang di Pile';
 
   @override
   String get welcomeMessage => 'Mohon baca dan setuju dengan Syarat Layanan dan Kebijakan Privasi kami untuk melanjutkan.';
@@ -286,7 +286,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get sendFeedback => 'Kirim masukan';
 
   @override
-  String get feedbackSubject => 'Masukan ReadItLater';
+  String get feedbackSubject => 'Masukan Pile';
 
   @override
   String get feedbackTitle => 'Kirim masukan';
@@ -331,7 +331,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get didYouKnow => 'Tahukah Anda?';
 
   @override
-  String get shareToAppTip => 'Anda dapat menambahkan tautan dengan membagikannya ke ReadItLater!';
+  String get shareToAppTip => 'Anda dapat menambahkan tautan dengan membagikannya ke Pile!';
 
   @override
   String get commentsLabel => 'Komentar (Opsional)';
@@ -612,3 +612,4 @@ class AppLocalizationsId extends AppLocalizations {
     return '- +$count lagi';
   }
 }
+

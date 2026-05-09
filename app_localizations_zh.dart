@@ -1,4 +1,4 @@
-// ignore: unused_import
+﻿// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
@@ -9,607 +9,607 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
-  String get searchHint => '搜索链接和标签...';
+  String get searchHint => 'æœç´¢é“¾æŽ¥å’Œæ ‡ç­¾...';
 
   @override
-  String get noLinksYet => '尚未保存链接';
+  String get noLinksYet => 'å°šæœªä¿å­˜é“¾æŽ¥';
 
   @override
-  String get noMatchingLinks => '没有找到匹配的链接';
+  String get noMatchingLinks => 'æ²¡æœ‰æ‰¾åˆ°åŒ¹é…çš„é“¾æŽ¥';
 
   @override
-  String get tapToAdd => '点击 + 添加您的第一个链接';
+  String get tapToAdd => 'ç‚¹å‡» + æ·»åŠ æ‚¨çš„ç¬¬ä¸€ä¸ªé“¾æŽ¥';
 
   @override
-  String get deleteLinkTitle => '删除链接';
+  String get deleteLinkTitle => 'åˆ é™¤é“¾æŽ¥';
 
   @override
   String deleteLinkContent(String name) {
-    return '您确定要删除“$name”吗？';
+    return 'æ‚¨ç¡®å®šè¦åˆ é™¤â€œ$nameâ€å—ï¼Ÿ';
   }
 
   @override
-  String get cancel => '取消';
+  String get cancel => 'å–æ¶ˆ';
 
   @override
-  String get delete => '删除';
+  String get delete => 'åˆ é™¤';
 
   @override
-  String get undo => '撤消';
+  String get undo => 'æ’¤æ¶ˆ';
 
   @override
   String deleted(String name) {
-    return '$name已删除';
+    return '$nameå·²åˆ é™¤';
   }
 
   @override
   String errorLoading(String error) {
-    return '加载数据时出错：$error';
+    return 'åŠ è½½æ•°æ®æ—¶å‡ºé”™ï¼š$error';
   }
 
   @override
   String couldNotOpen(String url) {
-    return '无法打开 $url';
+    return 'æ— æ³•æ‰“å¼€ $url';
   }
 
   @override
-  String get addLinkTitle => '添加链接';
+  String get addLinkTitle => 'æ·»åŠ é“¾æŽ¥';
 
   @override
-  String get editLinkTitle => '编辑链接';
+  String get editLinkTitle => 'ç¼–è¾‘é“¾æŽ¥';
 
   @override
-  String get linkTitleLabel => '标题';
+  String get linkTitleLabel => 'æ ‡é¢˜';
 
   @override
-  String get urlLabel => '网址';
+  String get urlLabel => 'ç½‘å€';
 
   @override
-  String get addTagLabel => '添加标签';
+  String get addTagLabel => 'æ·»åŠ æ ‡ç­¾';
 
   @override
-  String get save => '节省';
+  String get save => 'èŠ‚çœ';
 
   @override
-  String get pleaseEnterUrl => '请输入网址';
+  String get pleaseEnterUrl => 'è¯·è¾“å…¥ç½‘å€';
 
   @override
-  String get accountTitle => '设定';
+  String get accountTitle => 'è®¾å®š';
 
   @override
-  String get language => '语言';
+  String get language => 'è¯­è¨€';
 
   @override
-  String get navHome => '家';
+  String get navHome => 'å®¶';
 
   @override
-  String get navAccount => '设定';
+  String get navAccount => 'è®¾å®š';
 
   @override
-  String get backupRestoreTitle => '备份与恢复';
+  String get backupRestoreTitle => 'å¤‡ä»½ä¸Žæ¢å¤';
 
   @override
-  String get exportLinksTitle => '导出链接';
+  String get exportLinksTitle => 'å¯¼å‡ºé“¾æŽ¥';
 
   @override
-  String get exportLinksSubtitle => '将链接保存到文件';
+  String get exportLinksSubtitle => 'å°†é“¾æŽ¥ä¿å­˜åˆ°æ–‡ä»¶';
 
   @override
-  String get enterPassword => '输入密码（可选）';
+  String get enterPassword => 'è¾“å…¥å¯†ç ï¼ˆå¯é€‰ï¼‰';
 
   @override
-  String get password => '密码';
+  String get password => 'å¯†ç ';
 
   @override
-  String get encryptFile => '加密';
+  String get encryptFile => 'åŠ å¯†';
 
   @override
   String get instagram => 'Instagram';
 
   @override
-  String get faqTitle => '常见问题解答';
+  String get faqTitle => 'å¸¸è§é—®é¢˜è§£ç­”';
 
   @override
-  String get importLinksTitle => '恢复链接';
+  String get importLinksTitle => 'æ¢å¤é“¾æŽ¥';
 
   @override
-  String get importLinksSubtitle => '从文件恢复链接';
+  String get importLinksSubtitle => 'ä»Žæ–‡ä»¶æ¢å¤é“¾æŽ¥';
 
   @override
   String importSuccess(int count) {
-    return '已成功导入 $count 个链接';
+    return 'å·²æˆåŠŸå¯¼å…¥ $count ä¸ªé“¾æŽ¥';
   }
 
   @override
   String importFailed(String error) {
-    return '导入失败：$error';
+    return 'å¯¼å…¥å¤±è´¥ï¼š$error';
   }
 
   @override
-  String get decryptFailed => '解密失败或格式无效';
+  String get decryptFailed => 'è§£å¯†å¤±è´¥æˆ–æ ¼å¼æ— æ•ˆ';
 
   @override
-  String get wrongPassword => '密码错误或文件无效';
+  String get wrongPassword => 'å¯†ç é”™è¯¯æˆ–æ–‡ä»¶æ— æ•ˆ';
 
   @override
-  String get favoriteLimitReached => '最多允许 3 个收藏夹';
+  String get favoriteLimitReached => 'æœ€å¤šå…è®¸ 3 ä¸ªæ”¶è—å¤¹';
 
   @override
-  String get termsOfService => '服务条款';
+  String get termsOfService => 'æœåŠ¡æ¡æ¬¾';
 
   @override
-  String get privacyPolicy => '隐私政策';
+  String get privacyPolicy => 'éšç§æ”¿ç­–';
 
   @override
-  String get welcomeTitle => '欢迎ReadItLater';
+  String get welcomeTitle => 'æ¬¢è¿ŽPile';
 
   @override
-  String get welcomeMessage => '请阅读并接受我们的服务条款和隐私政策以继续。';
+  String get welcomeMessage => 'è¯·é˜…è¯»å¹¶æŽ¥å—æˆ‘ä»¬çš„æœåŠ¡æ¡æ¬¾å’Œéšç§æ”¿ç­–ä»¥ç»§ç»­ã€‚';
 
   @override
-  String get accept => '接受';
+  String get accept => 'æŽ¥å—';
 
   @override
-  String get decline => '衰退';
+  String get decline => 'è¡°é€€';
 
   @override
-  String get setReminder => '设定提醒';
+  String get setReminder => 'è®¾å®šæé†’';
 
   @override
   String reminderSet(String date) {
-    return '设定为 $date 的提醒';
+    return 'è®¾å®šä¸º $date çš„æé†’';
   }
 
   @override
-  String get recentlyDeleted => '最近删除';
+  String get recentlyDeleted => 'æœ€è¿‘åˆ é™¤';
 
   @override
-  String get reminderLimitReached => '已达到提醒限制 (10)';
+  String get reminderLimitReached => 'å·²è¾¾åˆ°æé†’é™åˆ¶ (10)';
 
   @override
   String get notificationsOrExactAlarmPermissionsBlocked => 'Notifications and/or exact alarm permissions blocked';
 
   @override
-  String get proVersion => '专业版';
+  String get proVersion => 'ä¸“ä¸šç‰ˆ';
 
   @override
-  String get notAvailableInYourCountry => '在您所在的国家/地区不可用';
+  String get notAvailableInYourCountry => 'åœ¨æ‚¨æ‰€åœ¨çš„å›½å®¶/åœ°åŒºä¸å¯ç”¨';
 
   @override
-  String get upgradeToPro => '升级至专业版可无限次提醒';
+  String get upgradeToPro => 'å‡çº§è‡³ä¸“ä¸šç‰ˆå¯æ— é™æ¬¡æé†’';
 
   @override
   String restored(String name) {
-    return '$name已恢复';
+    return '$nameå·²æ¢å¤';
   }
 
   @override
-  String get deletePermanentlyTitle => '永久删除？';
+  String get deletePermanentlyTitle => 'æ°¸ä¹…åˆ é™¤ï¼Ÿ';
 
   @override
-  String get deletePermanentlyContent => '此操作无法撤消。';
+  String get deletePermanentlyContent => 'æ­¤æ“ä½œæ— æ³•æ’¤æ¶ˆã€‚';
 
   @override
-  String get selectAll => '选择全部';
+  String get selectAll => 'é€‰æ‹©å…¨éƒ¨';
 
   @override
-  String get selectedCount => '已选择';
+  String get selectedCount => 'å·²é€‰æ‹©';
 
   @override
   String deleteSelectedContent(int count) {
-    return '删除 $count 个链接？';
+    return 'åˆ é™¤ $count ä¸ªé“¾æŽ¥ï¼Ÿ';
   }
 
   @override
-  String get loginTitle => '登录';
+  String get loginTitle => 'ç™»å½•';
 
   @override
-  String get emailLabel => '电子邮件';
+  String get emailLabel => 'ç”µå­é‚®ä»¶';
 
   @override
-  String get usernameLabel => '用户名';
+  String get usernameLabel => 'ç”¨æˆ·å';
 
   @override
-  String get passwordLabel => '密码';
+  String get passwordLabel => 'å¯†ç ';
 
   @override
-  String get loginButton => '登录';
+  String get loginButton => 'ç™»å½•';
 
   @override
-  String get logoutButton => '退出';
+  String get logoutButton => 'é€€å‡º';
 
   @override
-  String get skipLabel => '暂时跳过';
+  String get skipLabel => 'æš‚æ—¶è·³è¿‡';
 
   @override
   String loggedInAs(String email) {
-    return '以 $email 身份登录';
+    return 'ä»¥ $email èº«ä»½ç™»å½•';
   }
 
   @override
-  String get createAccount => '创建账户';
+  String get createAccount => 'åˆ›å»ºè´¦æˆ·';
 
   @override
-  String get nameLabel => '姓名';
+  String get nameLabel => 'å§“å';
 
   @override
-  String get confirmPasswordLabel => '确认密码';
+  String get confirmPasswordLabel => 'ç¡®è®¤å¯†ç ';
 
   @override
-  String get registerButton => '登记';
+  String get registerButton => 'ç™»è®°';
 
   @override
-  String get signInWithGoogle => '使用 Google 登录';
+  String get signInWithGoogle => 'ä½¿ç”¨ Google ç™»å½•';
 
   @override
-  String get googleSignInNotSupported => '此演示中未配置 Google Sign In。';
+  String get googleSignInNotSupported => 'æ­¤æ¼”ç¤ºä¸­æœªé…ç½® Google Sign Inã€‚';
 
   @override
-  String get accountCreated => '账户创建成功';
+  String get accountCreated => 'è´¦æˆ·åˆ›å»ºæˆåŠŸ';
 
   @override
-  String get invalidCredentials => '用户名或密码无效';
+  String get invalidCredentials => 'ç”¨æˆ·åæˆ–å¯†ç æ— æ•ˆ';
 
   @override
-  String get emailExists => '电子邮件已存在';
+  String get emailExists => 'ç”µå­é‚®ä»¶å·²å­˜åœ¨';
 
   @override
-  String get noAccountCreateOne => '没有帐户？创建一个。';
+  String get noAccountCreateOne => 'æ²¡æœ‰å¸æˆ·ï¼Ÿåˆ›å»ºä¸€ä¸ªã€‚';
 
   @override
-  String get getStarted => '开始使用';
+  String get getStarted => 'å¼€å§‹ä½¿ç”¨';
 
   @override
-  String get acceptAndContinue => '接受并继续';
+  String get acceptAndContinue => 'æŽ¥å—å¹¶ç»§ç»­';
 
   @override
-  String get acceptAndFinish => '接受并完成';
+  String get acceptAndFinish => 'æŽ¥å—å¹¶å®Œæˆ';
 
   @override
-  String get stepTos => '服务条款';
+  String get stepTos => 'æœåŠ¡æ¡æ¬¾';
 
   @override
-  String get stepPrivacy => '隐私政策';
+  String get stepPrivacy => 'éšç§æ”¿ç­–';
 
   @override
   String addedOn(String date) {
-    return '添加日期：$date';
+    return 'æ·»åŠ æ—¥æœŸï¼š$date';
   }
 
   @override
-  String get sendFeedback => '发送反馈';
+  String get sendFeedback => 'å‘é€åé¦ˆ';
 
   @override
-  String get feedbackSubject => '稍后阅读反馈';
+  String get feedbackSubject => 'ç¨åŽé˜…è¯»åé¦ˆ';
 
   @override
-  String get feedbackTitle => '发送反馈';
+  String get feedbackTitle => 'å‘é€åé¦ˆ';
 
   @override
-  String get feedbackName => '姓名（可选）';
+  String get feedbackName => 'å§“åï¼ˆå¯é€‰ï¼‰';
 
   @override
-  String get feedbackEmail => '电子邮件（可选）';
+  String get feedbackEmail => 'ç”µå­é‚®ä»¶ï¼ˆå¯é€‰ï¼‰';
 
   @override
-  String get feedbackMessage => '信息';
+  String get feedbackMessage => 'ä¿¡æ¯';
 
   @override
-  String get verifyHuman => '请验证您是人类';
+  String get verifyHuman => 'è¯·éªŒè¯æ‚¨æ˜¯äººç±»';
 
   @override
-  String get send => '发送';
+  String get send => 'å‘é€';
 
   @override
-  String get tabLinks => '链接';
+  String get tabLinks => 'é“¾æŽ¥';
 
   @override
-  String get tabDeleted => '已删除';
+  String get tabDeleted => 'å·²åˆ é™¤';
 
   @override
-  String get topLinksTitle => '热门链接';
+  String get topLinksTitle => 'çƒ­é—¨é“¾æŽ¥';
 
   @override
-  String get noDeletedLinks => '没有删除的链接';
+  String get noDeletedLinks => 'æ²¡æœ‰åˆ é™¤çš„é“¾æŽ¥';
 
   @override
-  String get restoreTooltip => '恢复';
+  String get restoreTooltip => 'æ¢å¤';
 
   @override
-  String get remindersTitle => '提醒事项';
+  String get remindersTitle => 'æé†’äº‹é¡¹';
 
   @override
-  String get noReminders => '没有即将到来的提醒';
+  String get noReminders => 'æ²¡æœ‰å³å°†åˆ°æ¥çš„æé†’';
 
   @override
-  String get didYouKnow => '你可知道？';
+  String get didYouKnow => 'ä½ å¯çŸ¥é“ï¼Ÿ';
 
   @override
-  String get shareToAppTip => '您可以通过将其分享到 ReadItLater 来添加链接！';
+  String get shareToAppTip => 'æ‚¨å¯ä»¥é€šè¿‡å°†å…¶åˆ†äº«åˆ° Pile æ¥æ·»åŠ é“¾æŽ¥ï¼';
 
   @override
-  String get commentsLabel => '评论（可选）';
+  String get commentsLabel => 'è¯„è®ºï¼ˆå¯é€‰ï¼‰';
 
   @override
-  String get accountSettings => '账户设定';
+  String get accountSettings => 'è´¦æˆ·è®¾å®š';
 
   @override
-  String get signIn => '登入';
+  String get signIn => 'ç™»å…¥';
 
   @override
-  String get collectionsTitle => '收藏';
+  String get collectionsTitle => 'æ”¶è—';
 
   @override
-  String get newCollection => '新收藏';
+  String get newCollection => 'æ–°æ”¶è—';
 
   @override
-  String get collectionName => '收藏名称';
+  String get collectionName => 'æ”¶è—åç§°';
 
   @override
-  String get gridView => '网格视图';
+  String get gridView => 'ç½‘æ ¼è§†å›¾';
 
   @override
-  String get listView => '列表视图';
+  String get listView => 'åˆ—è¡¨è§†å›¾';
 
   @override
-  String get editAccountTitle => '编辑帐户';
+  String get editAccountTitle => 'ç¼–è¾‘å¸æˆ·';
 
   @override
-  String get changePasswordTitle => '更改账户密码';
+  String get changePasswordTitle => 'æ›´æ”¹è´¦æˆ·å¯†ç ';
 
   @override
-  String get signOutTitle => '登出';
+  String get signOutTitle => 'ç™»å‡º';
 
   @override
-  String get signOutConfirm => '您确定要从此设备中的帐户注销吗？';
+  String get signOutConfirm => 'æ‚¨ç¡®å®šè¦ä»Žæ­¤è®¾å¤‡ä¸­çš„å¸æˆ·æ³¨é”€å—ï¼Ÿ';
 
   @override
-  String get deleteAccountTitle => '删除帐户';
+  String get deleteAccountTitle => 'åˆ é™¤å¸æˆ·';
 
   @override
-  String get deleteAccountWarning => '删除帐户：请仔细阅读此内容。';
+  String get deleteAccountWarning => 'åˆ é™¤å¸æˆ·ï¼šè¯·ä»”ç»†é˜…è¯»æ­¤å†…å®¹ã€‚';
 
   @override
-  String get deleteAccountConfirm => '您将删除您的帐户以及所有相关数据。这是无法撤销的。你确定吗？';
+  String get deleteAccountConfirm => 'æ‚¨å°†åˆ é™¤æ‚¨çš„å¸æˆ·ä»¥åŠæ‰€æœ‰ç›¸å…³æ•°æ®ã€‚è¿™æ˜¯æ— æ³•æ’¤é”€çš„ã€‚ä½ ç¡®å®šå—ï¼Ÿ';
 
   @override
-  String get deleteSuccess => '看到你离开我们感到很遗憾！您的帐户已被删除。';
+  String get deleteSuccess => 'çœ‹åˆ°ä½ ç¦»å¼€æˆ‘ä»¬æ„Ÿåˆ°å¾ˆé—æ†¾ï¼æ‚¨çš„å¸æˆ·å·²è¢«åˆ é™¤ã€‚';
 
   @override
-  String get deleteFail => '删除帐户失败。请稍后重试。';
+  String get deleteFail => 'åˆ é™¤å¸æˆ·å¤±è´¥ã€‚è¯·ç¨åŽé‡è¯•ã€‚';
 
   @override
-  String get continueButton => '继续';
+  String get continueButton => 'ç»§ç»­';
 
   @override
-  String get noCollectionsYet => '暂无收藏';
+  String get noCollectionsYet => 'æš‚æ— æ”¶è—';
 
   @override
-  String get emptyFolder => '空文件夹';
+  String get emptyFolder => 'ç©ºæ–‡ä»¶å¤¹';
 
   @override
-  String get folderColor => '文件夹颜色';
+  String get folderColor => 'æ–‡ä»¶å¤¹é¢œè‰²';
 
   @override
-  String get editAction => '编辑';
+  String get editAction => 'ç¼–è¾‘';
 
   @override
   String get editCollection => '????';
 
   @override
-  String get changeColor => '更改颜色';
+  String get changeColor => 'æ›´æ”¹é¢œè‰²';
 
   @override
-  String get deleteCollectionWarning => '里面的链接将被移至根目录。';
+  String get deleteCollectionWarning => 'é‡Œé¢çš„é“¾æŽ¥å°†è¢«ç§»è‡³æ ¹ç›®å½•ã€‚';
 
   @override
-  String get moveAction => '移动';
+  String get moveAction => 'ç§»åŠ¨';
 
   @override
-  String get moveToCollection => '移至收藏';
+  String get moveToCollection => 'ç§»è‡³æ”¶è—';
 
   @override
-  String get noCollection => '无收藏';
+  String get noCollection => 'æ— æ”¶è—';
 
   @override
-  String get noInternetConnection => '无网络连接';
+  String get noInternetConnection => 'æ— ç½‘ç»œè¿žæŽ¥';
 
   @override
-  String get dismiss => '关闭';
+  String get dismiss => 'å…³é—­';
 
   @override
-  String get tagAll => '全部';
+  String get tagAll => 'å…¨éƒ¨';
 
   @override
-  String get camera => '相机';
+  String get camera => 'ç›¸æœº';
 
   @override
-  String get gallery => '相册';
+  String get gallery => 'ç›¸å†Œ';
 
   @override
-  String get classicAvatars => '经典头像';
+  String get classicAvatars => 'ç»å…¸å¤´åƒ';
 
   @override
-  String get classic => '经典';
+  String get classic => 'ç»å…¸';
 
   @override
-  String get usernameLengthError => '用户名必须在3到45个字符之间';
+  String get usernameLengthError => 'ç”¨æˆ·åå¿…é¡»åœ¨3åˆ°45ä¸ªå­—ç¬¦ä¹‹é—´';
 
   @override
-  String get usernameFormatError => '用户名格式无效。';
+  String get usernameFormatError => 'ç”¨æˆ·åæ ¼å¼æ— æ•ˆã€‚';
 
   @override
   String visitCount(int count) {
-    return '$count 次访问';
+    return '$count æ¬¡è®¿é—®';
   }
 
   @override
-  String get usernameConsecutiveSymbols => '用户名不能包含连续的符号。';
+  String get usernameConsecutiveSymbols => 'ç”¨æˆ·åä¸èƒ½åŒ…å«è¿žç»­çš„ç¬¦å·ã€‚';
 
   @override
-  String get usernameRestrictedWords => '用户名包含受限词汇。';
+  String get usernameRestrictedWords => 'ç”¨æˆ·ååŒ…å«å—é™è¯æ±‡ã€‚';
 
   @override
-  String get failedUploadPic => '上传头像失败。';
+  String get failedUploadPic => 'ä¸Šä¼ å¤´åƒå¤±è´¥ã€‚';
 
   @override
-  String get accountUpdated => '账户更新成功';
+  String get accountUpdated => 'è´¦æˆ·æ›´æ–°æˆåŠŸ';
 
   @override
-  String get failedUpdateAccount => '账户更新失败。邮箱可能已被使用。';
+  String get failedUpdateAccount => 'è´¦æˆ·æ›´æ–°å¤±è´¥ã€‚é‚®ç®±å¯èƒ½å·²è¢«ä½¿ç”¨ã€‚';
 
   @override
-  String get editAccountHint => '如果不想更改，请将字段留空。点击图片更新头像。';
+  String get editAccountHint => 'å¦‚æžœä¸æƒ³æ›´æ”¹ï¼Œè¯·å°†å­—æ®µç•™ç©ºã€‚ç‚¹å‡»å›¾ç‰‡æ›´æ–°å¤´åƒã€‚';
 
   @override
-  String get saveChanges => '保存更改';
+  String get saveChanges => 'ä¿å­˜æ›´æ”¹';
 
   @override
-  String get verifyIdentity => '验证身份';
+  String get verifyIdentity => 'éªŒè¯èº«ä»½';
 
   @override
-  String get enterCurrentPassword => '请输入当前密码以继续。';
+  String get enterCurrentPassword => 'è¯·è¾“å…¥å½“å‰å¯†ç ä»¥ç»§ç»­ã€‚';
 
   @override
-  String get currentPassword => '当前密码';
+  String get currentPassword => 'å½“å‰å¯†ç ';
 
   @override
-  String get incorrectPassword => '密码不正确';
+  String get incorrectPassword => 'å¯†ç ä¸æ­£ç¡®';
 
   @override
-  String get verify => '验证';
+  String get verify => 'éªŒè¯';
 
   @override
-  String get googleVerifyFailed => '通过Google验证身份失败。';
+  String get googleVerifyFailed => 'é€šè¿‡GoogleéªŒè¯èº«ä»½å¤±è´¥ã€‚';
 
   @override
-  String get confirmIdentity => '要继续，请先确认是您本人。';
+  String get confirmIdentity => 'è¦ç»§ç»­ï¼Œè¯·å…ˆç¡®è®¤æ˜¯æ‚¨æœ¬äººã€‚';
 
   @override
-  String get verifyIdentityDesc => '我们需要验证您的身份以保护您的账户。';
+  String get verifyIdentityDesc => 'æˆ‘ä»¬éœ€è¦éªŒè¯æ‚¨çš„èº«ä»½ä»¥ä¿æŠ¤æ‚¨çš„è´¦æˆ·ã€‚';
 
   @override
-  String get continueWithGoogle => '使用Google继续';
+  String get continueWithGoogle => 'ä½¿ç”¨Googleç»§ç»­';
 
   @override
-  String get editPassword => '修改密码';
+  String get editPassword => 'ä¿®æ”¹å¯†ç ';
 
   @override
-  String get newPassword => '新密码';
+  String get newPassword => 'æ–°å¯†ç ';
 
   @override
-  String get passwordUpdated => '密码更新成功';
+  String get passwordUpdated => 'å¯†ç æ›´æ–°æˆåŠŸ';
 
   @override
-  String get failedUpdatePassword => '密码更新失败';
+  String get failedUpdatePassword => 'å¯†ç æ›´æ–°å¤±è´¥';
 
   @override
-  String get savePassword => '保存密码';
+  String get savePassword => 'ä¿å­˜å¯†ç ';
 
   @override
-  String get passwordsDoNotMatch => '两次密码不一致';
+  String get passwordsDoNotMatch => 'ä¸¤æ¬¡å¯†ç ä¸ä¸€è‡´';
 
   @override
-  String get none => '无';
+  String get none => 'æ— ';
 
   @override
-  String get feedbackConsumerButton => '用户反馈';
+  String get feedbackConsumerButton => 'ç”¨æˆ·åé¦ˆ';
 
   @override
-  String get translationsGitHubButton => 'GitHub 反馈';
+  String get translationsGitHubButton => 'GitHub åé¦ˆ';
 
   @override
-  String get feedbackTranslationsButton => '翻译反馈';
+  String get feedbackTranslationsButton => 'ç¿»è¯‘åé¦ˆ';
 
   @override
-  String get feedbackConsumerNote => '用户反馈：分享你使用应用的体验，例如漏洞、性能问题、功能或整体易用性。';
+  String get feedbackConsumerNote => 'ç”¨æˆ·åé¦ˆï¼šåˆ†äº«ä½ ä½¿ç”¨åº”ç”¨çš„ä½“éªŒï¼Œä¾‹å¦‚æ¼æ´žã€æ€§èƒ½é—®é¢˜ã€åŠŸèƒ½æˆ–æ•´ä½“æ˜“ç”¨æ€§ã€‚';
 
   @override
-  String get translationsGitHubNote => 'GitHub 反馈：在 GitHub 上反馈语言问题，例如翻译不正确、措辞不清晰或语法错误。';
+  String get translationsGitHubNote => 'GitHub åé¦ˆï¼šåœ¨ GitHub ä¸Šåé¦ˆè¯­è¨€é—®é¢˜ï¼Œä¾‹å¦‚ç¿»è¯‘ä¸æ­£ç¡®ã€æŽªè¾žä¸æ¸…æ™°æˆ–è¯­æ³•é”™è¯¯ã€‚';
 
   @override
-  String get feedbackTranslationsNote => '翻译反馈：反馈语言问题，例如翻译不正确、措辞不清晰或语法错误。';
+  String get feedbackTranslationsNote => 'ç¿»è¯‘åé¦ˆï¼šåé¦ˆè¯­è¨€é—®é¢˜ï¼Œä¾‹å¦‚ç¿»è¯‘ä¸æ­£ç¡®ã€æŽªè¾žä¸æ¸…æ™°æˆ–è¯­æ³•é”™è¯¯ã€‚';
 
   @override
-  String get aiSettings => 'AI 设置';
+  String get aiSettings => 'AI è®¾ç½®';
 
   @override
-  String get aiSettingsSubtitle => '控制集合的 AI 排序和风格记忆。';
+  String get aiSettingsSubtitle => 'æŽ§åˆ¶é›†åˆçš„ AI æŽ’åºå’Œé£Žæ ¼è®°å¿†ã€‚';
 
   @override
-  String get useAiSorting => '使用 AI 排序';
+  String get useAiSorting => 'ä½¿ç”¨ AI æŽ’åº';
 
   @override
-  String get useAiSortingSubtitle => '根据你的链接自动建议文件夹分组。';
+  String get useAiSortingSubtitle => 'æ ¹æ®ä½ çš„é“¾æŽ¥è‡ªåŠ¨å»ºè®®æ–‡ä»¶å¤¹åˆ†ç»„ã€‚';
 
   @override
-  String get styleMemory => '风格记忆';
+  String get styleMemory => 'é£Žæ ¼è®°å¿†';
 
   @override
-  String get styleMemoryEmpty => '设置集合命名的风格。';
+  String get styleMemoryEmpty => 'è®¾ç½®é›†åˆå‘½åçš„é£Žæ ¼ã€‚';
 
   @override
-  String get styleMemoryDesc => '风格记忆会悄悄学习你如何命名和整理集合，并在下次整理时应用。';
+  String get styleMemoryDesc => 'é£Žæ ¼è®°å¿†ä¼šæ‚„æ‚„å­¦ä¹ ä½ å¦‚ä½•å‘½åå’Œæ•´ç†é›†åˆï¼Œå¹¶åœ¨ä¸‹æ¬¡æ•´ç†æ—¶åº”ç”¨ã€‚';
 
   @override
-  String get styleMemorySpecificHint => '请尽量具体。';
+  String get styleMemorySpecificHint => 'è¯·å°½é‡å…·ä½“ã€‚';
 
   @override
-  String get styleMemoryTextHint => '描述你的文件夹命名风格...';
+  String get styleMemoryTextHint => 'æè¿°ä½ çš„æ–‡ä»¶å¤¹å‘½åé£Žæ ¼...';
 
   @override
-  String get styleMemorySaved => '风格记忆已保存。';
+  String get styleMemorySaved => 'é£Žæ ¼è®°å¿†å·²ä¿å­˜ã€‚';
 
   @override
-  String get enableAiSortingFirst => '请先在设置中启用“使用 AI 排序”。';
+  String get enableAiSortingFirst => 'è¯·å…ˆåœ¨è®¾ç½®ä¸­å¯ç”¨â€œä½¿ç”¨ AI æŽ’åºâ€ã€‚';
 
   @override
-  String get saveMoreLinksTryAgain => '请再保存一些链接后重试';
+  String get saveMoreLinksTryAgain => 'è¯·å†ä¿å­˜ä¸€äº›é“¾æŽ¥åŽé‡è¯•';
 
   @override
-  String get linksTooUnrelated => '这些链接关联性太弱。';
+  String get linksTooUnrelated => 'è¿™äº›é“¾æŽ¥å…³è”æ€§å¤ªå¼±ã€‚';
 
   @override
-  String get linksAlreadySimilar => '这些链接已经很相似了。';
+  String get linksAlreadySimilar => 'è¿™äº›é“¾æŽ¥å·²ç»å¾ˆç›¸ä¼¼äº†ã€‚';
 
   @override
-  String get aiSortingSaved => 'AI 排序已保存。';
+  String get aiSortingSaved => 'AI æŽ’åºå·²ä¿å­˜ã€‚';
 
   @override
-  String get tryAgainTitle => '再试一次？';
+  String get tryAgainTitle => 'å†è¯•ä¸€æ¬¡ï¼Ÿ';
 
   @override
-  String get tryAgainQuestion => '你想再试一次吗？';
+  String get tryAgainQuestion => 'ä½ æƒ³å†è¯•ä¸€æ¬¡å—ï¼Ÿ';
 
   @override
-  String get aiSortingResult => 'AI 排序结果';
+  String get aiSortingResult => 'AI æŽ’åºç»“æžœ';
 
   @override
-  String get saveFolderTree => '保存这个文件夹树吗？';
+  String get saveFolderTree => 'ä¿å­˜è¿™ä¸ªæ–‡ä»¶å¤¹æ ‘å—ï¼Ÿ';
 
   @override
-  String get yes => '是';
+  String get yes => 'æ˜¯';
 
   @override
-  String get no => '否';
+  String get no => 'å¦';
 
   @override
-  String get autoSortLinks => '自动排序链接';
+  String get autoSortLinks => 'è‡ªåŠ¨æŽ’åºé“¾æŽ¥';
 
   @override
   String folderCount(String name, int count) {
-    return '文件夹：$name（$count）';
+    return 'æ–‡ä»¶å¤¹ï¼š$nameï¼ˆ$countï¼‰';
   }
 
   @override
   String moreCount(int count) {
-    return '- 另外 $count 项';
+    return '- å¦å¤– $count é¡¹';
   }
 }
 
@@ -618,589 +618,589 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   AppLocalizationsZhCn(): super('zh_CN');
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
-  String get searchHint => '搜索链接和标签...';
+  String get searchHint => 'æœç´¢é“¾æŽ¥å’Œæ ‡ç­¾...';
 
   @override
-  String get noLinksYet => '尚未保存链接';
+  String get noLinksYet => 'å°šæœªä¿å­˜é“¾æŽ¥';
 
   @override
-  String get noMatchingLinks => '没有找到匹配的链接';
+  String get noMatchingLinks => 'æ²¡æœ‰æ‰¾åˆ°åŒ¹é…çš„é“¾æŽ¥';
 
   @override
-  String get tapToAdd => '点击 + 添加您的第一个链接';
+  String get tapToAdd => 'ç‚¹å‡» + æ·»åŠ æ‚¨çš„ç¬¬ä¸€ä¸ªé“¾æŽ¥';
 
   @override
-  String get deleteLinkTitle => '删除链接';
+  String get deleteLinkTitle => 'åˆ é™¤é“¾æŽ¥';
 
   @override
   String deleteLinkContent(String name) {
-    return '您确定要删除“$name”吗？';
+    return 'æ‚¨ç¡®å®šè¦åˆ é™¤â€œ$nameâ€å—ï¼Ÿ';
   }
 
   @override
-  String get cancel => '取消';
+  String get cancel => 'å–æ¶ˆ';
 
   @override
-  String get delete => '删除';
+  String get delete => 'åˆ é™¤';
 
   @override
-  String get undo => '撤消';
+  String get undo => 'æ’¤æ¶ˆ';
 
   @override
   String deleted(String name) {
-    return '$name已删除';
+    return '$nameå·²åˆ é™¤';
   }
 
   @override
   String errorLoading(String error) {
-    return '加载数据时出错：$error';
+    return 'åŠ è½½æ•°æ®æ—¶å‡ºé”™ï¼š$error';
   }
 
   @override
   String couldNotOpen(String url) {
-    return '无法打开 $url';
+    return 'æ— æ³•æ‰“å¼€ $url';
   }
 
   @override
-  String get addLinkTitle => '添加链接';
+  String get addLinkTitle => 'æ·»åŠ é“¾æŽ¥';
 
   @override
-  String get editLinkTitle => '编辑链接';
+  String get editLinkTitle => 'ç¼–è¾‘é“¾æŽ¥';
 
   @override
-  String get linkTitleLabel => '标题';
+  String get linkTitleLabel => 'æ ‡é¢˜';
 
   @override
-  String get urlLabel => '网址';
+  String get urlLabel => 'ç½‘å€';
 
   @override
-  String get addTagLabel => '添加标签';
+  String get addTagLabel => 'æ·»åŠ æ ‡ç­¾';
 
   @override
-  String get save => '保存';
+  String get save => 'ä¿å­˜';
 
   @override
-  String get pleaseEnterUrl => '请输入网址';
+  String get pleaseEnterUrl => 'è¯·è¾“å…¥ç½‘å€';
 
   @override
-  String get accountTitle => '设置';
+  String get accountTitle => 'è®¾ç½®';
 
   @override
-  String get language => '语言';
+  String get language => 'è¯­è¨€';
 
   @override
-  String get navHome => '首页';
+  String get navHome => 'é¦–é¡µ';
 
   @override
-  String get navAccount => '设置';
+  String get navAccount => 'è®¾ç½®';
 
   @override
-  String get backupRestoreTitle => '备份与恢复';
+  String get backupRestoreTitle => 'å¤‡ä»½ä¸Žæ¢å¤';
 
   @override
-  String get exportLinksTitle => '导出链接';
+  String get exportLinksTitle => 'å¯¼å‡ºé“¾æŽ¥';
 
   @override
-  String get exportLinksSubtitle => '将链接保存到文件';
+  String get exportLinksSubtitle => 'å°†é“¾æŽ¥ä¿å­˜åˆ°æ–‡ä»¶';
 
   @override
-  String get enterPassword => '输入密码（可选）';
+  String get enterPassword => 'è¾“å…¥å¯†ç ï¼ˆå¯é€‰ï¼‰';
 
   @override
-  String get password => '密码';
+  String get password => 'å¯†ç ';
 
   @override
-  String get encryptFile => '加密';
+  String get encryptFile => 'åŠ å¯†';
 
   @override
   String get instagram => 'Instagram';
 
   @override
-  String get faqTitle => '常见问题解答';
+  String get faqTitle => 'å¸¸è§é—®é¢˜è§£ç­”';
 
   @override
-  String get importLinksTitle => '恢复链接';
+  String get importLinksTitle => 'æ¢å¤é“¾æŽ¥';
 
   @override
-  String get importLinksSubtitle => '从文件恢复链接';
+  String get importLinksSubtitle => 'ä»Žæ–‡ä»¶æ¢å¤é“¾æŽ¥';
 
   @override
   String importSuccess(int count) {
-    return '已成功导入 $count 个链接';
+    return 'å·²æˆåŠŸå¯¼å…¥ $count ä¸ªé“¾æŽ¥';
   }
 
   @override
   String importFailed(String error) {
-    return '导入失败：$error';
+    return 'å¯¼å…¥å¤±è´¥ï¼š$error';
   }
 
   @override
-  String get decryptFailed => '解密失败或格式无效';
+  String get decryptFailed => 'è§£å¯†å¤±è´¥æˆ–æ ¼å¼æ— æ•ˆ';
 
   @override
-  String get wrongPassword => '密码错误或文件无效';
+  String get wrongPassword => 'å¯†ç é”™è¯¯æˆ–æ–‡ä»¶æ— æ•ˆ';
 
   @override
-  String get favoriteLimitReached => '最多允许 3 个收藏夹';
+  String get favoriteLimitReached => 'æœ€å¤šå…è®¸ 3 ä¸ªæ”¶è—å¤¹';
 
   @override
-  String get termsOfService => '服务条款';
+  String get termsOfService => 'æœåŠ¡æ¡æ¬¾';
 
   @override
-  String get privacyPolicy => '隐私政策';
+  String get privacyPolicy => 'éšç§æ”¿ç­–';
 
   @override
-  String get welcomeTitle => '欢迎ReadItLater';
+  String get welcomeTitle => 'æ¬¢è¿ŽPile';
 
   @override
-  String get welcomeMessage => '请阅读并接受我们的服务条款和隐私政策以继续。';
+  String get welcomeMessage => 'è¯·é˜…è¯»å¹¶æŽ¥å—æˆ‘ä»¬çš„æœåŠ¡æ¡æ¬¾å’Œéšç§æ”¿ç­–ä»¥ç»§ç»­ã€‚';
 
   @override
-  String get accept => '接受';
+  String get accept => 'æŽ¥å—';
 
   @override
-  String get decline => '拒绝';
+  String get decline => 'æ‹’ç»';
 
   @override
-  String get setReminder => '设置提醒';
+  String get setReminder => 'è®¾ç½®æé†’';
 
   @override
   String reminderSet(String date) {
-    return '设置为 $date 的提醒';
+    return 'è®¾ç½®ä¸º $date çš„æé†’';
   }
 
   @override
-  String get recentlyDeleted => '最近删除';
+  String get recentlyDeleted => 'æœ€è¿‘åˆ é™¤';
 
   @override
-  String get reminderLimitReached => '已达到提醒限制 (10)';
+  String get reminderLimitReached => 'å·²è¾¾åˆ°æé†’é™åˆ¶ (10)';
 
   @override
-  String get notificationsOrExactAlarmPermissionsBlocked => '通知和/或精确闹钟权限被阻止';
+  String get notificationsOrExactAlarmPermissionsBlocked => 'é€šçŸ¥å’Œ/æˆ–ç²¾ç¡®é—¹é’Ÿæƒé™è¢«é˜»æ­¢';
 
   @override
-  String get proVersion => '专业版';
+  String get proVersion => 'ä¸“ä¸šç‰ˆ';
 
   @override
-  String get notAvailableInYourCountry => '在您所在的国家/地区不可用';
+  String get notAvailableInYourCountry => 'åœ¨æ‚¨æ‰€åœ¨çš„å›½å®¶/åœ°åŒºä¸å¯ç”¨';
 
   @override
-  String get upgradeToPro => '升级至专业版可无限次提醒';
+  String get upgradeToPro => 'å‡çº§è‡³ä¸“ä¸šç‰ˆå¯æ— é™æ¬¡æé†’';
 
   @override
   String restored(String name) {
-    return '$name已恢复';
+    return '$nameå·²æ¢å¤';
   }
 
   @override
-  String get deletePermanentlyTitle => '永久删除？';
+  String get deletePermanentlyTitle => 'æ°¸ä¹…åˆ é™¤ï¼Ÿ';
 
   @override
-  String get deletePermanentlyContent => '此操作无法撤消。';
+  String get deletePermanentlyContent => 'æ­¤æ“ä½œæ— æ³•æ’¤æ¶ˆã€‚';
 
   @override
-  String get selectAll => '选择全部';
+  String get selectAll => 'é€‰æ‹©å…¨éƒ¨';
 
   @override
-  String get selectedCount => '已选择';
+  String get selectedCount => 'å·²é€‰æ‹©';
 
   @override
   String deleteSelectedContent(int count) {
-    return '删除 $count 个链接？';
+    return 'åˆ é™¤ $count ä¸ªé“¾æŽ¥ï¼Ÿ';
   }
 
   @override
-  String get loginTitle => '登录';
+  String get loginTitle => 'ç™»å½•';
 
   @override
-  String get emailLabel => '电子邮件';
+  String get emailLabel => 'ç”µå­é‚®ä»¶';
 
   @override
-  String get usernameLabel => '用户名';
+  String get usernameLabel => 'ç”¨æˆ·å';
 
   @override
-  String get passwordLabel => '密码';
+  String get passwordLabel => 'å¯†ç ';
 
   @override
-  String get loginButton => '登录';
+  String get loginButton => 'ç™»å½•';
 
   @override
-  String get logoutButton => '退出';
+  String get logoutButton => 'é€€å‡º';
 
   @override
-  String get skipLabel => '暂时跳过';
+  String get skipLabel => 'æš‚æ—¶è·³è¿‡';
 
   @override
   String loggedInAs(String email) {
-    return '以 $email 身份登录';
+    return 'ä»¥ $email èº«ä»½ç™»å½•';
   }
 
   @override
-  String get createAccount => '创建账户';
+  String get createAccount => 'åˆ›å»ºè´¦æˆ·';
 
   @override
-  String get nameLabel => '姓名';
+  String get nameLabel => 'å§“å';
 
   @override
-  String get confirmPasswordLabel => '确认密码';
+  String get confirmPasswordLabel => 'ç¡®è®¤å¯†ç ';
 
   @override
-  String get registerButton => '登记';
+  String get registerButton => 'ç™»è®°';
 
   @override
-  String get signInWithGoogle => '使用 Google 登录';
+  String get signInWithGoogle => 'ä½¿ç”¨ Google ç™»å½•';
 
   @override
-  String get googleSignInNotSupported => '此演示中未配置 Google Sign In。';
+  String get googleSignInNotSupported => 'æ­¤æ¼”ç¤ºä¸­æœªé…ç½® Google Sign Inã€‚';
 
   @override
-  String get accountCreated => '账户创建成功';
+  String get accountCreated => 'è´¦æˆ·åˆ›å»ºæˆåŠŸ';
 
   @override
-  String get invalidCredentials => '用户名或密码无效';
+  String get invalidCredentials => 'ç”¨æˆ·åæˆ–å¯†ç æ— æ•ˆ';
 
   @override
-  String get emailExists => '电子邮件已存在';
+  String get emailExists => 'ç”µå­é‚®ä»¶å·²å­˜åœ¨';
 
   @override
-  String get noAccountCreateOne => '没有账户？立即注册。';
+  String get noAccountCreateOne => 'æ²¡æœ‰è´¦æˆ·ï¼Ÿç«‹å³æ³¨å†Œã€‚';
 
   @override
-  String get getStarted => '开始使用';
+  String get getStarted => 'å¼€å§‹ä½¿ç”¨';
 
   @override
-  String get acceptAndContinue => '接受并继续';
+  String get acceptAndContinue => 'æŽ¥å—å¹¶ç»§ç»­';
 
   @override
-  String get acceptAndFinish => '接受并完成';
+  String get acceptAndFinish => 'æŽ¥å—å¹¶å®Œæˆ';
 
   @override
-  String get stepTos => '服务条款';
+  String get stepTos => 'æœåŠ¡æ¡æ¬¾';
 
   @override
-  String get stepPrivacy => '隐私政策';
+  String get stepPrivacy => 'éšç§æ”¿ç­–';
 
   @override
   String addedOn(String date) {
-    return '添加日期：$date';
+    return 'æ·»åŠ æ—¥æœŸï¼š$date';
   }
 
   @override
-  String get sendFeedback => '发送反馈';
+  String get sendFeedback => 'å‘é€åé¦ˆ';
 
   @override
-  String get feedbackSubject => '稍后阅读反馈';
+  String get feedbackSubject => 'ç¨åŽé˜…è¯»åé¦ˆ';
 
   @override
-  String get feedbackTitle => '发送反馈';
+  String get feedbackTitle => 'å‘é€åé¦ˆ';
 
   @override
-  String get feedbackName => '姓名（可选）';
+  String get feedbackName => 'å§“åï¼ˆå¯é€‰ï¼‰';
 
   @override
-  String get feedbackEmail => '电子邮件（可选）';
+  String get feedbackEmail => 'ç”µå­é‚®ä»¶ï¼ˆå¯é€‰ï¼‰';
 
   @override
-  String get feedbackMessage => '消息内容';
+  String get feedbackMessage => 'æ¶ˆæ¯å†…å®¹';
 
   @override
-  String get verifyHuman => '请验证您是人类';
+  String get verifyHuman => 'è¯·éªŒè¯æ‚¨æ˜¯äººç±»';
 
   @override
-  String get send => '发送';
+  String get send => 'å‘é€';
 
   @override
-  String get tabLinks => '链接';
+  String get tabLinks => 'é“¾æŽ¥';
 
   @override
-  String get tabDeleted => '已删除';
+  String get tabDeleted => 'å·²åˆ é™¤';
 
   @override
-  String get topLinksTitle => '热门链接';
+  String get topLinksTitle => 'çƒ­é—¨é“¾æŽ¥';
 
   @override
-  String get noDeletedLinks => '没有删除的链接';
+  String get noDeletedLinks => 'æ²¡æœ‰åˆ é™¤çš„é“¾æŽ¥';
 
   @override
-  String get restoreTooltip => '恢复';
+  String get restoreTooltip => 'æ¢å¤';
 
   @override
-  String get remindersTitle => '提醒事项';
+  String get remindersTitle => 'æé†’äº‹é¡¹';
 
   @override
-  String get noReminders => '没有即将到来的提醒';
+  String get noReminders => 'æ²¡æœ‰å³å°†åˆ°æ¥çš„æé†’';
 
   @override
-  String get didYouKnow => '你可知道？';
+  String get didYouKnow => 'ä½ å¯çŸ¥é“ï¼Ÿ';
 
   @override
-  String get shareToAppTip => '您可以通过将其分享到 ReadItLater 来添加链接！';
+  String get shareToAppTip => 'æ‚¨å¯ä»¥é€šè¿‡å°†å…¶åˆ†äº«åˆ° Pile æ¥æ·»åŠ é“¾æŽ¥ï¼';
 
   @override
-  String get commentsLabel => '评论（可选）';
+  String get commentsLabel => 'è¯„è®ºï¼ˆå¯é€‰ï¼‰';
 
   @override
-  String get accountSettings => '账户设置';
+  String get accountSettings => 'è´¦æˆ·è®¾ç½®';
 
   @override
-  String get signIn => '登录';
+  String get signIn => 'ç™»å½•';
 
   @override
-  String get collectionsTitle => '收藏';
+  String get collectionsTitle => 'æ”¶è—';
 
   @override
-  String get newCollection => '新收藏';
+  String get newCollection => 'æ–°æ”¶è—';
 
   @override
-  String get collectionName => '收藏名称';
+  String get collectionName => 'æ”¶è—åç§°';
 
   @override
-  String get gridView => '网格视图';
+  String get gridView => 'ç½‘æ ¼è§†å›¾';
 
   @override
-  String get listView => '列表视图';
+  String get listView => 'åˆ—è¡¨è§†å›¾';
 
   @override
-  String get editAccountTitle => '编辑账户';
+  String get editAccountTitle => 'ç¼–è¾‘è´¦æˆ·';
 
   @override
-  String get changePasswordTitle => '更改账户密码';
+  String get changePasswordTitle => 'æ›´æ”¹è´¦æˆ·å¯†ç ';
 
   @override
-  String get signOutTitle => '登出';
+  String get signOutTitle => 'ç™»å‡º';
 
   @override
-  String get signOutConfirm => '您确定要从此设备中的账户注销吗？';
+  String get signOutConfirm => 'æ‚¨ç¡®å®šè¦ä»Žæ­¤è®¾å¤‡ä¸­çš„è´¦æˆ·æ³¨é”€å—ï¼Ÿ';
 
   @override
-  String get deleteAccountTitle => '删除账户';
+  String get deleteAccountTitle => 'åˆ é™¤è´¦æˆ·';
 
   @override
-  String get deleteAccountWarning => '删除账户：请仔细阅读此内容。';
+  String get deleteAccountWarning => 'åˆ é™¤è´¦æˆ·ï¼šè¯·ä»”ç»†é˜…è¯»æ­¤å†…å®¹ã€‚';
 
   @override
-  String get deleteAccountConfirm => '您将删除您的账户以及所有相关数据。这是无法撤销的。你确定吗？';
+  String get deleteAccountConfirm => 'æ‚¨å°†åˆ é™¤æ‚¨çš„è´¦æˆ·ä»¥åŠæ‰€æœ‰ç›¸å…³æ•°æ®ã€‚è¿™æ˜¯æ— æ³•æ’¤é”€çš„ã€‚ä½ ç¡®å®šå—ï¼Ÿ';
 
   @override
-  String get deleteSuccess => '看到你离开我们感到很遗憾！您的账户已被删除。';
+  String get deleteSuccess => 'çœ‹åˆ°ä½ ç¦»å¼€æˆ‘ä»¬æ„Ÿåˆ°å¾ˆé—æ†¾ï¼æ‚¨çš„è´¦æˆ·å·²è¢«åˆ é™¤ã€‚';
 
   @override
-  String get deleteFail => '删除账户失败。请稍后重试。';
+  String get deleteFail => 'åˆ é™¤è´¦æˆ·å¤±è´¥ã€‚è¯·ç¨åŽé‡è¯•ã€‚';
 
   @override
-  String get continueButton => '继续';
+  String get continueButton => 'ç»§ç»­';
 
   @override
-  String get noCollectionsYet => '暂无收藏';
+  String get noCollectionsYet => 'æš‚æ— æ”¶è—';
 
   @override
-  String get emptyFolder => '空文件夹';
+  String get emptyFolder => 'ç©ºæ–‡ä»¶å¤¹';
 
   @override
-  String get folderColor => '文件夹颜色';
+  String get folderColor => 'æ–‡ä»¶å¤¹é¢œè‰²';
 
   @override
-  String get editAction => '编辑';
+  String get editAction => 'ç¼–è¾‘';
 
   @override
-  String get editCollection => '编辑收藏';
+  String get editCollection => 'ç¼–è¾‘æ”¶è—';
 
   @override
-  String get changeColor => '更改颜色';
+  String get changeColor => 'æ›´æ”¹é¢œè‰²';
 
   @override
-  String get deleteCollectionWarning => '里面的链接将被移至根目录。';
+  String get deleteCollectionWarning => 'é‡Œé¢çš„é“¾æŽ¥å°†è¢«ç§»è‡³æ ¹ç›®å½•ã€‚';
 
   @override
-  String get moveAction => '移动';
+  String get moveAction => 'ç§»åŠ¨';
 
   @override
-  String get moveToCollection => '移至收藏';
+  String get moveToCollection => 'ç§»è‡³æ”¶è—';
 
   @override
-  String get noCollection => '无收藏';
+  String get noCollection => 'æ— æ”¶è—';
 
   @override
-  String get noInternetConnection => '无网络连接';
+  String get noInternetConnection => 'æ— ç½‘ç»œè¿žæŽ¥';
 
   @override
-  String get dismiss => '关闭';
+  String get dismiss => 'å…³é—­';
 
   @override
-  String get tagAll => '全部';
+  String get tagAll => 'å…¨éƒ¨';
 
   @override
-  String get camera => '相机';
+  String get camera => 'ç›¸æœº';
 
   @override
-  String get gallery => '相册';
+  String get gallery => 'ç›¸å†Œ';
 
   @override
-  String get classicAvatars => '经典头像';
+  String get classicAvatars => 'ç»å…¸å¤´åƒ';
 
   @override
-  String get classic => '经典';
+  String get classic => 'ç»å…¸';
 
   @override
-  String get usernameLengthError => '用户名必须在3到45个字符之间';
+  String get usernameLengthError => 'ç”¨æˆ·åå¿…é¡»åœ¨3åˆ°45ä¸ªå­—ç¬¦ä¹‹é—´';
 
   @override
-  String get usernameFormatError => '用户名格式无效。';
+  String get usernameFormatError => 'ç”¨æˆ·åæ ¼å¼æ— æ•ˆã€‚';
 
   @override
   String visitCount(int count) {
-    return '$count 次访问';
+    return '$count æ¬¡è®¿é—®';
   }
 
   @override
-  String get usernameConsecutiveSymbols => '用户名不能包含连续的符号。';
+  String get usernameConsecutiveSymbols => 'ç”¨æˆ·åä¸èƒ½åŒ…å«è¿žç»­çš„ç¬¦å·ã€‚';
 
   @override
-  String get usernameRestrictedWords => '用户名包含受限词汇。';
+  String get usernameRestrictedWords => 'ç”¨æˆ·ååŒ…å«å—é™è¯æ±‡ã€‚';
 
   @override
-  String get failedUploadPic => '上传头像失败。';
+  String get failedUploadPic => 'ä¸Šä¼ å¤´åƒå¤±è´¥ã€‚';
 
   @override
-  String get accountUpdated => '账户更新成功';
+  String get accountUpdated => 'è´¦æˆ·æ›´æ–°æˆåŠŸ';
 
   @override
-  String get failedUpdateAccount => '账户更新失败。邮箱可能已被使用。';
+  String get failedUpdateAccount => 'è´¦æˆ·æ›´æ–°å¤±è´¥ã€‚é‚®ç®±å¯èƒ½å·²è¢«ä½¿ç”¨ã€‚';
 
   @override
-  String get editAccountHint => '如果不想更改，请将字段留空。点击图片更新头像。';
+  String get editAccountHint => 'å¦‚æžœä¸æƒ³æ›´æ”¹ï¼Œè¯·å°†å­—æ®µç•™ç©ºã€‚ç‚¹å‡»å›¾ç‰‡æ›´æ–°å¤´åƒã€‚';
 
   @override
-  String get saveChanges => '保存更改';
+  String get saveChanges => 'ä¿å­˜æ›´æ”¹';
 
   @override
-  String get verifyIdentity => '验证身份';
+  String get verifyIdentity => 'éªŒè¯èº«ä»½';
 
   @override
-  String get enterCurrentPassword => '请输入当前密码以继续。';
+  String get enterCurrentPassword => 'è¯·è¾“å…¥å½“å‰å¯†ç ä»¥ç»§ç»­ã€‚';
 
   @override
-  String get currentPassword => '当前密码';
+  String get currentPassword => 'å½“å‰å¯†ç ';
 
   @override
-  String get incorrectPassword => '密码不正确';
+  String get incorrectPassword => 'å¯†ç ä¸æ­£ç¡®';
 
   @override
-  String get verify => '验证';
+  String get verify => 'éªŒè¯';
 
   @override
-  String get googleVerifyFailed => '通过Google验证身份失败。';
+  String get googleVerifyFailed => 'é€šè¿‡GoogleéªŒè¯èº«ä»½å¤±è´¥ã€‚';
 
   @override
-  String get confirmIdentity => '要继续，请先确认是您本人。';
+  String get confirmIdentity => 'è¦ç»§ç»­ï¼Œè¯·å…ˆç¡®è®¤æ˜¯æ‚¨æœ¬äººã€‚';
 
   @override
-  String get verifyIdentityDesc => '我们需要验证您的身份以保护您的账户。';
+  String get verifyIdentityDesc => 'æˆ‘ä»¬éœ€è¦éªŒè¯æ‚¨çš„èº«ä»½ä»¥ä¿æŠ¤æ‚¨çš„è´¦æˆ·ã€‚';
 
   @override
-  String get continueWithGoogle => '使用Google继续';
+  String get continueWithGoogle => 'ä½¿ç”¨Googleç»§ç»­';
 
   @override
-  String get editPassword => '修改密码';
+  String get editPassword => 'ä¿®æ”¹å¯†ç ';
 
   @override
-  String get newPassword => '新密码';
+  String get newPassword => 'æ–°å¯†ç ';
 
   @override
-  String get passwordUpdated => '密码更新成功';
+  String get passwordUpdated => 'å¯†ç æ›´æ–°æˆåŠŸ';
 
   @override
-  String get failedUpdatePassword => '密码更新失败';
+  String get failedUpdatePassword => 'å¯†ç æ›´æ–°å¤±è´¥';
 
   @override
-  String get savePassword => '保存密码';
+  String get savePassword => 'ä¿å­˜å¯†ç ';
 
   @override
-  String get passwordsDoNotMatch => '两次密码不一致';
+  String get passwordsDoNotMatch => 'ä¸¤æ¬¡å¯†ç ä¸ä¸€è‡´';
 
   @override
-  String get none => '无';
+  String get none => 'æ— ';
 
   @override
-  String get aiSettings => 'AI 设置';
+  String get aiSettings => 'AI è®¾ç½®';
 
   @override
-  String get aiSettingsSubtitle => '控制集合的 AI 排序和风格记忆。';
+  String get aiSettingsSubtitle => 'æŽ§åˆ¶é›†åˆçš„ AI æŽ’åºå’Œé£Žæ ¼è®°å¿†ã€‚';
 
   @override
-  String get useAiSorting => '使用 AI 排序';
+  String get useAiSorting => 'ä½¿ç”¨ AI æŽ’åº';
 
   @override
-  String get useAiSortingSubtitle => '根据你的链接自动建议文件夹分组。';
+  String get useAiSortingSubtitle => 'æ ¹æ®ä½ çš„é“¾æŽ¥è‡ªåŠ¨å»ºè®®æ–‡ä»¶å¤¹åˆ†ç»„ã€‚';
 
   @override
-  String get styleMemory => '风格记忆';
+  String get styleMemory => 'é£Žæ ¼è®°å¿†';
 
   @override
-  String get styleMemoryEmpty => '设置集合命名的风格。';
+  String get styleMemoryEmpty => 'è®¾ç½®é›†åˆå‘½åçš„é£Žæ ¼ã€‚';
 
   @override
-  String get styleMemoryDesc => '风格记忆会悄悄学习你如何命名和整理集合 - 无论你喜欢表情、全大写还是更简洁的风格 - 并在下次整理时应用。';
+  String get styleMemoryDesc => 'é£Žæ ¼è®°å¿†ä¼šæ‚„æ‚„å­¦ä¹ ä½ å¦‚ä½•å‘½åå’Œæ•´ç†é›†åˆ - æ— è®ºä½ å–œæ¬¢è¡¨æƒ…ã€å…¨å¤§å†™è¿˜æ˜¯æ›´ç®€æ´çš„é£Žæ ¼ - å¹¶åœ¨ä¸‹æ¬¡æ•´ç†æ—¶åº”ç”¨ã€‚';
 
   @override
-  String get styleMemorySpecificHint => '请尽量具体。例如：“技术类用表情，工作类用全大写，个人类保持简洁。”';
+  String get styleMemorySpecificHint => 'è¯·å°½é‡å…·ä½“ã€‚ä¾‹å¦‚ï¼šâ€œæŠ€æœ¯ç±»ç”¨è¡¨æƒ…ï¼Œå·¥ä½œç±»ç”¨å…¨å¤§å†™ï¼Œä¸ªäººç±»ä¿æŒç®€æ´ã€‚â€';
 
   @override
-  String get styleMemoryTextHint => '描述你的文件夹命名风格...';
+  String get styleMemoryTextHint => 'æè¿°ä½ çš„æ–‡ä»¶å¤¹å‘½åé£Žæ ¼...';
 
   @override
-  String get styleMemorySaved => '风格记忆已保存。';
+  String get styleMemorySaved => 'é£Žæ ¼è®°å¿†å·²ä¿å­˜ã€‚';
 
   @override
-  String get enableAiSortingFirst => '请先在设置中启用“使用 AI 排序”。';
+  String get enableAiSortingFirst => 'è¯·å…ˆåœ¨è®¾ç½®ä¸­å¯ç”¨â€œä½¿ç”¨ AI æŽ’åºâ€ã€‚';
 
   @override
-  String get saveMoreLinksTryAgain => '请再保存一些链接后重试';
+  String get saveMoreLinksTryAgain => 'è¯·å†ä¿å­˜ä¸€äº›é“¾æŽ¥åŽé‡è¯•';
 
   @override
-  String get linksTooUnrelated => '这些链接关联性太弱。';
+  String get linksTooUnrelated => 'è¿™äº›é“¾æŽ¥å…³è”æ€§å¤ªå¼±ã€‚';
 
   @override
-  String get linksAlreadySimilar => '这些链接已经很相似了。';
+  String get linksAlreadySimilar => 'è¿™äº›é“¾æŽ¥å·²ç»å¾ˆç›¸ä¼¼äº†ã€‚';
 
   @override
-  String get aiSortingSaved => 'AI 排序已保存。';
+  String get aiSortingSaved => 'AI æŽ’åºå·²ä¿å­˜ã€‚';
 
   @override
-  String get tryAgainTitle => '再试一次？';
+  String get tryAgainTitle => 'å†è¯•ä¸€æ¬¡ï¼Ÿ';
 
   @override
-  String get tryAgainQuestion => '你想再试一次吗？';
+  String get tryAgainQuestion => 'ä½ æƒ³å†è¯•ä¸€æ¬¡å—ï¼Ÿ';
 
   @override
-  String get aiSortingResult => 'AI 排序结果';
+  String get aiSortingResult => 'AI æŽ’åºç»“æžœ';
 
   @override
-  String get saveFolderTree => '保存这个文件夹树吗？';
+  String get saveFolderTree => 'ä¿å­˜è¿™ä¸ªæ–‡ä»¶å¤¹æ ‘å—ï¼Ÿ';
 
   @override
-  String get yes => '是';
+  String get yes => 'æ˜¯';
 
   @override
-  String get no => '否';
+  String get no => 'å¦';
 
   @override
-  String get autoSortLinks => '自动排序链接';
+  String get autoSortLinks => 'è‡ªåŠ¨æŽ’åºé“¾æŽ¥';
 
   @override
   String folderCount(String name, int count) {
-    return '文件夹：$name（$count）';
+    return 'æ–‡ä»¶å¤¹ï¼š$nameï¼ˆ$countï¼‰';
   }
 
   @override
   String moreCount(int count) {
-    return '- 另外 $count 项';
+    return '- å¦å¤– $count é¡¹';
   }
 }
 
@@ -1209,589 +1209,589 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   AppLocalizationsZhHk(): super('zh_HK');
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
-  String get searchHint => '搜尋連結和標籤...';
+  String get searchHint => 'æœå°‹é€£çµå’Œæ¨™ç±¤...';
 
   @override
-  String get noLinksYet => '尚未保存連結';
+  String get noLinksYet => 'å°šæœªä¿å­˜é€£çµ';
 
   @override
-  String get noMatchingLinks => '沒有找到匹配的連結';
+  String get noMatchingLinks => 'æ²’æœ‰æ‰¾åˆ°åŒ¹é…çš„é€£çµ';
 
   @override
-  String get tapToAdd => '點擊 + 新增你的第一條連結';
+  String get tapToAdd => 'é»žæ“Š + æ–°å¢žä½ çš„ç¬¬ä¸€æ¢é€£çµ';
 
   @override
-  String get deleteLinkTitle => '刪除連結';
+  String get deleteLinkTitle => 'åˆªé™¤é€£çµ';
 
   @override
   String deleteLinkContent(String name) {
-    return '您確定要刪除“$name”嗎？';
+    return 'æ‚¨ç¢ºå®šè¦åˆªé™¤â€œ$nameâ€å—Žï¼Ÿ';
   }
 
   @override
-  String get cancel => '取消';
+  String get cancel => 'å–æ¶ˆ';
 
   @override
-  String get delete => '刪除';
+  String get delete => 'åˆªé™¤';
 
   @override
-  String get undo => '復原';
+  String get undo => 'å¾©åŽŸ';
 
   @override
   String deleted(String name) {
-    return '$name已刪除';
+    return '$nameå·²åˆªé™¤';
   }
 
   @override
   String errorLoading(String error) {
-    return '載入資料時發生錯誤：$error';
+    return 'è¼‰å…¥è³‡æ–™æ™‚ç™¼ç”ŸéŒ¯èª¤ï¼š$error';
   }
 
   @override
   String couldNotOpen(String url) {
-    return '無法打開 $url';
+    return 'ç„¡æ³•æ‰“é–‹ $url';
   }
 
   @override
-  String get addLinkTitle => '新增連結';
+  String get addLinkTitle => 'æ–°å¢žé€£çµ';
 
   @override
-  String get editLinkTitle => '編輯連結';
+  String get editLinkTitle => 'ç·¨è¼¯é€£çµ';
 
   @override
-  String get linkTitleLabel => '標題';
+  String get linkTitleLabel => 'æ¨™é¡Œ';
 
   @override
-  String get urlLabel => '網址';
+  String get urlLabel => 'ç¶²å€';
 
   @override
-  String get addTagLabel => '添加標籤';
+  String get addTagLabel => 'æ·»åŠ æ¨™ç±¤';
 
   @override
-  String get save => '儲存';
+  String get save => 'å„²å­˜';
 
   @override
-  String get pleaseEnterUrl => '請輸入網址';
+  String get pleaseEnterUrl => 'è«‹è¼¸å…¥ç¶²å€';
 
   @override
-  String get accountTitle => '設定';
+  String get accountTitle => 'è¨­å®š';
 
   @override
-  String get language => '語言';
+  String get language => 'èªžè¨€';
 
   @override
-  String get navHome => '主頁';
+  String get navHome => 'ä¸»é ';
 
   @override
-  String get navAccount => '設定';
+  String get navAccount => 'è¨­å®š';
 
   @override
-  String get backupRestoreTitle => '備份與復原';
+  String get backupRestoreTitle => 'å‚™ä»½èˆ‡å¾©åŽŸ';
 
   @override
-  String get exportLinksTitle => '匯出連結';
+  String get exportLinksTitle => 'åŒ¯å‡ºé€£çµ';
 
   @override
-  String get exportLinksSubtitle => '將連結儲存到文件';
+  String get exportLinksSubtitle => 'å°‡é€£çµå„²å­˜åˆ°æ–‡ä»¶';
 
   @override
-  String get enterPassword => '輸入密碼（可選）';
+  String get enterPassword => 'è¼¸å…¥å¯†ç¢¼ï¼ˆå¯é¸ï¼‰';
 
   @override
-  String get password => '密碼';
+  String get password => 'å¯†ç¢¼';
 
   @override
-  String get encryptFile => '加密';
+  String get encryptFile => 'åŠ å¯†';
 
   @override
   String get instagram => 'Instagram';
 
   @override
-  String get faqTitle => '常見問題解答';
+  String get faqTitle => 'å¸¸è¦‹å•é¡Œè§£ç­”';
 
   @override
-  String get importLinksTitle => '匯入連結';
+  String get importLinksTitle => 'åŒ¯å…¥é€£çµ';
 
   @override
-  String get importLinksSubtitle => '從檔案匯入連結';
+  String get importLinksSubtitle => 'å¾žæª”æ¡ˆåŒ¯å…¥é€£çµ';
 
   @override
   String importSuccess(int count) {
-    return '已成功匯入 $count 個連結';
+    return 'å·²æˆåŠŸåŒ¯å…¥ $count å€‹é€£çµ';
   }
 
   @override
   String importFailed(String error) {
-    return '匯入失敗：$error';
+    return 'åŒ¯å…¥å¤±æ•—ï¼š$error';
   }
 
   @override
-  String get decryptFailed => '解密失敗或格式無效';
+  String get decryptFailed => 'è§£å¯†å¤±æ•—æˆ–æ ¼å¼ç„¡æ•ˆ';
 
   @override
-  String get wrongPassword => '密碼錯誤或檔案無效';
+  String get wrongPassword => 'å¯†ç¢¼éŒ¯èª¤æˆ–æª”æ¡ˆç„¡æ•ˆ';
 
   @override
-  String get favoriteLimitReached => '最多允許 3 個收藏';
+  String get favoriteLimitReached => 'æœ€å¤šå…è¨± 3 å€‹æ”¶è—';
 
   @override
-  String get termsOfService => '服務條款';
+  String get termsOfService => 'æœå‹™æ¢æ¬¾';
 
   @override
-  String get privacyPolicy => '隱私權政策';
+  String get privacyPolicy => 'éš±ç§æ¬Šæ”¿ç­–';
 
   @override
-  String get welcomeTitle => '歡迎ReadItLater';
+  String get welcomeTitle => 'æ­¡è¿ŽPile';
 
   @override
-  String get welcomeMessage => '請閱讀並接受我們的服務條款和隱私權政策以繼續。';
+  String get welcomeMessage => 'è«‹é–±è®€ä¸¦æŽ¥å—æˆ‘å€‘çš„æœå‹™æ¢æ¬¾å’Œéš±ç§æ¬Šæ”¿ç­–ä»¥ç¹¼çºŒã€‚';
 
   @override
-  String get accept => '接受';
+  String get accept => 'æŽ¥å—';
 
   @override
-  String get decline => '拒絕';
+  String get decline => 'æ‹’çµ•';
 
   @override
-  String get setReminder => '設定提醒';
+  String get setReminder => 'è¨­å®šæé†’';
 
   @override
   String reminderSet(String date) {
-    return '設定為 $date 的提醒';
+    return 'è¨­å®šç‚º $date çš„æé†’';
   }
 
   @override
-  String get recentlyDeleted => '最近刪除';
+  String get recentlyDeleted => 'æœ€è¿‘åˆªé™¤';
 
   @override
-  String get reminderLimitReached => '已達到提醒限制 (10)';
+  String get reminderLimitReached => 'å·²é”åˆ°æé†’é™åˆ¶ (10)';
 
   @override
-  String get notificationsOrExactAlarmPermissionsBlocked => '通知及/或精確鬧鐘權限已被封鎖';
+  String get notificationsOrExactAlarmPermissionsBlocked => 'é€šçŸ¥åŠ/æˆ–ç²¾ç¢ºé¬§é˜æ¬Šé™å·²è¢«å°éŽ–';
 
   @override
-  String get proVersion => '專業版';
+  String get proVersion => 'å°ˆæ¥­ç‰ˆ';
 
   @override
-  String get notAvailableInYourCountry => '在您所在的國家/地區不可用';
+  String get notAvailableInYourCountry => 'åœ¨æ‚¨æ‰€åœ¨çš„åœ‹å®¶/åœ°å€ä¸å¯ç”¨';
 
   @override
-  String get upgradeToPro => '升級至專業版可無限次提醒';
+  String get upgradeToPro => 'å‡ç´šè‡³å°ˆæ¥­ç‰ˆå¯ç„¡é™æ¬¡æé†’';
 
   @override
   String restored(String name) {
-    return '$name已恢復';
+    return '$nameå·²æ¢å¾©';
   }
 
   @override
-  String get deletePermanentlyTitle => '永久刪除？';
+  String get deletePermanentlyTitle => 'æ°¸ä¹…åˆªé™¤ï¼Ÿ';
 
   @override
-  String get deletePermanentlyContent => '此操作無法撤銷。';
+  String get deletePermanentlyContent => 'æ­¤æ“ä½œç„¡æ³•æ’¤éŠ·ã€‚';
 
   @override
-  String get selectAll => '選擇全部';
+  String get selectAll => 'é¸æ“‡å…¨éƒ¨';
 
   @override
-  String get selectedCount => '已選擇';
+  String get selectedCount => 'å·²é¸æ“‡';
 
   @override
   String deleteSelectedContent(int count) {
-    return '刪除 $count 個連結？';
+    return 'åˆªé™¤ $count å€‹é€£çµï¼Ÿ';
   }
 
   @override
-  String get loginTitle => '登入';
+  String get loginTitle => 'ç™»å…¥';
 
   @override
-  String get emailLabel => '電子郵件';
+  String get emailLabel => 'é›»å­éƒµä»¶';
 
   @override
-  String get usernameLabel => '使用者名稱';
+  String get usernameLabel => 'ä½¿ç”¨è€…åç¨±';
 
   @override
-  String get passwordLabel => '密碼';
+  String get passwordLabel => 'å¯†ç¢¼';
 
   @override
-  String get loginButton => '登入';
+  String get loginButton => 'ç™»å…¥';
 
   @override
-  String get logoutButton => '登出';
+  String get logoutButton => 'ç™»å‡º';
 
   @override
-  String get skipLabel => '暫時跳過';
+  String get skipLabel => 'æš«æ™‚è·³éŽ';
 
   @override
   String loggedInAs(String email) {
-    return '以 $email 登入';
+    return 'ä»¥ $email ç™»å…¥';
   }
 
   @override
-  String get createAccount => '建立帳戶';
+  String get createAccount => 'å»ºç«‹å¸³æˆ¶';
 
   @override
-  String get nameLabel => '姓名';
+  String get nameLabel => 'å§“å';
 
   @override
-  String get confirmPasswordLabel => '確認密碼';
+  String get confirmPasswordLabel => 'ç¢ºèªå¯†ç¢¼';
 
   @override
-  String get registerButton => '登記';
+  String get registerButton => 'ç™»è¨˜';
 
   @override
-  String get signInWithGoogle => '使用 Google 登入';
+  String get signInWithGoogle => 'ä½¿ç”¨ Google ç™»å…¥';
 
   @override
-  String get googleSignInNotSupported => '此示範中未配置 Google Sign In。';
+  String get googleSignInNotSupported => 'æ­¤ç¤ºç¯„ä¸­æœªé…ç½® Google Sign Inã€‚';
 
   @override
-  String get accountCreated => '帳戶創建成功';
+  String get accountCreated => 'å¸³æˆ¶å‰µå»ºæˆåŠŸ';
 
   @override
-  String get invalidCredentials => '帳號或密碼錯誤';
+  String get invalidCredentials => 'å¸³è™Ÿæˆ–å¯†ç¢¼éŒ¯èª¤';
 
   @override
-  String get emailExists => '電子郵件已存在';
+  String get emailExists => 'é›»å­éƒµä»¶å·²å­˜åœ¨';
 
   @override
-  String get noAccountCreateOne => '沒有帳戶？立即建立。';
+  String get noAccountCreateOne => 'æ²’æœ‰å¸³æˆ¶ï¼Ÿç«‹å³å»ºç«‹ã€‚';
 
   @override
-  String get getStarted => '開始使用';
+  String get getStarted => 'é–‹å§‹ä½¿ç”¨';
 
   @override
-  String get acceptAndContinue => '接受並繼續';
+  String get acceptAndContinue => 'æŽ¥å—ä¸¦ç¹¼çºŒ';
 
   @override
-  String get acceptAndFinish => '接受並完成';
+  String get acceptAndFinish => 'æŽ¥å—ä¸¦å®Œæˆ';
 
   @override
-  String get stepTos => '服務條款';
+  String get stepTos => 'æœå‹™æ¢æ¬¾';
 
   @override
-  String get stepPrivacy => '隱私權政策';
+  String get stepPrivacy => 'éš±ç§æ¬Šæ”¿ç­–';
 
   @override
   String addedOn(String date) {
-    return '新增日期：$date';
+    return 'æ–°å¢žæ—¥æœŸï¼š$date';
   }
 
   @override
-  String get sendFeedback => '傳送回饋';
+  String get sendFeedback => 'å‚³é€å›žé¥‹';
 
   @override
-  String get feedbackSubject => '稍後閱讀回饋';
+  String get feedbackSubject => 'ç¨å¾Œé–±è®€å›žé¥‹';
 
   @override
-  String get feedbackTitle => '傳送回饋';
+  String get feedbackTitle => 'å‚³é€å›žé¥‹';
 
   @override
-  String get feedbackName => '姓名（可選）';
+  String get feedbackName => 'å§“åï¼ˆå¯é¸ï¼‰';
 
   @override
-  String get feedbackEmail => '電子郵件（可選）';
+  String get feedbackEmail => 'é›»å­éƒµä»¶ï¼ˆå¯é¸ï¼‰';
 
   @override
-  String get feedbackMessage => '訊息';
+  String get feedbackMessage => 'è¨Šæ¯';
 
   @override
-  String get verifyHuman => '請驗證您是人類';
+  String get verifyHuman => 'è«‹é©—è­‰æ‚¨æ˜¯äººé¡ž';
 
   @override
-  String get send => '傳送';
+  String get send => 'å‚³é€';
 
   @override
-  String get tabLinks => '連結';
+  String get tabLinks => 'é€£çµ';
 
   @override
-  String get tabDeleted => '已刪除';
+  String get tabDeleted => 'å·²åˆªé™¤';
 
   @override
-  String get topLinksTitle => '熱門連結';
+  String get topLinksTitle => 'ç†±é–€é€£çµ';
 
   @override
-  String get noDeletedLinks => '沒有刪除的連結';
+  String get noDeletedLinks => 'æ²’æœ‰åˆªé™¤çš„é€£çµ';
 
   @override
-  String get restoreTooltip => '恢復';
+  String get restoreTooltip => 'æ¢å¾©';
 
   @override
-  String get remindersTitle => '提醒事項';
+  String get remindersTitle => 'æé†’äº‹é …';
 
   @override
-  String get noReminders => '沒有即將到來的提醒';
+  String get noReminders => 'æ²’æœ‰å³å°‡åˆ°ä¾†çš„æé†’';
 
   @override
-  String get didYouKnow => '你可知道？';
+  String get didYouKnow => 'ä½ å¯çŸ¥é“ï¼Ÿ';
 
   @override
-  String get shareToAppTip => '您可以透過將其分享到 ReadItLater 來新增連結！';
+  String get shareToAppTip => 'æ‚¨å¯ä»¥é€éŽå°‡å…¶åˆ†äº«åˆ° Pile ä¾†æ–°å¢žé€£çµï¼';
 
   @override
-  String get commentsLabel => '評論（可選）';
+  String get commentsLabel => 'è©•è«–ï¼ˆå¯é¸ï¼‰';
 
   @override
-  String get accountSettings => '帳戶設定';
+  String get accountSettings => 'å¸³æˆ¶è¨­å®š';
 
   @override
-  String get signIn => '登入';
+  String get signIn => 'ç™»å…¥';
 
   @override
-  String get collectionsTitle => '收藏夾';
+  String get collectionsTitle => 'æ”¶è—å¤¾';
 
   @override
-  String get newCollection => '新增收藏夾';
+  String get newCollection => 'æ–°å¢žæ”¶è—å¤¾';
 
   @override
-  String get collectionName => '收藏夾名稱';
+  String get collectionName => 'æ”¶è—å¤¾åç¨±';
 
   @override
-  String get gridView => '網格視圖';
+  String get gridView => 'ç¶²æ ¼è¦–åœ–';
 
   @override
-  String get listView => '清單視圖';
+  String get listView => 'æ¸…å–®è¦–åœ–';
 
   @override
-  String get editAccountTitle => '編輯帳戶';
+  String get editAccountTitle => 'ç·¨è¼¯å¸³æˆ¶';
 
   @override
-  String get changePasswordTitle => '更改帳號密碼';
+  String get changePasswordTitle => 'æ›´æ”¹å¸³è™Ÿå¯†ç¢¼';
 
   @override
-  String get signOutTitle => '登出';
+  String get signOutTitle => 'ç™»å‡º';
 
   @override
-  String get signOutConfirm => '您確定要從此裝置中的帳戶登出嗎？';
+  String get signOutConfirm => 'æ‚¨ç¢ºå®šè¦å¾žæ­¤è£ç½®ä¸­çš„å¸³æˆ¶ç™»å‡ºå—Žï¼Ÿ';
 
   @override
-  String get deleteAccountTitle => '刪除帳戶';
+  String get deleteAccountTitle => 'åˆªé™¤å¸³æˆ¶';
 
   @override
-  String get deleteAccountWarning => '刪除帳戶：請仔細閱讀此內容。';
+  String get deleteAccountWarning => 'åˆªé™¤å¸³æˆ¶ï¼šè«‹ä»”ç´°é–±è®€æ­¤å…§å®¹ã€‚';
 
   @override
-  String get deleteAccountConfirm => '您將刪除您的帳戶以及所有相關資料。這是無法撤銷的。你確定嗎？';
+  String get deleteAccountConfirm => 'æ‚¨å°‡åˆªé™¤æ‚¨çš„å¸³æˆ¶ä»¥åŠæ‰€æœ‰ç›¸é—œè³‡æ–™ã€‚é€™æ˜¯ç„¡æ³•æ’¤éŠ·çš„ã€‚ä½ ç¢ºå®šå—Žï¼Ÿ';
 
   @override
-  String get deleteSuccess => '很遺憾看到您離開。您的帳戶已被刪除。';
+  String get deleteSuccess => 'å¾ˆéºæ†¾çœ‹åˆ°æ‚¨é›¢é–‹ã€‚æ‚¨çš„å¸³æˆ¶å·²è¢«åˆªé™¤ã€‚';
 
   @override
-  String get deleteFail => '刪除帳戶失敗。請稍後重試。';
+  String get deleteFail => 'åˆªé™¤å¸³æˆ¶å¤±æ•—ã€‚è«‹ç¨å¾Œé‡è©¦ã€‚';
 
   @override
-  String get continueButton => '繼續';
+  String get continueButton => 'ç¹¼çºŒ';
 
   @override
-  String get noCollectionsYet => '暫無收藏夾';
+  String get noCollectionsYet => 'æš«ç„¡æ”¶è—å¤¾';
 
   @override
-  String get emptyFolder => '空資料夾';
+  String get emptyFolder => 'ç©ºè³‡æ–™å¤¾';
 
   @override
-  String get folderColor => '資料夾顏色';
+  String get folderColor => 'è³‡æ–™å¤¾é¡è‰²';
 
   @override
-  String get editAction => '編輯';
+  String get editAction => 'ç·¨è¼¯';
 
   @override
-  String get editCollection => '編輯收藏夾';
+  String get editCollection => 'ç·¨è¼¯æ”¶è—å¤¾';
 
   @override
-  String get changeColor => '更改顏色';
+  String get changeColor => 'æ›´æ”¹é¡è‰²';
 
   @override
-  String get deleteCollectionWarning => '裡面的連結將被移至根目錄。';
+  String get deleteCollectionWarning => 'è£¡é¢çš„é€£çµå°‡è¢«ç§»è‡³æ ¹ç›®éŒ„ã€‚';
 
   @override
-  String get moveAction => '移動';
+  String get moveAction => 'ç§»å‹•';
 
   @override
-  String get moveToCollection => '移至收藏夾';
+  String get moveToCollection => 'ç§»è‡³æ”¶è—å¤¾';
 
   @override
-  String get noCollection => '無收藏夾';
+  String get noCollection => 'ç„¡æ”¶è—å¤¾';
 
   @override
-  String get noInternetConnection => '無網路連接';
+  String get noInternetConnection => 'ç„¡ç¶²è·¯é€£æŽ¥';
 
   @override
-  String get dismiss => '關閉';
+  String get dismiss => 'é—œé–‰';
 
   @override
-  String get tagAll => '全部';
+  String get tagAll => 'å…¨éƒ¨';
 
   @override
-  String get camera => '相機';
+  String get camera => 'ç›¸æ©Ÿ';
 
   @override
-  String get gallery => '相簿';
+  String get gallery => 'ç›¸ç°¿';
 
   @override
-  String get classicAvatars => '經典頭像';
+  String get classicAvatars => 'ç¶“å…¸é ­åƒ';
 
   @override
-  String get classic => '經典';
+  String get classic => 'ç¶“å…¸';
 
   @override
-  String get usernameLengthError => '使用者名稱必須在3到45個字元之間';
+  String get usernameLengthError => 'ä½¿ç”¨è€…åç¨±å¿…é ˆåœ¨3åˆ°45å€‹å­—å…ƒä¹‹é–“';
 
   @override
-  String get usernameFormatError => '使用者名稱格式無效。';
+  String get usernameFormatError => 'ä½¿ç”¨è€…åç¨±æ ¼å¼ç„¡æ•ˆã€‚';
 
   @override
   String visitCount(int count) {
-    return '$count 次造訪';
+    return '$count æ¬¡é€ è¨ª';
   }
 
   @override
-  String get usernameConsecutiveSymbols => '使用者名稱不能包含連續的符號。';
+  String get usernameConsecutiveSymbols => 'ä½¿ç”¨è€…åç¨±ä¸èƒ½åŒ…å«é€£çºŒçš„ç¬¦è™Ÿã€‚';
 
   @override
-  String get usernameRestrictedWords => '使用者名稱包含受限詞彙。';
+  String get usernameRestrictedWords => 'ä½¿ç”¨è€…åç¨±åŒ…å«å—é™è©žå½™ã€‚';
 
   @override
-  String get failedUploadPic => '上傳頭像失敗。';
+  String get failedUploadPic => 'ä¸Šå‚³é ­åƒå¤±æ•—ã€‚';
 
   @override
-  String get accountUpdated => '帳戶更新成功';
+  String get accountUpdated => 'å¸³æˆ¶æ›´æ–°æˆåŠŸ';
 
   @override
-  String get failedUpdateAccount => '帳戶更新失敗。電子郵件可能已被使用。';
+  String get failedUpdateAccount => 'å¸³æˆ¶æ›´æ–°å¤±æ•—ã€‚é›»å­éƒµä»¶å¯èƒ½å·²è¢«ä½¿ç”¨ã€‚';
 
   @override
-  String get editAccountHint => '如果不想更改，請將欄位留空。點擊圖片更新頭像。';
+  String get editAccountHint => 'å¦‚æžœä¸æƒ³æ›´æ”¹ï¼Œè«‹å°‡æ¬„ä½ç•™ç©ºã€‚é»žæ“Šåœ–ç‰‡æ›´æ–°é ­åƒã€‚';
 
   @override
-  String get saveChanges => '儲存變更';
+  String get saveChanges => 'å„²å­˜è®Šæ›´';
 
   @override
-  String get verifyIdentity => '驗證身份';
+  String get verifyIdentity => 'é©—è­‰èº«ä»½';
 
   @override
-  String get enterCurrentPassword => '請輸入目前密碼以繼續。';
+  String get enterCurrentPassword => 'è«‹è¼¸å…¥ç›®å‰å¯†ç¢¼ä»¥ç¹¼çºŒã€‚';
 
   @override
-  String get currentPassword => '目前密碼';
+  String get currentPassword => 'ç›®å‰å¯†ç¢¼';
 
   @override
-  String get incorrectPassword => '密碼不正確';
+  String get incorrectPassword => 'å¯†ç¢¼ä¸æ­£ç¢º';
 
   @override
-  String get verify => '驗證';
+  String get verify => 'é©—è­‰';
 
   @override
-  String get googleVerifyFailed => '透過Google驗證身份失敗。';
+  String get googleVerifyFailed => 'é€éŽGoogleé©—è­‰èº«ä»½å¤±æ•—ã€‚';
 
   @override
-  String get confirmIdentity => '要繼續，請先確認是您本人。';
+  String get confirmIdentity => 'è¦ç¹¼çºŒï¼Œè«‹å…ˆç¢ºèªæ˜¯æ‚¨æœ¬äººã€‚';
 
   @override
-  String get verifyIdentityDesc => '我們需要驗證您的身份以保護您的帳戶。';
+  String get verifyIdentityDesc => 'æˆ‘å€‘éœ€è¦é©—è­‰æ‚¨çš„èº«ä»½ä»¥ä¿è­·æ‚¨çš„å¸³æˆ¶ã€‚';
 
   @override
-  String get continueWithGoogle => '使用Google繼續';
+  String get continueWithGoogle => 'ä½¿ç”¨Googleç¹¼çºŒ';
 
   @override
-  String get editPassword => '修改密碼';
+  String get editPassword => 'ä¿®æ”¹å¯†ç¢¼';
 
   @override
-  String get newPassword => '新密碼';
+  String get newPassword => 'æ–°å¯†ç¢¼';
 
   @override
-  String get passwordUpdated => '密碼更新成功';
+  String get passwordUpdated => 'å¯†ç¢¼æ›´æ–°æˆåŠŸ';
 
   @override
-  String get failedUpdatePassword => '密碼更新失敗';
+  String get failedUpdatePassword => 'å¯†ç¢¼æ›´æ–°å¤±æ•—';
 
   @override
-  String get savePassword => '儲存密碼';
+  String get savePassword => 'å„²å­˜å¯†ç¢¼';
 
   @override
-  String get passwordsDoNotMatch => '兩次密碼不一致';
+  String get passwordsDoNotMatch => 'å…©æ¬¡å¯†ç¢¼ä¸ä¸€è‡´';
 
   @override
-  String get none => '無';
+  String get none => 'ç„¡';
 
   @override
-  String get aiSettings => 'AI 設定';
+  String get aiSettings => 'AI è¨­å®š';
 
   @override
-  String get aiSettingsSubtitle => '控制集合的 AI 排序和風格記憶。';
+  String get aiSettingsSubtitle => 'æŽ§åˆ¶é›†åˆçš„ AI æŽ’åºå’Œé¢¨æ ¼è¨˜æ†¶ã€‚';
 
   @override
-  String get useAiSorting => '使用 AI 排序';
+  String get useAiSorting => 'ä½¿ç”¨ AI æŽ’åº';
 
   @override
-  String get useAiSortingSubtitle => '根據你的連結自動建議資料夾分組。';
+  String get useAiSortingSubtitle => 'æ ¹æ“šä½ çš„é€£çµè‡ªå‹•å»ºè­°è³‡æ–™å¤¾åˆ†çµ„ã€‚';
 
   @override
-  String get styleMemory => '風格記憶';
+  String get styleMemory => 'é¢¨æ ¼è¨˜æ†¶';
 
   @override
-  String get styleMemoryEmpty => '設定集合名稱的風格。';
+  String get styleMemoryEmpty => 'è¨­å®šé›†åˆåç¨±çš„é¢¨æ ¼ã€‚';
 
   @override
-  String get styleMemoryDesc => '風格記憶會悄悄學習你如何命名與整理集合 - 無論你偏好表情符號、全大寫或更簡潔的風格 - 並在下次整理時套用。';
+  String get styleMemoryDesc => 'é¢¨æ ¼è¨˜æ†¶æœƒæ‚„æ‚„å­¸ç¿’ä½ å¦‚ä½•å‘½åèˆ‡æ•´ç†é›†åˆ - ç„¡è«–ä½ åå¥½è¡¨æƒ…ç¬¦è™Ÿã€å…¨å¤§å¯«æˆ–æ›´ç°¡æ½”çš„é¢¨æ ¼ - ä¸¦åœ¨ä¸‹æ¬¡æ•´ç†æ™‚å¥—ç”¨ã€‚';
 
   @override
-  String get styleMemorySpecificHint => '請盡量具體。例如：「技術類用表情，工作類用全大寫，個人類保持簡潔。」';
+  String get styleMemorySpecificHint => 'è«‹ç›¡é‡å…·é«”ã€‚ä¾‹å¦‚ï¼šã€ŒæŠ€è¡“é¡žç”¨è¡¨æƒ…ï¼Œå·¥ä½œé¡žç”¨å…¨å¤§å¯«ï¼Œå€‹äººé¡žä¿æŒç°¡æ½”ã€‚ã€';
 
   @override
-  String get styleMemoryTextHint => '描述你的資料夾命名風格...';
+  String get styleMemoryTextHint => 'æè¿°ä½ çš„è³‡æ–™å¤¾å‘½åé¢¨æ ¼...';
 
   @override
-  String get styleMemorySaved => '風格記憶已儲存。';
+  String get styleMemorySaved => 'é¢¨æ ¼è¨˜æ†¶å·²å„²å­˜ã€‚';
 
   @override
-  String get enableAiSortingFirst => '請先在設定中啟用「使用 AI 排序」。';
+  String get enableAiSortingFirst => 'è«‹å…ˆåœ¨è¨­å®šä¸­å•Ÿç”¨ã€Œä½¿ç”¨ AI æŽ’åºã€ã€‚';
 
   @override
-  String get saveMoreLinksTryAgain => '請再儲存一些連結後再試。';
+  String get saveMoreLinksTryAgain => 'è«‹å†å„²å­˜ä¸€äº›é€£çµå¾Œå†è©¦ã€‚';
 
   @override
-  String get linksTooUnrelated => '這些連結關聯性太低。';
+  String get linksTooUnrelated => 'é€™äº›é€£çµé—œè¯æ€§å¤ªä½Žã€‚';
 
   @override
-  String get linksAlreadySimilar => '這些連結已經很相似。';
+  String get linksAlreadySimilar => 'é€™äº›é€£çµå·²ç¶“å¾ˆç›¸ä¼¼ã€‚';
 
   @override
-  String get aiSortingSaved => 'AI 排序已儲存。';
+  String get aiSortingSaved => 'AI æŽ’åºå·²å„²å­˜ã€‚';
 
   @override
-  String get tryAgainTitle => '再試一次？';
+  String get tryAgainTitle => 'å†è©¦ä¸€æ¬¡ï¼Ÿ';
 
   @override
-  String get tryAgainQuestion => '你想再試一次嗎？';
+  String get tryAgainQuestion => 'ä½ æƒ³å†è©¦ä¸€æ¬¡å—Žï¼Ÿ';
 
   @override
-  String get aiSortingResult => 'AI 排序結果';
+  String get aiSortingResult => 'AI æŽ’åºçµæžœ';
 
   @override
-  String get saveFolderTree => '儲存這個資料夾樹嗎？';
+  String get saveFolderTree => 'å„²å­˜é€™å€‹è³‡æ–™å¤¾æ¨¹å—Žï¼Ÿ';
 
   @override
-  String get yes => '是';
+  String get yes => 'æ˜¯';
 
   @override
-  String get no => '否';
+  String get no => 'å¦';
 
   @override
-  String get autoSortLinks => '自動排序連結';
+  String get autoSortLinks => 'è‡ªå‹•æŽ’åºé€£çµ';
 
   @override
   String folderCount(String name, int count) {
-    return '資料夾：$name（$count）';
+    return 'è³‡æ–™å¤¾ï¼š$nameï¼ˆ$countï¼‰';
   }
 
   @override
   String moreCount(int count) {
-    return '- 另外 $count 項';
+    return '- å¦å¤– $count é …';
   }
 }
 
@@ -1800,588 +1800,589 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   AppLocalizationsZhTw(): super('zh_TW');
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
-  String get searchHint => '搜尋連結和標籤...';
+  String get searchHint => 'æœå°‹é€£çµå’Œæ¨™ç±¤...';
 
   @override
-  String get noLinksYet => '尚未儲存連結';
+  String get noLinksYet => 'å°šæœªå„²å­˜é€£çµ';
 
   @override
-  String get noMatchingLinks => '找不到符合的連結';
+  String get noMatchingLinks => 'æ‰¾ä¸åˆ°ç¬¦åˆçš„é€£çµ';
 
   @override
-  String get tapToAdd => '點擊 + 新增您的第一個連結';
+  String get tapToAdd => 'é»žæ“Š + æ–°å¢žæ‚¨çš„ç¬¬ä¸€å€‹é€£çµ';
 
   @override
-  String get deleteLinkTitle => '刪除連結';
+  String get deleteLinkTitle => 'åˆªé™¤é€£çµ';
 
   @override
   String deleteLinkContent(String name) {
-    return '您確定要刪除“$name”嗎？';
+    return 'æ‚¨ç¢ºå®šè¦åˆªé™¤â€œ$nameâ€å—Žï¼Ÿ';
   }
 
   @override
-  String get cancel => '取消';
+  String get cancel => 'å–æ¶ˆ';
 
   @override
-  String get delete => '刪除';
+  String get delete => 'åˆªé™¤';
 
   @override
-  String get undo => '復原';
+  String get undo => 'å¾©åŽŸ';
 
   @override
   String deleted(String name) {
-    return '$name已刪除';
+    return '$nameå·²åˆªé™¤';
   }
 
   @override
   String errorLoading(String error) {
-    return '載入資料時發生錯誤：$error';
+    return 'è¼‰å…¥è³‡æ–™æ™‚ç™¼ç”ŸéŒ¯èª¤ï¼š$error';
   }
 
   @override
   String couldNotOpen(String url) {
-    return '無法打開 $url';
+    return 'ç„¡æ³•æ‰“é–‹ $url';
   }
 
   @override
-  String get addLinkTitle => '新增連結';
+  String get addLinkTitle => 'æ–°å¢žé€£çµ';
 
   @override
-  String get editLinkTitle => '編輯連結';
+  String get editLinkTitle => 'ç·¨è¼¯é€£çµ';
 
   @override
-  String get linkTitleLabel => '標題';
+  String get linkTitleLabel => 'æ¨™é¡Œ';
 
   @override
-  String get urlLabel => '網址';
+  String get urlLabel => 'ç¶²å€';
 
   @override
-  String get addTagLabel => '新增標籤';
+  String get addTagLabel => 'æ–°å¢žæ¨™ç±¤';
 
   @override
-  String get save => '儲存';
+  String get save => 'å„²å­˜';
 
   @override
-  String get pleaseEnterUrl => '請輸入網址';
+  String get pleaseEnterUrl => 'è«‹è¼¸å…¥ç¶²å€';
 
   @override
-  String get accountTitle => '設定';
+  String get accountTitle => 'è¨­å®š';
 
   @override
-  String get language => '語言';
+  String get language => 'èªžè¨€';
 
   @override
-  String get navHome => '主頁';
+  String get navHome => 'ä¸»é ';
 
   @override
-  String get navAccount => '設定';
+  String get navAccount => 'è¨­å®š';
 
   @override
-  String get backupRestoreTitle => '備份與復原';
+  String get backupRestoreTitle => 'å‚™ä»½èˆ‡å¾©åŽŸ';
 
   @override
-  String get exportLinksTitle => '匯出連結';
+  String get exportLinksTitle => 'åŒ¯å‡ºé€£çµ';
 
   @override
-  String get exportLinksSubtitle => '將連結儲存到文件';
+  String get exportLinksSubtitle => 'å°‡é€£çµå„²å­˜åˆ°æ–‡ä»¶';
 
   @override
-  String get enterPassword => '輸入密碼（可選）';
+  String get enterPassword => 'è¼¸å…¥å¯†ç¢¼ï¼ˆå¯é¸ï¼‰';
 
   @override
-  String get password => '密碼';
+  String get password => 'å¯†ç¢¼';
 
   @override
-  String get encryptFile => '加密';
+  String get encryptFile => 'åŠ å¯†';
 
   @override
   String get instagram => 'Instagram';
 
   @override
-  String get faqTitle => '常見問題解答';
+  String get faqTitle => 'å¸¸è¦‹å•é¡Œè§£ç­”';
 
   @override
-  String get importLinksTitle => '恢復連結';
+  String get importLinksTitle => 'æ¢å¾©é€£çµ';
 
   @override
-  String get importLinksSubtitle => '從檔案匯入連結';
+  String get importLinksSubtitle => 'å¾žæª”æ¡ˆåŒ¯å…¥é€£çµ';
 
   @override
   String importSuccess(int count) {
-    return '已成功匯入 $count 個連結';
+    return 'å·²æˆåŠŸåŒ¯å…¥ $count å€‹é€£çµ';
   }
 
   @override
   String importFailed(String error) {
-    return '匯入失敗：$error';
+    return 'åŒ¯å…¥å¤±æ•—ï¼š$error';
   }
 
   @override
-  String get decryptFailed => '解密失敗或格式無效';
+  String get decryptFailed => 'è§£å¯†å¤±æ•—æˆ–æ ¼å¼ç„¡æ•ˆ';
 
   @override
-  String get wrongPassword => '密碼錯誤或檔案無效';
+  String get wrongPassword => 'å¯†ç¢¼éŒ¯èª¤æˆ–æª”æ¡ˆç„¡æ•ˆ';
 
   @override
-  String get favoriteLimitReached => '最多允許 3 個收藏夾';
+  String get favoriteLimitReached => 'æœ€å¤šå…è¨± 3 å€‹æ”¶è—å¤¾';
 
   @override
-  String get termsOfService => '服務條款';
+  String get termsOfService => 'æœå‹™æ¢æ¬¾';
 
   @override
-  String get privacyPolicy => '隱私權政策';
+  String get privacyPolicy => 'éš±ç§æ¬Šæ”¿ç­–';
 
   @override
-  String get welcomeTitle => '歡迎ReadItLater';
+  String get welcomeTitle => 'æ­¡è¿ŽPile';
 
   @override
-  String get welcomeMessage => '請閱讀並接受我們的服務條款和隱私權政策以繼續。';
+  String get welcomeMessage => 'è«‹é–±è®€ä¸¦æŽ¥å—æˆ‘å€‘çš„æœå‹™æ¢æ¬¾å’Œéš±ç§æ¬Šæ”¿ç­–ä»¥ç¹¼çºŒã€‚';
 
   @override
-  String get accept => '接受';
+  String get accept => 'æŽ¥å—';
 
   @override
-  String get decline => '拒絕';
+  String get decline => 'æ‹’çµ•';
 
   @override
-  String get setReminder => '設定提醒';
+  String get setReminder => 'è¨­å®šæé†’';
 
   @override
   String reminderSet(String date) {
-    return '設定為 $date 的提醒';
+    return 'è¨­å®šç‚º $date çš„æé†’';
   }
 
   @override
-  String get recentlyDeleted => '最近刪除';
+  String get recentlyDeleted => 'æœ€è¿‘åˆªé™¤';
 
   @override
-  String get reminderLimitReached => '已達到提醒限制 (10)';
+  String get reminderLimitReached => 'å·²é”åˆ°æé†’é™åˆ¶ (10)';
 
   @override
-  String get notificationsOrExactAlarmPermissionsBlocked => '通知和/或精確鬧鐘權限遭到封鎖';
+  String get notificationsOrExactAlarmPermissionsBlocked => 'é€šçŸ¥å’Œ/æˆ–ç²¾ç¢ºé¬§é˜æ¬Šé™é­åˆ°å°éŽ–';
 
   @override
-  String get proVersion => '專業版';
+  String get proVersion => 'å°ˆæ¥­ç‰ˆ';
 
   @override
-  String get notAvailableInYourCountry => '在您所在的國家/地區不可用';
+  String get notAvailableInYourCountry => 'åœ¨æ‚¨æ‰€åœ¨çš„åœ‹å®¶/åœ°å€ä¸å¯ç”¨';
 
   @override
-  String get upgradeToPro => '升級至專業版可無限次提醒';
+  String get upgradeToPro => 'å‡ç´šè‡³å°ˆæ¥­ç‰ˆå¯ç„¡é™æ¬¡æé†’';
 
   @override
   String restored(String name) {
-    return '$name已恢復';
+    return '$nameå·²æ¢å¾©';
   }
 
   @override
-  String get deletePermanentlyTitle => '永久刪除？';
+  String get deletePermanentlyTitle => 'æ°¸ä¹…åˆªé™¤ï¼Ÿ';
 
   @override
-  String get deletePermanentlyContent => '此操作無法撤銷。';
+  String get deletePermanentlyContent => 'æ­¤æ“ä½œç„¡æ³•æ’¤éŠ·ã€‚';
 
   @override
-  String get selectAll => '選擇全部';
+  String get selectAll => 'é¸æ“‡å…¨éƒ¨';
 
   @override
-  String get selectedCount => '已選擇';
+  String get selectedCount => 'å·²é¸æ“‡';
 
   @override
   String deleteSelectedContent(int count) {
-    return '刪除 $count 個連結？';
+    return 'åˆªé™¤ $count å€‹é€£çµï¼Ÿ';
   }
 
   @override
-  String get loginTitle => '登入';
+  String get loginTitle => 'ç™»å…¥';
 
   @override
-  String get emailLabel => '電子郵件';
+  String get emailLabel => 'é›»å­éƒµä»¶';
 
   @override
-  String get usernameLabel => '使用者名稱';
+  String get usernameLabel => 'ä½¿ç”¨è€…åç¨±';
 
   @override
-  String get passwordLabel => '密碼';
+  String get passwordLabel => 'å¯†ç¢¼';
 
   @override
-  String get loginButton => '登入';
+  String get loginButton => 'ç™»å…¥';
 
   @override
-  String get logoutButton => '登出';
+  String get logoutButton => 'ç™»å‡º';
 
   @override
-  String get skipLabel => '暫時跳過';
+  String get skipLabel => 'æš«æ™‚è·³éŽ';
 
   @override
   String loggedInAs(String email) {
-    return '以 $email 登入';
+    return 'ä»¥ $email ç™»å…¥';
   }
 
   @override
-  String get createAccount => '建立帳戶';
+  String get createAccount => 'å»ºç«‹å¸³æˆ¶';
 
   @override
-  String get nameLabel => '姓名';
+  String get nameLabel => 'å§“å';
 
   @override
-  String get confirmPasswordLabel => '確認密碼';
+  String get confirmPasswordLabel => 'ç¢ºèªå¯†ç¢¼';
 
   @override
-  String get registerButton => '登記';
+  String get registerButton => 'ç™»è¨˜';
 
   @override
-  String get signInWithGoogle => '使用 Google 登入';
+  String get signInWithGoogle => 'ä½¿ç”¨ Google ç™»å…¥';
 
   @override
-  String get googleSignInNotSupported => '此示範中未配置 Google Sign In。';
+  String get googleSignInNotSupported => 'æ­¤ç¤ºç¯„ä¸­æœªé…ç½® Google Sign Inã€‚';
 
   @override
-  String get accountCreated => '帳戶創建成功';
+  String get accountCreated => 'å¸³æˆ¶å‰µå»ºæˆåŠŸ';
 
   @override
-  String get invalidCredentials => '帳號或密碼錯誤';
+  String get invalidCredentials => 'å¸³è™Ÿæˆ–å¯†ç¢¼éŒ¯èª¤';
 
   @override
-  String get emailExists => '電子郵件已存在';
+  String get emailExists => 'é›»å­éƒµä»¶å·²å­˜åœ¨';
 
   @override
-  String get noAccountCreateOne => '沒有帳戶？立即建立。';
+  String get noAccountCreateOne => 'æ²’æœ‰å¸³æˆ¶ï¼Ÿç«‹å³å»ºç«‹ã€‚';
 
   @override
-  String get getStarted => '開始使用';
+  String get getStarted => 'é–‹å§‹ä½¿ç”¨';
 
   @override
-  String get acceptAndContinue => '接受並繼續';
+  String get acceptAndContinue => 'æŽ¥å—ä¸¦ç¹¼çºŒ';
 
   @override
-  String get acceptAndFinish => '接受並完成';
+  String get acceptAndFinish => 'æŽ¥å—ä¸¦å®Œæˆ';
 
   @override
-  String get stepTos => '服務條款';
+  String get stepTos => 'æœå‹™æ¢æ¬¾';
 
   @override
-  String get stepPrivacy => '隱私權政策';
+  String get stepPrivacy => 'éš±ç§æ¬Šæ”¿ç­–';
 
   @override
   String addedOn(String date) {
-    return '新增日期：$date';
+    return 'æ–°å¢žæ—¥æœŸï¼š$date';
   }
 
   @override
-  String get sendFeedback => '傳送回饋';
+  String get sendFeedback => 'å‚³é€å›žé¥‹';
 
   @override
-  String get feedbackSubject => '稍後閱讀回饋';
+  String get feedbackSubject => 'ç¨å¾Œé–±è®€å›žé¥‹';
 
   @override
-  String get feedbackTitle => '傳送回饋';
+  String get feedbackTitle => 'å‚³é€å›žé¥‹';
 
   @override
-  String get feedbackName => '姓名（可選）';
+  String get feedbackName => 'å§“åï¼ˆå¯é¸ï¼‰';
 
   @override
-  String get feedbackEmail => '電子郵件（可選）';
+  String get feedbackEmail => 'é›»å­éƒµä»¶ï¼ˆå¯é¸ï¼‰';
 
   @override
-  String get feedbackMessage => '訊息';
+  String get feedbackMessage => 'è¨Šæ¯';
 
   @override
-  String get verifyHuman => '請驗證您是人類';
+  String get verifyHuman => 'è«‹é©—è­‰æ‚¨æ˜¯äººé¡ž';
 
   @override
-  String get send => '傳送';
+  String get send => 'å‚³é€';
 
   @override
-  String get tabLinks => '連結';
+  String get tabLinks => 'é€£çµ';
 
   @override
-  String get tabDeleted => '已刪除';
+  String get tabDeleted => 'å·²åˆªé™¤';
 
   @override
-  String get topLinksTitle => '熱門連結';
+  String get topLinksTitle => 'ç†±é–€é€£çµ';
 
   @override
-  String get noDeletedLinks => '沒有刪除的連結';
+  String get noDeletedLinks => 'æ²’æœ‰åˆªé™¤çš„é€£çµ';
 
   @override
-  String get restoreTooltip => '恢復';
+  String get restoreTooltip => 'æ¢å¾©';
 
   @override
-  String get remindersTitle => '提醒事項';
+  String get remindersTitle => 'æé†’äº‹é …';
 
   @override
-  String get noReminders => '沒有即將到來的提醒';
+  String get noReminders => 'æ²’æœ‰å³å°‡åˆ°ä¾†çš„æé†’';
 
   @override
-  String get didYouKnow => '你可知道？';
+  String get didYouKnow => 'ä½ å¯çŸ¥é“ï¼Ÿ';
 
   @override
-  String get shareToAppTip => '您可以透過將其分享到 ReadItLater 來新增連結！';
+  String get shareToAppTip => 'æ‚¨å¯ä»¥é€éŽå°‡å…¶åˆ†äº«åˆ° Pile ä¾†æ–°å¢žé€£çµï¼';
 
   @override
-  String get commentsLabel => '評論（可選）';
+  String get commentsLabel => 'è©•è«–ï¼ˆå¯é¸ï¼‰';
 
   @override
-  String get accountSettings => '帳戶設定';
+  String get accountSettings => 'å¸³æˆ¶è¨­å®š';
 
   @override
-  String get signIn => '登入';
+  String get signIn => 'ç™»å…¥';
 
   @override
-  String get collectionsTitle => '收藏夾';
+  String get collectionsTitle => 'æ”¶è—å¤¾';
 
   @override
-  String get newCollection => '新收藏夾';
+  String get newCollection => 'æ–°æ”¶è—å¤¾';
 
   @override
-  String get collectionName => '收藏夾名稱';
+  String get collectionName => 'æ”¶è—å¤¾åç¨±';
 
   @override
-  String get gridView => '網格視圖';
+  String get gridView => 'ç¶²æ ¼è¦–åœ–';
 
   @override
-  String get listView => '清單視圖';
+  String get listView => 'æ¸…å–®è¦–åœ–';
 
   @override
-  String get editAccountTitle => '編輯帳戶';
+  String get editAccountTitle => 'ç·¨è¼¯å¸³æˆ¶';
 
   @override
-  String get changePasswordTitle => '更改帳號密碼';
+  String get changePasswordTitle => 'æ›´æ”¹å¸³è™Ÿå¯†ç¢¼';
 
   @override
-  String get signOutTitle => '登出';
+  String get signOutTitle => 'ç™»å‡º';
 
   @override
-  String get signOutConfirm => '您確定要從此裝置中的帳戶登出嗎？';
+  String get signOutConfirm => 'æ‚¨ç¢ºå®šè¦å¾žæ­¤è£ç½®ä¸­çš„å¸³æˆ¶ç™»å‡ºå—Žï¼Ÿ';
 
   @override
-  String get deleteAccountTitle => '刪除帳戶';
+  String get deleteAccountTitle => 'åˆªé™¤å¸³æˆ¶';
 
   @override
-  String get deleteAccountWarning => '刪除帳戶：請仔細閱讀此內容。';
+  String get deleteAccountWarning => 'åˆªé™¤å¸³æˆ¶ï¼šè«‹ä»”ç´°é–±è®€æ­¤å…§å®¹ã€‚';
 
   @override
-  String get deleteAccountConfirm => '您將刪除您的帳戶以及所有相關資料。這是無法撤銷的。你確定嗎？';
+  String get deleteAccountConfirm => 'æ‚¨å°‡åˆªé™¤æ‚¨çš„å¸³æˆ¶ä»¥åŠæ‰€æœ‰ç›¸é—œè³‡æ–™ã€‚é€™æ˜¯ç„¡æ³•æ’¤éŠ·çš„ã€‚ä½ ç¢ºå®šå—Žï¼Ÿ';
 
   @override
-  String get deleteSuccess => '很遺憾看到您離開。您的帳戶已被刪除。';
+  String get deleteSuccess => 'å¾ˆéºæ†¾çœ‹åˆ°æ‚¨é›¢é–‹ã€‚æ‚¨çš„å¸³æˆ¶å·²è¢«åˆªé™¤ã€‚';
 
   @override
-  String get deleteFail => '刪除帳戶失敗。請稍後重試。';
+  String get deleteFail => 'åˆªé™¤å¸³æˆ¶å¤±æ•—ã€‚è«‹ç¨å¾Œé‡è©¦ã€‚';
 
   @override
-  String get continueButton => '繼續';
+  String get continueButton => 'ç¹¼çºŒ';
 
   @override
-  String get noCollectionsYet => '暫無收藏夾';
+  String get noCollectionsYet => 'æš«ç„¡æ”¶è—å¤¾';
 
   @override
-  String get emptyFolder => '空資料夾';
+  String get emptyFolder => 'ç©ºè³‡æ–™å¤¾';
 
   @override
-  String get folderColor => '資料夾顏色';
+  String get folderColor => 'è³‡æ–™å¤¾é¡è‰²';
 
   @override
-  String get editAction => '編輯';
+  String get editAction => 'ç·¨è¼¯';
 
   @override
-  String get editCollection => '編輯收藏夾';
+  String get editCollection => 'ç·¨è¼¯æ”¶è—å¤¾';
 
   @override
-  String get changeColor => '更改顏色';
+  String get changeColor => 'æ›´æ”¹é¡è‰²';
 
   @override
-  String get deleteCollectionWarning => '裡面的連結將被移至根目錄。';
+  String get deleteCollectionWarning => 'è£¡é¢çš„é€£çµå°‡è¢«ç§»è‡³æ ¹ç›®éŒ„ã€‚';
 
   @override
-  String get moveAction => '移動';
+  String get moveAction => 'ç§»å‹•';
 
   @override
-  String get moveToCollection => '移至收藏夾';
+  String get moveToCollection => 'ç§»è‡³æ”¶è—å¤¾';
 
   @override
-  String get noCollection => '無收藏夾';
+  String get noCollection => 'ç„¡æ”¶è—å¤¾';
 
   @override
-  String get noInternetConnection => '無網路連接';
+  String get noInternetConnection => 'ç„¡ç¶²è·¯é€£æŽ¥';
 
   @override
-  String get dismiss => '關閉';
+  String get dismiss => 'é—œé–‰';
 
   @override
-  String get tagAll => '全部';
+  String get tagAll => 'å…¨éƒ¨';
 
   @override
-  String get camera => '相機';
+  String get camera => 'ç›¸æ©Ÿ';
 
   @override
-  String get gallery => '相簿';
+  String get gallery => 'ç›¸ç°¿';
 
   @override
-  String get classicAvatars => '經典頭像';
+  String get classicAvatars => 'ç¶“å…¸é ­åƒ';
 
   @override
-  String get classic => '經典';
+  String get classic => 'ç¶“å…¸';
 
   @override
-  String get usernameLengthError => '使用者名稱必須在3到45個字元之間';
+  String get usernameLengthError => 'ä½¿ç”¨è€…åç¨±å¿…é ˆåœ¨3åˆ°45å€‹å­—å…ƒä¹‹é–“';
 
   @override
-  String get usernameFormatError => '使用者名稱格式無效。';
+  String get usernameFormatError => 'ä½¿ç”¨è€…åç¨±æ ¼å¼ç„¡æ•ˆã€‚';
 
   @override
   String visitCount(int count) {
-    return '$count 次造訪';
+    return '$count æ¬¡é€ è¨ª';
   }
 
   @override
-  String get usernameConsecutiveSymbols => '使用者名稱不能包含連續的符號。';
+  String get usernameConsecutiveSymbols => 'ä½¿ç”¨è€…åç¨±ä¸èƒ½åŒ…å«é€£çºŒçš„ç¬¦è™Ÿã€‚';
 
   @override
-  String get usernameRestrictedWords => '使用者名稱包含受限詞彙。';
+  String get usernameRestrictedWords => 'ä½¿ç”¨è€…åç¨±åŒ…å«å—é™è©žå½™ã€‚';
 
   @override
-  String get failedUploadPic => '上傳頭像失敗。';
+  String get failedUploadPic => 'ä¸Šå‚³é ­åƒå¤±æ•—ã€‚';
 
   @override
-  String get accountUpdated => '帳戶更新成功';
+  String get accountUpdated => 'å¸³æˆ¶æ›´æ–°æˆåŠŸ';
 
   @override
-  String get failedUpdateAccount => '帳戶更新失敗。電子郵件可能已被使用。';
+  String get failedUpdateAccount => 'å¸³æˆ¶æ›´æ–°å¤±æ•—ã€‚é›»å­éƒµä»¶å¯èƒ½å·²è¢«ä½¿ç”¨ã€‚';
 
   @override
-  String get editAccountHint => '如果不想更改，請將欄位留空。點擊圖片更新頭像。';
+  String get editAccountHint => 'å¦‚æžœä¸æƒ³æ›´æ”¹ï¼Œè«‹å°‡æ¬„ä½ç•™ç©ºã€‚é»žæ“Šåœ–ç‰‡æ›´æ–°é ­åƒã€‚';
 
   @override
-  String get saveChanges => '儲存變更';
+  String get saveChanges => 'å„²å­˜è®Šæ›´';
 
   @override
-  String get verifyIdentity => '驗證身份';
+  String get verifyIdentity => 'é©—è­‰èº«ä»½';
 
   @override
-  String get enterCurrentPassword => '請輸入目前密碼以繼續。';
+  String get enterCurrentPassword => 'è«‹è¼¸å…¥ç›®å‰å¯†ç¢¼ä»¥ç¹¼çºŒã€‚';
 
   @override
-  String get currentPassword => '目前密碼';
+  String get currentPassword => 'ç›®å‰å¯†ç¢¼';
 
   @override
-  String get incorrectPassword => '密碼不正確';
+  String get incorrectPassword => 'å¯†ç¢¼ä¸æ­£ç¢º';
 
   @override
-  String get verify => '驗證';
+  String get verify => 'é©—è­‰';
 
   @override
-  String get googleVerifyFailed => '透過Google驗證身份失敗。';
+  String get googleVerifyFailed => 'é€éŽGoogleé©—è­‰èº«ä»½å¤±æ•—ã€‚';
 
   @override
-  String get confirmIdentity => '要繼續，請先確認是您本人。';
+  String get confirmIdentity => 'è¦ç¹¼çºŒï¼Œè«‹å…ˆç¢ºèªæ˜¯æ‚¨æœ¬äººã€‚';
 
   @override
-  String get verifyIdentityDesc => '我們需要驗證您的身份以保護您的帳戶。';
+  String get verifyIdentityDesc => 'æˆ‘å€‘éœ€è¦é©—è­‰æ‚¨çš„èº«ä»½ä»¥ä¿è­·æ‚¨çš„å¸³æˆ¶ã€‚';
 
   @override
-  String get continueWithGoogle => '使用Google繼續';
+  String get continueWithGoogle => 'ä½¿ç”¨Googleç¹¼çºŒ';
 
   @override
-  String get editPassword => '修改密碼';
+  String get editPassword => 'ä¿®æ”¹å¯†ç¢¼';
 
   @override
-  String get newPassword => '新密碼';
+  String get newPassword => 'æ–°å¯†ç¢¼';
 
   @override
-  String get passwordUpdated => '密碼更新成功';
+  String get passwordUpdated => 'å¯†ç¢¼æ›´æ–°æˆåŠŸ';
 
   @override
-  String get failedUpdatePassword => '密碼更新失敗';
+  String get failedUpdatePassword => 'å¯†ç¢¼æ›´æ–°å¤±æ•—';
 
   @override
-  String get savePassword => '儲存密碼';
+  String get savePassword => 'å„²å­˜å¯†ç¢¼';
 
   @override
-  String get passwordsDoNotMatch => '兩次密碼不一致';
+  String get passwordsDoNotMatch => 'å…©æ¬¡å¯†ç¢¼ä¸ä¸€è‡´';
 
   @override
-  String get none => '無';
+  String get none => 'ç„¡';
 
   @override
-  String get aiSettings => 'AI 設定';
+  String get aiSettings => 'AI è¨­å®š';
 
   @override
-  String get aiSettingsSubtitle => '控制集合的 AI 排序與風格記憶。';
+  String get aiSettingsSubtitle => 'æŽ§åˆ¶é›†åˆçš„ AI æŽ’åºèˆ‡é¢¨æ ¼è¨˜æ†¶ã€‚';
 
   @override
-  String get useAiSorting => '使用 AI 排序';
+  String get useAiSorting => 'ä½¿ç”¨ AI æŽ’åº';
 
   @override
-  String get useAiSortingSubtitle => '根據你的連結自動建議資料夾分組。';
+  String get useAiSortingSubtitle => 'æ ¹æ“šä½ çš„é€£çµè‡ªå‹•å»ºè­°è³‡æ–™å¤¾åˆ†çµ„ã€‚';
 
   @override
-  String get styleMemory => '風格記憶';
+  String get styleMemory => 'é¢¨æ ¼è¨˜æ†¶';
 
   @override
-  String get styleMemoryEmpty => '設定集合命名風格。';
+  String get styleMemoryEmpty => 'è¨­å®šé›†åˆå‘½åé¢¨æ ¼ã€‚';
 
   @override
-  String get styleMemoryDesc => '風格記憶會悄悄學習你如何命名與整理集合 - 無論你偏好表情符號、全大寫或更簡潔的風格 - 並在下次整理時套用。';
+  String get styleMemoryDesc => 'é¢¨æ ¼è¨˜æ†¶æœƒæ‚„æ‚„å­¸ç¿’ä½ å¦‚ä½•å‘½åèˆ‡æ•´ç†é›†åˆ - ç„¡è«–ä½ åå¥½è¡¨æƒ…ç¬¦è™Ÿã€å…¨å¤§å¯«æˆ–æ›´ç°¡æ½”çš„é¢¨æ ¼ - ä¸¦åœ¨ä¸‹æ¬¡æ•´ç†æ™‚å¥—ç”¨ã€‚';
 
   @override
-  String get styleMemorySpecificHint => '請盡量具體。例如：「技術類用表情，工作類用全大寫，個人類保持簡潔。」';
+  String get styleMemorySpecificHint => 'è«‹ç›¡é‡å…·é«”ã€‚ä¾‹å¦‚ï¼šã€ŒæŠ€è¡“é¡žç”¨è¡¨æƒ…ï¼Œå·¥ä½œé¡žç”¨å…¨å¤§å¯«ï¼Œå€‹äººé¡žä¿æŒç°¡æ½”ã€‚ã€';
 
   @override
-  String get styleMemoryTextHint => '描述你的資料夾命名風格...';
+  String get styleMemoryTextHint => 'æè¿°ä½ çš„è³‡æ–™å¤¾å‘½åé¢¨æ ¼...';
 
   @override
-  String get styleMemorySaved => '風格記憶已儲存。';
+  String get styleMemorySaved => 'é¢¨æ ¼è¨˜æ†¶å·²å„²å­˜ã€‚';
 
   @override
-  String get enableAiSortingFirst => '請先在設定中啟用「使用 AI 排序」。';
+  String get enableAiSortingFirst => 'è«‹å…ˆåœ¨è¨­å®šä¸­å•Ÿç”¨ã€Œä½¿ç”¨ AI æŽ’åºã€ã€‚';
 
   @override
-  String get saveMoreLinksTryAgain => '請再儲存一些連結後重試';
+  String get saveMoreLinksTryAgain => 'è«‹å†å„²å­˜ä¸€äº›é€£çµå¾Œé‡è©¦';
 
   @override
-  String get linksTooUnrelated => '這些連結關聯性太低。';
+  String get linksTooUnrelated => 'é€™äº›é€£çµé—œè¯æ€§å¤ªä½Žã€‚';
 
   @override
-  String get linksAlreadySimilar => '這些連結已經很相似了。';
+  String get linksAlreadySimilar => 'é€™äº›é€£çµå·²ç¶“å¾ˆç›¸ä¼¼äº†ã€‚';
 
   @override
-  String get aiSortingSaved => 'AI 排序已儲存。';
+  String get aiSortingSaved => 'AI æŽ’åºå·²å„²å­˜ã€‚';
 
   @override
-  String get tryAgainTitle => '再試一次？';
+  String get tryAgainTitle => 'å†è©¦ä¸€æ¬¡ï¼Ÿ';
 
   @override
-  String get tryAgainQuestion => '你想再試一次嗎？';
+  String get tryAgainQuestion => 'ä½ æƒ³å†è©¦ä¸€æ¬¡å—Žï¼Ÿ';
 
   @override
-  String get aiSortingResult => 'AI 排序結果';
+  String get aiSortingResult => 'AI æŽ’åºçµæžœ';
 
   @override
-  String get saveFolderTree => '儲存這個資料夾樹嗎？';
+  String get saveFolderTree => 'å„²å­˜é€™å€‹è³‡æ–™å¤¾æ¨¹å—Žï¼Ÿ';
 
   @override
-  String get yes => '是';
+  String get yes => 'æ˜¯';
 
   @override
-  String get no => '否';
+  String get no => 'å¦';
 
   @override
-  String get autoSortLinks => '自動排序連結';
+  String get autoSortLinks => 'è‡ªå‹•æŽ’åºé€£çµ';
 
   @override
   String folderCount(String name, int count) {
-    return '資料夾：$name（$count）';
+    return 'è³‡æ–™å¤¾ï¼š$nameï¼ˆ$countï¼‰';
   }
 
   @override
   String moreCount(int count) {
-    return '- 另外 $count 項';
+    return '- å¦å¤– $count é …';
   }
 }
+
