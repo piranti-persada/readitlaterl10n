@@ -1,4 +1,4 @@
-﻿// ignore: unused_import
+// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
@@ -612,4 +612,3 @@ class AppLocalizationsVi extends AppLocalizations {
     return '- +$count thÃªm';
   }
 }
-

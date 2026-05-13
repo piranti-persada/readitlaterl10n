@@ -1,4 +1,4 @@
-﻿import 'dart:async';
+import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
@@ -1332,4 +1332,3 @@ case 'TW': return AppLocalizationsZhTw();
     'that was used.'
   );
 }
-
