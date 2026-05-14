@@ -123,7 +123,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String importSuccess(int count) {
-    return '$count links zijn succesvol geÃ¯mporteerd';
+    return '$count links zijn succesvol geïmporteerd';
   }
 
   @override
@@ -471,7 +471,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get saveChanges => 'Wijzigingen opslaan';
 
   @override
-  String get verifyIdentity => 'Identiteit verifiÃ«ren';
+  String get verifyIdentity => 'Identiteit verifiëren';
 
   @override
   String get enterCurrentPassword => 'Voer uw huidige wachtwoord in om door te gaan.';
@@ -483,7 +483,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get incorrectPassword => 'Onjuist wachtwoord';
 
   @override
-  String get verify => 'VerifiÃ«ren';
+  String get verify => 'Verifiëren';
 
   @override
   String get googleVerifyFailed => 'Identiteitsverificatie met Google mislukt.';
@@ -492,7 +492,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get confirmIdentity => 'Om door te gaan, bevestig eerst dat u het bent.';
 
   @override
-  String get verifyIdentityDesc => 'We moeten uw identiteit verifiÃ«ren om uw account te beschermen.';
+  String get verifyIdentityDesc => 'We moeten uw identiteit verifiëren om uw account te beschermen.';
 
   @override
   String get continueWithGoogle => 'Doorgaan met Google';

@@ -59,12 +59,12 @@ import 'app_localizations_zh.dart';
 ///
 /// iOS applications define key application metadata, including supported
 /// locales, in an Info.plist file that is built into the application bundle.
-/// To configure the locales supported by your app, youâ€™ll need to edit this
+/// To configure the locales supported by your app, you’ll need to edit this
 /// file.
 ///
-/// First, open your projectâ€™s ios/Runner.xcworkspace Xcode workspace file.
+/// First, open your project’s ios/Runner.xcworkspace Xcode workspace file.
 /// Then, in the Project Navigator, open the Info.plist file under the Runner
-/// projectâ€™s Runner folder.
+/// project’s Runner folder.
 ///
 /// Next, select the Information Property List item, select Add Item from the
 /// Editor menu, then select Localizations from the pop-up menu.
@@ -325,7 +325,7 @@ abstract class AppLocalizations {
   /// No description provided for @importLinksTitle.
   ///
   /// In en, this message translates to:
-  /// **'Import Links'**
+  /// **'Import links'**
   String get importLinksTitle;
 
   /// No description provided for @importLinksSubtitle.
@@ -361,7 +361,7 @@ abstract class AppLocalizations {
   /// No description provided for @favoriteLimitReached.
   ///
   /// In en, this message translates to:
-  /// **'Max 3 favourites allowed'**
+  /// **'Maximum 3 favourites allowed'**
   String get favoriteLimitReached;
 
   /// No description provided for @termsOfService.
@@ -589,7 +589,7 @@ abstract class AppLocalizations {
   /// No description provided for @noAccountCreateOne.
   ///
   /// In en, this message translates to:
-  /// **'No account? Create one!'**
+  /// **'Don\'t have an account? Create one!'**
   String get noAccountCreateOne;
 
   /// No description provided for @getStarted.
@@ -667,7 +667,7 @@ abstract class AppLocalizations {
   /// No description provided for @verifyHuman.
   ///
   /// In en, this message translates to:
-  /// **'Please verify you are human'**
+  /// **'Please verify that you are human'**
   String get verifyHuman;
 
   /// No description provided for @send.
@@ -991,7 +991,7 @@ abstract class AppLocalizations {
   /// No description provided for @editAccountHint.
   ///
   /// In en, this message translates to:
-  /// **'Leave fields blank if you do not want to change them. Tap image to update avatar.'**
+  /// **'Leave fields blank if you do not want to change them. Tap the image to update avatar.'**
   String get editAccountHint;
 
   /// No description provided for @saveChanges.

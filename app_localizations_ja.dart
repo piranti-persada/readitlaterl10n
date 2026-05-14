@@ -15,600 +15,600 @@ class AppLocalizationsJa extends AppLocalizations {
   String get homeTitle => 'Pile';
 
   @override
-  String get searchHint => 'ãƒªãƒ³ã‚¯ã¨ã‚¿ã‚°ã‚’æ¤œç´¢...';
+  String get searchHint => 'リンクとタグを検索...';
 
   @override
-  String get noLinksYet => 'ãƒªãƒ³ã‚¯ã¯ã¾ã ä¿å­˜ã•ã‚Œã¦ã„ã¾ã›ã‚“';
+  String get noLinksYet => 'リンクはまだ保存されていません';
 
   @override
-  String get noMatchingLinks => 'ä¸€è‡´ã™ã‚‹ãƒªãƒ³ã‚¯ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã§ã—ãŸ';
+  String get noMatchingLinks => '一致するリンクが見つかりませんでした';
 
   @override
-  String get tapToAdd => 'ï¼‹ã‚’ã‚¿ãƒƒãƒ—ã—ã¦æœ€åˆã®ãƒªãƒ³ã‚¯ã‚’è¿½åŠ ã—ã¦ãã ã•ã„';
+  String get tapToAdd => '＋をタップして最初のリンクを追加してください';
 
   @override
-  String get deleteLinkTitle => 'ãƒªãƒ³ã‚¯ã®å‰Šé™¤';
+  String get deleteLinkTitle => 'リンクの削除';
 
   @override
   String deleteLinkContent(String name) {
-    return 'ã€Œ$nameã€ã‚’å‰Šé™¤ã—ã¦ã‚‚ã‚ˆã‚ã—ã„ã§ã™ã‹?';
+    return '「$name」を削除してもよろしいですか?';
   }
 
   @override
-  String get cancel => 'ã‚­ãƒ£ãƒ³ã‚»ãƒ«';
+  String get cancel => 'キャンセル';
 
   @override
-  String get delete => 'æ¶ˆåŽ»';
+  String get delete => '消去';
 
   @override
-  String get undo => 'å…ƒã«æˆ»ã™';
+  String get undo => '元に戻す';
 
   @override
   String deleted(String name) {
-    return '$name ãŒå‰Šé™¤ã•ã‚Œã¾ã—ãŸ';
+    return '$name が削除されました';
   }
 
   @override
   String errorLoading(String error) {
-    return 'ãƒ‡ãƒ¼ã‚¿ã®ãƒ­ãƒ¼ãƒ‰ä¸­ã«ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸ: $error';
+    return 'データのロード中にエラーが発生しました: $error';
   }
 
   @override
   String couldNotOpen(String url) {
-    return '$urlã‚’é–‹ã‘ã¾ã›ã‚“ã§ã—ãŸ';
+    return '$urlを開けませんでした';
   }
 
   @override
-  String get addLinkTitle => 'ãƒªãƒ³ã‚¯ã‚’è¿½åŠ ';
+  String get addLinkTitle => 'リンクを追加';
 
   @override
-  String get editLinkTitle => 'ãƒªãƒ³ã‚¯ã®ç·¨é›†';
+  String get editLinkTitle => 'リンクの編集';
 
   @override
-  String get linkTitleLabel => 'ã‚¿ã‚¤ãƒˆãƒ«';
+  String get linkTitleLabel => 'タイトル';
 
   @override
   String get urlLabel => 'URL';
 
   @override
-  String get addTagLabel => 'ã‚¿ã‚°ã®è¿½åŠ ';
+  String get addTagLabel => 'タグの追加';
 
   @override
-  String get save => 'ä¿å­˜';
+  String get save => '保存';
 
   @override
-  String get pleaseEnterUrl => 'URLã‚’å…¥åŠ›ã—ã¦ãã ã•ã„';
+  String get pleaseEnterUrl => 'URLを入力してください';
 
   @override
-  String get accountTitle => 'è¨­å®š';
+  String get accountTitle => '設定';
 
   @override
-  String get language => 'è¨€èªž';
+  String get language => '言語';
 
   @override
-  String get navHome => 'å®¶';
+  String get navHome => '家';
 
   @override
-  String get navAccount => 'è¨­å®š';
+  String get navAccount => '設定';
 
   @override
-  String get backupRestoreTitle => 'ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ã¨å¾©å…ƒ';
+  String get backupRestoreTitle => 'バックアップと復元';
 
   @override
-  String get exportLinksTitle => 'ãƒªãƒ³ã‚¯ã®ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆ';
+  String get exportLinksTitle => 'リンクのエクスポート';
 
   @override
-  String get exportLinksSubtitle => 'ãƒªãƒ³ã‚¯ã‚’ãƒ•ã‚¡ã‚¤ãƒ«ã«ä¿å­˜ã™ã‚‹';
+  String get exportLinksSubtitle => 'リンクをファイルに保存する';
 
   @override
-  String get enterPassword => 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ (ã‚ªãƒ—ã‚·ãƒ§ãƒ³)';
+  String get enterPassword => 'パスワードを入力してください (オプション)';
 
   @override
-  String get password => 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰';
+  String get password => 'パスワード';
 
   @override
-  String get encryptFile => 'æš—å·åŒ–ã™ã‚‹';
+  String get encryptFile => '暗号化する';
 
   @override
-  String get instagram => 'ã‚¤ãƒ³ã‚¹ã‚¿ã‚°ãƒ©ãƒ ';
+  String get instagram => 'インスタグラム';
 
   @override
-  String get faqTitle => 'ã‚ˆãã‚ã‚‹è³ªå•';
+  String get faqTitle => 'よくある質問';
 
   @override
-  String get importLinksTitle => 'ãƒªãƒ³ã‚¯ã‚’å¾©å…ƒã™ã‚‹';
+  String get importLinksTitle => 'リンクを復元する';
 
   @override
-  String get importLinksSubtitle => 'ãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰ãƒªãƒ³ã‚¯ã‚’å¾©å…ƒã™ã‚‹';
+  String get importLinksSubtitle => 'ファイルからリンクを復元する';
 
   @override
   String importSuccess(int count) {
-    return '$count å€‹ã®ãƒªãƒ³ã‚¯ãŒæ­£å¸¸ã«ã‚¤ãƒ³ãƒãƒ¼ãƒˆã•ã‚Œã¾ã—ãŸ';
+    return '$count 個のリンクが正常にインポートされました';
   }
 
   @override
   String importFailed(String error) {
-    return 'ã‚¤ãƒ³ãƒãƒ¼ãƒˆã«å¤±æ•—ã—ã¾ã—ãŸ: $error';
+    return 'インポートに失敗しました: $error';
   }
 
   @override
-  String get decryptFailed => 'å¾©å·åŒ–ã«å¤±æ•—ã—ãŸã‹ã€å½¢å¼ãŒç„¡åŠ¹ã§ã™';
+  String get decryptFailed => '復号化に失敗したか、形式が無効です';
 
   @override
-  String get wrongPassword => 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒé–“é•ã£ã¦ã„ã‚‹ã‹ã€ãƒ•ã‚¡ã‚¤ãƒ«ãŒç„¡åŠ¹ã§ã™';
+  String get wrongPassword => 'パスワードが間違っているか、ファイルが無効です';
 
   @override
-  String get favoriteLimitReached => 'ãŠæ°—ã«å…¥ã‚Šã¯æœ€å¤§ 3 ã¤ã¾ã§è¨±å¯ã•ã‚Œã¾ã™';
+  String get favoriteLimitReached => 'お気に入りは最大 3 つまで許可されます';
 
   @override
-  String get termsOfService => 'åˆ©ç”¨è¦ç´„';
+  String get termsOfService => '利用規約';
 
   @override
-  String get privacyPolicy => 'ãƒ—ãƒ©ã‚¤ãƒã‚·ãƒ¼ãƒãƒªã‚·ãƒ¼';
+  String get privacyPolicy => 'プライバシーポリシー';
 
   @override
-  String get welcomeTitle => 'Pile ã¸ã‚ˆã†ã“ã';
+  String get welcomeTitle => 'Pile へようこそ';
 
   @override
-  String get welcomeMessage => 'ç¶šè¡Œã™ã‚‹ã«ã¯ã€ã‚µãƒ¼ãƒ“ã‚¹åˆ©ç”¨è¦ç´„ã¨ãƒ—ãƒ©ã‚¤ãƒã‚·ãƒ¼ ãƒãƒªã‚·ãƒ¼ã‚’èª­ã‚“ã§åŒæ„ã—ã¦ãã ã•ã„ã€‚';
+  String get welcomeMessage => '続行するには、サービス利用規約とプライバシー ポリシーを読んで同意してください。';
 
   @override
-  String get accept => 'å—ã‘å…¥ã‚Œã‚‹';
+  String get accept => '受け入れる';
 
   @override
-  String get decline => 'è¡°é€€';
+  String get decline => '衰退';
 
   @override
-  String get setReminder => 'ãƒªãƒžã‚¤ãƒ³ãƒ€ãƒ¼ã‚’è¨­å®šã™ã‚‹';
+  String get setReminder => 'リマインダーを設定する';
 
   @override
   String reminderSet(String date) {
-    return '$dateã«ãƒªãƒžã‚¤ãƒ³ãƒ€ãƒ¼ã‚’è¨­å®šã—ã¾ã—ãŸ';
+    return '$dateにリマインダーを設定しました';
   }
 
   @override
-  String get recentlyDeleted => 'æœ€è¿‘å‰Šé™¤ã•ã‚ŒãŸã‚‚ã®';
+  String get recentlyDeleted => '最近削除されたもの';
 
   @override
-  String get reminderLimitReached => 'ãƒªãƒžã‚¤ãƒ³ãƒ€ãƒ¼åˆ¶é™ã«é”ã—ã¾ã—ãŸ (10)';
+  String get reminderLimitReached => 'リマインダー制限に達しました (10)';
 
   @override
   String get notificationsOrExactAlarmPermissionsBlocked => 'Notifications and/or exact alarm permissions blocked';
 
   @override
-  String get proVersion => 'ãƒ—ãƒ­ç‰ˆ';
+  String get proVersion => 'プロ版';
 
   @override
-  String get notAvailableInYourCountry => 'ã‚ãªãŸã®å›½ã§ã¯åˆ©ç”¨ã§ãã¾ã›ã‚“';
+  String get notAvailableInYourCountry => 'あなたの国では利用できません';
 
   @override
-  String get upgradeToPro => 'Pro ã«ã‚¢ãƒƒãƒ—ã‚°ãƒ¬ãƒ¼ãƒ‰ã™ã‚‹ã¨ã€ç„¡åˆ¶é™ã®ãƒªãƒžã‚¤ãƒ³ãƒ€ãƒ¼ãŒå¾—ã‚‰ã‚Œã¾ã™';
+  String get upgradeToPro => 'Pro にアップグレードすると、無制限のリマインダーが得られます';
 
   @override
   String restored(String name) {
-    return '$nameãŒå¾©å…ƒã•ã‚Œã¾ã—ãŸ';
+    return '$nameが復元されました';
   }
 
   @override
-  String get deletePermanentlyTitle => 'å®Œå…¨ã«å‰Šé™¤ã—ã¾ã™ã‹?';
+  String get deletePermanentlyTitle => '完全に削除しますか?';
 
   @override
-  String get deletePermanentlyContent => 'ã“ã®æ“ä½œã¯å…ƒã«æˆ»ã™ã“ã¨ãŒã§ãã¾ã›ã‚“ã€‚';
+  String get deletePermanentlyContent => 'この操作は元に戻すことができません。';
 
   @override
-  String get selectAll => 'ã™ã¹ã¦é¸æŠž';
+  String get selectAll => 'すべて選択';
 
   @override
-  String get selectedCount => 'é¸æŠžã•ã‚ŒãŸ';
+  String get selectedCount => '選択された';
 
   @override
   String deleteSelectedContent(int count) {
-    return '$count å€‹ã®ãƒªãƒ³ã‚¯ã‚’å‰Šé™¤ã—ã¾ã™ã‹?';
+    return '$count 個のリンクを削除しますか?';
   }
 
   @override
-  String get loginTitle => 'ãƒ­ã‚°ã‚¤ãƒ³';
+  String get loginTitle => 'ログイン';
 
   @override
-  String get emailLabel => 'é›»å­ãƒ¡ãƒ¼ãƒ«';
+  String get emailLabel => '電子メール';
 
   @override
-  String get usernameLabel => 'ãƒ¦ãƒ¼ã‚¶ãƒ¼å';
+  String get usernameLabel => 'ユーザー名';
 
   @override
-  String get passwordLabel => 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰';
+  String get passwordLabel => 'パスワード';
 
   @override
-  String get loginButton => 'ãƒ­ã‚°ã‚¤ãƒ³';
+  String get loginButton => 'ログイン';
 
   @override
-  String get logoutButton => 'ãƒ­ã‚°ã‚¢ã‚¦ãƒˆ';
+  String get logoutButton => 'ログアウト';
 
   @override
-  String get skipLabel => 'ä»Šã®ã¨ã“ã‚ã‚¹ã‚­ãƒƒãƒ—ã—ã¦ãã ã•ã„';
+  String get skipLabel => '今のところスキップしてください';
 
   @override
   String loggedInAs(String email) {
-    return '$email ã¨ã—ã¦ãƒ­ã‚°ã‚¤ãƒ³ã—ã¦ã„ã¾ã™';
+    return '$email としてログインしています';
   }
 
   @override
-  String get createAccount => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’ä½œæˆã™ã‚‹';
+  String get createAccount => 'アカウントを作成する';
 
   @override
-  String get nameLabel => 'ãƒ•ãƒ«ãƒãƒ¼ãƒ ';
+  String get nameLabel => 'フルネーム';
 
   @override
-  String get confirmPasswordLabel => 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’èªè¨¼ã™ã‚‹';
+  String get confirmPasswordLabel => 'パスワードを認証する';
 
   @override
-  String get registerButton => 'ç™»éŒ²ã™ã‚‹';
+  String get registerButton => '登録する';
 
   @override
-  String get signInWithGoogle => 'Googleã§ã‚µã‚¤ãƒ³ã‚¤ãƒ³';
+  String get signInWithGoogle => 'Googleでサインイン';
 
   @override
-  String get googleSignInNotSupported => 'ã“ã®ãƒ‡ãƒ¢ã§ã¯ Google ã‚µã‚¤ãƒ³ã‚¤ãƒ³ã¯æ§‹æˆã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚';
+  String get googleSignInNotSupported => 'このデモでは Google サインインは構成されていません。';
 
   @override
-  String get accountCreated => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆãŒæ­£å¸¸ã«ä½œæˆã•ã‚Œã¾ã—ãŸ';
+  String get accountCreated => 'アカウントが正常に作成されました';
 
   @override
-  String get invalidCredentials => 'ç„¡åŠ¹ãªãƒ¦ãƒ¼ã‚¶ãƒ¼åã¾ãŸã¯ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰';
+  String get invalidCredentials => '無効なユーザー名またはパスワード';
 
   @override
-  String get emailExists => 'é›»å­ãƒ¡ãƒ¼ãƒ«ã¯ã™ã§ã«å­˜åœ¨ã—ã¾ã™';
+  String get emailExists => '電子メールはすでに存在します';
 
   @override
-  String get noAccountCreateOne => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆãŒã‚ã‚Šã¾ã›ã‚“ã‹?ä½œæˆã—ã¦ãã ã•ã„ã€‚';
+  String get noAccountCreateOne => 'アカウントがありませんか?作成してください。';
 
   @override
-  String get getStarted => 'å§‹ã‚ã¾ã—ã‚‡ã†';
+  String get getStarted => '始めましょう';
 
   @override
-  String get acceptAndContinue => 'åŒæ„ã—ã¦ç¶šè¡Œ';
+  String get acceptAndContinue => '同意して続行';
 
   @override
-  String get acceptAndFinish => 'å—ã‘å…¥ã‚Œã¦çµ‚äº†';
+  String get acceptAndFinish => '受け入れて終了';
 
   @override
-  String get stepTos => 'åˆ©ç”¨è¦ç´„';
+  String get stepTos => '利用規約';
 
   @override
-  String get stepPrivacy => 'ãƒ—ãƒ©ã‚¤ãƒã‚·ãƒ¼ãƒãƒªã‚·ãƒ¼';
+  String get stepPrivacy => 'プライバシーポリシー';
 
   @override
   String addedOn(String date) {
-    return 'è¿½åŠ æ—¥: $date';
+    return '追加日: $date';
   }
 
   @override
-  String get sendFeedback => 'ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯ã‚’é€ä¿¡ã™ã‚‹';
+  String get sendFeedback => 'フィードバックを送信する';
 
   @override
-  String get feedbackSubject => 'å¾Œã§èª­ã‚“ã§ãã ã•ã„ ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯';
+  String get feedbackSubject => '後で読んでください フィードバック';
 
   @override
-  String get feedbackTitle => 'ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯ã‚’é€ä¿¡ã™ã‚‹';
+  String get feedbackTitle => 'フィードバックを送信する';
 
   @override
-  String get feedbackName => 'åå‰ (ã‚ªãƒ—ã‚·ãƒ§ãƒ³)';
+  String get feedbackName => '名前 (オプション)';
 
   @override
-  String get feedbackEmail => 'é›»å­ãƒ¡ãƒ¼ãƒ« (ã‚ªãƒ—ã‚·ãƒ§ãƒ³)';
+  String get feedbackEmail => '電子メール (オプション)';
 
   @override
-  String get feedbackMessage => 'ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸';
+  String get feedbackMessage => 'メッセージ';
 
   @override
-  String get verifyHuman => 'ã‚ãªãŸãŒäººé–“ã§ã‚ã‚‹ã“ã¨ã‚’ç¢ºèªã—ã¦ãã ã•ã„';
+  String get verifyHuman => 'あなたが人間であることを確認してください';
 
   @override
-  String get send => 'é€ä¿¡';
+  String get send => '送信';
 
   @override
-  String get tabLinks => 'ãƒªãƒ³ã‚¯';
+  String get tabLinks => 'リンク';
 
   @override
-  String get tabDeleted => 'å‰Šé™¤ã•ã‚Œã¾ã—ãŸ';
+  String get tabDeleted => '削除されました';
 
   @override
-  String get topLinksTitle => 'ãƒˆãƒƒãƒ—ãƒªãƒ³ã‚¯';
+  String get topLinksTitle => 'トップリンク';
 
   @override
-  String get noDeletedLinks => 'å‰Šé™¤ã•ã‚ŒãŸãƒªãƒ³ã‚¯ã¯ã‚ã‚Šã¾ã›ã‚“';
+  String get noDeletedLinks => '削除されたリンクはありません';
 
   @override
-  String get restoreTooltip => 'å¾©å…ƒã™ã‚‹';
+  String get restoreTooltip => '復元する';
 
   @override
-  String get remindersTitle => 'ãƒªãƒžã‚¤ãƒ³ãƒ€ãƒ¼';
+  String get remindersTitle => 'リマインダー';
 
   @override
-  String get noReminders => 'ä»Šå¾Œã®ãƒªãƒžã‚¤ãƒ³ãƒ€ãƒ¼ã¯ã‚ã‚Šã¾ã›ã‚“';
+  String get noReminders => '今後のリマインダーはありません';
 
   @override
-  String get didYouKnow => 'çŸ¥ã£ã¦ã„ã¾ã—ãŸã‹ï¼Ÿ';
+  String get didYouKnow => '知っていましたか？';
 
   @override
-  String get shareToAppTip => 'Pile ã§å…±æœ‰ã™ã‚‹ã“ã¨ã§ãƒªãƒ³ã‚¯ã‚’è¿½åŠ ã§ãã¾ã™ã€‚';
+  String get shareToAppTip => 'Pile で共有することでリンクを追加できます。';
 
   @override
-  String get commentsLabel => 'ã‚³ãƒ¡ãƒ³ãƒˆ (ã‚ªãƒ—ã‚·ãƒ§ãƒ³)';
+  String get commentsLabel => 'コメント (オプション)';
 
   @override
-  String get accountSettings => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆè¨­å®š';
+  String get accountSettings => 'アカウント設定';
 
   @override
-  String get signIn => 'ã‚µã‚¤ãƒ³ã‚¤ãƒ³';
+  String get signIn => 'サインイン';
 
   @override
-  String get collectionsTitle => 'ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³';
+  String get collectionsTitle => 'コレクション';
 
   @override
-  String get newCollection => 'æ–°ã—ã„ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³';
+  String get newCollection => '新しいコレクション';
 
   @override
-  String get collectionName => 'ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³å';
+  String get collectionName => 'コレクション名';
 
   @override
-  String get gridView => 'ã‚°ãƒªãƒƒãƒ‰ãƒ“ãƒ¥ãƒ¼';
+  String get gridView => 'グリッドビュー';
 
   @override
-  String get listView => 'ãƒªã‚¹ãƒˆãƒ“ãƒ¥ãƒ¼';
+  String get listView => 'リストビュー';
 
   @override
-  String get editAccountTitle => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã®ç·¨é›†';
+  String get editAccountTitle => 'アカウントの編集';
 
   @override
-  String get changePasswordTitle => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å¤‰æ›´ã™ã‚‹';
+  String get changePasswordTitle => 'アカウントのパスワードを変更する';
 
   @override
-  String get signOutTitle => 'ã‚µã‚¤ãƒ³ã‚¢ã‚¦ãƒˆ';
+  String get signOutTitle => 'サインアウト';
 
   @override
-  String get signOutConfirm => 'ã“ã®ãƒ‡ãƒã‚¤ã‚¹ã®ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‹ã‚‰ã‚µã‚¤ãƒ³ã‚¢ã‚¦ãƒˆã—ã¦ã‚‚ã‚ˆã‚ã—ã„ã§ã™ã‹?';
+  String get signOutConfirm => 'このデバイスのアカウントからサインアウトしてもよろしいですか?';
 
   @override
-  String get deleteAccountTitle => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’å‰Šé™¤ã™ã‚‹';
+  String get deleteAccountTitle => 'アカウントを削除する';
 
   @override
-  String get deleteAccountWarning => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã®å‰Šé™¤: ã“ã‚Œã‚’ã‚ˆããŠèª­ã¿ãã ã•ã„ã€‚';
+  String get deleteAccountWarning => 'アカウントの削除: これをよくお読みください。';
 
   @override
-  String get deleteAccountConfirm => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã¨é–¢é€£ã™ã‚‹ã™ã¹ã¦ã®ãƒ‡ãƒ¼ã‚¿ã‚’å‰Šé™¤ã—ã¾ã™ã€‚ã“ã‚Œã¯å–ã‚Šæ¶ˆã—ã§ãã¾ã›ã‚“ã§ã—ãŸã€‚æœ¬æ°—ã§ã™ã‹ï¼Ÿ';
+  String get deleteAccountConfirm => 'アカウントと関連するすべてのデータを削除します。これは取り消しできませんでした。本気ですか？';
 
   @override
-  String get deleteSuccess => 'åŽ»ã£ã¦ã—ã¾ã†ã®ã¯æ®‹å¿µã§ã™ï¼ã‚ãªãŸã®ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã¯å‰Šé™¤ã•ã‚Œã¾ã—ãŸã€‚';
+  String get deleteSuccess => '去ってしまうのは残念です！あなたのアカウントは削除されました。';
 
   @override
-  String get deleteFail => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã®å‰Šé™¤ã«å¤±æ•—ã—ã¾ã—ãŸã€‚å¾Œã§ã‚‚ã†ä¸€åº¦è©¦ã—ã¦ãã ã•ã„ã€‚';
+  String get deleteFail => 'アカウントの削除に失敗しました。後でもう一度試してください。';
 
   @override
-  String get continueButton => 'ç¶šã‘ã‚‹';
+  String get continueButton => '続ける';
 
   @override
-  String get noCollectionsYet => 'ã¾ã ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³ã¯ã‚ã‚Šã¾ã›ã‚“';
+  String get noCollectionsYet => 'まだコレクションはありません';
 
   @override
-  String get emptyFolder => 'ç©ºã®ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼';
+  String get emptyFolder => '空のフォルダー';
 
   @override
-  String get folderColor => 'ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã®è‰²';
+  String get folderColor => 'フォルダーの色';
 
   @override
-  String get editAction => 'ç·¨é›†';
+  String get editAction => '編集';
 
   @override
   String get editCollection => 'Edit collection';
 
   @override
-  String get changeColor => 'è‰²ã‚’å¤‰æ›´';
+  String get changeColor => '色を変更';
 
   @override
-  String get deleteCollectionWarning => 'ä¸­ã®ãƒªãƒ³ã‚¯ã¯ãƒ«ãƒ¼ãƒˆã«ç§»å‹•ã•ã‚Œã¾ã™ã€‚';
+  String get deleteCollectionWarning => '中のリンクはルートに移動されます。';
 
   @override
-  String get moveAction => 'ç§»å‹•';
+  String get moveAction => '移動';
 
   @override
-  String get moveToCollection => 'ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³ã«ç§»å‹•';
+  String get moveToCollection => 'コレクションに移動';
 
   @override
-  String get noCollection => 'ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³ãªã—';
+  String get noCollection => 'コレクションなし';
 
   @override
-  String get noInternetConnection => 'ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆæŽ¥ç¶šãªã—';
+  String get noInternetConnection => 'インターネット接続なし';
 
   @override
-  String get dismiss => 'é–‰ã˜ã‚‹';
+  String get dismiss => '閉じる';
 
   @override
-  String get tagAll => 'ã™ã¹ã¦';
+  String get tagAll => 'すべて';
 
   @override
-  String get camera => 'ã‚«ãƒ¡ãƒ©';
+  String get camera => 'カメラ';
 
   @override
-  String get gallery => 'ã‚®ãƒ£ãƒ©ãƒªãƒ¼';
+  String get gallery => 'ギャラリー';
 
   @override
-  String get classicAvatars => 'ã‚¯ãƒ©ã‚·ãƒƒã‚¯ã‚¢ãƒã‚¿ãƒ¼';
+  String get classicAvatars => 'クラシックアバター';
 
   @override
-  String get classic => 'ã‚¯ãƒ©ã‚·ãƒƒã‚¯';
+  String get classic => 'クラシック';
 
   @override
-  String get usernameLengthError => 'ãƒ¦ãƒ¼ã‚¶ãƒ¼åã¯3~45æ–‡å­—ã§å…¥åŠ›ã—ã¦ãã ã•ã„';
+  String get usernameLengthError => 'ユーザー名は3~45文字で入力してください';
 
   @override
-  String get usernameFormatError => 'ãƒ¦ãƒ¼ã‚¶ãƒ¼åã®å½¢å¼ãŒç„¡åŠ¹ã§ã™ã€‚';
+  String get usernameFormatError => 'ユーザー名の形式が無効です。';
 
   @override
   String visitCount(int count) {
-    return '$count å›žè¨ªå•';
+    return '$count 回訪問';
   }
 
   @override
-  String get usernameConsecutiveSymbols => 'ãƒ¦ãƒ¼ã‚¶ãƒ¼åã«é€£ç¶šã—ãŸè¨˜å·ã¯ä½¿ç”¨ã§ãã¾ã›ã‚“ã€‚';
+  String get usernameConsecutiveSymbols => 'ユーザー名に連続した記号は使用できません。';
 
   @override
-  String get usernameRestrictedWords => 'ãƒ¦ãƒ¼ã‚¶ãƒ¼åã«åˆ¶é™ã•ã‚ŒãŸå˜èªžãŒå«ã¾ã‚Œã¦ã„ã¾ã™ã€‚';
+  String get usernameRestrictedWords => 'ユーザー名に制限された単語が含まれています。';
 
   @override
-  String get failedUploadPic => 'ãƒ—ãƒ­ãƒ•ã‚£ãƒ¼ãƒ«ç”»åƒã®ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã«å¤±æ•—ã—ã¾ã—ãŸã€‚';
+  String get failedUploadPic => 'プロフィール画像のアップロードに失敗しました。';
 
   @override
-  String get accountUpdated => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆãŒæ­£å¸¸ã«æ›´æ–°ã•ã‚Œã¾ã—ãŸ';
+  String get accountUpdated => 'アカウントが正常に更新されました';
 
   @override
-  String get failedUpdateAccount => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã®æ›´æ–°ã«å¤±æ•—ã—ã¾ã—ãŸã€‚ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ãŒæ—¢ã«ä½¿ç”¨ã•ã‚Œã¦ã„ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚';
+  String get failedUpdateAccount => 'アカウントの更新に失敗しました。メールアドレスが既に使用されている可能性があります。';
 
   @override
-  String get editAccountHint => 'å¤‰æ›´ã—ãªã„å ´åˆã¯ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã‚’ç©ºç™½ã®ã¾ã¾ã«ã—ã¦ãã ã•ã„ã€‚ç”»åƒã‚’ã‚¿ãƒƒãƒ—ã—ã¦ã‚¢ãƒã‚¿ãƒ¼ã‚’æ›´æ–°ã—ã¦ãã ã•ã„ã€‚';
+  String get editAccountHint => '変更しない場合はフィールドを空白のままにしてください。画像をタップしてアバターを更新してください。';
 
   @override
-  String get saveChanges => 'å¤‰æ›´ã‚’ä¿å­˜';
+  String get saveChanges => '変更を保存';
 
   @override
-  String get verifyIdentity => 'æœ¬äººç¢ºèª';
+  String get verifyIdentity => '本人確認';
 
   @override
-  String get enterCurrentPassword => 'ç¶šè¡Œã™ã‚‹ã«ã¯ç¾åœ¨ã®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚';
+  String get enterCurrentPassword => '続行するには現在のパスワードを入力してください。';
 
   @override
-  String get currentPassword => 'ç¾åœ¨ã®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰';
+  String get currentPassword => '現在のパスワード';
 
   @override
-  String get incorrectPassword => 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒæ­£ã—ãã‚ã‚Šã¾ã›ã‚“';
+  String get incorrectPassword => 'パスワードが正しくありません';
 
   @override
-  String get verify => 'ç¢ºèª';
+  String get verify => '確認';
 
   @override
-  String get googleVerifyFailed => 'Googleã§ã®æœ¬äººç¢ºèªã«å¤±æ•—ã—ã¾ã—ãŸã€‚';
+  String get googleVerifyFailed => 'Googleでの本人確認に失敗しました。';
 
   @override
-  String get confirmIdentity => 'ç¶šè¡Œã™ã‚‹ã«ã¯ã€ã¾ãšã”æœ¬äººã§ã‚ã‚‹ã“ã¨ã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚';
+  String get confirmIdentity => '続行するには、まずご本人であることを確認してください。';
 
   @override
-  String get verifyIdentityDesc => 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’ä¿è­·ã™ã‚‹ãŸã‚ã€æœ¬äººç¢ºèªãŒå¿…è¦ã§ã™ã€‚';
+  String get verifyIdentityDesc => 'アカウントを保護するため、本人確認が必要です。';
 
   @override
-  String get continueWithGoogle => 'Googleã§ç¶šè¡Œ';
+  String get continueWithGoogle => 'Googleで続行';
 
   @override
-  String get editPassword => 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’ç·¨é›†';
+  String get editPassword => 'パスワードを編集';
 
   @override
-  String get newPassword => 'æ–°ã—ã„ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰';
+  String get newPassword => '新しいパスワード';
 
   @override
-  String get passwordUpdated => 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒæ­£å¸¸ã«æ›´æ–°ã•ã‚Œã¾ã—ãŸ';
+  String get passwordUpdated => 'パスワードが正常に更新されました';
 
   @override
-  String get failedUpdatePassword => 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã®æ›´æ–°ã«å¤±æ•—ã—ã¾ã—ãŸ';
+  String get failedUpdatePassword => 'パスワードの更新に失敗しました';
 
   @override
-  String get savePassword => 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’ä¿å­˜';
+  String get savePassword => 'パスワードを保存';
 
   @override
-  String get passwordsDoNotMatch => 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒä¸€è‡´ã—ã¾ã›ã‚“';
+  String get passwordsDoNotMatch => 'パスワードが一致しません';
 
   @override
-  String get none => 'ãªã—';
+  String get none => 'なし';
 
   @override
-  String get feedbackConsumerButton => 'ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯';
+  String get feedbackConsumerButton => 'ユーザーフィードバック';
 
   @override
-  String get translationsGitHubButton => 'GitHubã§ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯';
+  String get translationsGitHubButton => 'GitHubでフィードバック';
 
   @override
-  String get feedbackTranslationsButton => 'ç¿»è¨³ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯';
+  String get feedbackTranslationsButton => '翻訳フィードバック';
 
   @override
-  String get feedbackConsumerNote => 'ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯: ãƒã‚°ã€ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹ã®å•é¡Œã€æ©Ÿèƒ½ã€å…¨ä½“çš„ãªä½¿ã„ã‚„ã™ã•ãªã©ã€ã‚¢ãƒ—ãƒªåˆ©ç”¨ä½“é¨“ã‚’å…±æœ‰ã—ã¦ãã ã•ã„ã€‚';
+  String get feedbackConsumerNote => 'ユーザーフィードバック: バグ、パフォーマンスの問題、機能、全体的な使いやすさなど、アプリ利用体験を共有してください。';
 
   @override
-  String get translationsGitHubNote => 'GitHubã§ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯: GitHubä¸Šã§ã€èª¤è¨³ã€ä¸æ˜Žçž­ãªè¡¨ç¾ã€æ–‡æ³•ãƒŸã‚¹ãªã©ã€è¨€èªžã«é–¢ã™ã‚‹å•é¡Œã‚’å ±å‘Šã—ã¦ãã ã•ã„ã€‚';
+  String get translationsGitHubNote => 'GitHubでフィードバック: GitHub上で、誤訳、不明瞭な表現、文法ミスなど、言語に関する問題を報告してください。';
 
   @override
-  String get feedbackTranslationsNote => 'ç¿»è¨³ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯: èª¤è¨³ã€ä¸æ˜Žçž­ãªè¡¨ç¾ã€æ–‡æ³•ãƒŸã‚¹ãªã©ã€è¨€èªžã«é–¢ã™ã‚‹å•é¡Œã‚’å ±å‘Šã—ã¦ãã ã•ã„ã€‚';
+  String get feedbackTranslationsNote => '翻訳フィードバック: 誤訳、不明瞭な表現、文法ミスなど、言語に関する問題を報告してください。';
 
   @override
-  String get aiSettings => 'AIè¨­å®š';
+  String get aiSettings => 'AI設定';
 
   @override
-  String get aiSettingsSubtitle => 'ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³ã®AIä¸¦ã¹æ›¿ãˆã¨ã‚¹ã‚¿ã‚¤ãƒ«ãƒ¡ãƒ¢ãƒªãƒ¼ã‚’ç®¡ç†ã—ã¾ã™ã€‚';
+  String get aiSettingsSubtitle => 'コレクションのAI並べ替えとスタイルメモリーを管理します。';
 
   @override
-  String get useAiSorting => 'AIä¸¦ã¹æ›¿ãˆã‚’ä½¿ç”¨';
+  String get useAiSorting => 'AI並べ替えを使用';
 
   @override
-  String get useAiSortingSubtitle => 'ãƒªãƒ³ã‚¯ã«åŸºã¥ã„ã¦ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã®ã‚°ãƒ«ãƒ¼ãƒ—åˆ†ã‘ã‚’è‡ªå‹•ææ¡ˆã—ã¾ã™ã€‚';
+  String get useAiSortingSubtitle => 'リンクに基づいてフォルダーのグループ分けを自動提案します。';
 
   @override
-  String get styleMemory => 'ã‚¹ã‚¿ã‚¤ãƒ«ãƒ¡ãƒ¢ãƒªãƒ¼';
+  String get styleMemory => 'スタイルメモリー';
 
   @override
-  String get styleMemoryEmpty => 'ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³åã®è¦‹ãŸç›®ã‚’è¨­å®šã—ã¾ã™ã€‚';
+  String get styleMemoryEmpty => 'コレクション名の見た目を設定します。';
 
   @override
-  String get styleMemoryDesc => 'ã‚¹ã‚¿ã‚¤ãƒ«ãƒ¡ãƒ¢ãƒªãƒ¼ã¯ã€çµµæ–‡å­—ãƒ»å…¨å¤§æ–‡å­—ãƒ»ã‚·ãƒ³ãƒ—ãƒ«è¡¨ç¤ºãªã©ã€ã‚ãªãŸã®å‘½åã‚„æ•´ç†ã®å¥½ã¿ã‚’é™ã‹ã«å­¦ç¿’ã—ã€æ¬¡å›žã®æ•´ç†ã«åæ˜ ã—ã¾ã™ã€‚';
+  String get styleMemoryDesc => 'スタイルメモリーは、絵文字・全大文字・シンプル表示など、あなたの命名や整理の好みを静かに学習し、次回の整理に反映します。';
 
   @override
-  String get styleMemorySpecificHint => 'å…·ä½“çš„ã«æ›¸ã„ã¦ãã ã•ã„ã€‚ä¾‹:ã€ŒæŠ€è¡“ã¯çµµæ–‡å­—ã€ä»•äº‹ã¯å…¨å¤§æ–‡å­—ã€å€‹äººã¯ã‚·ãƒ³ãƒ—ãƒ«ã€ã€‚';
+  String get styleMemorySpecificHint => '具体的に書いてください。例:「技術は絵文字、仕事は全大文字、個人はシンプル」。';
 
   @override
-  String get styleMemoryTextHint => 'ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼åã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„...';
+  String get styleMemoryTextHint => 'フォルダー名のスタイルを入力してください...';
 
   @override
-  String get styleMemorySaved => 'ã‚¹ã‚¿ã‚¤ãƒ«ãƒ¡ãƒ¢ãƒªãƒ¼ã‚’ä¿å­˜ã—ã¾ã—ãŸã€‚';
+  String get styleMemorySaved => 'スタイルメモリーを保存しました。';
 
   @override
-  String get enableAiSortingFirst => 'å…ˆã«è¨­å®šã§ã€ŒAIä¸¦ã¹æ›¿ãˆã‚’ä½¿ç”¨ã€ã‚’æœ‰åŠ¹ã«ã—ã¦ãã ã•ã„ã€‚';
+  String get enableAiSortingFirst => '先に設定で「AI並べ替えを使用」を有効にしてください。';
 
   @override
-  String get saveMoreLinksTryAgain => 'ã‚‚ã†å°‘ã—ãƒªãƒ³ã‚¯ã‚’ä¿å­˜ã—ã¦ã‹ã‚‰å†è©¦è¡Œã—ã¦ãã ã•ã„';
+  String get saveMoreLinksTryAgain => 'もう少しリンクを保存してから再試行してください';
 
   @override
-  String get linksTooUnrelated => 'ã“ã‚Œã‚‰ã®ãƒªãƒ³ã‚¯ã¯é–¢é€£æ€§ãŒä½Žã™ãŽã¾ã™ã€‚';
+  String get linksTooUnrelated => 'これらのリンクは関連性が低すぎます。';
 
   @override
-  String get linksAlreadySimilar => 'ã“ã‚Œã‚‰ã®ãƒªãƒ³ã‚¯ã¯ã™ã§ã«ã‹ãªã‚Šä¼¼ã¦ã„ã¾ã™ã€‚';
+  String get linksAlreadySimilar => 'これらのリンクはすでにかなり似ています。';
 
   @override
-  String get aiSortingSaved => 'AIä¸¦ã¹æ›¿ãˆã‚’ä¿å­˜ã—ã¾ã—ãŸã€‚';
+  String get aiSortingSaved => 'AI並べ替えを保存しました。';
 
   @override
-  String get tryAgainTitle => 'å†è©¦è¡Œã—ã¾ã™ã‹ï¼Ÿ';
+  String get tryAgainTitle => '再試行しますか？';
 
   @override
-  String get tryAgainQuestion => 'ã‚‚ã†ä¸€åº¦è©¦ã—ã¾ã™ã‹ï¼Ÿ';
+  String get tryAgainQuestion => 'もう一度試しますか？';
 
   @override
-  String get aiSortingResult => 'AIä¸¦ã¹æ›¿ãˆçµæžœ';
+  String get aiSortingResult => 'AI並べ替え結果';
 
   @override
-  String get saveFolderTree => 'ã“ã®ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ãƒ„ãƒªãƒ¼ã‚’ä¿å­˜ã—ã¾ã™ã‹ï¼Ÿ';
+  String get saveFolderTree => 'このフォルダーツリーを保存しますか？';
 
   @override
-  String get yes => 'ã¯ã„';
+  String get yes => 'はい';
 
   @override
-  String get no => 'ã„ã„ãˆ';
+  String get no => 'いいえ';
 
   @override
-  String get autoSortLinks => 'ãƒªãƒ³ã‚¯ã‚’è‡ªå‹•ä¸¦ã¹æ›¿ãˆ';
+  String get autoSortLinks => 'リンクを自動並べ替え';
 
   @override
   String folderCount(String name, int count) {
-    return 'ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼: $name ($count)';
+    return 'フォルダー: $name ($count)';
   }
 
   @override
   String moreCount(int count) {
-    return '- ä»– $count ä»¶';
+    return '- 他 $count 件';
   }
 }

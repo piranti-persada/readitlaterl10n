@@ -116,7 +116,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get faqTitle => 'Frequently asked questions';
 
   @override
-  String get importLinksTitle => 'Import Links';
+  String get importLinksTitle => 'Import links';
 
   @override
   String get importLinksSubtitle => 'Import links from a file';
@@ -138,7 +138,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get wrongPassword => 'Wrong password or invalid file';
 
   @override
-  String get favoriteLimitReached => 'Max 3 favourites allowed';
+  String get favoriteLimitReached => 'Maximum 3 favourites allowed';
 
   @override
   String get termsOfService => 'Terms of Service';
@@ -260,7 +260,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get emailExists => 'Email already exists';
 
   @override
-  String get noAccountCreateOne => 'No account? Create one!';
+  String get noAccountCreateOne => 'Don\'t have an account? Create one!';
 
   @override
   String get getStarted => 'Get started';
@@ -301,7 +301,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get feedbackMessage => 'Message';
 
   @override
-  String get verifyHuman => 'Please verify you are human';
+  String get verifyHuman => 'Please verify that you are human';
 
   @override
   String get send => 'Send';
@@ -465,7 +465,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get failedUpdateAccount => 'Failed to update account. Email may already be in use.';
 
   @override
-  String get editAccountHint => 'Leave fields blank if you do not want to change them. Tap image to update avatar.';
+  String get editAccountHint => 'Leave fields blank if you do not want to change them. Tap the image to update avatar.';
 
   @override
   String get saveChanges => 'Save changes';

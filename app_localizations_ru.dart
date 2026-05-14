@@ -15,600 +15,600 @@ class AppLocalizationsRu extends AppLocalizations {
   String get homeTitle => 'Pile';
 
   @override
-  String get searchHint => 'ÐŸÐ¾Ð¸ÑÐº ÑÑÑ‹Ð»Ð¾Ðº Ð¸ Ñ‚ÐµÐ³Ð¾Ð²...';
+  String get searchHint => 'Поиск ссылок и тегов...';
 
   @override
-  String get noLinksYet => 'Ð¡ÑÑ‹Ð»ÐºÐ¸ Ð¿Ð¾ÐºÐ° Ð½Ðµ ÑÐ¾Ñ…Ñ€Ð°Ð½ÐµÐ½Ñ‹';
+  String get noLinksYet => 'Ссылки пока не сохранены';
 
   @override
-  String get noMatchingLinks => 'ÐŸÐ¾Ð´Ñ…Ð¾Ð´ÑÑ‰Ð¸Ñ… ÑÑÑ‹Ð»Ð¾Ðº Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾';
+  String get noMatchingLinks => 'Подходящих ссылок не найдено';
 
   @override
-  String get tapToAdd => 'ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ +, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ð¿ÐµÑ€Ð²ÑƒÑŽ ÑÑÑ‹Ð»ÐºÑƒ.';
+  String get tapToAdd => 'Нажмите +, чтобы добавить первую ссылку.';
 
   @override
-  String get deleteLinkTitle => 'Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ ÑÑÑ‹Ð»ÐºÑƒ';
+  String get deleteLinkTitle => 'Удалить ссылку';
 
   @override
   String deleteLinkContent(String name) {
-    return 'Ð’Ñ‹ ÑƒÐ²ÐµÑ€ÐµÐ½Ñ‹, Ñ‡Ñ‚Ð¾ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ ÑƒÐ´Ð°Ð»Ð¸Ñ‚ÑŒ \"$name\"?';
+    return 'Вы уверены, что хотите удалить \"$name\"?';
   }
 
   @override
-  String get cancel => 'ÐžÑ‚Ð¼ÐµÐ½Ð°';
+  String get cancel => 'Отмена';
 
   @override
-  String get delete => 'Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ';
+  String get delete => 'Удалить';
 
   @override
-  String get undo => 'ÐžÑ‚Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ';
+  String get undo => 'Отменить';
 
   @override
   String deleted(String name) {
-    return '$name ÑƒÐ´Ð°Ð»ÐµÐ½Ð¾';
+    return '$name удалено';
   }
 
   @override
   String errorLoading(String error) {
-    return 'ÐžÑˆÐ¸Ð±ÐºÐ° Ð·Ð°Ð³Ñ€ÑƒÐ·ÐºÐ¸ Ð´Ð°Ð½Ð½Ñ‹Ñ…: $error.';
+    return 'Ошибка загрузки данных: $error.';
   }
 
   @override
   String couldNotOpen(String url) {
-    return 'ÐÐµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚ÑŒ $url';
+    return 'Не удалось открыть $url';
   }
 
   @override
-  String get addLinkTitle => 'Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ ÑÑÑ‹Ð»ÐºÑƒ';
+  String get addLinkTitle => 'Добавить ссылку';
 
   @override
-  String get editLinkTitle => 'Ð˜Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ ÑÑÑ‹Ð»ÐºÑƒ';
+  String get editLinkTitle => 'Изменить ссылку';
 
   @override
-  String get linkTitleLabel => 'Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº';
+  String get linkTitleLabel => 'Заголовок';
 
   @override
-  String get urlLabel => 'URL-Ð°Ð´Ñ€ÐµÑ';
+  String get urlLabel => 'URL-адрес';
 
   @override
-  String get addTagLabel => 'Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ñ‚ÐµÐ³';
+  String get addTagLabel => 'Добавить тег';
 
   @override
-  String get save => 'Ð¡Ð¾Ñ…Ñ€Ð°Ð½ÑÑ‚ÑŒ';
+  String get save => 'Сохранять';
 
   @override
-  String get pleaseEnterUrl => 'ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ð°, Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ URL';
+  String get pleaseEnterUrl => 'Пожалуйста, введите URL';
 
   @override
-  String get accountTitle => 'ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸';
+  String get accountTitle => 'Настройки';
 
   @override
-  String get language => 'Ð¯Ð·Ñ‹Ðº';
+  String get language => 'Язык';
 
   @override
-  String get navHome => 'Ð”Ð¾Ð¼';
+  String get navHome => 'Дом';
 
   @override
-  String get navAccount => 'ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸';
+  String get navAccount => 'Настройки';
 
   @override
-  String get backupRestoreTitle => 'Ð ÐµÐ·ÐµÑ€Ð²Ð½Ð¾Ðµ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð¸ Ð²Ð¾ÑÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¸Ðµ';
+  String get backupRestoreTitle => 'Резервное копирование и восстановление';
 
   @override
-  String get exportLinksTitle => 'Ð­ÐºÑÐ¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ ÑÑÑ‹Ð»ÐºÐ¸';
+  String get exportLinksTitle => 'Экспортировать ссылки';
 
   @override
-  String get exportLinksSubtitle => 'Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚Ðµ ÑÑÑ‹Ð»ÐºÐ¸ Ð² Ñ„Ð°Ð¹Ð»';
+  String get exportLinksSubtitle => 'Сохраните ссылки в файл';
 
   @override
-  String get enterPassword => 'Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ (Ð½ÐµÐ¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾)';
+  String get enterPassword => 'Введите пароль (необязательно)';
 
   @override
-  String get password => 'ÐŸÐ°Ñ€Ð¾Ð»ÑŒ';
+  String get password => 'Пароль';
 
   @override
-  String get encryptFile => 'Ð¨Ð¸Ñ„Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ';
+  String get encryptFile => 'Шифровать';
 
   @override
-  String get instagram => 'Ð˜Ð½ÑÑ‚Ð°Ð³Ñ€Ð°Ð¼';
+  String get instagram => 'Инстаграм';
 
   @override
-  String get faqTitle => 'Ð§Ð°ÑÑ‚Ð¾ Ð·Ð°Ð´Ð°Ð²Ð°ÐµÐ¼Ñ‹Ðµ Ð²Ð¾Ð¿Ñ€Ð¾ÑÑ‹';
+  String get faqTitle => 'Часто задаваемые вопросы';
 
   @override
-  String get importLinksTitle => 'Ð’Ð¾ÑÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ ÑÑÑ‹Ð»ÐºÐ¸';
+  String get importLinksTitle => 'Восстановить ссылки';
 
   @override
-  String get importLinksSubtitle => 'Ð’Ð¾ÑÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ ÑÑÑ‹Ð»ÐºÐ¸ Ð¸Ð· Ñ„Ð°Ð¹Ð»Ð°';
+  String get importLinksSubtitle => 'Восстановить ссылки из файла';
 
   @override
   String importSuccess(int count) {
-    return 'Ð¡ÑÑ‹Ð»ÐºÐ¸ ÑƒÑÐ¿ÐµÑˆÐ½Ð¾ Ð¸Ð¼Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ñ‹: $count.';
+    return 'Ссылки успешно импортированы: $count.';
   }
 
   @override
   String importFailed(String error) {
-    return 'ÐÐµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ð¸Ð¼Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ: $error';
+    return 'Не удалось импортировать: $error';
   }
 
   @override
-  String get decryptFailed => 'ÐÐµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ñ€Ð°ÑÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð¸Ð»Ð¸ Ð½ÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚.';
+  String get decryptFailed => 'Не удалось расшифровать или неверный формат.';
 
   @override
-  String get wrongPassword => 'ÐÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ñ‹Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ Ð¸Ð»Ð¸ Ð½ÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ñ„Ð°Ð¹Ð»';
+  String get wrongPassword => 'Неправильный пароль или неверный файл';
 
   @override
-  String get favoriteLimitReached => 'Ð Ð°Ð·Ñ€ÐµÑˆÐµÐ½Ð¾ Ð¼Ð°ÐºÑÐ¸Ð¼ÑƒÐ¼ 3 Ð¸Ð·Ð±Ñ€Ð°Ð½Ð½Ñ‹Ñ…';
+  String get favoriteLimitReached => 'Разрешено максимум 3 избранных';
 
   @override
-  String get termsOfService => 'Ð£ÑÐ»Ð¾Ð²Ð¸Ñ Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ð¸Ñ';
+  String get termsOfService => 'Условия использования';
 
   @override
-  String get privacyPolicy => 'Ð¿Ð¾Ð»Ð¸Ñ‚Ð¸ÐºÐ° ÐºÐ¾Ð½Ñ„Ð¸Ð´ÐµÐ½Ñ†Ð¸Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚Ð¸';
+  String get privacyPolicy => 'политика конфиденциальности';
 
   @override
-  String get welcomeTitle => 'Ð”Ð¾Ð±Ñ€Ð¾ Ð¿Ð¾Ð¶Ð°Ð»Ð¾Ð²Ð°Ñ‚ÑŒ Ð² Pile';
+  String get welcomeTitle => 'Добро пожаловать в Pile';
 
   @override
-  String get welcomeMessage => 'ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ð°, Ð¿Ñ€Ð¾Ñ‡Ð¸Ñ‚Ð°Ð¹Ñ‚Ðµ Ð¸ Ð¿Ñ€Ð¸Ð¼Ð¸Ñ‚Ðµ Ð½Ð°ÑˆÐ¸ Ð£ÑÐ»Ð¾Ð²Ð¸Ñ Ð¾Ð±ÑÐ»ÑƒÐ¶Ð¸Ð²Ð°Ð½Ð¸Ñ Ð¸ ÐŸÐ¾Ð»Ð¸Ñ‚Ð¸ÐºÑƒ ÐºÐ¾Ð½Ñ„Ð¸Ð´ÐµÐ½Ñ†Ð¸Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚Ð¸, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ.';
+  String get welcomeMessage => 'Пожалуйста, прочитайте и примите наши Условия обслуживания и Политику конфиденциальности, чтобы продолжить.';
 
   @override
-  String get accept => 'ÐŸÑ€Ð¸Ð½Ð¸Ð¼Ð°Ñ‚ÑŒ';
+  String get accept => 'Принимать';
 
   @override
-  String get decline => 'ÐžÑ‚ÐºÐ»Ð¾Ð½Ð¸Ñ‚ÑŒ';
+  String get decline => 'Отклонить';
 
   @override
-  String get setReminder => 'Ð£ÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ð½Ð°Ð¿Ð¾Ð¼Ð¸Ð½Ð°Ð½Ð¸Ðµ';
+  String get setReminder => 'Установить напоминание';
 
   @override
   String reminderSet(String date) {
-    return 'ÐÐ°Ð¿Ð¾Ð¼Ð¸Ð½Ð°Ð½Ð¸Ðµ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¾ Ð½Ð° $date';
+    return 'Напоминание установлено на $date';
   }
 
   @override
-  String get recentlyDeleted => 'ÐÐµÐ´Ð°Ð²Ð½Ð¾ ÑƒÐ´Ð°Ð»ÐµÐ½Ð¾';
+  String get recentlyDeleted => 'Недавно удалено';
 
   @override
-  String get reminderLimitReached => 'Ð”Ð¾ÑÑ‚Ð¸Ð³Ð½ÑƒÑ‚ Ð»Ð¸Ð¼Ð¸Ñ‚ Ð½Ð°Ð¿Ð¾Ð¼Ð¸Ð½Ð°Ð½Ð¸Ð¹ (10)';
+  String get reminderLimitReached => 'Достигнут лимит напоминаний (10)';
 
   @override
   String get notificationsOrExactAlarmPermissionsBlocked => 'Notifications and/or exact alarm permissions blocked';
 
   @override
-  String get proVersion => 'ÐŸÑ€Ð¾Ñ„ÐµÑÑÐ¸Ð¾Ð½Ð°Ð»ÑŒÐ½Ð°Ñ Ð²ÐµÑ€ÑÐ¸Ñ';
+  String get proVersion => 'Профессиональная версия';
 
   @override
-  String get notAvailableInYourCountry => 'ÐÐµÐ´Ð¾ÑÑ‚ÑƒÐ¿Ð½Ð¾ Ð² Ð²Ð°ÑˆÐµÐ¹ ÑÑ‚Ñ€Ð°Ð½Ðµ';
+  String get notAvailableInYourCountry => 'Недоступно в вашей стране';
 
   @override
-  String get upgradeToPro => 'ÐžÐ±Ð½Ð¾Ð²Ð¸Ñ‚Ðµ Ð´Ð¾ Pro, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¿Ð¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ Ð½ÐµÐ¾Ð³Ñ€Ð°Ð½Ð¸Ñ‡ÐµÐ½Ð½Ð¾Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð½Ð°Ð¿Ð¾Ð¼Ð¸Ð½Ð°Ð½Ð¸Ð¹';
+  String get upgradeToPro => 'Обновите до Pro, чтобы получить неограниченное количество напоминаний';
 
   @override
   String restored(String name) {
-    return '$name Ð²Ð¾ÑÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¾';
+    return '$name восстановлено';
   }
 
   @override
-  String get deletePermanentlyTitle => 'Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ Ð½Ð°Ð²ÑÐµÐ³Ð´Ð°?';
+  String get deletePermanentlyTitle => 'Удалить навсегда?';
 
   @override
-  String get deletePermanentlyContent => 'Ð­Ñ‚Ð¾ Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ðµ Ð½ÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ð¾Ñ‚Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ.';
+  String get deletePermanentlyContent => 'Это действие невозможно отменить.';
 
   @override
-  String get selectAll => 'Ð’Ñ‹Ð±Ñ€Ð°Ñ‚ÑŒ Ð²ÑÐµ';
+  String get selectAll => 'Выбрать все';
 
   @override
-  String get selectedCount => 'Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð¾';
+  String get selectedCount => 'выбрано';
 
   @override
   String deleteSelectedContent(int count) {
-    return 'Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ ÑÑÑ‹Ð»ÐºÐ¸: $count?';
+    return 'Удалить ссылки: $count?';
   }
 
   @override
-  String get loginTitle => 'ÐÐ²Ñ‚Ð¾Ñ€Ð¸Ð·Ð¾Ð²Ð°Ñ‚ÑŒÑÑ';
+  String get loginTitle => 'Авторизоваться';
 
   @override
-  String get emailLabel => 'Ð­Ð»ÐµÐºÑ‚Ñ€Ð¾Ð½Ð½Ð°Ñ Ð¿Ð¾Ñ‡Ñ‚Ð°';
+  String get emailLabel => 'Электронная почта';
 
   @override
-  String get usernameLabel => 'Ð˜Ð¼Ñ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ';
+  String get usernameLabel => 'Имя пользователя';
 
   @override
-  String get passwordLabel => 'ÐŸÐ°Ñ€Ð¾Ð»ÑŒ';
+  String get passwordLabel => 'Пароль';
 
   @override
-  String get loginButton => 'ÐÐ²Ñ‚Ð¾Ñ€Ð¸Ð·Ð¾Ð²Ð°Ñ‚ÑŒÑÑ';
+  String get loginButton => 'Авторизоваться';
 
   @override
-  String get logoutButton => 'Ð’Ñ‹Ð¹Ñ‚Ð¸';
+  String get logoutButton => 'Выйти';
 
   @override
-  String get skipLabel => 'ÐŸÑ€Ð¾Ð¿ÑƒÑÑ‚Ð¸Ñ‚ÑŒ ÑÐµÐ¹Ñ‡Ð°Ñ';
+  String get skipLabel => 'Пропустить сейчас';
 
   @override
   String loggedInAs(String email) {
-    return 'Ð’Ð¾ÑˆÑ‘Ð» ÐºÐ°Ðº $email';
+    return 'Вошёл как $email';
   }
 
   @override
-  String get createAccount => 'Ð—Ð°Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒÑÑ';
+  String get createAccount => 'Зарегистрироваться';
 
   @override
-  String get nameLabel => 'ÐŸÐ¾Ð»Ð½Ð¾Ðµ Ð¸Ð¼Ñ';
+  String get nameLabel => 'Полное имя';
 
   @override
-  String get confirmPasswordLabel => 'ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚Ðµ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ';
+  String get confirmPasswordLabel => 'Подтвердите пароль';
 
   @override
-  String get registerButton => 'Ð—Ð°Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒÑÑ';
+  String get registerButton => 'Зарегистрироваться';
 
   @override
-  String get signInWithGoogle => 'Ð’Ð¾Ð¹Ñ‚Ð¸ Ñ‡ÐµÑ€ÐµÐ· Google';
+  String get signInWithGoogle => 'Войти через Google';
 
   @override
-  String get googleSignInNotSupported => 'Ð’ ÑÑ‚Ð¾Ð¹ Ð´ÐµÐ¼Ð¾Ð½ÑÑ‚Ñ€Ð°Ñ†Ð¸Ð¸ Ð½Ðµ Ð½Ð°ÑÑ‚Ñ€Ð¾ÐµÐ½ Ð²Ñ…Ð¾Ð´ Ð² Google.';
+  String get googleSignInNotSupported => 'В этой демонстрации не настроен вход в Google.';
 
   @override
-  String get accountCreated => 'ÐÐºÐºÐ°ÑƒÐ½Ñ‚ ÑƒÑÐ¿ÐµÑˆÐ½Ð¾ ÑÐ¾Ð·Ð´Ð°Ð½';
+  String get accountCreated => 'Аккаунт успешно создан';
 
   @override
-  String get invalidCredentials => 'ÐÐµÐ²ÐµÑ€Ð½Ð¾Ðµ Ð¸Ð¼Ñ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ Ð¸Ð»Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ';
+  String get invalidCredentials => 'Неверное имя пользователя или пароль';
 
   @override
-  String get emailExists => 'Ð­Ð»ÐµÐºÑ‚Ñ€Ð¾Ð½Ð½Ð°Ñ Ð¿Ð¾Ñ‡Ñ‚Ð° ÑƒÐ¶Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚';
+  String get emailExists => 'Электронная почта уже существует';
 
   @override
-  String get noAccountCreateOne => 'ÐÐµÑ‚ Ð°ÐºÐºÐ°ÑƒÐ½Ñ‚Ð°? Ð¡Ð¾Ð·Ð´Ð°Ð¹Ñ‚Ðµ ÐµÐ³Ð¾.';
+  String get noAccountCreateOne => 'Нет аккаунта? Создайте его.';
 
   @override
-  String get getStarted => 'ÐÐ°Ñ‡Ð°Ñ‚ÑŒ';
+  String get getStarted => 'Начать';
 
   @override
-  String get acceptAndContinue => 'ÐŸÑ€Ð¸Ð½ÑÑ‚ÑŒ Ð¸ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ';
+  String get acceptAndContinue => 'Принять и продолжить';
 
   @override
-  String get acceptAndFinish => 'ÐŸÑ€Ð¸Ð½ÑÑ‚ÑŒ Ð¸ Ð·Ð°Ð²ÐµÑ€ÑˆÐ¸Ñ‚ÑŒ';
+  String get acceptAndFinish => 'Принять и завершить';
 
   @override
-  String get stepTos => 'Ð£ÑÐ»Ð¾Ð²Ð¸Ñ Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ð¸Ñ';
+  String get stepTos => 'Условия использования';
 
   @override
-  String get stepPrivacy => 'Ð¿Ð¾Ð»Ð¸Ñ‚Ð¸ÐºÐ° ÐºÐ¾Ð½Ñ„Ð¸Ð´ÐµÐ½Ñ†Ð¸Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚Ð¸';
+  String get stepPrivacy => 'политика конфиденциальности';
 
   @override
   String addedOn(String date) {
-    return 'Ð”Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¾: $date';
+    return 'Добавлено: $date';
   }
 
   @override
-  String get sendFeedback => 'ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ Ð¾Ñ‚Ð·Ñ‹Ð²';
+  String get sendFeedback => 'Отправить отзыв';
 
   @override
-  String get feedbackSubject => 'ÐŸÑ€Ð¾Ñ‡Ð¸Ñ‚Ð°Ñ‚ÑŒÐŸÐ¾Ð·Ð´Ð½Ð¸Ð¹ Ð¾Ñ‚Ð·Ñ‹Ð²';
+  String get feedbackSubject => 'ПрочитатьПоздний отзыв';
 
   @override
-  String get feedbackTitle => 'ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ Ð¾Ñ‚Ð·Ñ‹Ð²';
+  String get feedbackTitle => 'Отправить отзыв';
 
   @override
-  String get feedbackName => 'Ð˜Ð¼Ñ (Ð½ÐµÐ¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾)';
+  String get feedbackName => 'Имя (необязательно)';
 
   @override
-  String get feedbackEmail => 'Ð­Ð»ÐµÐºÑ‚Ñ€Ð¾Ð½Ð½Ð°Ñ Ð¿Ð¾Ñ‡Ñ‚Ð° (Ð½ÐµÐ¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾)';
+  String get feedbackEmail => 'Электронная почта (необязательно)';
 
   @override
-  String get feedbackMessage => 'Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ';
+  String get feedbackMessage => 'Сообщение';
 
   @override
-  String get verifyHuman => 'ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ð°, Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚Ðµ, Ñ‡Ñ‚Ð¾ Ð²Ñ‹ Ñ‡ÐµÐ»Ð¾Ð²ÐµÐº';
+  String get verifyHuman => 'Пожалуйста, подтвердите, что вы человек';
 
   @override
-  String get send => 'ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð»ÑÑ‚ÑŒ';
+  String get send => 'Отправлять';
 
   @override
-  String get tabLinks => 'Ð¡ÑÑ‹Ð»ÐºÐ¸';
+  String get tabLinks => 'Ссылки';
 
   @override
-  String get tabDeleted => 'Ð£Ð´Ð°Ð»ÐµÐ½Ð¾';
+  String get tabDeleted => 'Удалено';
 
   @override
-  String get topLinksTitle => 'Ð›ÑƒÑ‡ÑˆÐ¸Ðµ ÑÑÑ‹Ð»ÐºÐ¸';
+  String get topLinksTitle => 'Лучшие ссылки';
 
   @override
-  String get noDeletedLinks => 'ÐÐµÑ‚ ÑƒÐ´Ð°Ð»ÐµÐ½Ð½Ñ‹Ñ… ÑÑÑ‹Ð»Ð¾Ðº';
+  String get noDeletedLinks => 'Нет удаленных ссылок';
 
   @override
-  String get restoreTooltip => 'Ð’Ð¾ÑÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ';
+  String get restoreTooltip => 'Восстановить';
 
   @override
-  String get remindersTitle => 'ÐÐ°Ð¿Ð¾Ð¼Ð¸Ð½Ð°Ð½Ð¸Ñ';
+  String get remindersTitle => 'Напоминания';
 
   @override
-  String get noReminders => 'ÐÐµÑ‚ Ð¿Ñ€ÐµÐ´ÑÑ‚Ð¾ÑÑ‰Ð¸Ñ… Ð½Ð°Ð¿Ð¾Ð¼Ð¸Ð½Ð°Ð½Ð¸Ð¹';
+  String get noReminders => 'Нет предстоящих напоминаний';
 
   @override
-  String get didYouKnow => 'Ð’Ñ‹ Ð·Ð½Ð°Ð»Ð¸?';
+  String get didYouKnow => 'Вы знали?';
 
   @override
-  String get shareToAppTip => 'Ð’Ñ‹ Ð¼Ð¾Ð¶ÐµÑ‚Ðµ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÑ‚ÑŒ ÑÑÑ‹Ð»ÐºÐ¸, Ð¿Ð¾Ð´ÐµÐ»Ð¸Ð²ÑˆÐ¸ÑÑŒ Ð¸Ð¼Ð¸ Ð² Pile!';
+  String get shareToAppTip => 'Вы можете добавлять ссылки, поделившись ими в Pile!';
 
   @override
-  String get commentsLabel => 'ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸ (Ð½ÐµÐ¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾)';
+  String get commentsLabel => 'Комментарии (необязательно)';
 
   @override
-  String get accountSettings => 'ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ ÑƒÑ‡ÐµÑ‚Ð½Ð¾Ð¹ Ð·Ð°Ð¿Ð¸ÑÐ¸';
+  String get accountSettings => 'Настройки учетной записи';
 
   @override
-  String get signIn => 'Ð’Ð¾Ð¹Ñ‚Ð¸';
+  String get signIn => 'Войти';
 
   @override
-  String get collectionsTitle => 'ÐšÐ¾Ð»Ð»ÐµÐºÑ†Ð¸Ð¸';
+  String get collectionsTitle => 'Коллекции';
 
   @override
-  String get newCollection => 'ÐÐ¾Ð²Ð°Ñ ÐºÐ¾Ð»Ð»ÐµÐºÑ†Ð¸Ñ';
+  String get newCollection => 'Новая коллекция';
 
   @override
-  String get collectionName => 'ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÐºÐ¾Ð»Ð»ÐµÐºÑ†Ð¸Ð¸';
+  String get collectionName => 'Название коллекции';
 
   @override
-  String get gridView => 'ÐŸÑ€ÐµÐ´ÑÑ‚Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ð² Ð²Ð¸Ð´Ðµ ÑÐµÑ‚ÐºÐ¸';
+  String get gridView => 'Представление в виде сетки';
 
   @override
-  String get listView => 'ÐŸÑ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€ ÑÐ¿Ð¸ÑÐºÐ°';
+  String get listView => 'Просмотр списка';
 
   @override
-  String get editAccountTitle => 'Ð ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð°ÐºÐºÐ°ÑƒÐ½Ñ‚';
+  String get editAccountTitle => 'Редактировать аккаунт';
 
   @override
-  String get changePasswordTitle => 'Ð˜Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ ÑƒÑ‡ÐµÑ‚Ð½Ð¾Ð¹ Ð·Ð°Ð¿Ð¸ÑÐ¸';
+  String get changePasswordTitle => 'Изменить пароль учетной записи';
 
   @override
-  String get signOutTitle => 'Ð²Ñ‹Ñ…Ð¾Ð´';
+  String get signOutTitle => 'выход';
 
   @override
-  String get signOutConfirm => 'Ð’Ñ‹ ÑƒÐ²ÐµÑ€ÐµÐ½Ñ‹, Ñ‡Ñ‚Ð¾ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð²Ñ‹Ð¹Ñ‚Ð¸ Ð¸Ð· ÑÐ²Ð¾ÐµÐ¹ ÑƒÑ‡ÐµÑ‚Ð½Ð¾Ð¹ Ð·Ð°Ð¿Ð¸ÑÐ¸ Ð½Ð° ÑÑ‚Ð¾Ð¼ ÑƒÑÑ‚Ñ€Ð¾Ð¹ÑÑ‚Ð²Ðµ?';
+  String get signOutConfirm => 'Вы уверены, что хотите выйти из своей учетной записи на этом устройстве?';
 
   @override
-  String get deleteAccountTitle => 'Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ Ð°ÐºÐºÐ°ÑƒÐ½Ñ‚';
+  String get deleteAccountTitle => 'Удалить аккаунт';
 
   @override
-  String get deleteAccountWarning => 'Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ ÑƒÑ‡ÐµÑ‚Ð½ÑƒÑŽ Ð·Ð°Ð¿Ð¸ÑÑŒ: Ð¿Ð¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ð°, Ð¿Ñ€Ð¾Ñ‡Ð¸Ñ‚Ð°Ð¹Ñ‚Ðµ ÑÑ‚Ð¾ Ð²Ð½Ð¸Ð¼Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾.';
+  String get deleteAccountWarning => 'Удалить учетную запись: пожалуйста, прочитайте это внимательно.';
 
   @override
-  String get deleteAccountConfirm => 'Ð’Ñ‹ ÑÐ¾Ð±Ð¸Ñ€Ð°ÐµÑ‚ÐµÑÑŒ ÑƒÐ´Ð°Ð»Ð¸Ñ‚ÑŒ ÑÐ²Ð¾ÑŽ ÑƒÑ‡ÐµÑ‚Ð½ÑƒÑŽ Ð·Ð°Ð¿Ð¸ÑÑŒ Ð¸ Ð²ÑÐµ ÑÐ²ÑÐ·Ð°Ð½Ð½Ñ‹Ðµ Ñ Ð½ÐµÐ¹ Ð´Ð°Ð½Ð½Ñ‹Ðµ. Ð­Ñ‚Ð¾Ð³Ð¾ Ð½ÐµÐ»ÑŒÐ·Ñ Ð±Ñ‹Ð»Ð¾ Ð¾Ñ‚Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ. Ð’Ñ‹ ÑƒÐ²ÐµÑ€ÐµÐ½Ñ‹?';
+  String get deleteAccountConfirm => 'Вы собираетесь удалить свою учетную запись и все связанные с ней данные. Этого нельзя было отменить. Вы уверены?';
 
   @override
-  String get deleteSuccess => 'ÐÐ°Ð¼ Ð¶Ð°Ð»ÑŒ, Ñ‡Ñ‚Ð¾ Ð²Ñ‹ ÑƒÑ…Ð¾Ð´Ð¸Ñ‚Ðµ! Ð’Ð°Ñˆ Ð°ÐºÐºÐ°ÑƒÐ½Ñ‚ Ð±Ñ‹Ð» ÑƒÐ´Ð°Ð»ÐµÐ½.';
+  String get deleteSuccess => 'Нам жаль, что вы уходите! Ваш аккаунт был удален.';
 
   @override
-  String get deleteFail => 'ÐÐµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ ÑƒÐ´Ð°Ð»Ð¸Ñ‚ÑŒ ÑƒÑ‡ÐµÑ‚Ð½ÑƒÑŽ Ð·Ð°Ð¿Ð¸ÑÑŒ. ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ð°, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ðµ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ Ð¿Ð¾Ð·Ð¶Ðµ.';
+  String get deleteFail => 'Не удалось удалить учетную запись. Пожалуйста, повторите попытку позже.';
 
   @override
-  String get continueButton => 'ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ';
+  String get continueButton => 'Продолжить';
 
   @override
-  String get noCollectionsYet => 'ÐŸÐ¾ÐºÐ° Ð½ÐµÑ‚ ÐºÐ¾Ð»Ð»ÐµÐºÑ†Ð¸Ð¹';
+  String get noCollectionsYet => 'Пока нет коллекций';
 
   @override
-  String get emptyFolder => 'ÐŸÑƒÑÑ‚Ð°Ñ Ð¿Ð°Ð¿ÐºÐ°';
+  String get emptyFolder => 'Пустая папка';
 
   @override
-  String get folderColor => 'Ð¦Ð²ÐµÑ‚ Ð¿Ð°Ð¿ÐºÐ¸';
+  String get folderColor => 'Цвет папки';
 
   @override
-  String get editAction => 'Ð ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ';
+  String get editAction => 'Редактировать';
 
   @override
   String get editCollection => 'Edit collection';
 
   @override
-  String get changeColor => 'Ð˜Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ñ†Ð²ÐµÑ‚';
+  String get changeColor => 'Изменить цвет';
 
   @override
-  String get deleteCollectionWarning => 'Ð¡ÑÑ‹Ð»ÐºÐ¸ Ð²Ð½ÑƒÑ‚Ñ€Ð¸ Ð±ÑƒÐ´ÑƒÑ‚ Ð¿ÐµÑ€ÐµÐ¼ÐµÑ‰ÐµÐ½Ñ‹ Ð² ÐºÐ¾Ñ€ÐµÐ½ÑŒ.';
+  String get deleteCollectionWarning => 'Ссылки внутри будут перемещены в корень.';
 
   @override
-  String get moveAction => 'ÐŸÐµÑ€ÐµÐ¼ÐµÑÑ‚Ð¸Ñ‚ÑŒ';
+  String get moveAction => 'Переместить';
 
   @override
-  String get moveToCollection => 'ÐŸÐµÑ€ÐµÐ¼ÐµÑÑ‚Ð¸Ñ‚ÑŒ Ð² ÐºÐ¾Ð»Ð»ÐµÐºÑ†Ð¸ÑŽ';
+  String get moveToCollection => 'Переместить в коллекцию';
 
   @override
-  String get noCollection => 'ÐÐµÑ‚ ÐºÐ¾Ð»Ð»ÐµÐºÑ†Ð¸Ð¸';
+  String get noCollection => 'Нет коллекции';
 
   @override
-  String get noInternetConnection => 'ÐÐµÑ‚ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ñ Ðº Ð¸Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚Ñƒ';
+  String get noInternetConnection => 'Нет подключения к интернету';
 
   @override
-  String get dismiss => 'Ð—ÐÐšÐ Ð«Ð¢Ð¬';
+  String get dismiss => 'ЗАКРЫТЬ';
 
   @override
-  String get tagAll => 'Ð’ÑÐµ';
+  String get tagAll => 'Все';
 
   @override
-  String get camera => 'ÐšÐ°Ð¼ÐµÑ€Ð°';
+  String get camera => 'Камера';
 
   @override
-  String get gallery => 'Ð“Ð°Ð»ÐµÑ€ÐµÑ';
+  String get gallery => 'Галерея';
 
   @override
-  String get classicAvatars => 'ÐšÐ»Ð°ÑÑÐ¸Ñ‡ÐµÑÐºÐ¸Ðµ Ð°Ð²Ð°Ñ‚Ð°Ñ€Ñ‹';
+  String get classicAvatars => 'Классические аватары';
 
   @override
-  String get classic => 'ÐšÐ»Ð°ÑÑÐ¸Ñ‡ÐµÑÐºÐ¸Ð¹';
+  String get classic => 'Классический';
 
   @override
-  String get usernameLengthError => 'Ð˜Ð¼Ñ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ Ð´Ð¾Ð»Ð¶Ð½Ð¾ Ð±Ñ‹Ñ‚ÑŒ Ð¾Ñ‚ 3 Ð´Ð¾ 45 ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð²';
+  String get usernameLengthError => 'Имя пользователя должно быть от 3 до 45 символов';
 
   @override
-  String get usernameFormatError => 'ÐÐµÐ´Ð¾Ð¿ÑƒÑÑ‚Ð¸Ð¼Ñ‹Ð¹ Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚ Ð¸Ð¼ÐµÐ½Ð¸ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ.';
+  String get usernameFormatError => 'Недопустимый формат имени пользователя.';
 
   @override
   String visitCount(int count) {
-    return '$count Ð¿Ð¾ÑÐµÑ‰ÐµÐ½Ð¸Ð¹';
+    return '$count посещений';
   }
 
   @override
-  String get usernameConsecutiveSymbols => 'Ð˜Ð¼Ñ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ‚ ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ñ‚ÑŒ Ð¿Ð¾ÑÐ»ÐµÐ´Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ ÑÐ¸Ð¼Ð²Ð¾Ð»Ñ‹.';
+  String get usernameConsecutiveSymbols => 'Имя пользователя не может содержать последовательные символы.';
 
   @override
-  String get usernameRestrictedWords => 'Ð˜Ð¼Ñ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ñ‚ Ð·Ð°Ð¿Ñ€ÐµÑ‰Ñ‘Ð½Ð½Ñ‹Ðµ ÑÐ»Ð¾Ð²Ð°.';
+  String get usernameRestrictedWords => 'Имя пользователя содержит запрещённые слова.';
 
   @override
-  String get failedUploadPic => 'ÐÐµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ð·Ð°Ð³Ñ€ÑƒÐ·Ð¸Ñ‚ÑŒ Ñ„Ð¾Ñ‚Ð¾ Ð¿Ñ€Ð¾Ñ„Ð¸Ð»Ñ.';
+  String get failedUploadPic => 'Не удалось загрузить фото профиля.';
 
   @override
-  String get accountUpdated => 'ÐÐºÐºÐ°ÑƒÐ½Ñ‚ ÑƒÑÐ¿ÐµÑˆÐ½Ð¾ Ð¾Ð±Ð½Ð¾Ð²Ð»Ñ‘Ð½';
+  String get accountUpdated => 'Аккаунт успешно обновлён';
 
   @override
-  String get failedUpdateAccount => 'ÐÐµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ð¾Ð±Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ð°ÐºÐºÐ°ÑƒÐ½Ñ‚. Ð’Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾, email ÑƒÐ¶Ðµ Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÐµÑ‚ÑÑ.';
+  String get failedUpdateAccount => 'Не удалось обновить аккаунт. Возможно, email уже используется.';
 
   @override
-  String get editAccountHint => 'ÐžÑÑ‚Ð°Ð²ÑŒÑ‚Ðµ Ð¿Ð¾Ð»Ñ Ð¿ÑƒÑÑ‚Ñ‹Ð¼Ð¸, ÐµÑÐ»Ð¸ Ð½Ðµ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð¸Ñ… Ð¼ÐµÐ½ÑÑ‚ÑŒ. ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð½Ð° Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¾Ð±Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ð°Ð²Ð°Ñ‚Ð°Ñ€.';
+  String get editAccountHint => 'Оставьте поля пустыми, если не хотите их менять. Нажмите на изображение, чтобы обновить аватар.';
 
   @override
-  String get saveChanges => 'Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ñ';
+  String get saveChanges => 'Сохранить изменения';
 
   @override
-  String get verifyIdentity => 'ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚ÑŒ Ð»Ð¸Ñ‡Ð½Ð¾ÑÑ‚ÑŒ';
+  String get verifyIdentity => 'Подтвердить личность';
 
   @override
-  String get enterCurrentPassword => 'ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ð°, Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐºÑƒÑ‰Ð¸Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ Ð´Ð»Ñ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶ÐµÐ½Ð¸Ñ.';
+  String get enterCurrentPassword => 'Пожалуйста, введите текущий пароль для продолжения.';
 
   @override
-  String get currentPassword => 'Ð¢ÐµÐºÑƒÑ‰Ð¸Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ';
+  String get currentPassword => 'Текущий пароль';
 
   @override
-  String get incorrectPassword => 'ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ';
+  String get incorrectPassword => 'Неверный пароль';
 
   @override
-  String get verify => 'ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚ÑŒ';
+  String get verify => 'Подтвердить';
 
   @override
-  String get googleVerifyFailed => 'ÐÐµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚ÑŒ Ð»Ð¸Ñ‡Ð½Ð¾ÑÑ‚ÑŒ Ñ‡ÐµÑ€ÐµÐ· Google.';
+  String get googleVerifyFailed => 'Не удалось подтвердить личность через Google.';
 
   @override
-  String get confirmIdentity => 'Ð§Ñ‚Ð¾Ð±Ñ‹ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ, ÑÐ½Ð°Ñ‡Ð°Ð»Ð° Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚Ðµ, Ñ‡Ñ‚Ð¾ ÑÑ‚Ð¾ Ð²Ñ‹.';
+  String get confirmIdentity => 'Чтобы продолжить, сначала подтвердите, что это вы.';
 
   @override
-  String get verifyIdentityDesc => 'ÐÐ°Ð¼ Ð½ÑƒÐ¶Ð½Ð¾ Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚ÑŒ Ð²Ð°ÑˆÑƒ Ð»Ð¸Ñ‡Ð½Ð¾ÑÑ‚ÑŒ Ð´Ð»Ñ Ð·Ð°Ñ‰Ð¸Ñ‚Ñ‹ Ð°ÐºÐºÐ°ÑƒÐ½Ñ‚Ð°.';
+  String get verifyIdentityDesc => 'Нам нужно подтвердить вашу личность для защиты аккаунта.';
 
   @override
-  String get continueWithGoogle => 'ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ Ñ‡ÐµÑ€ÐµÐ· Google';
+  String get continueWithGoogle => 'Продолжить через Google';
 
   @override
-  String get editPassword => 'Ð˜Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ';
+  String get editPassword => 'Изменить пароль';
 
   @override
-  String get newPassword => 'ÐÐ¾Ð²Ñ‹Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ';
+  String get newPassword => 'Новый пароль';
 
   @override
-  String get passwordUpdated => 'ÐŸÐ°Ñ€Ð¾Ð»ÑŒ ÑƒÑÐ¿ÐµÑˆÐ½Ð¾ Ð¾Ð±Ð½Ð¾Ð²Ð»Ñ‘Ð½';
+  String get passwordUpdated => 'Пароль успешно обновлён';
 
   @override
-  String get failedUpdatePassword => 'ÐÐµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ð¾Ð±Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ';
+  String get failedUpdatePassword => 'Не удалось обновить пароль';
 
   @override
-  String get savePassword => 'Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ';
+  String get savePassword => 'Сохранить пароль';
 
   @override
-  String get passwordsDoNotMatch => 'ÐŸÐ°Ñ€Ð¾Ð»Ð¸ Ð½Ðµ ÑÐ¾Ð²Ð¿Ð°Ð´Ð°ÑŽÑ‚';
+  String get passwordsDoNotMatch => 'Пароли не совпадают';
 
   @override
-  String get none => 'ÐÐµÑ‚';
+  String get none => 'Нет';
 
   @override
-  String get feedbackConsumerButton => 'ÐžÑ‚Ð·Ñ‹Ð² Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹';
+  String get feedbackConsumerButton => 'Отзыв пользователей';
 
   @override
-  String get translationsGitHubButton => 'ÐžÐ±Ñ€Ð°Ñ‚Ð½Ð°Ñ ÑÐ²ÑÐ·ÑŒ Ð½Ð° GitHub';
+  String get translationsGitHubButton => 'Обратная связь на GitHub';
 
   @override
-  String get feedbackTranslationsButton => 'ÐžÑ‚Ð·Ñ‹Ð² Ð¾ Ð¿ÐµÑ€ÐµÐ²Ð¾Ð´Ð°Ñ…';
+  String get feedbackTranslationsButton => 'Отзыв о переводах';
 
   @override
-  String get feedbackConsumerNote => 'ÐžÑ‚Ð·Ñ‹Ð² Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹: Ð¿Ð¾Ð´ÐµÐ»Ð¸Ñ‚ÐµÑÑŒ ÑÐ²Ð¾Ð¸Ð¼ Ð¾Ð¿Ñ‹Ñ‚Ð¾Ð¼ Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ð¸Ñ Ð¿Ñ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ñ, Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€ Ð¾ÑˆÐ¸Ð±ÐºÐ°Ð¼Ð¸, Ð¿Ñ€Ð¾Ð±Ð»ÐµÐ¼Ð°Ð¼Ð¸ Ð¿Ñ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾ÑÑ‚Ð¸, Ñ„ÑƒÐ½ÐºÑ†Ð¸ÑÐ¼Ð¸ Ð¸Ð»Ð¸ Ð¾Ð±Ñ‰ÐµÐ¹ ÑƒÐ´Ð¾Ð±Ð½Ð¾ÑÑ‚ÑŒÑŽ.';
+  String get feedbackConsumerNote => 'Отзыв пользователей: поделитесь своим опытом использования приложения, например ошибками, проблемами производительности, функциями или общей удобностью.';
 
   @override
-  String get translationsGitHubNote => 'ÐžÐ±Ñ€Ð°Ñ‚Ð½Ð°Ñ ÑÐ²ÑÐ·ÑŒ Ð½Ð° GitHub: ÑÐ¾Ð¾Ð±Ñ‰Ð°Ð¹Ñ‚Ðµ Ð¾ ÑÐ·Ñ‹ÐºÐ¾Ð²Ñ‹Ñ… Ð¿Ñ€Ð¾Ð±Ð»ÐµÐ¼Ð°Ñ… Ð½Ð° GitHub, Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€ Ð¾ Ð½ÐµÐ²ÐµÑ€Ð½Ñ‹Ñ… Ð¿ÐµÑ€ÐµÐ²Ð¾Ð´Ð°Ñ…, Ð½ÐµÑÑÐ½Ñ‹Ñ… Ñ„Ð¾Ñ€Ð¼ÑƒÐ»Ð¸Ñ€Ð¾Ð²ÐºÐ°Ñ… Ð¸Ð»Ð¸ Ð³Ñ€Ð°Ð¼Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ñ… Ð¾ÑˆÐ¸Ð±ÐºÐ°Ñ….';
+  String get translationsGitHubNote => 'Обратная связь на GitHub: сообщайте о языковых проблемах на GitHub, например о неверных переводах, неясных формулировках или грамматических ошибках.';
 
   @override
-  String get feedbackTranslationsNote => 'ÐžÑ‚Ð·Ñ‹Ð² Ð¾ Ð¿ÐµÑ€ÐµÐ²Ð¾Ð´Ð°Ñ…: ÑÐ¾Ð¾Ð±Ñ‰Ð°Ð¹Ñ‚Ðµ Ð¾ ÑÐ·Ñ‹ÐºÐ¾Ð²Ñ‹Ñ… Ð¿Ñ€Ð¾Ð±Ð»ÐµÐ¼Ð°Ñ…, Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€ Ð¾ Ð½ÐµÐ²ÐµÑ€Ð½Ñ‹Ñ… Ð¿ÐµÑ€ÐµÐ²Ð¾Ð´Ð°Ñ…, Ð½ÐµÑÑÐ½Ñ‹Ñ… Ñ„Ð¾Ñ€Ð¼ÑƒÐ»Ð¸Ñ€Ð¾Ð²ÐºÐ°Ñ… Ð¸Ð»Ð¸ Ð³Ñ€Ð°Ð¼Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ñ… Ð¾ÑˆÐ¸Ð±ÐºÐ°Ñ….';
+  String get feedbackTranslationsNote => 'Отзыв о переводах: сообщайте о языковых проблемах, например о неверных переводах, неясных формулировках или грамматических ошибках.';
 
   @override
-  String get aiSettings => 'ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ Ð˜Ð˜';
+  String get aiSettings => 'Настройки ИИ';
 
   @override
-  String get aiSettingsSubtitle => 'Ð£Ð¿Ñ€Ð°Ð²Ð»ÑÐ¹Ñ‚Ðµ Ð˜Ð˜-ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ¾Ð¹ Ð¸ Ð¿Ð°Ð¼ÑÑ‚ÑŒÑŽ ÑÑ‚Ð¸Ð»Ñ Ð´Ð»Ñ ÐºÐ¾Ð»Ð»ÐµÐºÑ†Ð¸Ð¹.';
+  String get aiSettingsSubtitle => 'Управляйте ИИ-сортировкой и памятью стиля для коллекций.';
 
   @override
-  String get useAiSorting => 'Ð˜ÑÐ¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒ Ð˜Ð˜-ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÑƒ';
+  String get useAiSorting => 'Использовать ИИ-сортировку';
 
   @override
-  String get useAiSortingSubtitle => 'ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð¿Ñ€ÐµÐ´Ð»Ð°Ð³Ð°ÐµÑ‚ Ð³Ñ€ÑƒÐ¿Ð¿Ð¸Ñ€Ð¾Ð²ÐºÑƒ Ð¿Ð°Ð¿Ð¾Ðº Ð½Ð° Ð¾ÑÐ½Ð¾Ð²Ðµ Ð²Ð°ÑˆÐ¸Ñ… ÑÑÑ‹Ð»Ð¾Ðº.';
+  String get useAiSortingSubtitle => 'Автоматически предлагает группировку папок на основе ваших ссылок.';
 
   @override
-  String get styleMemory => 'ÐŸÐ°Ð¼ÑÑ‚ÑŒ ÑÑ‚Ð¸Ð»Ñ';
+  String get styleMemory => 'Память стиля';
 
   @override
-  String get styleMemoryEmpty => 'Ð—Ð°Ð´Ð°Ð¹Ñ‚Ðµ ÑÑ‚Ð¸Ð»ÑŒ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ð¹ ÐºÐ¾Ð»Ð»ÐµÐºÑ†Ð¸Ð¹.';
+  String get styleMemoryEmpty => 'Задайте стиль названий коллекций.';
 
   @override
-  String get styleMemoryDesc => 'ÐŸÐ°Ð¼ÑÑ‚ÑŒ ÑÑ‚Ð¸Ð»Ñ Ð½ÐµÐ·Ð°Ð¼ÐµÑ‚Ð½Ð¾ Ð·Ð°Ð¿Ð¾Ð¼Ð¸Ð½Ð°ÐµÑ‚, ÐºÐ°Ðº Ð²Ñ‹ Ð½Ð°Ð·Ñ‹Ð²Ð°ÐµÑ‚Ðµ Ð¸ Ð¾Ñ€Ð³Ð°Ð½Ð¸Ð·ÑƒÐµÑ‚Ðµ ÐºÐ¾Ð»Ð»ÐµÐºÑ†Ð¸Ð¸ - ÑÐ¼Ð¾Ð´Ð·Ð¸, Ð’Ð•Ð Ð¥ÐÐ˜Ð™ Ð Ð•Ð“Ð˜Ð¡Ð¢Ð  Ð¸Ð»Ð¸ Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ð¹ ÑÑ‚Ð¸Ð»ÑŒ - Ð¸ Ð¿Ñ€Ð¸Ð¼ÐµÐ½ÑÐµÑ‚ ÑÑ‚Ð¾ Ð² ÑÐ»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ð¹ Ñ€Ð°Ð·.';
+  String get styleMemoryDesc => 'Память стиля незаметно запоминает, как вы называете и организуете коллекции - эмодзи, ВЕРХНИЙ РЕГИСТР или простой стиль - и применяет это в следующий раз.';
 
   @override
-  String get styleMemorySpecificHint => 'Ð‘ÑƒÐ´ÑŒÑ‚Ðµ ÐºÐ¾Ð½ÐºÑ€ÐµÑ‚Ð½Ñ‹. ÐŸÑ€Ð¸Ð¼ÐµÑ€: \"Ð­Ð¼Ð¾Ð´Ð·Ð¸ Ð´Ð»Ñ Ñ‚ÐµÑ…Ð½Ð¾, Ð’Ð•Ð Ð¥ÐÐ˜Ð™ Ð Ð•Ð“Ð˜Ð¡Ð¢Ð  Ð´Ð»Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹, Ð»Ð¸Ñ‡Ð½Ð¾Ðµ â€” Ð¿Ñ€Ð¾Ñ‰Ðµ.\"';
+  String get styleMemorySpecificHint => 'Будьте конкретны. Пример: \"Эмодзи для техно, ВЕРХНИЙ РЕГИСТР для работы, личное — проще.\"';
 
   @override
-  String get styleMemoryTextHint => 'ÐžÐ¿Ð¸ÑˆÐ¸Ñ‚Ðµ Ð²Ð°Ñˆ ÑÑ‚Ð¸Ð»ÑŒ Ð¸Ð¼ÐµÐ½Ð¾Ð²Ð°Ð½Ð¸Ñ Ð¿Ð°Ð¿Ð¾Ðº...';
+  String get styleMemoryTextHint => 'Опишите ваш стиль именования папок...';
 
   @override
-  String get styleMemorySaved => 'ÐŸÐ°Ð¼ÑÑ‚ÑŒ ÑÑ‚Ð¸Ð»Ñ ÑÐ¾Ñ…Ñ€Ð°Ð½ÐµÐ½Ð°.';
+  String get styleMemorySaved => 'Память стиля сохранена.';
 
   @override
-  String get enableAiSortingFirst => 'Ð¡Ð½Ð°Ñ‡Ð°Ð»Ð° Ð²ÐºÐ»ÑŽÑ‡Ð¸Ñ‚Ðµ Ð˜Ð˜-ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÑƒ Ð² ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ°Ñ….';
+  String get enableAiSortingFirst => 'Сначала включите ИИ-сортировку в Настройках.';
 
   @override
-  String get saveMoreLinksTryAgain => 'Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚Ðµ ÐµÑ‰Ñ‘ Ð½ÐµÑÐºÐ¾Ð»ÑŒÐºÐ¾ ÑÑÑ‹Ð»Ð¾Ðº Ð¸ Ð¿Ð¾Ð¿Ñ€Ð¾Ð±ÑƒÐ¹Ñ‚Ðµ ÑÐ½Ð¾Ð²Ð°';
+  String get saveMoreLinksTryAgain => 'Сохраните ещё несколько ссылок и попробуйте снова';
 
   @override
-  String get linksTooUnrelated => 'Ð­Ñ‚Ð¸ ÑÑÑ‹Ð»ÐºÐ¸ ÑÐ»Ð¸ÑˆÐºÐ¾Ð¼ Ð½ÐµÑÐ²ÑÐ·Ð°Ð½Ð½Ñ‹Ðµ.';
+  String get linksTooUnrelated => 'Эти ссылки слишком несвязанные.';
 
   @override
-  String get linksAlreadySimilar => 'Ð­Ñ‚Ð¸ ÑÑÑ‹Ð»ÐºÐ¸ ÑƒÐ¶Ðµ Ð´Ð¾Ð²Ð¾Ð»ÑŒÐ½Ð¾ Ð¿Ð¾Ñ…Ð¾Ð¶Ð¸.';
+  String get linksAlreadySimilar => 'Эти ссылки уже довольно похожи.';
 
   @override
-  String get aiSortingSaved => 'Ð˜Ð˜-ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ° ÑÐ¾Ñ…Ñ€Ð°Ð½ÐµÐ½Ð°.';
+  String get aiSortingSaved => 'ИИ-сортировка сохранена.';
 
   @override
-  String get tryAgainTitle => 'ÐŸÐ¾Ð¿Ñ€Ð¾Ð±Ð¾Ð²Ð°Ñ‚ÑŒ ÑÐ½Ð¾Ð²Ð°?';
+  String get tryAgainTitle => 'Попробовать снова?';
 
   @override
-  String get tryAgainQuestion => 'Ð¥Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð¿Ð¾Ð¿Ñ€Ð¾Ð±Ð¾Ð²Ð°Ñ‚ÑŒ ÐµÑ‰Ñ‘ Ñ€Ð°Ð·?';
+  String get tryAgainQuestion => 'Хотите попробовать ещё раз?';
 
   @override
-  String get aiSortingResult => 'Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð˜Ð˜-ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ¸';
+  String get aiSortingResult => 'Результат ИИ-сортировки';
 
   @override
-  String get saveFolderTree => 'Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ ÑÑ‚Ð¾ Ð´ÐµÑ€ÐµÐ²Ð¾ Ð¿Ð°Ð¿Ð¾Ðº?';
+  String get saveFolderTree => 'Сохранить это дерево папок?';
 
   @override
-  String get yes => 'Ð”Ð°';
+  String get yes => 'Да';
 
   @override
-  String get no => 'ÐÐµÑ‚';
+  String get no => 'Нет';
 
   @override
-  String get autoSortLinks => 'ÐÐ²Ñ‚Ð¾ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ° ÑÑÑ‹Ð»Ð¾Ðº';
+  String get autoSortLinks => 'Автосортировка ссылок';
 
   @override
   String folderCount(String name, int count) {
-    return 'ÐŸÐ°Ð¿ÐºÐ°: $name ($count)';
+    return 'Папка: $name ($count)';
   }
 
   @override
   String moreCount(int count) {
-    return '- +$count ÐµÑ‰Ñ‘';
+    return '- +$count ещё';
   }
 }

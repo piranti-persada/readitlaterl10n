@@ -45,7 +45,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String deleted(String name) {
-    return '$name excluÃ­do';
+    return '$name excluído';
   }
 
   @override
@@ -55,7 +55,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String couldNotOpen(String url) {
-    return 'NÃ£o foi possÃ­vel abrir $url';
+    return 'Não foi possível abrir $url';
   }
 
   @override
@@ -65,7 +65,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get editLinkTitle => 'Editar link';
 
   @override
-  String get linkTitleLabel => 'TÃ­tulo';
+  String get linkTitleLabel => 'Título';
 
   @override
   String get urlLabel => 'URL';
@@ -80,7 +80,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get pleaseEnterUrl => 'Insira um URL';
 
   @override
-  String get accountTitle => 'ConfiguraÃ§Ãµes';
+  String get accountTitle => 'Configurações';
 
   @override
   String get language => 'Linguagem';
@@ -89,10 +89,10 @@ class AppLocalizationsPt extends AppLocalizations {
   String get navHome => 'Lar';
 
   @override
-  String get navAccount => 'ConfiguraÃ§Ãµes';
+  String get navAccount => 'Configurações';
 
   @override
-  String get backupRestoreTitle => 'Backup e restauraÃ§Ã£o';
+  String get backupRestoreTitle => 'Backup e restauração';
 
   @override
   String get exportLinksTitle => 'Exportar links';
@@ -128,35 +128,35 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String importFailed(String error) {
-    return 'Falha na importaÃ§Ã£o: $error';
+    return 'Falha na importação: $error';
   }
 
   @override
-  String get decryptFailed => 'Falha na descriptografia ou formato invÃ¡lido';
+  String get decryptFailed => 'Falha na descriptografia ou formato inválido';
 
   @override
-  String get wrongPassword => 'Senha errada ou arquivo invÃ¡lido';
+  String get wrongPassword => 'Senha errada ou arquivo inválido';
 
   @override
-  String get favoriteLimitReached => 'MÃ¡ximo de 3 favoritos permitidos';
+  String get favoriteLimitReached => 'Máximo de 3 favoritos permitidos';
 
   @override
-  String get termsOfService => 'Termos de ServiÃ§o';
+  String get termsOfService => 'Termos de Serviço';
 
   @override
-  String get privacyPolicy => 'polÃ­tica de Privacidade';
+  String get privacyPolicy => 'política de Privacidade';
 
   @override
   String get welcomeTitle => 'Bem-vindo ao Pile';
 
   @override
-  String get welcomeMessage => 'Leia e aceite nossos Termos de ServiÃ§o e PolÃ­tica de Privacidade para continuar.';
+  String get welcomeMessage => 'Leia e aceite nossos Termos de Serviço e Política de Privacidade para continuar.';
 
   @override
   String get accept => 'Aceitar';
 
   @override
-  String get decline => 'DeclÃ­nio';
+  String get decline => 'Declínio';
 
   @override
   String get setReminder => 'Definir lembrete';
@@ -167,7 +167,7 @@ class AppLocalizationsPt extends AppLocalizations {
   }
 
   @override
-  String get recentlyDeleted => 'ExcluÃ­do recentemente';
+  String get recentlyDeleted => 'Excluído recentemente';
 
   @override
   String get reminderLimitReached => 'Limite de lembrete atingido (10)';
@@ -176,10 +176,10 @@ class AppLocalizationsPt extends AppLocalizations {
   String get notificationsOrExactAlarmPermissionsBlocked => 'Notifications and/or exact alarm permissions blocked';
 
   @override
-  String get proVersion => 'VersÃ£o PrÃ³';
+  String get proVersion => 'Versão Pró';
 
   @override
-  String get notAvailableInYourCountry => 'NÃ£o disponÃ­vel em seu paÃ­s';
+  String get notAvailableInYourCountry => 'Não disponível em seu país';
 
   @override
   String get upgradeToPro => 'Atualize para o Pro para lembretes ilimitados';
@@ -193,7 +193,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get deletePermanentlyTitle => 'Excluir permanentemente?';
 
   @override
-  String get deletePermanentlyContent => 'Esta aÃ§Ã£o nÃ£o pode ser desfeita.';
+  String get deletePermanentlyContent => 'Esta ação não pode ser desfeita.';
 
   @override
   String get selectAll => 'Selecionar tudo';
@@ -213,7 +213,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get emailLabel => 'E-mail';
 
   @override
-  String get usernameLabel => 'Nome de usuÃ¡rio';
+  String get usernameLabel => 'Nome de usuário';
 
   @override
   String get passwordLabel => 'Senha';
@@ -245,19 +245,19 @@ class AppLocalizationsPt extends AppLocalizations {
   String get registerButton => 'Cadastre-se';
 
   @override
-  String get signInWithGoogle => 'FaÃ§a login com o Google';
+  String get signInWithGoogle => 'Faça login com o Google';
 
   @override
-  String get googleSignInNotSupported => 'O Login do Google nÃ£o estÃ¡ configurado nesta demonstraÃ§Ã£o.';
+  String get googleSignInNotSupported => 'O Login do Google não está configurado nesta demonstração.';
 
   @override
   String get accountCreated => 'Conta criada com sucesso';
 
   @override
-  String get invalidCredentials => 'Nome de usuÃ¡rio ou senha invÃ¡lidos';
+  String get invalidCredentials => 'Nome de usuário ou senha inválidos';
 
   @override
-  String get emailExists => 'O e-mail jÃ¡ existe';
+  String get emailExists => 'O e-mail já existe';
 
   @override
   String get noAccountCreateOne => 'Sem conta? Crie um.';
@@ -272,10 +272,10 @@ class AppLocalizationsPt extends AppLocalizations {
   String get acceptAndFinish => 'Aceitar e Concluir';
 
   @override
-  String get stepTos => 'Termos de ServiÃ§o';
+  String get stepTos => 'Termos de Serviço';
 
   @override
-  String get stepPrivacy => 'polÃ­tica de Privacidade';
+  String get stepPrivacy => 'política de Privacidade';
 
   @override
   String addedOn(String date) {
@@ -283,13 +283,13 @@ class AppLocalizationsPt extends AppLocalizations {
   }
 
   @override
-  String get sendFeedback => 'Enviar comentÃ¡rios';
+  String get sendFeedback => 'Enviar comentários';
 
   @override
   String get feedbackSubject => 'Feedback Leia mais tarde';
 
   @override
-  String get feedbackTitle => 'Enviar comentÃ¡rios';
+  String get feedbackTitle => 'Enviar comentários';
 
   @override
   String get feedbackName => 'Nome (opcional)';
@@ -301,22 +301,22 @@ class AppLocalizationsPt extends AppLocalizations {
   String get feedbackMessage => 'Mensagem';
 
   @override
-  String get verifyHuman => 'Por favor, verifique se vocÃª Ã© humano';
+  String get verifyHuman => 'Por favor, verifique se você é humano';
 
   @override
   String get send => 'Enviar';
 
   @override
-  String get tabLinks => 'LigaÃ§Ãµes';
+  String get tabLinks => 'Ligações';
 
   @override
-  String get tabDeleted => 'ExcluÃ­do';
+  String get tabDeleted => 'Excluído';
 
   @override
   String get topLinksTitle => 'Links principais';
 
   @override
-  String get noDeletedLinks => 'Nenhum link excluÃ­do';
+  String get noDeletedLinks => 'Nenhum link excluído';
 
   @override
   String get restoreTooltip => 'Restaurar';
@@ -325,37 +325,37 @@ class AppLocalizationsPt extends AppLocalizations {
   String get remindersTitle => 'Lembretes';
 
   @override
-  String get noReminders => 'NÃ£o hÃ¡ lembretes futuros';
+  String get noReminders => 'Não há lembretes futuros';
 
   @override
-  String get didYouKnow => 'VocÃª sabia?';
+  String get didYouKnow => 'Você sabia?';
 
   @override
-  String get shareToAppTip => 'VocÃª pode adicionar links compartilhando-os no Pile!';
+  String get shareToAppTip => 'Você pode adicionar links compartilhando-os no Pile!';
 
   @override
-  String get commentsLabel => 'ComentÃ¡rios (opcional)';
+  String get commentsLabel => 'Comentários (opcional)';
 
   @override
-  String get accountSettings => 'ConfiguraÃ§Ãµes de Conta';
+  String get accountSettings => 'Configurações de Conta';
 
   @override
   String get signIn => 'Entrar';
 
   @override
-  String get collectionsTitle => 'ColeÃ§Ãµes';
+  String get collectionsTitle => 'Coleções';
 
   @override
-  String get newCollection => 'Nova coleÃ§Ã£o';
+  String get newCollection => 'Nova coleção';
 
   @override
-  String get collectionName => 'Nome da coleÃ§Ã£o';
+  String get collectionName => 'Nome da coleção';
 
   @override
-  String get gridView => 'VisualizaÃ§Ã£o em grade';
+  String get gridView => 'Visualização em grade';
 
   @override
-  String get listView => 'VisualizaÃ§Ã£o de lista';
+  String get listView => 'Visualização de lista';
 
   @override
   String get editAccountTitle => 'Editar conta';
@@ -373,13 +373,13 @@ class AppLocalizationsPt extends AppLocalizations {
   String get deleteAccountTitle => 'Excluir conta';
 
   @override
-  String get deleteAccountWarning => 'Excluir conta: leia isto com atenÃ§Ã£o.';
+  String get deleteAccountWarning => 'Excluir conta: leia isto com atenção.';
 
   @override
-  String get deleteAccountConfirm => 'VocÃª excluirÃ¡ sua conta e todos os dados associados. Isso nÃ£o poderia ser desfeito. Tem certeza?';
+  String get deleteAccountConfirm => 'Você excluirá sua conta e todos os dados associados. Isso não poderia ser desfeito. Tem certeza?';
 
   @override
-  String get deleteSuccess => 'Lamentamos ver vocÃª partir! Sua conta foi excluÃ­da.';
+  String get deleteSuccess => 'Lamentamos ver você partir! Sua conta foi excluída.';
 
   @override
   String get deleteFail => 'Falha ao excluir conta. Por favor, tente novamente mais tarde.';
@@ -388,7 +388,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get continueButton => 'Continuar';
 
   @override
-  String get noCollectionsYet => 'Ainda sem coleÃ§Ãµes';
+  String get noCollectionsYet => 'Ainda sem coleções';
 
   @override
   String get emptyFolder => 'Pasta vazia';
@@ -406,19 +406,19 @@ class AppLocalizationsPt extends AppLocalizations {
   String get changeColor => 'Alterar cor';
 
   @override
-  String get deleteCollectionWarning => 'Os links internos serÃ£o movidos para a raiz.';
+  String get deleteCollectionWarning => 'Os links internos serão movidos para a raiz.';
 
   @override
   String get moveAction => 'Mover';
 
   @override
-  String get moveToCollection => 'Mover para coleÃ§Ã£o';
+  String get moveToCollection => 'Mover para coleção';
 
   @override
-  String get noCollection => 'Nenhuma coleÃ§Ã£o';
+  String get noCollection => 'Nenhuma coleção';
 
   @override
-  String get noInternetConnection => 'Sem conexÃ£o Ã  internet';
+  String get noInternetConnection => 'Sem conexão à internet';
 
   @override
   String get dismiss => 'FECHAR';
@@ -427,22 +427,22 @@ class AppLocalizationsPt extends AppLocalizations {
   String get tagAll => 'Todos';
 
   @override
-  String get camera => 'CÃ¢mera';
+  String get camera => 'Câmera';
 
   @override
   String get gallery => 'Galeria';
 
   @override
-  String get classicAvatars => 'Avatares clÃ¡ssicos';
+  String get classicAvatars => 'Avatares clássicos';
 
   @override
-  String get classic => 'ClÃ¡ssico';
+  String get classic => 'Clássico';
 
   @override
-  String get usernameLengthError => 'O nome de usuÃ¡rio deve ter entre 3 e 45 caracteres';
+  String get usernameLengthError => 'O nome de usuário deve ter entre 3 e 45 caracteres';
 
   @override
-  String get usernameFormatError => 'Formato de nome de usuÃ¡rio invÃ¡lido.';
+  String get usernameFormatError => 'Formato de nome de usuário inválido.';
 
   @override
   String visitCount(int count) {
@@ -450,10 +450,10 @@ class AppLocalizationsPt extends AppLocalizations {
   }
 
   @override
-  String get usernameConsecutiveSymbols => 'O nome de usuÃ¡rio nÃ£o pode conter sÃ­mbolos consecutivos.';
+  String get usernameConsecutiveSymbols => 'O nome de usuário não pode conter símbolos consecutivos.';
 
   @override
-  String get usernameRestrictedWords => 'O nome de usuÃ¡rio contÃ©m palavras restritas.';
+  String get usernameRestrictedWords => 'O nome de usuário contém palavras restritas.';
 
   @override
   String get failedUploadPic => 'Falha ao enviar foto de perfil.';
@@ -462,13 +462,13 @@ class AppLocalizationsPt extends AppLocalizations {
   String get accountUpdated => 'Conta atualizada com sucesso';
 
   @override
-  String get failedUpdateAccount => 'Falha ao atualizar conta. O e-mail pode jÃ¡ estar em uso.';
+  String get failedUpdateAccount => 'Falha ao atualizar conta. O e-mail pode já estar em uso.';
 
   @override
-  String get editAccountHint => 'Deixe os campos em branco se nÃ£o quiser alterÃ¡-los. Toque na imagem para atualizar o avatar.';
+  String get editAccountHint => 'Deixe os campos em branco se não quiser alterá-los. Toque na imagem para atualizar o avatar.';
 
   @override
-  String get saveChanges => 'Salvar alteraÃ§Ãµes';
+  String get saveChanges => 'Salvar alterações';
 
   @override
   String get verifyIdentity => 'Verificar identidade';
@@ -489,7 +489,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get googleVerifyFailed => 'Falha ao verificar identidade com o Google.';
 
   @override
-  String get confirmIdentity => 'Para continuar, confirme que Ã© vocÃª primeiro.';
+  String get confirmIdentity => 'Para continuar, confirme que é você primeiro.';
 
   @override
   String get verifyIdentityDesc => 'Precisamos verificar sua identidade para proteger sua conta.';
@@ -513,7 +513,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get savePassword => 'Salvar senha';
 
   @override
-  String get passwordsDoNotMatch => 'As senhas nÃ£o coincidem';
+  String get passwordsDoNotMatch => 'As senhas não coincidem';
 
   @override
   String get none => 'Nenhum';
@@ -537,67 +537,67 @@ class AppLocalizationsPt extends AppLocalizations {
   String get feedbackTranslationsNote => 'Feedback de traducoes: relate problemas de idioma, como traducoes incorretas, redacao pouco clara ou erros gramaticais.';
 
   @override
-  String get aiSettings => 'ConfiguraÃ§Ãµes de IA';
+  String get aiSettings => 'Configurações de IA';
 
   @override
-  String get aiSettingsSubtitle => 'Controle a organizaÃ§Ã£o por IA e a memÃ³ria de estilo das coleÃ§Ãµes.';
+  String get aiSettingsSubtitle => 'Controle a organização por IA e a memória de estilo das coleções.';
 
   @override
-  String get useAiSorting => 'Usar organizaÃ§Ã£o por IA';
+  String get useAiSorting => 'Usar organização por IA';
 
   @override
   String get useAiSortingSubtitle => 'Sugere automaticamente agrupamentos de pastas com base nos seus links.';
 
   @override
-  String get styleMemory => 'MemÃ³ria de estilo';
+  String get styleMemory => 'Memória de estilo';
 
   @override
-  String get styleMemoryEmpty => 'Defina como os nomes das coleÃ§Ãµes devem aparecer.';
+  String get styleMemoryEmpty => 'Defina como os nomes das coleções devem aparecer.';
 
   @override
-  String get styleMemoryDesc => 'A memÃ³ria de estilo aprende discretamente como vocÃª nomeia e organiza coleÃ§Ãµes - com emojis, MAIÃšSCULAS ou estilo simples - e aplica isso na prÃ³xima vez.';
+  String get styleMemoryDesc => 'A memória de estilo aprende discretamente como você nomeia e organiza coleções - com emojis, MAIÚSCULAS ou estilo simples - e aplica isso na próxima vez.';
 
   @override
-  String get styleMemorySpecificHint => 'Seja especÃ­fico. Exemplo: \"Use emojis para tecnologia, MAIÃšSCULAS para trabalho e simples para pessoal.\"';
+  String get styleMemorySpecificHint => 'Seja específico. Exemplo: \"Use emojis para tecnologia, MAIÚSCULAS para trabalho e simples para pessoal.\"';
 
   @override
   String get styleMemoryTextHint => 'Descreva seu estilo de nomes de pastas...';
 
   @override
-  String get styleMemorySaved => 'MemÃ³ria de estilo salva.';
+  String get styleMemorySaved => 'Memória de estilo salva.';
 
   @override
-  String get enableAiSortingFirst => 'Ative Usar organizaÃ§Ã£o por IA nas ConfiguraÃ§Ãµes primeiro.';
+  String get enableAiSortingFirst => 'Ative Usar organização por IA nas Configurações primeiro.';
 
   @override
   String get saveMoreLinksTryAgain => 'Salve mais alguns links e tente novamente';
 
   @override
-  String get linksTooUnrelated => 'Esses links sÃ£o muito diferentes entre si.';
+  String get linksTooUnrelated => 'Esses links são muito diferentes entre si.';
 
   @override
-  String get linksAlreadySimilar => 'Esses links jÃ¡ sÃ£o bem parecidos.';
+  String get linksAlreadySimilar => 'Esses links já são bem parecidos.';
 
   @override
-  String get aiSortingSaved => 'OrganizaÃ§Ã£o por IA salva.';
+  String get aiSortingSaved => 'Organização por IA salva.';
 
   @override
   String get tryAgainTitle => 'Tentar novamente?';
 
   @override
-  String get tryAgainQuestion => 'VocÃª gostaria de tentar novamente?';
+  String get tryAgainQuestion => 'Você gostaria de tentar novamente?';
 
   @override
-  String get aiSortingResult => 'Resultado da organizaÃ§Ã£o por IA';
+  String get aiSortingResult => 'Resultado da organização por IA';
 
   @override
-  String get saveFolderTree => 'Salvar esta Ã¡rvore de pastas?';
+  String get saveFolderTree => 'Salvar esta árvore de pastas?';
 
   @override
   String get yes => 'Sim';
 
   @override
-  String get no => 'NÃ£o';
+  String get no => 'Não';
 
   @override
   String get autoSortLinks => 'Organizar links automaticamente';
