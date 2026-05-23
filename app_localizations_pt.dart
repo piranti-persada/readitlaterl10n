@@ -9,10 +9,10 @@ class AppLocalizationsPt extends AppLocalizations {
   AppLocalizationsPt([String locale = 'pt']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Pesquisar links e tags...';
@@ -147,7 +147,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get privacyPolicy => 'política de Privacidade';
 
   @override
-  String get welcomeTitle => 'Bem-vindo ao ReadItLater';
+  String get welcomeTitle => 'Bem-vindo ao Pile';
 
   @override
   String get welcomeMessage => 'Leia e aceite nossos Termos de Serviço e Política de Privacidade para continuar.';
@@ -331,13 +331,48 @@ class AppLocalizationsPt extends AppLocalizations {
   String get didYouKnow => 'Você sabia?';
 
   @override
-  String get shareToAppTip => 'Você pode adicionar links compartilhando-os no ReadItLater!';
+  String get shareToAppTip => 'Você pode adicionar links compartilhando-os no Pile!';
 
   @override
   String get commentsLabel => 'Comentários (opcional)';
 
   @override
   String get accountSettings => 'Configurações de Conta';
+
+  @override
+  String get accountInformation => 'Informações da conta';
+
+  @override
+  String get profilePicture => 'Foto do perfil';
+
+  @override
+  String get tapToChange => 'Toque para alterar';
+
+  @override
+  String get changeProfilePicture => 'Alterar foto do perfil';
+
+  @override
+  String get choosePhoto => 'Escolher foto';
+
+  @override
+  String get changePhoto => 'Alterar foto';
+
+  @override
+  String get profilePictureChooseHint => 'Toque na imagem para escolher, cortar e enviar uma nova foto do perfil.';
+
+  @override
+  String get changeUsername => 'Alterar nome de usuário';
+
+  @override
+  String get changeEmail => 'Alterar e-mail';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Última alteração: $date';
+  }
+
+  @override
+  String get never => 'Nunca';
 
   @override
   String get signIn => 'Entrar';
@@ -400,7 +435,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get editAction => 'Editar';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'Editar coleção';
 
   @override
   String get changeColor => 'Alterar cor';

@@ -9,10 +9,10 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => '搜索链接和标签...';
@@ -147,7 +147,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get privacyPolicy => '隐私政策';
 
   @override
-  String get welcomeTitle => '欢迎ReadItLater';
+  String get welcomeTitle => '欢迎Pile';
 
   @override
   String get welcomeMessage => '请阅读并接受我们的服务条款和隐私政策以继续。';
@@ -331,13 +331,48 @@ class AppLocalizationsZh extends AppLocalizations {
   String get didYouKnow => '你可知道？';
 
   @override
-  String get shareToAppTip => '您可以通过将其分享到 ReadItLater 来添加链接！';
+  String get shareToAppTip => '您可以通过将其分享到 Pile 来添加链接！';
 
   @override
   String get commentsLabel => '评论（可选）';
 
   @override
   String get accountSettings => '账户设定';
+
+  @override
+  String get accountInformation => '账户信息';
+
+  @override
+  String get profilePicture => '头像';
+
+  @override
+  String get tapToChange => '点按更改';
+
+  @override
+  String get changeProfilePicture => '更改头像';
+
+  @override
+  String get choosePhoto => '选择照片';
+
+  @override
+  String get changePhoto => '更改照片';
+
+  @override
+  String get profilePictureChooseHint => '点按图片以选择、裁剪并上传新的头像。';
+
+  @override
+  String get changeUsername => '更改用户名';
+
+  @override
+  String get changeEmail => '更改电子邮箱';
+
+  @override
+  String passwordLastChanged(String date) {
+    return '上次更改：$date';
+  }
+
+  @override
+  String get never => '从未';
 
   @override
   String get signIn => '登入';
@@ -400,7 +435,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get editAction => '编辑';
 
   @override
-  String get editCollection => '????';
+  String get editCollection => '编辑收藏夹';
 
   @override
   String get changeColor => '更改颜色';
@@ -618,10 +653,10 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   AppLocalizationsZhCn(): super('zh_CN');
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => '搜索链接和标签...';
@@ -756,7 +791,7 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String get privacyPolicy => '隐私政策';
 
   @override
-  String get welcomeTitle => '欢迎ReadItLater';
+  String get welcomeTitle => '欢迎Pile';
 
   @override
   String get welcomeMessage => '请阅读并接受我们的服务条款和隐私政策以继续。';
@@ -940,13 +975,48 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String get didYouKnow => '你可知道？';
 
   @override
-  String get shareToAppTip => '您可以通过将其分享到 ReadItLater 来添加链接！';
+  String get shareToAppTip => '您可以通过将其分享到 Pile 来添加链接！';
 
   @override
   String get commentsLabel => '评论（可选）';
 
   @override
   String get accountSettings => '账户设置';
+
+  @override
+  String get accountInformation => '账户信息';
+
+  @override
+  String get profilePicture => '头像';
+
+  @override
+  String get tapToChange => '点按更改';
+
+  @override
+  String get changeProfilePicture => '更改头像';
+
+  @override
+  String get choosePhoto => '选择照片';
+
+  @override
+  String get changePhoto => '更改照片';
+
+  @override
+  String get profilePictureChooseHint => '点按图片以选择、裁剪并上传新的头像。';
+
+  @override
+  String get changeUsername => '更改用户名';
+
+  @override
+  String get changeEmail => '更改电子邮箱';
+
+  @override
+  String passwordLastChanged(String date) {
+    return '上次更改：$date';
+  }
+
+  @override
+  String get never => '从未';
 
   @override
   String get signIn => '登录';
@@ -1128,6 +1198,24 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String get none => '无';
 
   @override
+  String get feedbackConsumerButton => '用户反馈';
+
+  @override
+  String get translationsGitHubButton => 'GitHub 反馈';
+
+  @override
+  String get feedbackTranslationsButton => '翻译反馈';
+
+  @override
+  String get feedbackConsumerNote => '用户反馈：分享你使用应用的体验，例如漏洞、性能问题、功能或整体易用性。';
+
+  @override
+  String get translationsGitHubNote => 'GitHub 反馈：在 GitHub 上反馈语言问题，例如翻译不正确、措辞不清晰或语法错误。';
+
+  @override
+  String get feedbackTranslationsNote => '翻译反馈：反馈语言问题，例如翻译不正确、措辞不清晰或语法错误。';
+
+  @override
   String get aiSettings => 'AI 设置';
 
   @override
@@ -1209,16 +1297,16 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   AppLocalizationsZhHk(): super('zh_HK');
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => '搜尋連結和標籤...';
 
   @override
-  String get noLinksYet => '尚未保存連結';
+  String get noLinksYet => '尚未儲存連結';
 
   @override
   String get noMatchingLinks => '沒有找到匹配的連結';
@@ -1231,7 +1319,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
 
   @override
   String deleteLinkContent(String name) {
-    return '您確定要刪除“$name”嗎？';
+    return '你確定要刪除“$name”嗎？';
   }
 
   @override
@@ -1347,7 +1435,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get privacyPolicy => '隱私權政策';
 
   @override
-  String get welcomeTitle => '歡迎ReadItLater';
+  String get welcomeTitle => '歡迎Pile';
 
   @override
   String get welcomeMessage => '請閱讀並接受我們的服務條款和隱私權政策以繼續。';
@@ -1379,7 +1467,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get proVersion => '專業版';
 
   @override
-  String get notAvailableInYourCountry => '在您所在的國家/地區不可用';
+  String get notAvailableInYourCountry => '在你所在的國家/地區不可用';
 
   @override
   String get upgradeToPro => '升級至專業版可無限次提醒';
@@ -1442,7 +1530,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get confirmPasswordLabel => '確認密碼';
 
   @override
-  String get registerButton => '登記';
+  String get registerButton => '註冊';
 
   @override
   String get signInWithGoogle => '使用 Google 登入';
@@ -1451,7 +1539,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get googleSignInNotSupported => '此示範中未配置 Google Sign In。';
 
   @override
-  String get accountCreated => '帳戶創建成功';
+  String get accountCreated => '帳戶建立成功';
 
   @override
   String get invalidCredentials => '帳號或密碼錯誤';
@@ -1486,7 +1574,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get sendFeedback => '傳送回饋';
 
   @override
-  String get feedbackSubject => '稍後閱讀回饋';
+  String get feedbackSubject => 'Pile 回饋';
 
   @override
   String get feedbackTitle => '傳送回饋';
@@ -1501,7 +1589,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get feedbackMessage => '訊息';
 
   @override
-  String get verifyHuman => '請驗證您是人類';
+  String get verifyHuman => '請驗證你是人類';
 
   @override
   String get send => '傳送';
@@ -1519,7 +1607,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get noDeletedLinks => '沒有刪除的連結';
 
   @override
-  String get restoreTooltip => '恢復';
+  String get restoreTooltip => '還原';
 
   @override
   String get remindersTitle => '提醒事項';
@@ -1531,13 +1619,48 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get didYouKnow => '你可知道？';
 
   @override
-  String get shareToAppTip => '您可以透過將其分享到 ReadItLater 來新增連結！';
+  String get shareToAppTip => '你可以透過將其分享到 Pile 來新增連結！';
 
   @override
   String get commentsLabel => '評論（可選）';
 
   @override
   String get accountSettings => '帳戶設定';
+
+  @override
+  String get accountInformation => '帳戶資訊';
+
+  @override
+  String get profilePicture => '頭像';
+
+  @override
+  String get tapToChange => '點按更改';
+
+  @override
+  String get changeProfilePicture => '更改頭像';
+
+  @override
+  String get choosePhoto => '選擇相片';
+
+  @override
+  String get changePhoto => '更改相片';
+
+  @override
+  String get profilePictureChooseHint => '點按圖片以選擇、裁剪並上載新的頭像。';
+
+  @override
+  String get changeUsername => '更改用戶名稱';
+
+  @override
+  String get changeEmail => '更改電郵';
+
+  @override
+  String passwordLastChanged(String date) {
+    return '上次更改：$date';
+  }
+
+  @override
+  String get never => '從未';
 
   @override
   String get signIn => '登入';
@@ -1567,7 +1690,7 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get signOutTitle => '登出';
 
   @override
-  String get signOutConfirm => '您確定要從此裝置中的帳戶登出嗎？';
+  String get signOutConfirm => '你確定要從此裝置中的帳戶登出嗎？';
 
   @override
   String get deleteAccountTitle => '刪除帳戶';
@@ -1576,10 +1699,10 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get deleteAccountWarning => '刪除帳戶：請仔細閱讀此內容。';
 
   @override
-  String get deleteAccountConfirm => '您將刪除您的帳戶以及所有相關資料。這是無法撤銷的。你確定嗎？';
+  String get deleteAccountConfirm => '你將刪除你的帳戶以及所有相關資料。這是無法撤銷的。你確定嗎？';
 
   @override
-  String get deleteSuccess => '很遺憾看到您離開。您的帳戶已被刪除。';
+  String get deleteSuccess => '很遺憾看到你離開。你的帳戶已被刪除。';
 
   @override
   String get deleteFail => '刪除帳戶失敗。請稍後重試。';
@@ -1689,10 +1812,10 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get googleVerifyFailed => '透過Google驗證身份失敗。';
 
   @override
-  String get confirmIdentity => '要繼續，請先確認是您本人。';
+  String get confirmIdentity => '要繼續，請先確認是你本人。';
 
   @override
-  String get verifyIdentityDesc => '我們需要驗證您的身份以保護您的帳戶。';
+  String get verifyIdentityDesc => '我們需要驗證你的身份以保護你的帳戶。';
 
   @override
   String get continueWithGoogle => '使用Google繼續';
@@ -1717,6 +1840,24 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
 
   @override
   String get none => '無';
+
+  @override
+  String get feedbackConsumerButton => '使用者回饋';
+
+  @override
+  String get translationsGitHubButton => 'GitHub 回饋';
+
+  @override
+  String get feedbackTranslationsButton => '翻譯回饋';
+
+  @override
+  String get feedbackConsumerNote => '使用者回饋：分享你使用應用程式的體驗，例如錯誤、效能問題、功能或整體易用性。';
+
+  @override
+  String get translationsGitHubNote => 'GitHub 回饋：在 GitHub 上回報語言問題，例如翻譯不正確、措辭不清楚或文法錯誤。';
+
+  @override
+  String get feedbackTranslationsNote => '翻譯回饋：回報語言問題，例如翻譯不正確、措辭不清楚或文法錯誤。';
 
   @override
   String get aiSettings => 'AI 設定';
@@ -1800,10 +1941,10 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   AppLocalizationsZhTw(): super('zh_TW');
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => '搜尋連結和標籤...';
@@ -1938,7 +2079,7 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get privacyPolicy => '隱私權政策';
 
   @override
-  String get welcomeTitle => '歡迎ReadItLater';
+  String get welcomeTitle => '歡迎Pile';
 
   @override
   String get welcomeMessage => '請閱讀並接受我們的服務條款和隱私權政策以繼續。';
@@ -2122,13 +2263,48 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get didYouKnow => '你可知道？';
 
   @override
-  String get shareToAppTip => '您可以透過將其分享到 ReadItLater 來新增連結！';
+  String get shareToAppTip => '您可以透過將其分享到 Pile 來新增連結！';
 
   @override
   String get commentsLabel => '評論（可選）';
 
   @override
   String get accountSettings => '帳戶設定';
+
+  @override
+  String get accountInformation => '帳戶資訊';
+
+  @override
+  String get profilePicture => '頭像';
+
+  @override
+  String get tapToChange => '點按更改';
+
+  @override
+  String get changeProfilePicture => '更改頭像';
+
+  @override
+  String get choosePhoto => '選擇照片';
+
+  @override
+  String get changePhoto => '更改照片';
+
+  @override
+  String get profilePictureChooseHint => '點按圖片以選擇、裁剪並上傳新的頭像。';
+
+  @override
+  String get changeUsername => '更改使用者名稱';
+
+  @override
+  String get changeEmail => '更改電子郵件';
+
+  @override
+  String passwordLastChanged(String date) {
+    return '上次更改：$date';
+  }
+
+  @override
+  String get never => '從未';
 
   @override
   String get signIn => '登入';
@@ -2308,6 +2484,24 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get none => '無';
+
+  @override
+  String get feedbackConsumerButton => '使用者回饋';
+
+  @override
+  String get translationsGitHubButton => 'GitHub 回饋';
+
+  @override
+  String get feedbackTranslationsButton => '翻譯回饋';
+
+  @override
+  String get feedbackConsumerNote => '使用者回饋：分享你使用應用程式的體驗，例如錯誤、效能問題、功能或整體易用性。';
+
+  @override
+  String get translationsGitHubNote => 'GitHub 回饋：在 GitHub 上回報語言問題，例如翻譯不正確、措辭不清楚或文法錯誤。';
+
+  @override
+  String get feedbackTranslationsNote => '翻譯回饋：回報語言問題，例如翻譯不正確、措辭不清楚或文法錯誤。';
 
   @override
   String get aiSettings => 'AI 設定';

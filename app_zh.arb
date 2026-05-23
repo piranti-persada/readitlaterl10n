@@ -1,6 +1,6 @@
 {
-    "appTitle":  "ReadItLater",
-    "homeTitle":  "ReadItLater",
+    "appTitle":  "Pile",
+    "homeTitle":  "Pile",
     "searchHint":  "搜索链接和标签...",
     "noLinksYet":  "尚未保存链接",
     "noMatchingLinks":  "没有找到匹配的链接",
@@ -83,7 +83,7 @@
     "favoriteLimitReached":  "最多允许 3 个收藏夹",
     "termsOfService":  "服务条款",
     "privacyPolicy":  "隐私政策",
-    "welcomeTitle":  "欢迎ReadItLater",
+    "welcomeTitle":  "欢迎Pile",
     "welcomeMessage":  "请阅读并接受我们的服务条款和隐私政策以继续。",
     "accept":  "接受",
     "decline":  "衰退",
@@ -175,9 +175,27 @@
     "remindersTitle":  "提醒事项",
     "noReminders":  "没有即将到来的提醒",
     "didYouKnow":  "你可知道？",
-    "shareToAppTip":  "您可以通过将其分享到 ReadItLater 来添加链接！",
+    "shareToAppTip":  "您可以通过将其分享到 Pile 来添加链接！",
     "commentsLabel":  "评论（可选）",
     "accountSettings":  "账户设定",
+    "accountInformation":  "账户信息",
+    "profilePicture":  "头像",
+    "tapToChange":  "点按更改",
+    "changeProfilePicture":  "更改头像",
+    "choosePhoto":  "选择照片",
+    "changePhoto":  "更改照片",
+    "profilePictureChooseHint":  "点按图片以选择、裁剪并上传新的头像。",
+    "changeUsername":  "更改用户名",
+    "changeEmail":  "更改电子邮箱",
+    "passwordLastChanged":  "上次更改：{date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "从未",
     "signIn":  "登入",
     "collectionsTitle":  "收藏",
     "newCollection":  "新收藏",

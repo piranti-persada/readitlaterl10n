@@ -9,10 +9,10 @@ class AppLocalizationsKo extends AppLocalizations {
   AppLocalizationsKo([String locale = 'ko']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => '링크 및 태그 검색...';
@@ -147,7 +147,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get privacyPolicy => '개인 정보 보호 정책';
 
   @override
-  String get welcomeTitle => 'ReadItLater에 오신 것을 환영합니다';
+  String get welcomeTitle => 'Pile에 오신 것을 환영합니다';
 
   @override
   String get welcomeMessage => '계속하려면 서비스 약관과 개인정보 보호정책을 읽고 동의하세요.';
@@ -286,7 +286,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get sendFeedback => '피드백 보내기';
 
   @override
-  String get feedbackSubject => 'ReadItLater 피드백';
+  String get feedbackSubject => 'Pile 피드백';
 
   @override
   String get feedbackTitle => '피드백 보내기';
@@ -331,13 +331,48 @@ class AppLocalizationsKo extends AppLocalizations {
   String get didYouKnow => '알고 계셨나요?';
 
   @override
-  String get shareToAppTip => 'ReadItLater에 공유하여 링크를 추가할 수 있습니다!';
+  String get shareToAppTip => 'Pile에 공유하여 링크를 추가할 수 있습니다!';
 
   @override
   String get commentsLabel => '설명(선택사항)';
 
   @override
   String get accountSettings => '계정 설정';
+
+  @override
+  String get accountInformation => '계정 정보';
+
+  @override
+  String get profilePicture => '프로필 사진';
+
+  @override
+  String get tapToChange => '탭하여 변경';
+
+  @override
+  String get changeProfilePicture => '프로필 사진 변경';
+
+  @override
+  String get choosePhoto => '사진 선택';
+
+  @override
+  String get changePhoto => '사진 변경';
+
+  @override
+  String get profilePictureChooseHint => '사진을 탭해 새 프로필 사진을 선택하고 자른 뒤 업로드하세요.';
+
+  @override
+  String get changeUsername => '사용자 이름 변경';
+
+  @override
+  String get changeEmail => '이메일 변경';
+
+  @override
+  String passwordLastChanged(String date) {
+    return '마지막 변경: $date';
+  }
+
+  @override
+  String get never => '없음';
 
   @override
   String get signIn => '로그인';
@@ -400,7 +435,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get editAction => '편집';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => '컬렉션 편집';
 
   @override
   String get changeColor => '색상 변경';

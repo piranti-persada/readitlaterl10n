@@ -1,6 +1,6 @@
 # Contributing the Translations
 
-First of all, thank you! Every translation makes ReadItLater more accessible to people around the world!
+First of all, thank you! Every translation makes Pile more accessible to people around the world!
 
 ## Ways to Contribute
 * Open an issue to fix these problems

@@ -9,10 +9,10 @@ class AppLocalizationsDe extends AppLocalizations {
   AppLocalizationsDe([String locale = 'de']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Suchlinks und Tags...';
@@ -147,7 +147,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get privacyPolicy => 'Datenschutzrichtlinie';
 
   @override
-  String get welcomeTitle => 'Willkommen bei ReadItLater';
+  String get welcomeTitle => 'Willkommen bei Pile';
 
   @override
   String get welcomeMessage => 'Bitte lesen und akzeptieren Sie unsere Nutzungsbedingungen und Datenschutzbestimmungen, um fortzufahren.';
@@ -286,7 +286,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get sendFeedback => 'Feedback senden';
 
   @override
-  String get feedbackSubject => 'ReadItLater-Feedback';
+  String get feedbackSubject => 'Pile-Feedback';
 
   @override
   String get feedbackTitle => 'Feedback senden';
@@ -331,13 +331,48 @@ class AppLocalizationsDe extends AppLocalizations {
   String get didYouKnow => 'Wussten Sie?';
 
   @override
-  String get shareToAppTip => 'Sie können Links hinzufügen, indem Sie sie mit ReadItLater teilen!';
+  String get shareToAppTip => 'Sie können Links hinzufügen, indem Sie sie mit Pile teilen!';
 
   @override
   String get commentsLabel => 'Kommentare (optional)';
 
   @override
   String get accountSettings => 'Kontoeinstellungen';
+
+  @override
+  String get accountInformation => 'Kontoinformationen';
+
+  @override
+  String get profilePicture => 'Profilbild';
+
+  @override
+  String get tapToChange => 'Zum Ändern tippen';
+
+  @override
+  String get changeProfilePicture => 'Profilbild ändern';
+
+  @override
+  String get choosePhoto => 'Foto auswählen';
+
+  @override
+  String get changePhoto => 'Foto ändern';
+
+  @override
+  String get profilePictureChooseHint => 'Tippe auf das Bild, um ein neues Profilbild auszuwählen, zuzuschneiden und hochzuladen.';
+
+  @override
+  String get changeUsername => 'Benutzernamen ändern';
+
+  @override
+  String get changeEmail => 'E-Mail ändern';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Zuletzt geändert: $date';
+  }
+
+  @override
+  String get never => 'Nie';
 
   @override
   String get signIn => 'Anmelden';
@@ -400,7 +435,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get editAction => 'Bearbeiten';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'Sammlung bearbeiten';
 
   @override
   String get changeColor => 'Farbe ändern';

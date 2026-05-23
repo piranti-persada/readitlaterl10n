@@ -1,6 +1,6 @@
 {
-    "appTitle":  "ReadItLater",
-    "homeTitle":  "ReadItLater",
+    "appTitle":  "Pile",
+    "homeTitle":  "Pile",
     "searchHint":  "搜尋連結和標籤...",
     "noLinksYet":  "尚未儲存連結",
     "noMatchingLinks":  "找不到符合的連結",
@@ -83,7 +83,7 @@
     "favoriteLimitReached":  "最多允許 3 個收藏夾",
     "termsOfService":  "服務條款",
     "privacyPolicy":  "隱私權政策",
-    "welcomeTitle":  "歡迎ReadItLater",
+    "welcomeTitle":  "歡迎Pile",
     "welcomeMessage":  "請閱讀並接受我們的服務條款和隱私權政策以繼續。",
     "accept":  "接受",
     "decline":  "拒絕",
@@ -176,9 +176,27 @@
     "remindersTitle":  "提醒事項",
     "noReminders":  "沒有即將到來的提醒",
     "didYouKnow":  "你可知道？",
-    "shareToAppTip":  "您可以透過將其分享到 ReadItLater 來新增連結！",
+    "shareToAppTip":  "您可以透過將其分享到 Pile 來新增連結！",
     "commentsLabel":  "評論（可選）",
     "accountSettings":  "帳戶設定",
+    "accountInformation":  "帳戶資訊",
+    "profilePicture":  "頭像",
+    "tapToChange":  "點按更改",
+    "changeProfilePicture":  "更改頭像",
+    "choosePhoto":  "選擇照片",
+    "changePhoto":  "更改照片",
+    "profilePictureChooseHint":  "點按圖片以選擇、裁剪並上傳新的頭像。",
+    "changeUsername":  "更改使用者名稱",
+    "changeEmail":  "更改電子郵件",
+    "passwordLastChanged":  "上次更改：{date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "從未",
     "signIn":  "登入",
     "collectionsTitle":  "收藏夾",
     "newCollection":  "新收藏夾",

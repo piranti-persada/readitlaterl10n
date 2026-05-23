@@ -1,6 +1,6 @@
 {
-    "appTitle":  "ReadItLater",
-    "homeTitle":  "ReadItLater",
+    "appTitle":  "Pile",
+    "homeTitle":  "Pile",
     "searchHint":  "Tìm kiếm liên kết và thẻ...",
     "noLinksYet":  "Chưa có liên kết nào được lưu",
     "noMatchingLinks":  "Không tìm thấy liên kết phù hợp",
@@ -83,7 +83,7 @@
     "favoriteLimitReached":  "Cho phép tối đa 3 mục yêu thích",
     "termsOfService":  "Điều khoản dịch vụ",
     "privacyPolicy":  "Chính sách bảo mật",
-    "welcomeTitle":  "Chào mừng đến với ReadItLater",
+    "welcomeTitle":  "Chào mừng đến với Pile",
     "welcomeMessage":  "Vui lòng đọc và chấp nhận Điều khoản dịch vụ và Chính sách quyền riêng tư của chúng tôi để tiếp tục.",
     "accept":  "Chấp nhận",
     "decline":  "Sự suy sụp",
@@ -175,9 +175,27 @@
     "remindersTitle":  "Lời nhắc",
     "noReminders":  "Không có lời nhắc sắp tới",
     "didYouKnow":  "Bạn có biết không?",
-    "shareToAppTip":  "Bạn có thể thêm liên kết bằng cách chia sẻ nó lên ReadItLater!",
+    "shareToAppTip":  "Bạn có thể thêm liên kết bằng cách chia sẻ nó lên Pile!",
     "commentsLabel":  "Nhận xét (Tùy chọn)",
     "accountSettings":  "Cài đặt tài khoản",
+    "accountInformation":  "Thông tin tài khoản",
+    "profilePicture":  "Ảnh hồ sơ",
+    "tapToChange":  "Nhấn để thay đổi",
+    "changeProfilePicture":  "Đổi ảnh hồ sơ",
+    "choosePhoto":  "Chọn ảnh",
+    "changePhoto":  "Đổi ảnh",
+    "profilePictureChooseHint":  "Nhấn vào ảnh để chọn, cắt và tải lên ảnh hồ sơ mới.",
+    "changeUsername":  "Đổi tên người dùng",
+    "changeEmail":  "Đổi email",
+    "passwordLastChanged":  "Thay đổi lần cuối: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "Chưa bao giờ",
     "signIn":  "Đăng nhập",
     "collectionsTitle":  "Bộ sưu tập",
     "newCollection":  "Bộ sưu tập mới",
@@ -198,7 +216,7 @@
     "emptyFolder":  "Thư mục trống",
     "folderColor":  "Màu thư mục",
     "editAction":  "Chỉnh sửa",
-    "editCollection":  "Edit collection",
+    "editCollection":  "Chỉnh sửa bộ sưu tập",
     "changeColor":  "Đổi màu",
     "deleteCollectionWarning":  "Các liên kết bên trong sẽ được di chuyển đến thư mục gốc.",
     "moveAction":  "Di chuyển",

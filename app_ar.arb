@@ -1,6 +1,6 @@
 {
-    "appTitle":  "ReadItLater",
-    "homeTitle":  "ReadItLater",
+    "appTitle":  "Pile",
+    "homeTitle":  "Pile",
     "searchHint":  "البحث في الروابط والعلامات...",
     "noLinksYet":  "لم يتم حفظ أي روابط حتى الآن",
     "noMatchingLinks":  "لم يتم العثور على روابط مطابقة",
@@ -83,7 +83,7 @@
     "favoriteLimitReached":  "الحد الأقصى المسموح به هو 3 مفضلات",
     "termsOfService":  "شروط الخدمة",
     "privacyPolicy":  "سياسة الخصوصية",
-    "welcomeTitle":  "مرحبًا بك في ReadItLater",
+    "welcomeTitle":  "مرحبًا بك في Pile",
     "welcomeMessage":  "يرجى قراءة وقبول شروط الخدمة وسياسة الخصوصية الخاصة بنا للمتابعة.",
     "accept":  "يقبل",
     "decline":  "انخفاض",
@@ -175,9 +175,27 @@
     "remindersTitle":  "تذكيرات",
     "noReminders":  "لا توجد تذكيرات قادمة",
     "didYouKnow":  "هل تعلم؟",
-    "shareToAppTip":  "يمكنك إضافة روابط من خلال مشاركتها على ReadItLater!",
+    "shareToAppTip":  "يمكنك إضافة روابط من خلال مشاركتها على Pile!",
     "commentsLabel":  "التعليقات (اختياري)",
     "accountSettings":  "إعدادات الحساب",
+    "accountInformation":  "معلومات الحساب",
+    "profilePicture":  "صورة الملف الشخصي",
+    "tapToChange":  "اضغط للتغيير",
+    "changeProfilePicture":  "تغيير صورة الملف الشخصي",
+    "choosePhoto":  "اختيار صورة",
+    "changePhoto":  "تغيير الصورة",
+    "profilePictureChooseHint":  "اضغط على الصورة لاختيار صورة ملف شخصي جديدة وقصها ورفعها.",
+    "changeUsername":  "تغيير اسم المستخدم",
+    "changeEmail":  "تغيير البريد الإلكتروني",
+    "passwordLastChanged":  "آخر تغيير: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "أبدًا",
     "signIn":  "تسجيل الدخول",
     "collectionsTitle":  "المجموعات",
     "newCollection":  "مجموعة جديدة",
@@ -198,7 +216,7 @@
     "emptyFolder":  "مجلد فارغ",
     "folderColor":  "لون المجلد",
     "editAction":  "تحرير",
-    "editCollection":  "Edit collection",
+    "editCollection":  "تحرير المجموعة",
     "changeColor":  "تغيير اللون",
     "deleteCollectionWarning":  "سيتم نقل الروابط الموجودة بالداخل إلى الجذر.",
     "moveAction":  "نقل",

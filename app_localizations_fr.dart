@@ -9,10 +9,10 @@ class AppLocalizationsFr extends AppLocalizations {
   AppLocalizationsFr([String locale = 'fr']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Rechercher des liens et des balises...';
@@ -147,7 +147,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get privacyPolicy => 'politique de confidentialité';
 
   @override
-  String get welcomeTitle => 'Bienvenue sur ReadItLater';
+  String get welcomeTitle => 'Bienvenue sur Pile';
 
   @override
   String get welcomeMessage => 'Veuillez lire et accepter nos conditions d\'utilisation et notre politique de confidentialité pour continuer.';
@@ -242,7 +242,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get confirmPasswordLabel => 'Confirmez le mot de passe';
 
   @override
-  String get registerButton => 'Registre';
+  String get registerButton => 'S\'inscrire';
 
   @override
   String get signInWithGoogle => 'Connectez-vous avec Google';
@@ -307,7 +307,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get send => 'Envoyer';
 
   @override
-  String get tabLinks => 'Links';
+  String get tabLinks => 'Liens';
 
   @override
   String get tabDeleted => 'Supprimé';
@@ -331,13 +331,48 @@ class AppLocalizationsFr extends AppLocalizations {
   String get didYouKnow => 'Saviez-vous?';
 
   @override
-  String get shareToAppTip => 'Vous pouvez ajouter des liens en les partageant sur ReadItLater !';
+  String get shareToAppTip => 'Vous pouvez ajouter des liens en les partageant sur Pile !';
 
   @override
   String get commentsLabel => 'Commentaires (facultatif)';
 
   @override
   String get accountSettings => 'Paramètres du compte';
+
+  @override
+  String get accountInformation => 'Informations du compte';
+
+  @override
+  String get profilePicture => 'Photo de profil';
+
+  @override
+  String get tapToChange => 'Appuyez pour modifier';
+
+  @override
+  String get changeProfilePicture => 'Modifier la photo de profil';
+
+  @override
+  String get choosePhoto => 'Choisir une photo';
+
+  @override
+  String get changePhoto => 'Changer la photo';
+
+  @override
+  String get profilePictureChooseHint => 'Appuyez sur l’image pour choisir, recadrer et importer une nouvelle photo de profil.';
+
+  @override
+  String get changeUsername => 'Changer le nom d’utilisateur';
+
+  @override
+  String get changeEmail => 'Changer l’e-mail';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Dernière modification : $date';
+  }
+
+  @override
+  String get never => 'Jamais';
 
   @override
   String get signIn => 'Se connecter';
@@ -400,7 +435,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get editAction => 'Modifier';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'Modifier la collection';
 
   @override
   String get changeColor => 'Changer la couleur';

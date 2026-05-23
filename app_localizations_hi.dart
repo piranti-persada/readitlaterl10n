@@ -9,10 +9,10 @@ class AppLocalizationsHi extends AppLocalizations {
   AppLocalizationsHi([String locale = 'hi']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'लिंक और टैग खोजें...';
@@ -147,7 +147,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get privacyPolicy => 'गोपनीयता नीति';
 
   @override
-  String get welcomeTitle => 'ReadItLater में आपका स्वागत है';
+  String get welcomeTitle => 'Pile में आपका स्वागत है';
 
   @override
   String get welcomeMessage => 'जारी रखने के लिए कृपया हमारी सेवा की शर्तें और गोपनीयता नीति पढ़ें और स्वीकार करें।';
@@ -331,13 +331,48 @@ class AppLocalizationsHi extends AppLocalizations {
   String get didYouKnow => 'क्या आप जानते हैं?';
 
   @override
-  String get shareToAppTip => 'आप इसे ReadItLater पर साझा करके लिंक जोड़ सकते हैं!';
+  String get shareToAppTip => 'आप इसे Pile पर साझा करके लिंक जोड़ सकते हैं!';
 
   @override
   String get commentsLabel => 'टिप्पणियां (वैकल्पिक)';
 
   @override
   String get accountSettings => 'अकाउंट सेटिंग';
+
+  @override
+  String get accountInformation => 'खाता जानकारी';
+
+  @override
+  String get profilePicture => 'प्रोफ़ाइल चित्र';
+
+  @override
+  String get tapToChange => 'बदलने के लिए टैप करें';
+
+  @override
+  String get changeProfilePicture => 'प्रोफ़ाइल चित्र बदलें';
+
+  @override
+  String get choosePhoto => 'फ़ोटो चुनें';
+
+  @override
+  String get changePhoto => 'फ़ोटो बदलें';
+
+  @override
+  String get profilePictureChooseHint => 'नया प्रोफ़ाइल चित्र चुनने, क्रॉप करने और अपलोड करने के लिए चित्र पर टैप करें।';
+
+  @override
+  String get changeUsername => 'उपयोगकर्ता नाम बदलें';
+
+  @override
+  String get changeEmail => 'ईमेल बदलें';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'अंतिम बदलाव: $date';
+  }
+
+  @override
+  String get never => 'कभी नहीं';
 
   @override
   String get signIn => 'दाखिल करना';
@@ -400,7 +435,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get editAction => 'संपादित करें';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'संग्रह संपादित करें';
 
   @override
   String get changeColor => 'रंग बदलें';

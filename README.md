@@ -1,7 +1,7 @@
-# ReadItLater Translations (l10n)
-Hey there! 👋 Welcome to the official translations repository for ReadItLater by Piranti Technologies!
+# Pile Translations (l10n)
+Hey there! 👋 Welcome to the official translations repository for Pile by Piranti Technologies!
 
-If you speak a language other than English, you can help make ReadItLater feel like home for people all around the world. Every contribution — big or small — means a lot to us! 🥰
+If you speak a language other than English, you can help make Pile feel like home for people all around the world. Every contribution — big or small — means a lot to us! 🥰
 
 All our translations are in our ARBs (Application Resource Bundles).
 

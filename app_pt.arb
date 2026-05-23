@@ -1,6 +1,6 @@
 {
-    "appTitle":  "ReadItLater",
-    "homeTitle":  "ReadItLater",
+    "appTitle":  "Pile",
+    "homeTitle":  "Pile",
     "searchHint":  "Pesquisar links e tags...",
     "noLinksYet":  "Nenhum link salvo ainda",
     "noMatchingLinks":  "Nenhum link correspondente encontrado",
@@ -83,7 +83,7 @@
     "favoriteLimitReached":  "Máximo de 3 favoritos permitidos",
     "termsOfService":  "Termos de Serviço",
     "privacyPolicy":  "política de Privacidade",
-    "welcomeTitle":  "Bem-vindo ao ReadItLater",
+    "welcomeTitle":  "Bem-vindo ao Pile",
     "welcomeMessage":  "Leia e aceite nossos Termos de Serviço e Política de Privacidade para continuar.",
     "accept":  "Aceitar",
     "decline":  "Declínio",
@@ -175,9 +175,27 @@
     "remindersTitle":  "Lembretes",
     "noReminders":  "Não há lembretes futuros",
     "didYouKnow":  "Você sabia?",
-    "shareToAppTip":  "Você pode adicionar links compartilhando-os no ReadItLater!",
+    "shareToAppTip":  "Você pode adicionar links compartilhando-os no Pile!",
     "commentsLabel":  "Comentários (opcional)",
     "accountSettings":  "Configurações de Conta",
+    "accountInformation":  "Informações da conta",
+    "profilePicture":  "Foto do perfil",
+    "tapToChange":  "Toque para alterar",
+    "changeProfilePicture":  "Alterar foto do perfil",
+    "choosePhoto":  "Escolher foto",
+    "changePhoto":  "Alterar foto",
+    "profilePictureChooseHint":  "Toque na imagem para escolher, cortar e enviar uma nova foto do perfil.",
+    "changeUsername":  "Alterar nome de usuário",
+    "changeEmail":  "Alterar e-mail",
+    "passwordLastChanged":  "Última alteração: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "Nunca",
     "signIn":  "Entrar",
     "collectionsTitle":  "Coleções",
     "newCollection":  "Nova coleção",
@@ -198,7 +216,7 @@
     "emptyFolder":  "Pasta vazia",
     "folderColor":  "Cor da pasta",
     "editAction":  "Editar",
-    "editCollection":  "Edit collection",
+    "editCollection":  "Editar coleção",
     "changeColor":  "Alterar cor",
     "deleteCollectionWarning":  "Os links internos serão movidos para a raiz.",
     "moveAction":  "Mover",

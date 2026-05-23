@@ -1,6 +1,6 @@
 {
-    "appTitle":  "ReadItLater",
-    "homeTitle":  "ReadItLater",
+    "appTitle":  "Pile",
+    "homeTitle":  "Pile",
     "searchHint":  "Zoek links en tags...",
     "noLinksYet":  "Nog geen links opgeslagen",
     "noMatchingLinks":  "Geen overeenkomende links gevonden",
@@ -83,7 +83,7 @@
     "favoriteLimitReached":  "Max. 3 favorieten toegestaan",
     "termsOfService":  "Servicevoorwaarden",
     "privacyPolicy":  "Privacybeleid",
-    "welcomeTitle":  "Welkom bij ReadItLater",
+    "welcomeTitle":  "Welkom bij Pile",
     "welcomeMessage":  "Lees en accepteer onze Servicevoorwaarden en Privacybeleid om door te gaan.",
     "accept":  "Accepteren",
     "decline":  "Afwijzen",
@@ -139,7 +139,7 @@
     "createAccount":  "Account aanmaken",
     "nameLabel":  "Volledige naam",
     "confirmPasswordLabel":  "Bevestig wachtwoord",
-    "registerButton":  "Register",
+    "registerButton":  "Registreren",
     "signInWithGoogle":  "Log in met Google",
     "googleSignInNotSupported":  "Inloggen bij Google is niet geconfigureerd in deze demo.",
     "accountCreated":  "Account aangemaakt",
@@ -160,7 +160,7 @@
                                       }
                  },
     "sendFeedback":  "Feedback verzenden",
-    "feedbackSubject":  "ReadItLater-feedback",
+    "feedbackSubject":  "Pile-feedback",
     "feedbackTitle":  "Feedback verzenden",
     "feedbackName":  "Naam (optioneel)",
     "feedbackEmail":  "E-mail (optioneel)",
@@ -175,9 +175,27 @@
     "remindersTitle":  "Herinneringen",
     "noReminders":  "Geen aanstaande herinneringen",
     "didYouKnow":  "Wist je dat?",
-    "shareToAppTip":  "U kunt links toevoegen door deze te delen met ReadItLater!",
+    "shareToAppTip":  "U kunt links toevoegen door deze te delen met Pile!",
     "commentsLabel":  "Opmerkingen (optioneel)",
     "accountSettings":  "Accountinstellingen",
+    "accountInformation":  "Accountinformatie",
+    "profilePicture":  "Profielfoto",
+    "tapToChange":  "Tik om te wijzigen",
+    "changeProfilePicture":  "Profielfoto wijzigen",
+    "choosePhoto":  "Foto kiezen",
+    "changePhoto":  "Foto wijzigen",
+    "profilePictureChooseHint":  "Tik op de foto om een nieuwe profielfoto te kiezen, bij te snijden en te uploaden.",
+    "changeUsername":  "Gebruikersnaam wijzigen",
+    "changeEmail":  "E-mail wijzigen",
+    "passwordLastChanged":  "Laatst gewijzigd: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "Nooit",
     "signIn":  "Inloggen",
     "collectionsTitle":  "Collecties",
     "newCollection":  "Nieuwe collectie",
@@ -198,7 +216,7 @@
     "emptyFolder":  "Lege map",
     "folderColor":  "Mapkleur",
     "editAction":  "Bewerken",
-    "editCollection":  "Edit collection",
+    "editCollection":  "Collectie bewerken",
     "changeColor":  "Kleur wijzigen",
     "deleteCollectionWarning":  "Links erin worden naar de hoofdmap verplaatst.",
     "moveAction":  "Verplaatsen",

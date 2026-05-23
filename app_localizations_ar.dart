@@ -9,10 +9,10 @@ class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'البحث في الروابط والعلامات...';
@@ -147,7 +147,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get privacyPolicy => 'سياسة الخصوصية';
 
   @override
-  String get welcomeTitle => 'مرحبًا بك في ReadItLater';
+  String get welcomeTitle => 'مرحبًا بك في Pile';
 
   @override
   String get welcomeMessage => 'يرجى قراءة وقبول شروط الخدمة وسياسة الخصوصية الخاصة بنا للمتابعة.';
@@ -331,13 +331,48 @@ class AppLocalizationsAr extends AppLocalizations {
   String get didYouKnow => 'هل تعلم؟';
 
   @override
-  String get shareToAppTip => 'يمكنك إضافة روابط من خلال مشاركتها على ReadItLater!';
+  String get shareToAppTip => 'يمكنك إضافة روابط من خلال مشاركتها على Pile!';
 
   @override
   String get commentsLabel => 'التعليقات (اختياري)';
 
   @override
   String get accountSettings => 'إعدادات الحساب';
+
+  @override
+  String get accountInformation => 'معلومات الحساب';
+
+  @override
+  String get profilePicture => 'صورة الملف الشخصي';
+
+  @override
+  String get tapToChange => 'اضغط للتغيير';
+
+  @override
+  String get changeProfilePicture => 'تغيير صورة الملف الشخصي';
+
+  @override
+  String get choosePhoto => 'اختيار صورة';
+
+  @override
+  String get changePhoto => 'تغيير الصورة';
+
+  @override
+  String get profilePictureChooseHint => 'اضغط على الصورة لاختيار صورة ملف شخصي جديدة وقصها ورفعها.';
+
+  @override
+  String get changeUsername => 'تغيير اسم المستخدم';
+
+  @override
+  String get changeEmail => 'تغيير البريد الإلكتروني';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'آخر تغيير: $date';
+  }
+
+  @override
+  String get never => 'أبدًا';
 
   @override
   String get signIn => 'تسجيل الدخول';
@@ -400,7 +435,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get editAction => 'تحرير';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'تحرير المجموعة';
 
   @override
   String get changeColor => 'تغيير اللون';

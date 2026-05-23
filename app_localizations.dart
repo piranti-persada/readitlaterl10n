@@ -127,13 +127,13 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'ReadItLater'**
+  /// **'Pile'**
   String get appTitle;
 
   /// No description provided for @homeTitle.
   ///
   /// In en, this message translates to:
-  /// **'ReadItLater'**
+  /// **'Pile'**
   String get homeTitle;
 
   /// No description provided for @searchHint.
@@ -325,7 +325,7 @@ abstract class AppLocalizations {
   /// No description provided for @importLinksTitle.
   ///
   /// In en, this message translates to:
-  /// **'Import Links'**
+  /// **'Import links'**
   String get importLinksTitle;
 
   /// No description provided for @importLinksSubtitle.
@@ -361,7 +361,7 @@ abstract class AppLocalizations {
   /// No description provided for @favoriteLimitReached.
   ///
   /// In en, this message translates to:
-  /// **'Max 3 favourites allowed'**
+  /// **'Maximum 3 favourites allowed'**
   String get favoriteLimitReached;
 
   /// No description provided for @termsOfService.
@@ -379,7 +379,7 @@ abstract class AppLocalizations {
   /// No description provided for @welcomeTitle.
   ///
   /// In en, this message translates to:
-  /// **'Welcome to ReadItLater'**
+  /// **'Welcome to Pile'**
   String get welcomeTitle;
 
   /// No description provided for @welcomeMessage.
@@ -589,7 +589,7 @@ abstract class AppLocalizations {
   /// No description provided for @noAccountCreateOne.
   ///
   /// In en, this message translates to:
-  /// **'No account? Create one!'**
+  /// **'Don\'t have an account? Create one!'**
   String get noAccountCreateOne;
 
   /// No description provided for @getStarted.
@@ -637,7 +637,7 @@ abstract class AppLocalizations {
   /// No description provided for @feedbackSubject.
   ///
   /// In en, this message translates to:
-  /// **'ReadItLater Feedback'**
+  /// **'Pile Feedback'**
   String get feedbackSubject;
 
   /// No description provided for @feedbackTitle.
@@ -667,7 +667,7 @@ abstract class AppLocalizations {
   /// No description provided for @verifyHuman.
   ///
   /// In en, this message translates to:
-  /// **'Please verify you are human'**
+  /// **'Please verify that you are human'**
   String get verifyHuman;
 
   /// No description provided for @send.
@@ -727,7 +727,7 @@ abstract class AppLocalizations {
   /// No description provided for @shareToAppTip.
   ///
   /// In en, this message translates to:
-  /// **'You can add links by sharing them to ReadItLater!'**
+  /// **'You can add links by sharing them to Pile!'**
   String get shareToAppTip;
 
   /// No description provided for @commentsLabel.
@@ -741,6 +741,72 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Account settings'**
   String get accountSettings;
+
+  /// No description provided for @accountInformation.
+  ///
+  /// In en, this message translates to:
+  /// **'Account information'**
+  String get accountInformation;
+
+  /// No description provided for @profilePicture.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile Picture'**
+  String get profilePicture;
+
+  /// No description provided for @tapToChange.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to change'**
+  String get tapToChange;
+
+  /// No description provided for @changeProfilePicture.
+  ///
+  /// In en, this message translates to:
+  /// **'Change profile picture'**
+  String get changeProfilePicture;
+
+  /// No description provided for @choosePhoto.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose photo'**
+  String get choosePhoto;
+
+  /// No description provided for @changePhoto.
+  ///
+  /// In en, this message translates to:
+  /// **'Change photo'**
+  String get changePhoto;
+
+  /// No description provided for @profilePictureChooseHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap the picture to choose, crop, and upload a new profile picture.'**
+  String get profilePictureChooseHint;
+
+  /// No description provided for @changeUsername.
+  ///
+  /// In en, this message translates to:
+  /// **'Change username'**
+  String get changeUsername;
+
+  /// No description provided for @changeEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Change email'**
+  String get changeEmail;
+
+  /// No description provided for @passwordLastChanged.
+  ///
+  /// In en, this message translates to:
+  /// **'Last changed: {date}'**
+  String passwordLastChanged(String date);
+
+  /// No description provided for @never.
+  ///
+  /// In en, this message translates to:
+  /// **'Never'**
+  String get never;
 
   /// No description provided for @signIn.
   ///
@@ -991,7 +1057,7 @@ abstract class AppLocalizations {
   /// No description provided for @editAccountHint.
   ///
   /// In en, this message translates to:
-  /// **'Leave fields blank if you do not want to change them. Tap image to update avatar.'**
+  /// **'Leave fields blank if you do not want to change them. Tap the image to update avatar.'**
   String get editAccountHint;
 
   /// No description provided for @saveChanges.

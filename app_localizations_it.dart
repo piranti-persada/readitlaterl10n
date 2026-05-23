@@ -9,10 +9,10 @@ class AppLocalizationsIt extends AppLocalizations {
   AppLocalizationsIt([String locale = 'it']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Cerca link e tag...';
@@ -147,7 +147,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get privacyPolicy => 'politica sulla riservatezza';
 
   @override
-  String get welcomeTitle => 'Benvenuti a ReadItLater';
+  String get welcomeTitle => 'Benvenuti a Pile';
 
   @override
   String get welcomeMessage => 'Si prega di leggere e accettare i nostri Termini di servizio e l\'Informativa sulla privacy per continuare.';
@@ -331,13 +331,48 @@ class AppLocalizationsIt extends AppLocalizations {
   String get didYouKnow => 'Lo sapevate?';
 
   @override
-  String get shareToAppTip => 'Puoi aggiungere collegamenti condividendolo su ReadItLater!';
+  String get shareToAppTip => 'Puoi aggiungere collegamenti condividendolo su Pile!';
 
   @override
   String get commentsLabel => 'Commenti (facoltativo)';
 
   @override
   String get accountSettings => 'Impostazioni dell\'account';
+
+  @override
+  String get accountInformation => 'Informazioni account';
+
+  @override
+  String get profilePicture => 'Foto profilo';
+
+  @override
+  String get tapToChange => 'Tocca per cambiare';
+
+  @override
+  String get changeProfilePicture => 'Cambia foto profilo';
+
+  @override
+  String get choosePhoto => 'Scegli foto';
+
+  @override
+  String get changePhoto => 'Cambia foto';
+
+  @override
+  String get profilePictureChooseHint => 'Tocca l’immagine per scegliere, ritagliare e caricare una nuova foto profilo.';
+
+  @override
+  String get changeUsername => 'Cambia nome utente';
+
+  @override
+  String get changeEmail => 'Cambia email';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Ultima modifica: $date';
+  }
+
+  @override
+  String get never => 'Mai';
 
   @override
   String get signIn => 'Registrazione';
@@ -400,7 +435,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get editAction => 'Modifica';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'Modifica raccolta';
 
   @override
   String get changeColor => 'Cambia colore';

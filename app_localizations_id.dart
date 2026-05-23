@@ -9,10 +9,10 @@ class AppLocalizationsId extends AppLocalizations {
   AppLocalizationsId([String locale = 'id']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Cari tautan dan label...';
@@ -147,7 +147,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get privacyPolicy => 'Kebijakan Privasi';
 
   @override
-  String get welcomeTitle => 'Selamat datang di ReadItLater';
+  String get welcomeTitle => 'Selamat datang di Pile';
 
   @override
   String get welcomeMessage => 'Mohon baca dan setuju dengan Syarat Layanan dan Kebijakan Privasi kami untuk melanjutkan.';
@@ -286,7 +286,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get sendFeedback => 'Kirim masukan';
 
   @override
-  String get feedbackSubject => 'Masukan ReadItLater';
+  String get feedbackSubject => 'Masukan Pile';
 
   @override
   String get feedbackTitle => 'Kirim masukan';
@@ -331,13 +331,48 @@ class AppLocalizationsId extends AppLocalizations {
   String get didYouKnow => 'Tahukah Anda?';
 
   @override
-  String get shareToAppTip => 'Anda dapat menambahkan tautan dengan membagikannya ke ReadItLater!';
+  String get shareToAppTip => 'Anda dapat menambahkan tautan dengan membagikannya ke Pile!';
 
   @override
   String get commentsLabel => 'Komentar (Opsional)';
 
   @override
   String get accountSettings => 'Pengaturan akun';
+
+  @override
+  String get accountInformation => 'Informasi akun';
+
+  @override
+  String get profilePicture => 'Foto profil';
+
+  @override
+  String get tapToChange => 'Ketuk untuk mengubah';
+
+  @override
+  String get changeProfilePicture => 'Ubah foto profil';
+
+  @override
+  String get choosePhoto => 'Pilih foto';
+
+  @override
+  String get changePhoto => 'Ubah foto';
+
+  @override
+  String get profilePictureChooseHint => 'Ketuk gambar untuk memilih, memotong, dan mengunggah foto profil baru.';
+
+  @override
+  String get changeUsername => 'Ubah username';
+
+  @override
+  String get changeEmail => 'Ubah email';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Terakhir diubah: $date';
+  }
+
+  @override
+  String get never => 'Tidak pernah';
 
   @override
   String get signIn => 'Masuk';
@@ -397,10 +432,10 @@ class AppLocalizationsId extends AppLocalizations {
   String get folderColor => 'Warna folder';
 
   @override
-  String get editAction => 'Edit';
+  String get editAction => 'Sunting';
 
   @override
-  String get editCollection => 'Edit koleksi';
+  String get editCollection => 'Sunting koleksi';
 
   @override
   String get changeColor => 'Ubah warna';
@@ -549,7 +584,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get useAiSortingSubtitle => 'Menyarankan pengelompokan folder secara otomatis berdasarkan tautan Anda.';
 
   @override
-  String get styleMemory => 'Style Memory';
+  String get styleMemory => 'Memori gaya';
 
   @override
   String get styleMemoryEmpty => 'Atur tampilan dan gaya nama koleksi.';

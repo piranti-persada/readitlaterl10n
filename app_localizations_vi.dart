@@ -9,10 +9,10 @@ class AppLocalizationsVi extends AppLocalizations {
   AppLocalizationsVi([String locale = 'vi']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Tìm kiếm liên kết và thẻ...';
@@ -147,7 +147,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get privacyPolicy => 'Chính sách bảo mật';
 
   @override
-  String get welcomeTitle => 'Chào mừng đến với ReadItLater';
+  String get welcomeTitle => 'Chào mừng đến với Pile';
 
   @override
   String get welcomeMessage => 'Vui lòng đọc và chấp nhận Điều khoản dịch vụ và Chính sách quyền riêng tư của chúng tôi để tiếp tục.';
@@ -331,13 +331,48 @@ class AppLocalizationsVi extends AppLocalizations {
   String get didYouKnow => 'Bạn có biết không?';
 
   @override
-  String get shareToAppTip => 'Bạn có thể thêm liên kết bằng cách chia sẻ nó lên ReadItLater!';
+  String get shareToAppTip => 'Bạn có thể thêm liên kết bằng cách chia sẻ nó lên Pile!';
 
   @override
   String get commentsLabel => 'Nhận xét (Tùy chọn)';
 
   @override
   String get accountSettings => 'Cài đặt tài khoản';
+
+  @override
+  String get accountInformation => 'Thông tin tài khoản';
+
+  @override
+  String get profilePicture => 'Ảnh hồ sơ';
+
+  @override
+  String get tapToChange => 'Nhấn để thay đổi';
+
+  @override
+  String get changeProfilePicture => 'Đổi ảnh hồ sơ';
+
+  @override
+  String get choosePhoto => 'Chọn ảnh';
+
+  @override
+  String get changePhoto => 'Đổi ảnh';
+
+  @override
+  String get profilePictureChooseHint => 'Nhấn vào ảnh để chọn, cắt và tải lên ảnh hồ sơ mới.';
+
+  @override
+  String get changeUsername => 'Đổi tên người dùng';
+
+  @override
+  String get changeEmail => 'Đổi email';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Thay đổi lần cuối: $date';
+  }
+
+  @override
+  String get never => 'Chưa bao giờ';
 
   @override
   String get signIn => 'Đăng nhập';
@@ -400,7 +435,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get editAction => 'Chỉnh sửa';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'Chỉnh sửa bộ sưu tập';
 
   @override
   String get changeColor => 'Đổi màu';

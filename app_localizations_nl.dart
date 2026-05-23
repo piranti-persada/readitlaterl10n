@@ -9,10 +9,10 @@ class AppLocalizationsNl extends AppLocalizations {
   AppLocalizationsNl([String locale = 'nl']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Zoek links en tags...';
@@ -147,7 +147,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get privacyPolicy => 'Privacybeleid';
 
   @override
-  String get welcomeTitle => 'Welkom bij ReadItLater';
+  String get welcomeTitle => 'Welkom bij Pile';
 
   @override
   String get welcomeMessage => 'Lees en accepteer onze Servicevoorwaarden en Privacybeleid om door te gaan.';
@@ -242,7 +242,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get confirmPasswordLabel => 'Bevestig wachtwoord';
 
   @override
-  String get registerButton => 'Register';
+  String get registerButton => 'Registreren';
 
   @override
   String get signInWithGoogle => 'Log in met Google';
@@ -286,7 +286,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get sendFeedback => 'Feedback verzenden';
 
   @override
-  String get feedbackSubject => 'ReadItLater-feedback';
+  String get feedbackSubject => 'Pile-feedback';
 
   @override
   String get feedbackTitle => 'Feedback verzenden';
@@ -331,13 +331,48 @@ class AppLocalizationsNl extends AppLocalizations {
   String get didYouKnow => 'Wist je dat?';
 
   @override
-  String get shareToAppTip => 'U kunt links toevoegen door deze te delen met ReadItLater!';
+  String get shareToAppTip => 'U kunt links toevoegen door deze te delen met Pile!';
 
   @override
   String get commentsLabel => 'Opmerkingen (optioneel)';
 
   @override
   String get accountSettings => 'Accountinstellingen';
+
+  @override
+  String get accountInformation => 'Accountinformatie';
+
+  @override
+  String get profilePicture => 'Profielfoto';
+
+  @override
+  String get tapToChange => 'Tik om te wijzigen';
+
+  @override
+  String get changeProfilePicture => 'Profielfoto wijzigen';
+
+  @override
+  String get choosePhoto => 'Foto kiezen';
+
+  @override
+  String get changePhoto => 'Foto wijzigen';
+
+  @override
+  String get profilePictureChooseHint => 'Tik op de foto om een nieuwe profielfoto te kiezen, bij te snijden en te uploaden.';
+
+  @override
+  String get changeUsername => 'Gebruikersnaam wijzigen';
+
+  @override
+  String get changeEmail => 'E-mail wijzigen';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Laatst gewijzigd: $date';
+  }
+
+  @override
+  String get never => 'Nooit';
 
   @override
   String get signIn => 'Inloggen';
@@ -400,7 +435,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get editAction => 'Bewerken';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'Collectie bewerken';
 
   @override
   String get changeColor => 'Kleur wijzigen';

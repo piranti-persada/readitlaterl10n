@@ -1,6 +1,6 @@
 {
-    "appTitle":  "ReadItLater",
-    "homeTitle":  "ReadItLater",
+    "appTitle":  "Pile",
+    "homeTitle":  "Pile",
     "searchHint":  "Search links and tags...",
     "noLinksYet":  "No links saved yet",
     "noMatchingLinks":  "No matching links found",
@@ -83,7 +83,7 @@
     "favoriteLimitReached":  "Maximum 3 favourites allowed",
     "termsOfService":  "Terms of Service",
     "privacyPolicy":  "Privacy Policy",
-    "welcomeTitle":  "Welcome to ReadItLater",
+    "welcomeTitle":  "Welcome to Pile",
     "welcomeMessage":  "Please read and accept our Terms of Service and Privacy Policy to continue.",
     "accept":  "Accept",
     "decline":  "Decline",
@@ -161,7 +161,7 @@
                                       }
                  },
     "sendFeedback":  "Send feedback",
-    "feedbackSubject":  "ReadItLater Feedback",
+    "feedbackSubject":  "Pile Feedback",
     "feedbackTitle":  "Send feedback",
     "feedbackName":  "Name (optional)",
     "feedbackEmail":  "Email (optional)",
@@ -176,9 +176,27 @@
     "remindersTitle":  "Reminders",
     "noReminders":  "No upcoming reminders",
     "didYouKnow":  "Did you know?",
-    "shareToAppTip":  "You can add links by sharing them to ReadItLater!",
+    "shareToAppTip":  "You can add links by sharing them to Pile!",
     "commentsLabel":  "Comments (optional)",
     "accountSettings":  "Account settings",
+    "accountInformation":  "Account information",
+    "profilePicture":  "Profile Picture",
+    "tapToChange":  "Tap to change",
+    "changeProfilePicture":  "Change profile picture",
+    "choosePhoto":  "Choose photo",
+    "changePhoto":  "Change photo",
+    "profilePictureChooseHint":  "Tap the picture to choose, crop, and upload a new profile picture.",
+    "changeUsername":  "Change username",
+    "changeEmail":  "Change email",
+    "passwordLastChanged":  "Last changed: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "Never",
     "signIn":  "Sign in",
     "collectionsTitle":  "Collections",
     "newCollection":  "New collection",

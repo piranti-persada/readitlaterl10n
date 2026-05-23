@@ -9,10 +9,10 @@ class AppLocalizationsRu extends AppLocalizations {
   AppLocalizationsRu([String locale = 'ru']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Поиск ссылок и тегов...';
@@ -147,7 +147,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get privacyPolicy => 'политика конфиденциальности';
 
   @override
-  String get welcomeTitle => 'Добро пожаловать в ReadItLater';
+  String get welcomeTitle => 'Добро пожаловать в Pile';
 
   @override
   String get welcomeMessage => 'Пожалуйста, прочитайте и примите наши Условия обслуживания и Политику конфиденциальности, чтобы продолжить.';
@@ -331,13 +331,48 @@ class AppLocalizationsRu extends AppLocalizations {
   String get didYouKnow => 'Вы знали?';
 
   @override
-  String get shareToAppTip => 'Вы можете добавлять ссылки, поделившись ими в ReadItLater!';
+  String get shareToAppTip => 'Вы можете добавлять ссылки, поделившись ими в Pile!';
 
   @override
   String get commentsLabel => 'Комментарии (необязательно)';
 
   @override
   String get accountSettings => 'Настройки учетной записи';
+
+  @override
+  String get accountInformation => 'Информация об аккаунте';
+
+  @override
+  String get profilePicture => 'Фото профиля';
+
+  @override
+  String get tapToChange => 'Нажмите, чтобы изменить';
+
+  @override
+  String get changeProfilePicture => 'Изменить фото профиля';
+
+  @override
+  String get choosePhoto => 'Выбрать фото';
+
+  @override
+  String get changePhoto => 'Изменить фото';
+
+  @override
+  String get profilePictureChooseHint => 'Нажмите на изображение, чтобы выбрать, обрезать и загрузить новое фото профиля.';
+
+  @override
+  String get changeUsername => 'Изменить имя пользователя';
+
+  @override
+  String get changeEmail => 'Изменить email';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Последнее изменение: $date';
+  }
+
+  @override
+  String get never => 'Никогда';
 
   @override
   String get signIn => 'Войти';
@@ -400,7 +435,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get editAction => 'Редактировать';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'Редактировать коллекцию';
 
   @override
   String get changeColor => 'Изменить цвет';

@@ -1,6 +1,6 @@
 {
-    "appTitle":  "ReadItLater",
-    "homeTitle":  "ReadItLater",
+    "appTitle":  "Pile",
+    "homeTitle":  "Pile",
     "searchHint":  "링크 및 태그 검색...",
     "noLinksYet":  "아직 저장된 링크가 없습니다.",
     "noMatchingLinks":  "일치하는 링크가 없습니다.",
@@ -83,7 +83,7 @@
     "favoriteLimitReached":  "최대 3개의 즐겨찾기가 허용됩니다.",
     "termsOfService":  "서비스 약관",
     "privacyPolicy":  "개인 정보 보호 정책",
-    "welcomeTitle":  "ReadItLater에 오신 것을 환영합니다",
+    "welcomeTitle":  "Pile에 오신 것을 환영합니다",
     "welcomeMessage":  "계속하려면 서비스 약관과 개인정보 보호정책을 읽고 동의하세요.",
     "accept":  "수용하다",
     "decline":  "감소",
@@ -160,7 +160,7 @@
                                       }
                  },
     "sendFeedback":  "피드백 보내기",
-    "feedbackSubject":  "ReadItLater 피드백",
+    "feedbackSubject":  "Pile 피드백",
     "feedbackTitle":  "피드백 보내기",
     "feedbackName":  "이름(선택사항)",
     "feedbackEmail":  "이메일(선택사항)",
@@ -175,9 +175,27 @@
     "remindersTitle":  "알림",
     "noReminders":  "예정된 알림이 없습니다.",
     "didYouKnow":  "알고 계셨나요?",
-    "shareToAppTip":  "ReadItLater에 공유하여 링크를 추가할 수 있습니다!",
+    "shareToAppTip":  "Pile에 공유하여 링크를 추가할 수 있습니다!",
     "commentsLabel":  "설명(선택사항)",
     "accountSettings":  "계정 설정",
+    "accountInformation":  "계정 정보",
+    "profilePicture":  "프로필 사진",
+    "tapToChange":  "탭하여 변경",
+    "changeProfilePicture":  "프로필 사진 변경",
+    "choosePhoto":  "사진 선택",
+    "changePhoto":  "사진 변경",
+    "profilePictureChooseHint":  "사진을 탭해 새 프로필 사진을 선택하고 자른 뒤 업로드하세요.",
+    "changeUsername":  "사용자 이름 변경",
+    "changeEmail":  "이메일 변경",
+    "passwordLastChanged":  "마지막 변경: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "없음",
     "signIn":  "로그인",
     "collectionsTitle":  "컬렉션",
     "newCollection":  "새로운 컬렉션",
@@ -198,7 +216,7 @@
     "emptyFolder":  "빈 폴더",
     "folderColor":  "폴더 색상",
     "editAction":  "편집",
-    "editCollection":  "Edit collection",
+    "editCollection":  "컬렉션 편집",
     "changeColor":  "색상 변경",
     "deleteCollectionWarning":  "내부의 링크는 루트로 이동됩니다.",
     "moveAction":  "이동",

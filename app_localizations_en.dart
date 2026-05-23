@@ -9,10 +9,10 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'ReadItLater';
+  String get appTitle => 'Pile';
 
   @override
-  String get homeTitle => 'ReadItLater';
+  String get homeTitle => 'Pile';
 
   @override
   String get searchHint => 'Search links and tags...';
@@ -116,7 +116,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get faqTitle => 'Frequently asked questions';
 
   @override
-  String get importLinksTitle => 'Import Links';
+  String get importLinksTitle => 'Import links';
 
   @override
   String get importLinksSubtitle => 'Import links from a file';
@@ -138,7 +138,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get wrongPassword => 'Wrong password or invalid file';
 
   @override
-  String get favoriteLimitReached => 'Max 3 favourites allowed';
+  String get favoriteLimitReached => 'Maximum 3 favourites allowed';
 
   @override
   String get termsOfService => 'Terms of Service';
@@ -147,7 +147,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get privacyPolicy => 'Privacy Policy';
 
   @override
-  String get welcomeTitle => 'Welcome to ReadItLater';
+  String get welcomeTitle => 'Welcome to Pile';
 
   @override
   String get welcomeMessage => 'Please read and accept our Terms of Service and Privacy Policy to continue.';
@@ -260,7 +260,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get emailExists => 'Email already exists';
 
   @override
-  String get noAccountCreateOne => 'No account? Create one!';
+  String get noAccountCreateOne => 'Don\'t have an account? Create one!';
 
   @override
   String get getStarted => 'Get started';
@@ -286,7 +286,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get sendFeedback => 'Send feedback';
 
   @override
-  String get feedbackSubject => 'ReadItLater Feedback';
+  String get feedbackSubject => 'Pile Feedback';
 
   @override
   String get feedbackTitle => 'Send feedback';
@@ -301,7 +301,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get feedbackMessage => 'Message';
 
   @override
-  String get verifyHuman => 'Please verify you are human';
+  String get verifyHuman => 'Please verify that you are human';
 
   @override
   String get send => 'Send';
@@ -331,13 +331,48 @@ class AppLocalizationsEn extends AppLocalizations {
   String get didYouKnow => 'Did you know?';
 
   @override
-  String get shareToAppTip => 'You can add links by sharing them to ReadItLater!';
+  String get shareToAppTip => 'You can add links by sharing them to Pile!';
 
   @override
   String get commentsLabel => 'Comments (optional)';
 
   @override
   String get accountSettings => 'Account settings';
+
+  @override
+  String get accountInformation => 'Account information';
+
+  @override
+  String get profilePicture => 'Profile Picture';
+
+  @override
+  String get tapToChange => 'Tap to change';
+
+  @override
+  String get changeProfilePicture => 'Change profile picture';
+
+  @override
+  String get choosePhoto => 'Choose photo';
+
+  @override
+  String get changePhoto => 'Change photo';
+
+  @override
+  String get profilePictureChooseHint => 'Tap the picture to choose, crop, and upload a new profile picture.';
+
+  @override
+  String get changeUsername => 'Change username';
+
+  @override
+  String get changeEmail => 'Change email';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Last changed: $date';
+  }
+
+  @override
+  String get never => 'Never';
 
   @override
   String get signIn => 'Sign in';
@@ -465,7 +500,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get failedUpdateAccount => 'Failed to update account. Email may already be in use.';
 
   @override
-  String get editAccountHint => 'Leave fields blank if you do not want to change them. Tap image to update avatar.';
+  String get editAccountHint => 'Leave fields blank if you do not want to change them. Tap the image to update avatar.';
 
   @override
   String get saveChanges => 'Save changes';
