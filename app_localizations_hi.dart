@@ -340,6 +340,41 @@ class AppLocalizationsHi extends AppLocalizations {
   String get accountSettings => 'अकाउंट सेटिंग';
 
   @override
+  String get accountInformation => 'खाता जानकारी';
+
+  @override
+  String get profilePicture => 'प्रोफ़ाइल चित्र';
+
+  @override
+  String get tapToChange => 'बदलने के लिए टैप करें';
+
+  @override
+  String get changeProfilePicture => 'प्रोफ़ाइल चित्र बदलें';
+
+  @override
+  String get choosePhoto => 'फ़ोटो चुनें';
+
+  @override
+  String get changePhoto => 'फ़ोटो बदलें';
+
+  @override
+  String get profilePictureChooseHint => 'नया प्रोफ़ाइल चित्र चुनने, क्रॉप करने और अपलोड करने के लिए चित्र पर टैप करें।';
+
+  @override
+  String get changeUsername => 'उपयोगकर्ता नाम बदलें';
+
+  @override
+  String get changeEmail => 'ईमेल बदलें';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'अंतिम बदलाव: $date';
+  }
+
+  @override
+  String get never => 'कभी नहीं';
+
+  @override
   String get signIn => 'दाखिल करना';
 
   @override
@@ -400,7 +435,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get editAction => 'संपादित करें';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'संग्रह संपादित करें';
 
   @override
   String get changeColor => 'रंग बदलें';

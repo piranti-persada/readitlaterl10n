@@ -340,6 +340,41 @@ class AppLocalizationsEn extends AppLocalizations {
   String get accountSettings => 'Account settings';
 
   @override
+  String get accountInformation => 'Account information';
+
+  @override
+  String get profilePicture => 'Profile Picture';
+
+  @override
+  String get tapToChange => 'Tap to change';
+
+  @override
+  String get changeProfilePicture => 'Change profile picture';
+
+  @override
+  String get choosePhoto => 'Choose photo';
+
+  @override
+  String get changePhoto => 'Change photo';
+
+  @override
+  String get profilePictureChooseHint => 'Tap the picture to choose, crop, and upload a new profile picture.';
+
+  @override
+  String get changeUsername => 'Change username';
+
+  @override
+  String get changeEmail => 'Change email';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Last changed: $date';
+  }
+
+  @override
+  String get never => 'Never';
+
+  @override
   String get signIn => 'Sign in';
 
   @override

@@ -178,6 +178,24 @@
     "shareToAppTip":  "आप इसे Pile पर साझा करके लिंक जोड़ सकते हैं!",
     "commentsLabel":  "टिप्पणियां (वैकल्पिक)",
     "accountSettings":  "अकाउंट सेटिंग",
+    "accountInformation":  "खाता जानकारी",
+    "profilePicture":  "प्रोफ़ाइल चित्र",
+    "tapToChange":  "बदलने के लिए टैप करें",
+    "changeProfilePicture":  "प्रोफ़ाइल चित्र बदलें",
+    "choosePhoto":  "फ़ोटो चुनें",
+    "changePhoto":  "फ़ोटो बदलें",
+    "profilePictureChooseHint":  "नया प्रोफ़ाइल चित्र चुनने, क्रॉप करने और अपलोड करने के लिए चित्र पर टैप करें।",
+    "changeUsername":  "उपयोगकर्ता नाम बदलें",
+    "changeEmail":  "ईमेल बदलें",
+    "passwordLastChanged":  "अंतिम बदलाव: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "कभी नहीं",
     "signIn":  "दाखिल करना",
     "collectionsTitle":  "संग्रह",
     "newCollection":  "नया संग्रह",
@@ -198,7 +216,7 @@
     "emptyFolder":  "खाली फ़ोल्डर",
     "folderColor":  "फ़ोल्डर का रंग",
     "editAction":  "संपादित करें",
-    "editCollection":  "Edit collection",
+    "editCollection":  "संग्रह संपादित करें",
     "changeColor":  "रंग बदलें",
     "deleteCollectionWarning":  "अंदर के लिंक रूट में ले जाए जाएंगे।",
     "moveAction":  "स्थानांतरित करें",

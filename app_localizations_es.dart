@@ -307,7 +307,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get send => 'Enviar';
 
   @override
-  String get tabLinks => 'Campo de golf';
+  String get tabLinks => 'Enlaces';
 
   @override
   String get tabDeleted => 'Eliminado';
@@ -338,6 +338,41 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get accountSettings => 'Configuraciones de la cuenta';
+
+  @override
+  String get accountInformation => 'Información de la cuenta';
+
+  @override
+  String get profilePicture => 'Foto de perfil';
+
+  @override
+  String get tapToChange => 'Toca para cambiar';
+
+  @override
+  String get changeProfilePicture => 'Cambiar foto de perfil';
+
+  @override
+  String get choosePhoto => 'Elegir foto';
+
+  @override
+  String get changePhoto => 'Cambiar foto';
+
+  @override
+  String get profilePictureChooseHint => 'Toca la imagen para elegir, recortar y subir una nueva foto de perfil.';
+
+  @override
+  String get changeUsername => 'Cambiar nombre de usuario';
+
+  @override
+  String get changeEmail => 'Cambiar correo electrónico';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Último cambio: $date';
+  }
+
+  @override
+  String get never => 'Nunca';
 
   @override
   String get signIn => 'Iniciar sesión';
@@ -400,7 +435,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get editAction => 'Editar';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'Editar colección';
 
   @override
   String get changeColor => 'Cambiar color';

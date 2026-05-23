@@ -179,6 +179,24 @@
     "shareToAppTip":  "You can add links by sharing them to Pile!",
     "commentsLabel":  "Comments (optional)",
     "accountSettings":  "Account settings",
+    "accountInformation":  "Account information",
+    "profilePicture":  "Profile Picture",
+    "tapToChange":  "Tap to change",
+    "changeProfilePicture":  "Change profile picture",
+    "choosePhoto":  "Choose photo",
+    "changePhoto":  "Change photo",
+    "profilePictureChooseHint":  "Tap the picture to choose, crop, and upload a new profile picture.",
+    "changeUsername":  "Change username",
+    "changeEmail":  "Change email",
+    "passwordLastChanged":  "Last changed: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "Never",
     "signIn":  "Sign in",
     "collectionsTitle":  "Collections",
     "newCollection":  "New collection",

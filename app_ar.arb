@@ -178,6 +178,24 @@
     "shareToAppTip":  "يمكنك إضافة روابط من خلال مشاركتها على Pile!",
     "commentsLabel":  "التعليقات (اختياري)",
     "accountSettings":  "إعدادات الحساب",
+    "accountInformation":  "معلومات الحساب",
+    "profilePicture":  "صورة الملف الشخصي",
+    "tapToChange":  "اضغط للتغيير",
+    "changeProfilePicture":  "تغيير صورة الملف الشخصي",
+    "choosePhoto":  "اختيار صورة",
+    "changePhoto":  "تغيير الصورة",
+    "profilePictureChooseHint":  "اضغط على الصورة لاختيار صورة ملف شخصي جديدة وقصها ورفعها.",
+    "changeUsername":  "تغيير اسم المستخدم",
+    "changeEmail":  "تغيير البريد الإلكتروني",
+    "passwordLastChanged":  "آخر تغيير: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "أبدًا",
     "signIn":  "تسجيل الدخول",
     "collectionsTitle":  "المجموعات",
     "newCollection":  "مجموعة جديدة",
@@ -198,7 +216,7 @@
     "emptyFolder":  "مجلد فارغ",
     "folderColor":  "لون المجلد",
     "editAction":  "تحرير",
-    "editCollection":  "Edit collection",
+    "editCollection":  "تحرير المجموعة",
     "changeColor":  "تغيير اللون",
     "deleteCollectionWarning":  "سيتم نقل الروابط الموجودة بالداخل إلى الجذر.",
     "moveAction":  "نقل",

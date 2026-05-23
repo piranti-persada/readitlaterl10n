@@ -178,6 +178,24 @@
     "shareToAppTip":  "Вы можете добавлять ссылки, поделившись ими в Pile!",
     "commentsLabel":  "Комментарии (необязательно)",
     "accountSettings":  "Настройки учетной записи",
+    "accountInformation":  "Информация об аккаунте",
+    "profilePicture":  "Фото профиля",
+    "tapToChange":  "Нажмите, чтобы изменить",
+    "changeProfilePicture":  "Изменить фото профиля",
+    "choosePhoto":  "Выбрать фото",
+    "changePhoto":  "Изменить фото",
+    "profilePictureChooseHint":  "Нажмите на изображение, чтобы выбрать, обрезать и загрузить новое фото профиля.",
+    "changeUsername":  "Изменить имя пользователя",
+    "changeEmail":  "Изменить email",
+    "passwordLastChanged":  "Последнее изменение: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "Никогда",
     "signIn":  "Войти",
     "collectionsTitle":  "Коллекции",
     "newCollection":  "Новая коллекция",
@@ -198,7 +216,7 @@
     "emptyFolder":  "Пустая папка",
     "folderColor":  "Цвет папки",
     "editAction":  "Редактировать",
-    "editCollection":  "Edit collection",
+    "editCollection":  "Редактировать коллекцию",
     "changeColor":  "Изменить цвет",
     "deleteCollectionWarning":  "Ссылки внутри будут перемещены в корень.",
     "moveAction":  "Переместить",

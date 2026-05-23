@@ -340,6 +340,41 @@ class AppLocalizationsJa extends AppLocalizations {
   String get accountSettings => 'アカウント設定';
 
   @override
+  String get accountInformation => 'アカウント情報';
+
+  @override
+  String get profilePicture => 'プロフィール画像';
+
+  @override
+  String get tapToChange => 'タップして変更';
+
+  @override
+  String get changeProfilePicture => 'プロフィール画像を変更';
+
+  @override
+  String get choosePhoto => '写真を選択';
+
+  @override
+  String get changePhoto => '写真を変更';
+
+  @override
+  String get profilePictureChooseHint => '画像をタップして、新しいプロフィール画像を選択、トリミング、アップロードします。';
+
+  @override
+  String get changeUsername => 'ユーザー名を変更';
+
+  @override
+  String get changeEmail => 'メールアドレスを変更';
+
+  @override
+  String passwordLastChanged(String date) {
+    return '最終変更: $date';
+  }
+
+  @override
+  String get never => 'なし';
+
+  @override
   String get signIn => 'サインイン';
 
   @override
@@ -400,7 +435,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get editAction => '編集';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'コレクションを編集';
 
   @override
   String get changeColor => '色を変更';

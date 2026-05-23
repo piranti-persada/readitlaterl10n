@@ -340,6 +340,41 @@ class AppLocalizationsZh extends AppLocalizations {
   String get accountSettings => '账户设定';
 
   @override
+  String get accountInformation => '账户信息';
+
+  @override
+  String get profilePicture => '头像';
+
+  @override
+  String get tapToChange => '点按更改';
+
+  @override
+  String get changeProfilePicture => '更改头像';
+
+  @override
+  String get choosePhoto => '选择照片';
+
+  @override
+  String get changePhoto => '更改照片';
+
+  @override
+  String get profilePictureChooseHint => '点按图片以选择、裁剪并上传新的头像。';
+
+  @override
+  String get changeUsername => '更改用户名';
+
+  @override
+  String get changeEmail => '更改电子邮箱';
+
+  @override
+  String passwordLastChanged(String date) {
+    return '上次更改：$date';
+  }
+
+  @override
+  String get never => '从未';
+
+  @override
   String get signIn => '登入';
 
   @override
@@ -947,6 +982,41 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
 
   @override
   String get accountSettings => '账户设置';
+
+  @override
+  String get accountInformation => '账户信息';
+
+  @override
+  String get profilePicture => '头像';
+
+  @override
+  String get tapToChange => '点按更改';
+
+  @override
+  String get changeProfilePicture => '更改头像';
+
+  @override
+  String get choosePhoto => '选择照片';
+
+  @override
+  String get changePhoto => '更改照片';
+
+  @override
+  String get profilePictureChooseHint => '点按图片以选择、裁剪并上传新的头像。';
+
+  @override
+  String get changeUsername => '更改用户名';
+
+  @override
+  String get changeEmail => '更改电子邮箱';
+
+  @override
+  String passwordLastChanged(String date) {
+    return '上次更改：$date';
+  }
+
+  @override
+  String get never => '从未';
 
   @override
   String get signIn => '登录';
@@ -1558,6 +1628,41 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String get accountSettings => '帳戶設定';
 
   @override
+  String get accountInformation => '帳戶資訊';
+
+  @override
+  String get profilePicture => '頭像';
+
+  @override
+  String get tapToChange => '點按更改';
+
+  @override
+  String get changeProfilePicture => '更改頭像';
+
+  @override
+  String get choosePhoto => '選擇相片';
+
+  @override
+  String get changePhoto => '更改相片';
+
+  @override
+  String get profilePictureChooseHint => '點按圖片以選擇、裁剪並上載新的頭像。';
+
+  @override
+  String get changeUsername => '更改用戶名稱';
+
+  @override
+  String get changeEmail => '更改電郵';
+
+  @override
+  String passwordLastChanged(String date) {
+    return '上次更改：$date';
+  }
+
+  @override
+  String get never => '從未';
+
+  @override
   String get signIn => '登入';
 
   @override
@@ -2165,6 +2270,41 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get accountSettings => '帳戶設定';
+
+  @override
+  String get accountInformation => '帳戶資訊';
+
+  @override
+  String get profilePicture => '頭像';
+
+  @override
+  String get tapToChange => '點按更改';
+
+  @override
+  String get changeProfilePicture => '更改頭像';
+
+  @override
+  String get choosePhoto => '選擇照片';
+
+  @override
+  String get changePhoto => '更改照片';
+
+  @override
+  String get profilePictureChooseHint => '點按圖片以選擇、裁剪並上傳新的頭像。';
+
+  @override
+  String get changeUsername => '更改使用者名稱';
+
+  @override
+  String get changeEmail => '更改電子郵件';
+
+  @override
+  String passwordLastChanged(String date) {
+    return '上次更改：$date';
+  }
+
+  @override
+  String get never => '從未';
 
   @override
   String get signIn => '登入';

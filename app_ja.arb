@@ -178,6 +178,24 @@
     "shareToAppTip":  "Pile で共有することでリンクを追加できます。",
     "commentsLabel":  "コメント (オプション)",
     "accountSettings":  "アカウント設定",
+    "accountInformation":  "アカウント情報",
+    "profilePicture":  "プロフィール画像",
+    "tapToChange":  "タップして変更",
+    "changeProfilePicture":  "プロフィール画像を変更",
+    "choosePhoto":  "写真を選択",
+    "changePhoto":  "写真を変更",
+    "profilePictureChooseHint":  "画像をタップして、新しいプロフィール画像を選択、トリミング、アップロードします。",
+    "changeUsername":  "ユーザー名を変更",
+    "changeEmail":  "メールアドレスを変更",
+    "passwordLastChanged":  "最終変更: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "なし",
     "signIn":  "サインイン",
     "collectionsTitle":  "コレクション",
     "newCollection":  "新しいコレクション",
@@ -198,7 +216,7 @@
     "emptyFolder":  "空のフォルダー",
     "folderColor":  "フォルダーの色",
     "editAction":  "編集",
-    "editCollection":  "Edit collection",
+    "editCollection":  "コレクションを編集",
     "changeColor":  "色を変更",
     "deleteCollectionWarning":  "中のリンクはルートに移動されます。",
     "moveAction":  "移動",

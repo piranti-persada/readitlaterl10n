@@ -179,6 +179,24 @@
     "shareToAppTip":  "您可以通过将其分享到 Pile 来添加链接！",
     "commentsLabel":  "评论（可选）",
     "accountSettings":  "账户设置",
+    "accountInformation":  "账户信息",
+    "profilePicture":  "头像",
+    "tapToChange":  "点按更改",
+    "changeProfilePicture":  "更改头像",
+    "choosePhoto":  "选择照片",
+    "changePhoto":  "更改照片",
+    "profilePictureChooseHint":  "点按图片以选择、裁剪并上传新的头像。",
+    "changeUsername":  "更改用户名",
+    "changeEmail":  "更改电子邮箱",
+    "passwordLastChanged":  "上次更改：{date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "从未",
     "signIn":  "登录",
     "collectionsTitle":  "收藏",
     "newCollection":  "新收藏",

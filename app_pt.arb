@@ -178,6 +178,24 @@
     "shareToAppTip":  "Você pode adicionar links compartilhando-os no Pile!",
     "commentsLabel":  "Comentários (opcional)",
     "accountSettings":  "Configurações de Conta",
+    "accountInformation":  "Informações da conta",
+    "profilePicture":  "Foto do perfil",
+    "tapToChange":  "Toque para alterar",
+    "changeProfilePicture":  "Alterar foto do perfil",
+    "choosePhoto":  "Escolher foto",
+    "changePhoto":  "Alterar foto",
+    "profilePictureChooseHint":  "Toque na imagem para escolher, cortar e enviar uma nova foto do perfil.",
+    "changeUsername":  "Alterar nome de usuário",
+    "changeEmail":  "Alterar e-mail",
+    "passwordLastChanged":  "Última alteração: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "Nunca",
     "signIn":  "Entrar",
     "collectionsTitle":  "Coleções",
     "newCollection":  "Nova coleção",
@@ -198,7 +216,7 @@
     "emptyFolder":  "Pasta vazia",
     "folderColor":  "Cor da pasta",
     "editAction":  "Editar",
-    "editCollection":  "Edit collection",
+    "editCollection":  "Editar coleção",
     "changeColor":  "Alterar cor",
     "deleteCollectionWarning":  "Os links internos serão movidos para a raiz.",
     "moveAction":  "Mover",

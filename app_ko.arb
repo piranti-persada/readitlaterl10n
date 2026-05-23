@@ -178,6 +178,24 @@
     "shareToAppTip":  "Pile에 공유하여 링크를 추가할 수 있습니다!",
     "commentsLabel":  "설명(선택사항)",
     "accountSettings":  "계정 설정",
+    "accountInformation":  "계정 정보",
+    "profilePicture":  "프로필 사진",
+    "tapToChange":  "탭하여 변경",
+    "changeProfilePicture":  "프로필 사진 변경",
+    "choosePhoto":  "사진 선택",
+    "changePhoto":  "사진 변경",
+    "profilePictureChooseHint":  "사진을 탭해 새 프로필 사진을 선택하고 자른 뒤 업로드하세요.",
+    "changeUsername":  "사용자 이름 변경",
+    "changeEmail":  "이메일 변경",
+    "passwordLastChanged":  "마지막 변경: {date}",
+    "@passwordLastChanged":  {
+                                 "placeholders":  {
+                                                      "date":  {
+                                                                   "type":  "String"
+                                                               }
+                                                  }
+                             },
+    "never":  "없음",
     "signIn":  "로그인",
     "collectionsTitle":  "컬렉션",
     "newCollection":  "새로운 컬렉션",
@@ -198,7 +216,7 @@
     "emptyFolder":  "빈 폴더",
     "folderColor":  "폴더 색상",
     "editAction":  "편집",
-    "editCollection":  "Edit collection",
+    "editCollection":  "컬렉션 편집",
     "changeColor":  "색상 변경",
     "deleteCollectionWarning":  "내부의 링크는 루트로 이동됩니다.",
     "moveAction":  "이동",

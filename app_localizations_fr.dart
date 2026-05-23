@@ -242,7 +242,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get confirmPasswordLabel => 'Confirmez le mot de passe';
 
   @override
-  String get registerButton => 'Registre';
+  String get registerButton => 'S\'inscrire';
 
   @override
   String get signInWithGoogle => 'Connectez-vous avec Google';
@@ -307,7 +307,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get send => 'Envoyer';
 
   @override
-  String get tabLinks => 'Links';
+  String get tabLinks => 'Liens';
 
   @override
   String get tabDeleted => 'Supprimé';
@@ -338,6 +338,41 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get accountSettings => 'Paramètres du compte';
+
+  @override
+  String get accountInformation => 'Informations du compte';
+
+  @override
+  String get profilePicture => 'Photo de profil';
+
+  @override
+  String get tapToChange => 'Appuyez pour modifier';
+
+  @override
+  String get changeProfilePicture => 'Modifier la photo de profil';
+
+  @override
+  String get choosePhoto => 'Choisir une photo';
+
+  @override
+  String get changePhoto => 'Changer la photo';
+
+  @override
+  String get profilePictureChooseHint => 'Appuyez sur l’image pour choisir, recadrer et importer une nouvelle photo de profil.';
+
+  @override
+  String get changeUsername => 'Changer le nom d’utilisateur';
+
+  @override
+  String get changeEmail => 'Changer l’e-mail';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Dernière modification : $date';
+  }
+
+  @override
+  String get never => 'Jamais';
 
   @override
   String get signIn => 'Se connecter';
@@ -400,7 +435,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get editAction => 'Modifier';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'Modifier la collection';
 
   @override
   String get changeColor => 'Changer la couleur';

@@ -340,6 +340,41 @@ class AppLocalizationsIt extends AppLocalizations {
   String get accountSettings => 'Impostazioni dell\'account';
 
   @override
+  String get accountInformation => 'Informazioni account';
+
+  @override
+  String get profilePicture => 'Foto profilo';
+
+  @override
+  String get tapToChange => 'Tocca per cambiare';
+
+  @override
+  String get changeProfilePicture => 'Cambia foto profilo';
+
+  @override
+  String get choosePhoto => 'Scegli foto';
+
+  @override
+  String get changePhoto => 'Cambia foto';
+
+  @override
+  String get profilePictureChooseHint => 'Tocca l’immagine per scegliere, ritagliare e caricare una nuova foto profilo.';
+
+  @override
+  String get changeUsername => 'Cambia nome utente';
+
+  @override
+  String get changeEmail => 'Cambia email';
+
+  @override
+  String passwordLastChanged(String date) {
+    return 'Ultima modifica: $date';
+  }
+
+  @override
+  String get never => 'Mai';
+
+  @override
   String get signIn => 'Registrazione';
 
   @override
@@ -400,7 +435,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get editAction => 'Modifica';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => 'Modifica raccolta';
 
   @override
   String get changeColor => 'Cambia colore';

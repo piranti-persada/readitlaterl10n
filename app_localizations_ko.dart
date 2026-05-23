@@ -340,6 +340,41 @@ class AppLocalizationsKo extends AppLocalizations {
   String get accountSettings => '계정 설정';
 
   @override
+  String get accountInformation => '계정 정보';
+
+  @override
+  String get profilePicture => '프로필 사진';
+
+  @override
+  String get tapToChange => '탭하여 변경';
+
+  @override
+  String get changeProfilePicture => '프로필 사진 변경';
+
+  @override
+  String get choosePhoto => '사진 선택';
+
+  @override
+  String get changePhoto => '사진 변경';
+
+  @override
+  String get profilePictureChooseHint => '사진을 탭해 새 프로필 사진을 선택하고 자른 뒤 업로드하세요.';
+
+  @override
+  String get changeUsername => '사용자 이름 변경';
+
+  @override
+  String get changeEmail => '이메일 변경';
+
+  @override
+  String passwordLastChanged(String date) {
+    return '마지막 변경: $date';
+  }
+
+  @override
+  String get never => '없음';
+
+  @override
   String get signIn => '로그인';
 
   @override
@@ -400,7 +435,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get editAction => '편집';
 
   @override
-  String get editCollection => 'Edit collection';
+  String get editCollection => '컬렉션 편집';
 
   @override
   String get changeColor => '색상 변경';
