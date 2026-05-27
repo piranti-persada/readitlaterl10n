@@ -123,7 +123,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String importSuccess(int count) {
-    return '$count links zijn succesvol geïmporteerd';
+    return '$count links zijn succesvol geÃ¯mporteerd';
   }
 
   @override
@@ -506,7 +506,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get saveChanges => 'Wijzigingen opslaan';
 
   @override
-  String get verifyIdentity => 'Identiteit verifiëren';
+  String get verifyIdentity => 'Identiteit verifiÃ«ren';
 
   @override
   String get enterCurrentPassword => 'Voer uw huidige wachtwoord in om door te gaan.';
@@ -518,7 +518,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get incorrectPassword => 'Onjuist wachtwoord';
 
   @override
-  String get verify => 'Verifiëren';
+  String get verify => 'VerifiÃ«ren';
 
   @override
   String get googleVerifyFailed => 'Identiteitsverificatie met Google mislukt.';
@@ -527,7 +527,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get confirmIdentity => 'Om door te gaan, bevestig eerst dat u het bent.';
 
   @override
-  String get verifyIdentityDesc => 'We moeten uw identiteit verifiëren om uw account te beschermen.';
+  String get verifyIdentityDesc => 'We moeten uw identiteit verifiÃ«ren om uw account te beschermen.';
 
   @override
   String get continueWithGoogle => 'Doorgaan met Google';
@@ -646,4 +646,34 @@ class AppLocalizationsNl extends AppLocalizations {
   String moreCount(int count) {
     return '- +$count meer';
   }
+
+  @override
+  String get loadingMessage1 => 'We maken alles klaar...';
+
+  @override
+  String get loadingMessage2 => 'Even geduld, we zijn ermee bezig.';
+
+  @override
+  String get loadingMessage3 => 'Nog heel even terwijl we alles voorbereiden...';
+
+  @override
+  String get loadingMessage4 => 'We maken alles voor je klaar...';
+
+  @override
+  String get loadingMessage5 => 'We zijn er zo.';
+
+  @override
+  String get loadingMessage6 => 'Goede dingen zijn onderweg...';
+
+  @override
+  String get loadingMessage7 => 'Bijna klaar voor je...';
+
+  @override
+  String get loadingMessage8 => 'Nog even volhouden, bijna klaar.';
+
+  @override
+  String get loadingMessage9 => 'We bereiden iets moois voor...';
+
+  @override
+  String get loadingMessage10 => 'We warmen alles op.';
 }

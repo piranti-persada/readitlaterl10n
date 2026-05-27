@@ -1,4 +1,4 @@
-{
+﻿{
     "appTitle":  "Pile",
     "homeTitle":  "Pile",
     "searchHint":  "Zoek links en tags...",
@@ -62,7 +62,7 @@
     "faqTitle":  "Veelgestelde vragen",
     "importLinksTitle":  "Koppelingen herstellen",
     "importLinksSubtitle":  "Koppelingen uit een bestand herstellen",
-    "importSuccess":  "{count} links zijn succesvol geïmporteerd",
+    "importSuccess":  "{count} links zijn succesvol geÃ¯mporteerd",
     "@importSuccess":  {
                            "placeholders":  {
                                                 "count":  {
@@ -238,14 +238,14 @@
     "failedUpdateAccount":  "Account bijwerken mislukt. E-mail is mogelijk al in gebruik.",
     "editAccountHint":  "Laat velden leeg als u ze niet wilt wijzigen. Tik op de afbeelding om de avatar bij te werken.",
     "saveChanges":  "Wijzigingen opslaan",
-    "verifyIdentity":  "Identiteit verifiëren",
+    "verifyIdentity":  "Identiteit verifiÃ«ren",
     "enterCurrentPassword":  "Voer uw huidige wachtwoord in om door te gaan.",
     "currentPassword":  "Huidig wachtwoord",
     "incorrectPassword":  "Onjuist wachtwoord",
-    "verify":  "Verifiëren",
+    "verify":  "VerifiÃ«ren",
     "googleVerifyFailed":  "Identiteitsverificatie met Google mislukt.",
     "confirmIdentity":  "Om door te gaan, bevestig eerst dat u het bent.",
-    "verifyIdentityDesc":  "We moeten uw identiteit verifiëren om uw account te beschermen.",
+    "verifyIdentityDesc":  "We moeten uw identiteit verifiÃ«ren om uw account te beschermen.",
     "continueWithGoogle":  "Doorgaan met Google",
     "editPassword":  "Wachtwoord bewerken",
     "newPassword":  "Nieuw wachtwoord",
@@ -302,4 +302,15 @@
     "feedbackConsumerNote":  "Gebruikersfeedback: deel je ervaring met de app, zoals bugs, prestatieproblemen, functies of algemene gebruiksvriendelijkheid.",
     "translationsGitHubNote":  "GitHub-feedback: meld taalproblemen op GitHub, zoals onjuiste vertalingen, onduidelijke formuleringen of grammaticafouten.",
     "feedbackTranslationsNote":  "Vertalingsfeedback: meld taalproblemen, zoals onjuiste vertalingen, onduidelijke formuleringen of grammaticafouten."
+,
+    "loadingMessage1":  "We maken alles klaar...",
+    "loadingMessage2":  "Even geduld, we zijn ermee bezig.",
+    "loadingMessage3":  "Nog heel even terwijl we alles voorbereiden...",
+    "loadingMessage4":  "We maken alles voor je klaar...",
+    "loadingMessage5":  "We zijn er zo.",
+    "loadingMessage6":  "Goede dingen zijn onderweg...",
+    "loadingMessage7":  "Bijna klaar voor je...",
+    "loadingMessage8":  "Nog even volhouden, bijna klaar.",
+    "loadingMessage9":  "We bereiden iets moois voor...",
+    "loadingMessage10":  "We warmen alles op."
 }

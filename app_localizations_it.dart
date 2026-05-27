@@ -132,7 +132,7 @@ class AppLocalizationsIt extends AppLocalizations {
   }
 
   @override
-  String get decryptFailed => 'La decrittografia non è riuscita o il formato non è valido';
+  String get decryptFailed => 'La decrittografia non Ã¨ riuscita o il formato non Ã¨ valido';
 
   @override
   String get wrongPassword => 'Password errata o file non valido';
@@ -193,7 +193,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get deletePermanentlyTitle => 'Eliminare definitivamente?';
 
   @override
-  String get deletePermanentlyContent => 'Questa azione non può essere annullata.';
+  String get deletePermanentlyContent => 'Questa azione non puÃ² essere annullata.';
 
   @override
   String get selectAll => 'Seleziona tutto';
@@ -248,7 +248,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get signInWithGoogle => 'Accedi con Google';
 
   @override
-  String get googleSignInNotSupported => 'L\'accesso con Google non è configurato in questa demo.';
+  String get googleSignInNotSupported => 'L\'accesso con Google non Ã¨ configurato in questa demo.';
 
   @override
   String get accountCreated => 'Account creato con successo';
@@ -257,7 +257,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get invalidCredentials => 'Nome utente o password non validi';
 
   @override
-  String get emailExists => 'L\'e-mail esiste già';
+  String get emailExists => 'L\'e-mail esiste giÃ ';
 
   @override
   String get noAccountCreateOne => 'Nessun conto? Creane uno.';
@@ -286,7 +286,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get sendFeedback => 'Invia feedback';
 
   @override
-  String get feedbackSubject => 'Feedback Leggilo più tardi';
+  String get feedbackSubject => 'Feedback Leggilo piÃ¹ tardi';
 
   @override
   String get feedbackTitle => 'Invia feedback';
@@ -358,7 +358,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get changePhoto => 'Cambia foto';
 
   @override
-  String get profilePictureChooseHint => 'Tocca l’immagine per scegliere, ritagliare e caricare una nuova foto profilo.';
+  String get profilePictureChooseHint => 'Tocca lâ€™immagine per scegliere, ritagliare e caricare una nuova foto profilo.';
 
   @override
   String get changeUsername => 'Cambia nome utente';
@@ -411,13 +411,13 @@ class AppLocalizationsIt extends AppLocalizations {
   String get deleteAccountWarning => 'Elimina account: leggi attentamente.';
 
   @override
-  String get deleteAccountConfirm => 'Stai per eliminare il tuo account e tutti i dati associati. L\'operazione non può essere annullata. Sei sicuro?';
+  String get deleteAccountConfirm => 'Stai per eliminare il tuo account e tutti i dati associati. L\'operazione non puÃ² essere annullata. Sei sicuro?';
 
   @override
-  String get deleteSuccess => 'Ci dispiace vederti partire! Il tuo account è stato eliminato.';
+  String get deleteSuccess => 'Ci dispiace vederti partire! Il tuo account Ã¨ stato eliminato.';
 
   @override
-  String get deleteFail => 'Impossibile eliminare l\'account. Per favore riprova più tardi.';
+  String get deleteFail => 'Impossibile eliminare l\'account. Per favore riprova piÃ¹ tardi.';
 
   @override
   String get continueButton => 'Continua';
@@ -485,7 +485,7 @@ class AppLocalizationsIt extends AppLocalizations {
   }
 
   @override
-  String get usernameConsecutiveSymbols => 'Il nome utente non può contenere simboli consecutivi.';
+  String get usernameConsecutiveSymbols => 'Il nome utente non puÃ² contenere simboli consecutivi.';
 
   @override
   String get usernameRestrictedWords => 'Il nome utente contiene parole limitate.';
@@ -497,7 +497,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get accountUpdated => 'Account aggiornato con successo';
 
   @override
-  String get failedUpdateAccount => 'Aggiornamento account non riuscito. L\'email potrebbe essere già in uso.';
+  String get failedUpdateAccount => 'Aggiornamento account non riuscito. L\'email potrebbe essere giÃ  in uso.';
 
   @override
   String get editAccountHint => 'Lascia i campi vuoti se non vuoi modificarli. Tocca l\'immagine per aggiornare l\'avatar.';
@@ -506,7 +506,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get saveChanges => 'Salva modifiche';
 
   @override
-  String get verifyIdentity => 'Verifica identità';
+  String get verifyIdentity => 'Verifica identitÃ ';
 
   @override
   String get enterCurrentPassword => 'Inserisci la tua password attuale per continuare.';
@@ -521,13 +521,13 @@ class AppLocalizationsIt extends AppLocalizations {
   String get verify => 'Verifica';
 
   @override
-  String get googleVerifyFailed => 'Verifica identità con Google non riuscita.';
+  String get googleVerifyFailed => 'Verifica identitÃ  con Google non riuscita.';
 
   @override
   String get confirmIdentity => 'Per continuare, conferma prima che sei tu.';
 
   @override
-  String get verifyIdentityDesc => 'Dobbiamo verificare la tua identità per proteggere il tuo account.';
+  String get verifyIdentityDesc => 'Dobbiamo verificare la tua identitÃ  per proteggere il tuo account.';
 
   @override
   String get continueWithGoogle => 'Continua con Google';
@@ -605,13 +605,13 @@ class AppLocalizationsIt extends AppLocalizations {
   String get enableAiSortingFirst => 'Attiva prima Usa ordinamento IA nelle Impostazioni.';
 
   @override
-  String get saveMoreLinksTryAgain => 'Salva qualche link in più e riprova';
+  String get saveMoreLinksTryAgain => 'Salva qualche link in piÃ¹ e riprova';
 
   @override
   String get linksTooUnrelated => 'Questi link sono troppo scollegati.';
 
   @override
-  String get linksAlreadySimilar => 'Questi link sono già abbastanza simili.';
+  String get linksAlreadySimilar => 'Questi link sono giÃ  abbastanza simili.';
 
   @override
   String get aiSortingSaved => 'Ordinamento IA salvato.';
@@ -629,7 +629,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get saveFolderTree => 'Salvare questo albero di cartelle?';
 
   @override
-  String get yes => 'Sì';
+  String get yes => 'SÃ¬';
 
   @override
   String get no => 'No';
@@ -646,4 +646,34 @@ class AppLocalizationsIt extends AppLocalizations {
   String moreCount(int count) {
     return '- +$count altri';
   }
+
+  @override
+  String get loadingMessage1 => 'Stiamo preparando tutto...';
+
+  @override
+  String get loadingMessage2 => 'Un attimo, ci stiamo lavorando.';
+
+  @override
+  String get loadingMessage3 => 'Ancora un momento mentre prepariamo tutto...';
+
+  @override
+  String get loadingMessage4 => 'Stiamo preparando tutto per te...';
+
+  @override
+  String get loadingMessage5 => 'Arriviamo a breve.';
+
+  @override
+  String get loadingMessage6 => 'Le cose belle stanno arrivando...';
+
+  @override
+  String get loadingMessage7 => 'Quasi pronto per te...';
+
+  @override
+  String get loadingMessage8 => 'Tieni duro, ci siamo quasi.';
+
+  @override
+  String get loadingMessage9 => 'Stiamo preparando qualcosa di bello...';
+
+  @override
+  String get loadingMessage10 => 'Stiamo scaldando i motori.';
 }

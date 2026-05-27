@@ -646,4 +646,34 @@ class AppLocalizationsId extends AppLocalizations {
   String moreCount(int count) {
     return '- +$count lagi';
   }
+
+  @override
+  String get loadingMessage1 => 'Kami sedang menyiapkan semuanya...';
+
+  @override
+  String get loadingMessage2 => 'Tunggu sebentar, kami sedang mengerjakannya.';
+
+  @override
+  String get loadingMessage3 => 'Sebentar ya, kami siapkan semuanya...';
+
+  @override
+  String get loadingMessage4 => 'Kami sedang menyiapkan semuanya untukmu...';
+
+  @override
+  String get loadingMessage5 => 'Kami segera kembali.';
+
+  @override
+  String get loadingMessage6 => 'Hal-hal baik sedang dalam perjalanan...';
+
+  @override
+  String get loadingMessage7 => 'Hampir siap untukmu...';
+
+  @override
+  String get loadingMessage8 => 'Tunggu sebentar lagi, hampir selesai.';
+
+  @override
+  String get loadingMessage9 => 'Kami sedang menyiapkan sesuatu yang bagus...';
+
+  @override
+  String get loadingMessage10 => 'Kami sedang memanaskannya.';
 }

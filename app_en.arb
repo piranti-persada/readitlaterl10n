@@ -1,4 +1,4 @@
-{
+﻿{
     "appTitle":  "Pile",
     "homeTitle":  "Pile",
     "searchHint":  "Search links and tags...",
@@ -310,4 +310,15 @@
                                                       }
                                         }
                    }
+,
+    "loadingMessage1":  "We're getting things ready...",
+    "loadingMessage2":  "Hold tight - we're on it.",
+    "loadingMessage3":  "Just a moment while we prepare everything...",
+    "loadingMessage4":  "Getting things ready for you...",
+    "loadingMessage5":  "We'll be there shortly.",
+    "loadingMessage6":  "Good things are on the way...",
+    "loadingMessage7":  "Almost ready for you...",
+    "loadingMessage8":  "Hang tight - almost there.",
+    "loadingMessage9":  "We're cooking something nice...",
+    "loadingMessage10":  "We're warming things up."
 }

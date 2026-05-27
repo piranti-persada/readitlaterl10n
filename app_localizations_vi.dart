@@ -15,543 +15,543 @@ class AppLocalizationsVi extends AppLocalizations {
   String get homeTitle => 'Pile';
 
   @override
-  String get searchHint => 'Tìm kiếm liên kết và thẻ...';
+  String get searchHint => 'TÃ¬m kiáº¿m liÃªn káº¿t vÃ  tháº»...';
 
   @override
-  String get noLinksYet => 'Chưa có liên kết nào được lưu';
+  String get noLinksYet => 'ChÆ°a cÃ³ liÃªn káº¿t nÃ o Ä‘Æ°á»£c lÆ°u';
 
   @override
-  String get noMatchingLinks => 'Không tìm thấy liên kết phù hợp';
+  String get noMatchingLinks => 'KhÃ´ng tÃ¬m tháº¥y liÃªn káº¿t phÃ¹ há»£p';
 
   @override
-  String get tapToAdd => 'Nhấn + để thêm liên kết đầu tiên của bạn';
+  String get tapToAdd => 'Nháº¥n + Ä‘á»ƒ thÃªm liÃªn káº¿t Ä‘áº§u tiÃªn cá»§a báº¡n';
 
   @override
-  String get deleteLinkTitle => 'Xóa liên kết';
+  String get deleteLinkTitle => 'XÃ³a liÃªn káº¿t';
 
   @override
   String deleteLinkContent(String name) {
-    return 'Bạn có chắc chắn muốn xóa \"$name\" không?';
+    return 'Báº¡n cÃ³ cháº¯c cháº¯n muá»‘n xÃ³a \"$name\" khÃ´ng?';
   }
 
   @override
-  String get cancel => 'Hủy bỏ';
+  String get cancel => 'Há»§y bá»';
 
   @override
-  String get delete => 'Xóa bỏ';
+  String get delete => 'XÃ³a bá»';
 
   @override
-  String get undo => 'Hoàn tác';
+  String get undo => 'HoÃ n tÃ¡c';
 
   @override
   String deleted(String name) {
-    return '$name đã bị xóa';
+    return '$name Ä‘Ã£ bá»‹ xÃ³a';
   }
 
   @override
   String errorLoading(String error) {
-    return 'Lỗi tải dữ liệu: $error';
+    return 'Lá»—i táº£i dá»¯ liá»‡u: $error';
   }
 
   @override
   String couldNotOpen(String url) {
-    return 'Không thể mở $url';
+    return 'KhÃ´ng thá»ƒ má»Ÿ $url';
   }
 
   @override
-  String get addLinkTitle => 'Thêm liên kết';
+  String get addLinkTitle => 'ThÃªm liÃªn káº¿t';
 
   @override
-  String get editLinkTitle => 'Chỉnh sửa liên kết';
+  String get editLinkTitle => 'Chá»‰nh sá»­a liÃªn káº¿t';
 
   @override
-  String get linkTitleLabel => 'Tiêu đề';
+  String get linkTitleLabel => 'TiÃªu Ä‘á»';
 
   @override
   String get urlLabel => 'URL';
 
   @override
-  String get addTagLabel => 'Thêm thẻ';
+  String get addTagLabel => 'ThÃªm tháº»';
 
   @override
-  String get save => 'Cứu';
+  String get save => 'Cá»©u';
 
   @override
-  String get pleaseEnterUrl => 'Vui lòng nhập một URL';
+  String get pleaseEnterUrl => 'Vui lÃ²ng nháº­p má»™t URL';
 
   @override
-  String get accountTitle => 'Cài đặt';
+  String get accountTitle => 'CÃ i Ä‘áº·t';
 
   @override
-  String get language => 'Ngôn ngữ';
+  String get language => 'NgÃ´n ngá»¯';
 
   @override
-  String get navHome => 'Trang chủ';
+  String get navHome => 'Trang chá»§';
 
   @override
-  String get navAccount => 'Cài đặt';
+  String get navAccount => 'CÃ i Ä‘áº·t';
 
   @override
-  String get backupRestoreTitle => 'Sao lưu & Khôi phục';
+  String get backupRestoreTitle => 'Sao lÆ°u & KhÃ´i phá»¥c';
 
   @override
-  String get exportLinksTitle => 'Xuất liên kết';
+  String get exportLinksTitle => 'Xuáº¥t liÃªn káº¿t';
 
   @override
-  String get exportLinksSubtitle => 'Lưu liên kết của bạn vào một tập tin';
+  String get exportLinksSubtitle => 'LÆ°u liÃªn káº¿t cá»§a báº¡n vÃ o má»™t táº­p tin';
 
   @override
-  String get enterPassword => 'Nhập mật khẩu (Tùy chọn)';
+  String get enterPassword => 'Nháº­p máº­t kháº©u (TÃ¹y chá»n)';
 
   @override
-  String get password => 'Mật khẩu';
+  String get password => 'Máº­t kháº©u';
 
   @override
-  String get encryptFile => 'Mã hóa';
+  String get encryptFile => 'MÃ£ hÃ³a';
 
   @override
   String get instagram => 'Instagram';
 
   @override
-  String get faqTitle => 'Câu hỏi thường gặp';
+  String get faqTitle => 'CÃ¢u há»i thÆ°á»ng gáº·p';
 
   @override
-  String get importLinksTitle => 'Khôi phục liên kết';
+  String get importLinksTitle => 'KhÃ´i phá»¥c liÃªn káº¿t';
 
   @override
-  String get importLinksSubtitle => 'Khôi phục liên kết từ một tập tin';
+  String get importLinksSubtitle => 'KhÃ´i phá»¥c liÃªn káº¿t tá»« má»™t táº­p tin';
 
   @override
   String importSuccess(int count) {
-    return 'Đã nhập thành công liên kết $count';
+    return 'ÄÃ£ nháº­p thÃ nh cÃ´ng liÃªn káº¿t $count';
   }
 
   @override
   String importFailed(String error) {
-    return 'Nhập không thành công: $error';
+    return 'Nháº­p khÃ´ng thÃ nh cÃ´ng: $error';
   }
 
   @override
-  String get decryptFailed => 'Giải mã không thành công hoặc định dạng không hợp lệ';
+  String get decryptFailed => 'Giáº£i mÃ£ khÃ´ng thÃ nh cÃ´ng hoáº·c Ä‘á»‹nh dáº¡ng khÃ´ng há»£p lá»‡';
 
   @override
-  String get wrongPassword => 'Sai mật khẩu hoặc tập tin không hợp lệ';
+  String get wrongPassword => 'Sai máº­t kháº©u hoáº·c táº­p tin khÃ´ng há»£p lá»‡';
 
   @override
-  String get favoriteLimitReached => 'Cho phép tối đa 3 mục yêu thích';
+  String get favoriteLimitReached => 'Cho phÃ©p tá»‘i Ä‘a 3 má»¥c yÃªu thÃ­ch';
 
   @override
-  String get termsOfService => 'Điều khoản dịch vụ';
+  String get termsOfService => 'Äiá»u khoáº£n dá»‹ch vá»¥';
 
   @override
-  String get privacyPolicy => 'Chính sách bảo mật';
+  String get privacyPolicy => 'ChÃ­nh sÃ¡ch báº£o máº­t';
 
   @override
-  String get welcomeTitle => 'Chào mừng đến với Pile';
+  String get welcomeTitle => 'ChÃ o má»«ng Ä‘áº¿n vá»›i Pile';
 
   @override
-  String get welcomeMessage => 'Vui lòng đọc và chấp nhận Điều khoản dịch vụ và Chính sách quyền riêng tư của chúng tôi để tiếp tục.';
+  String get welcomeMessage => 'Vui lÃ²ng Ä‘á»c vÃ  cháº¥p nháº­n Äiá»u khoáº£n dá»‹ch vá»¥ vÃ  ChÃ­nh sÃ¡ch quyá»n riÃªng tÆ° cá»§a chÃºng tÃ´i Ä‘á»ƒ tiáº¿p tá»¥c.';
 
   @override
-  String get accept => 'Chấp nhận';
+  String get accept => 'Cháº¥p nháº­n';
 
   @override
-  String get decline => 'Sự suy sụp';
+  String get decline => 'Sá»± suy sá»¥p';
 
   @override
-  String get setReminder => 'Đặt lời nhắc';
+  String get setReminder => 'Äáº·t lá»i nháº¯c';
 
   @override
   String reminderSet(String date) {
-    return 'Đã đặt lời nhắc cho $date';
+    return 'ÄÃ£ Ä‘áº·t lá»i nháº¯c cho $date';
   }
 
   @override
-  String get recentlyDeleted => 'Đã xóa gần đây';
+  String get recentlyDeleted => 'ÄÃ£ xÃ³a gáº§n Ä‘Ã¢y';
 
   @override
-  String get reminderLimitReached => 'Đã đạt đến giới hạn lời nhắc (10)';
+  String get reminderLimitReached => 'ÄÃ£ Ä‘áº¡t Ä‘áº¿n giá»›i háº¡n lá»i nháº¯c (10)';
 
   @override
   String get notificationsOrExactAlarmPermissionsBlocked => 'Notifications and/or exact alarm permissions blocked';
 
   @override
-  String get proVersion => 'Phiên bản chuyên nghiệp';
+  String get proVersion => 'PhiÃªn báº£n chuyÃªn nghiá»‡p';
 
   @override
-  String get notAvailableInYourCountry => 'Không có sẵn ở quốc gia của bạn';
+  String get notAvailableInYourCountry => 'KhÃ´ng cÃ³ sáºµn á»Ÿ quá»‘c gia cá»§a báº¡n';
 
   @override
-  String get upgradeToPro => 'Nâng cấp lên Pro để nhận được lời nhắc không giới hạn';
+  String get upgradeToPro => 'NÃ¢ng cáº¥p lÃªn Pro Ä‘á»ƒ nháº­n Ä‘Æ°á»£c lá»i nháº¯c khÃ´ng giá»›i háº¡n';
 
   @override
   String restored(String name) {
-    return '$name đã được khôi phục';
+    return '$name Ä‘Ã£ Ä‘Æ°á»£c khÃ´i phá»¥c';
   }
 
   @override
-  String get deletePermanentlyTitle => 'Xóa vĩnh viễn?';
+  String get deletePermanentlyTitle => 'XÃ³a vÄ©nh viá»…n?';
 
   @override
-  String get deletePermanentlyContent => 'Không thể hoàn tác hành động này.';
+  String get deletePermanentlyContent => 'KhÃ´ng thá»ƒ hoÃ n tÃ¡c hÃ nh Ä‘á»™ng nÃ y.';
 
   @override
-  String get selectAll => 'Chọn tất cả';
+  String get selectAll => 'Chá»n táº¥t cáº£';
 
   @override
-  String get selectedCount => 'đã chọn';
+  String get selectedCount => 'Ä‘Ã£ chá»n';
 
   @override
   String deleteSelectedContent(int count) {
-    return 'Xóa liên kết $count?';
+    return 'XÃ³a liÃªn káº¿t $count?';
   }
 
   @override
-  String get loginTitle => 'Đăng nhập';
+  String get loginTitle => 'ÄÄƒng nháº­p';
 
   @override
   String get emailLabel => 'E-mail';
 
   @override
-  String get usernameLabel => 'Tên người dùng';
+  String get usernameLabel => 'TÃªn ngÆ°á»i dÃ¹ng';
 
   @override
-  String get passwordLabel => 'Mật khẩu';
+  String get passwordLabel => 'Máº­t kháº©u';
 
   @override
-  String get loginButton => 'Đăng nhập';
+  String get loginButton => 'ÄÄƒng nháº­p';
 
   @override
-  String get logoutButton => 'Đăng xuất';
+  String get logoutButton => 'ÄÄƒng xuáº¥t';
 
   @override
-  String get skipLabel => 'Bỏ qua bây giờ';
+  String get skipLabel => 'Bá» qua bÃ¢y giá»';
 
   @override
   String loggedInAs(String email) {
-    return 'Đăng nhập bằng $email';
+    return 'ÄÄƒng nháº­p báº±ng $email';
   }
 
   @override
-  String get createAccount => 'Tạo tài khoản';
+  String get createAccount => 'Táº¡o tÃ i khoáº£n';
 
   @override
-  String get nameLabel => 'Tên đầy đủ';
+  String get nameLabel => 'TÃªn Ä‘áº§y Ä‘á»§';
 
   @override
-  String get confirmPasswordLabel => 'Xác nhận mật khẩu';
+  String get confirmPasswordLabel => 'XÃ¡c nháº­n máº­t kháº©u';
 
   @override
-  String get registerButton => 'Đăng ký';
+  String get registerButton => 'ÄÄƒng kÃ½';
 
   @override
-  String get signInWithGoogle => 'Đăng nhập bằng Google';
+  String get signInWithGoogle => 'ÄÄƒng nháº­p báº±ng Google';
 
   @override
-  String get googleSignInNotSupported => 'Đăng nhập bằng Google không được định cấu hình trong bản demo này.';
+  String get googleSignInNotSupported => 'ÄÄƒng nháº­p báº±ng Google khÃ´ng Ä‘Æ°á»£c Ä‘á»‹nh cáº¥u hÃ¬nh trong báº£n demo nÃ y.';
 
   @override
-  String get accountCreated => 'Tài khoản được tạo thành công';
+  String get accountCreated => 'TÃ i khoáº£n Ä‘Æ°á»£c táº¡o thÃ nh cÃ´ng';
 
   @override
-  String get invalidCredentials => 'Tên người dùng hoặc mật khẩu không hợp lệ';
+  String get invalidCredentials => 'TÃªn ngÆ°á»i dÃ¹ng hoáº·c máº­t kháº©u khÃ´ng há»£p lá»‡';
 
   @override
-  String get emailExists => 'Email đã tồn tại';
+  String get emailExists => 'Email Ä‘Ã£ tá»“n táº¡i';
 
   @override
-  String get noAccountCreateOne => 'Không có tài khoản? Tạo một.';
+  String get noAccountCreateOne => 'KhÃ´ng cÃ³ tÃ i khoáº£n? Táº¡o má»™t.';
 
   @override
-  String get getStarted => 'Bắt đầu';
+  String get getStarted => 'Báº¯t Ä‘áº§u';
 
   @override
-  String get acceptAndContinue => 'Chấp nhận và tiếp tục';
+  String get acceptAndContinue => 'Cháº¥p nháº­n vÃ  tiáº¿p tá»¥c';
 
   @override
-  String get acceptAndFinish => 'Chấp nhận & Kết thúc';
+  String get acceptAndFinish => 'Cháº¥p nháº­n & Káº¿t thÃºc';
 
   @override
-  String get stepTos => 'Điều khoản dịch vụ';
+  String get stepTos => 'Äiá»u khoáº£n dá»‹ch vá»¥';
 
   @override
-  String get stepPrivacy => 'Chính sách bảo mật';
+  String get stepPrivacy => 'ChÃ­nh sÃ¡ch báº£o máº­t';
 
   @override
   String addedOn(String date) {
-    return 'Đã thêm vào: $date';
+    return 'ÄÃ£ thÃªm vÃ o: $date';
   }
 
   @override
-  String get sendFeedback => 'Gửi phản hồi';
+  String get sendFeedback => 'Gá»­i pháº£n há»“i';
 
   @override
-  String get feedbackSubject => 'Phản hồi về Đọc sau';
+  String get feedbackSubject => 'Pháº£n há»“i vá» Äá»c sau';
 
   @override
-  String get feedbackTitle => 'Gửi phản hồi';
+  String get feedbackTitle => 'Gá»­i pháº£n há»“i';
 
   @override
-  String get feedbackName => 'Tên (Tùy chọn)';
+  String get feedbackName => 'TÃªn (TÃ¹y chá»n)';
 
   @override
-  String get feedbackEmail => 'Email (Tùy chọn)';
+  String get feedbackEmail => 'Email (TÃ¹y chá»n)';
 
   @override
-  String get feedbackMessage => 'Tin nhắn';
+  String get feedbackMessage => 'Tin nháº¯n';
 
   @override
-  String get verifyHuman => 'Vui lòng xác minh bạn là con người';
+  String get verifyHuman => 'Vui lÃ²ng xÃ¡c minh báº¡n lÃ  con ngÆ°á»i';
 
   @override
-  String get send => 'Gửi';
+  String get send => 'Gá»­i';
 
   @override
-  String get tabLinks => 'Liên kết';
+  String get tabLinks => 'LiÃªn káº¿t';
 
   @override
-  String get tabDeleted => 'Đã xóa';
+  String get tabDeleted => 'ÄÃ£ xÃ³a';
 
   @override
-  String get topLinksTitle => 'Liên kết hàng đầu';
+  String get topLinksTitle => 'LiÃªn káº¿t hÃ ng Ä‘áº§u';
 
   @override
-  String get noDeletedLinks => 'Không có liên kết bị xóa';
+  String get noDeletedLinks => 'KhÃ´ng cÃ³ liÃªn káº¿t bá»‹ xÃ³a';
 
   @override
-  String get restoreTooltip => 'Khôi phục';
+  String get restoreTooltip => 'KhÃ´i phá»¥c';
 
   @override
-  String get remindersTitle => 'Lời nhắc';
+  String get remindersTitle => 'Lá»i nháº¯c';
 
   @override
-  String get noReminders => 'Không có lời nhắc sắp tới';
+  String get noReminders => 'KhÃ´ng cÃ³ lá»i nháº¯c sáº¯p tá»›i';
 
   @override
-  String get didYouKnow => 'Bạn có biết không?';
+  String get didYouKnow => 'Báº¡n cÃ³ biáº¿t khÃ´ng?';
 
   @override
-  String get shareToAppTip => 'Bạn có thể thêm liên kết bằng cách chia sẻ nó lên Pile!';
+  String get shareToAppTip => 'Báº¡n cÃ³ thá»ƒ thÃªm liÃªn káº¿t báº±ng cÃ¡ch chia sáº» nÃ³ lÃªn Pile!';
 
   @override
-  String get commentsLabel => 'Nhận xét (Tùy chọn)';
+  String get commentsLabel => 'Nháº­n xÃ©t (TÃ¹y chá»n)';
 
   @override
-  String get accountSettings => 'Cài đặt tài khoản';
+  String get accountSettings => 'CÃ i Ä‘áº·t tÃ i khoáº£n';
 
   @override
-  String get accountInformation => 'Thông tin tài khoản';
+  String get accountInformation => 'ThÃ´ng tin tÃ i khoáº£n';
 
   @override
-  String get profilePicture => 'Ảnh hồ sơ';
+  String get profilePicture => 'áº¢nh há»“ sÆ¡';
 
   @override
-  String get tapToChange => 'Nhấn để thay đổi';
+  String get tapToChange => 'Nháº¥n Ä‘á»ƒ thay Ä‘á»•i';
 
   @override
-  String get changeProfilePicture => 'Đổi ảnh hồ sơ';
+  String get changeProfilePicture => 'Äá»•i áº£nh há»“ sÆ¡';
 
   @override
-  String get choosePhoto => 'Chọn ảnh';
+  String get choosePhoto => 'Chá»n áº£nh';
 
   @override
-  String get changePhoto => 'Đổi ảnh';
+  String get changePhoto => 'Äá»•i áº£nh';
 
   @override
-  String get profilePictureChooseHint => 'Nhấn vào ảnh để chọn, cắt và tải lên ảnh hồ sơ mới.';
+  String get profilePictureChooseHint => 'Nháº¥n vÃ o áº£nh Ä‘á»ƒ chá»n, cáº¯t vÃ  táº£i lÃªn áº£nh há»“ sÆ¡ má»›i.';
 
   @override
-  String get changeUsername => 'Đổi tên người dùng';
+  String get changeUsername => 'Äá»•i tÃªn ngÆ°á»i dÃ¹ng';
 
   @override
-  String get changeEmail => 'Đổi email';
+  String get changeEmail => 'Äá»•i email';
 
   @override
   String passwordLastChanged(String date) {
-    return 'Thay đổi lần cuối: $date';
+    return 'Thay Ä‘á»•i láº§n cuá»‘i: $date';
   }
 
   @override
-  String get never => 'Chưa bao giờ';
+  String get never => 'ChÆ°a bao giá»';
 
   @override
-  String get signIn => 'Đăng nhập';
+  String get signIn => 'ÄÄƒng nháº­p';
 
   @override
-  String get collectionsTitle => 'Bộ sưu tập';
+  String get collectionsTitle => 'Bá»™ sÆ°u táº­p';
 
   @override
-  String get newCollection => 'Bộ sưu tập mới';
+  String get newCollection => 'Bá»™ sÆ°u táº­p má»›i';
 
   @override
-  String get collectionName => 'Tên bộ sưu tập';
+  String get collectionName => 'TÃªn bá»™ sÆ°u táº­p';
 
   @override
-  String get gridView => 'Chế độ xem lưới';
+  String get gridView => 'Cháº¿ Ä‘á»™ xem lÆ°á»›i';
 
   @override
-  String get listView => 'Xem danh sách';
+  String get listView => 'Xem danh sÃ¡ch';
 
   @override
-  String get editAccountTitle => 'Chỉnh sửa tài khoản';
+  String get editAccountTitle => 'Chá»‰nh sá»­a tÃ i khoáº£n';
 
   @override
-  String get changePasswordTitle => 'Thay đổi mật khẩu tài khoản';
+  String get changePasswordTitle => 'Thay Ä‘á»•i máº­t kháº©u tÃ i khoáº£n';
 
   @override
-  String get signOutTitle => 'Đăng xuất';
+  String get signOutTitle => 'ÄÄƒng xuáº¥t';
 
   @override
-  String get signOutConfirm => 'Bạn có chắc chắn muốn đăng xuất khỏi tài khoản của mình trên thiết bị này không?';
+  String get signOutConfirm => 'Báº¡n cÃ³ cháº¯c cháº¯n muá»‘n Ä‘Äƒng xuáº¥t khá»i tÃ i khoáº£n cá»§a mÃ¬nh trÃªn thiáº¿t bá»‹ nÃ y khÃ´ng?';
 
   @override
-  String get deleteAccountTitle => 'Xóa tài khoản';
+  String get deleteAccountTitle => 'XÃ³a tÃ i khoáº£n';
 
   @override
-  String get deleteAccountWarning => 'Xóa tài khoản: vui lòng đọc kỹ phần này.';
+  String get deleteAccountWarning => 'XÃ³a tÃ i khoáº£n: vui lÃ²ng Ä‘á»c ká»¹ pháº§n nÃ y.';
 
   @override
-  String get deleteAccountConfirm => 'Bạn sẽ xóa tài khoản của mình và tất cả dữ liệu liên quan. Không thể hoàn tác việc này. Bạn có chắc không?';
+  String get deleteAccountConfirm => 'Báº¡n sáº½ xÃ³a tÃ i khoáº£n cá»§a mÃ¬nh vÃ  táº¥t cáº£ dá»¯ liá»‡u liÃªn quan. KhÃ´ng thá»ƒ hoÃ n tÃ¡c viá»‡c nÃ y. Báº¡n cÃ³ cháº¯c khÃ´ng?';
 
   @override
-  String get deleteSuccess => 'Chúng tôi rất tiếc khi thấy bạn rời đi! Tài khoản của bạn đã bị xóa.';
+  String get deleteSuccess => 'ChÃºng tÃ´i ráº¥t tiáº¿c khi tháº¥y báº¡n rá»i Ä‘i! TÃ i khoáº£n cá»§a báº¡n Ä‘Ã£ bá»‹ xÃ³a.';
 
   @override
-  String get deleteFail => 'Không thể xóa tài khoản. Vui lòng thử lại sau.';
+  String get deleteFail => 'KhÃ´ng thá»ƒ xÃ³a tÃ i khoáº£n. Vui lÃ²ng thá»­ láº¡i sau.';
 
   @override
-  String get continueButton => 'Tiếp tục';
+  String get continueButton => 'Tiáº¿p tá»¥c';
 
   @override
-  String get noCollectionsYet => 'Chưa có bộ sưu tập';
+  String get noCollectionsYet => 'ChÆ°a cÃ³ bá»™ sÆ°u táº­p';
 
   @override
-  String get emptyFolder => 'Thư mục trống';
+  String get emptyFolder => 'ThÆ° má»¥c trá»‘ng';
 
   @override
-  String get folderColor => 'Màu thư mục';
+  String get folderColor => 'MÃ u thÆ° má»¥c';
 
   @override
-  String get editAction => 'Chỉnh sửa';
+  String get editAction => 'Chá»‰nh sá»­a';
 
   @override
-  String get editCollection => 'Chỉnh sửa bộ sưu tập';
+  String get editCollection => 'Chá»‰nh sá»­a bá»™ sÆ°u táº­p';
 
   @override
-  String get changeColor => 'Đổi màu';
+  String get changeColor => 'Äá»•i mÃ u';
 
   @override
-  String get deleteCollectionWarning => 'Các liên kết bên trong sẽ được di chuyển đến thư mục gốc.';
+  String get deleteCollectionWarning => 'CÃ¡c liÃªn káº¿t bÃªn trong sáº½ Ä‘Æ°á»£c di chuyá»ƒn Ä‘áº¿n thÆ° má»¥c gá»‘c.';
 
   @override
-  String get moveAction => 'Di chuyển';
+  String get moveAction => 'Di chuyá»ƒn';
 
   @override
-  String get moveToCollection => 'Di chuyển đến Bộ sưu tập';
+  String get moveToCollection => 'Di chuyá»ƒn Ä‘áº¿n Bá»™ sÆ°u táº­p';
 
   @override
-  String get noCollection => 'Không có bộ sưu tập';
+  String get noCollection => 'KhÃ´ng cÃ³ bá»™ sÆ°u táº­p';
 
   @override
-  String get noInternetConnection => 'Không có kết nối internet';
+  String get noInternetConnection => 'KhÃ´ng cÃ³ káº¿t ná»‘i internet';
 
   @override
-  String get dismiss => 'BỎ QUA';
+  String get dismiss => 'Bá»Ž QUA';
 
   @override
-  String get tagAll => 'Tất cả';
+  String get tagAll => 'Táº¥t cáº£';
 
   @override
-  String get camera => 'Máy ảnh';
+  String get camera => 'MÃ¡y áº£nh';
 
   @override
-  String get gallery => 'Thư viện ảnh';
+  String get gallery => 'ThÆ° viá»‡n áº£nh';
 
   @override
-  String get classicAvatars => 'Ảnh đại diện cổ điển';
+  String get classicAvatars => 'áº¢nh Ä‘áº¡i diá»‡n cá»• Ä‘iá»ƒn';
 
   @override
-  String get classic => 'Cổ điển';
+  String get classic => 'Cá»• Ä‘iá»ƒn';
 
   @override
-  String get usernameLengthError => 'Tên người dùng phải từ 3 đến 45 ký tự';
+  String get usernameLengthError => 'TÃªn ngÆ°á»i dÃ¹ng pháº£i tá»« 3 Ä‘áº¿n 45 kÃ½ tá»±';
 
   @override
-  String get usernameFormatError => 'Định dạng tên người dùng không hợp lệ.';
+  String get usernameFormatError => 'Äá»‹nh dáº¡ng tÃªn ngÆ°á»i dÃ¹ng khÃ´ng há»£p lá»‡.';
 
   @override
   String visitCount(int count) {
-    return '$count lượt truy cập';
+    return '$count lÆ°á»£t truy cáº­p';
   }
 
   @override
-  String get usernameConsecutiveSymbols => 'Tên người dùng không được chứa ký tự liên tiếp.';
+  String get usernameConsecutiveSymbols => 'TÃªn ngÆ°á»i dÃ¹ng khÃ´ng Ä‘Æ°á»£c chá»©a kÃ½ tá»± liÃªn tiáº¿p.';
 
   @override
-  String get usernameRestrictedWords => 'Tên người dùng chứa từ bị hạn chế.';
+  String get usernameRestrictedWords => 'TÃªn ngÆ°á»i dÃ¹ng chá»©a tá»« bá»‹ háº¡n cháº¿.';
 
   @override
-  String get failedUploadPic => 'Không thể tải ảnh đại diện lên.';
+  String get failedUploadPic => 'KhÃ´ng thá»ƒ táº£i áº£nh Ä‘áº¡i diá»‡n lÃªn.';
 
   @override
-  String get accountUpdated => 'Cập nhật tài khoản thành công';
+  String get accountUpdated => 'Cáº­p nháº­t tÃ i khoáº£n thÃ nh cÃ´ng';
 
   @override
-  String get failedUpdateAccount => 'Không thể cập nhật tài khoản. Email có thể đã được sử dụng.';
+  String get failedUpdateAccount => 'KhÃ´ng thá»ƒ cáº­p nháº­t tÃ i khoáº£n. Email cÃ³ thá»ƒ Ä‘Ã£ Ä‘Æ°á»£c sá»­ dá»¥ng.';
 
   @override
-  String get editAccountHint => 'Để trống nếu bạn không muốn thay đổi. Nhấn vào ảnh để cập nhật ảnh đại diện.';
+  String get editAccountHint => 'Äá»ƒ trá»‘ng náº¿u báº¡n khÃ´ng muá»‘n thay Ä‘á»•i. Nháº¥n vÃ o áº£nh Ä‘á»ƒ cáº­p nháº­t áº£nh Ä‘áº¡i diá»‡n.';
 
   @override
-  String get saveChanges => 'Lưu thay đổi';
+  String get saveChanges => 'LÆ°u thay Ä‘á»•i';
 
   @override
-  String get verifyIdentity => 'Xác minh danh tính';
+  String get verifyIdentity => 'XÃ¡c minh danh tÃ­nh';
 
   @override
-  String get enterCurrentPassword => 'Vui lòng nhập mật khẩu hiện tại để tiếp tục.';
+  String get enterCurrentPassword => 'Vui lÃ²ng nháº­p máº­t kháº©u hiá»‡n táº¡i Ä‘á»ƒ tiáº¿p tá»¥c.';
 
   @override
-  String get currentPassword => 'Mật khẩu hiện tại';
+  String get currentPassword => 'Máº­t kháº©u hiá»‡n táº¡i';
 
   @override
-  String get incorrectPassword => 'Mật khẩu không đúng';
+  String get incorrectPassword => 'Máº­t kháº©u khÃ´ng Ä‘Ãºng';
 
   @override
-  String get verify => 'Xác minh';
+  String get verify => 'XÃ¡c minh';
 
   @override
-  String get googleVerifyFailed => 'Không thể xác minh danh tính với Google.';
+  String get googleVerifyFailed => 'KhÃ´ng thá»ƒ xÃ¡c minh danh tÃ­nh vá»›i Google.';
 
   @override
-  String get confirmIdentity => 'Để tiếp tục, hãy xác nhận đó là bạn trước.';
+  String get confirmIdentity => 'Äá»ƒ tiáº¿p tá»¥c, hÃ£y xÃ¡c nháº­n Ä‘Ã³ lÃ  báº¡n trÆ°á»›c.';
 
   @override
-  String get verifyIdentityDesc => 'Chúng tôi cần xác minh danh tính của bạn để bảo vệ tài khoản.';
+  String get verifyIdentityDesc => 'ChÃºng tÃ´i cáº§n xÃ¡c minh danh tÃ­nh cá»§a báº¡n Ä‘á»ƒ báº£o vá»‡ tÃ i khoáº£n.';
 
   @override
-  String get continueWithGoogle => 'Tiếp tục với Google';
+  String get continueWithGoogle => 'Tiáº¿p tá»¥c vá»›i Google';
 
   @override
-  String get editPassword => 'Sửa mật khẩu';
+  String get editPassword => 'Sá»­a máº­t kháº©u';
 
   @override
-  String get newPassword => 'Mật khẩu mới';
+  String get newPassword => 'Máº­t kháº©u má»›i';
 
   @override
-  String get passwordUpdated => 'Cập nhật mật khẩu thành công';
+  String get passwordUpdated => 'Cáº­p nháº­t máº­t kháº©u thÃ nh cÃ´ng';
 
   @override
-  String get failedUpdatePassword => 'Không thể cập nhật mật khẩu';
+  String get failedUpdatePassword => 'KhÃ´ng thá»ƒ cáº­p nháº­t máº­t kháº©u';
 
   @override
-  String get savePassword => 'Lưu mật khẩu';
+  String get savePassword => 'LÆ°u máº­t kháº©u';
 
   @override
-  String get passwordsDoNotMatch => 'Mật khẩu không khớp';
+  String get passwordsDoNotMatch => 'Máº­t kháº©u khÃ´ng khá»›p';
 
   @override
-  String get none => 'Không có';
+  String get none => 'KhÃ´ng cÃ³';
 
   @override
   String get feedbackConsumerButton => 'Phan hoi nguoi dung';
@@ -572,78 +572,108 @@ class AppLocalizationsVi extends AppLocalizations {
   String get feedbackTranslationsNote => 'Phan hoi ban dich: bao cao cac van de ngon ngu, nhu ban dich sai, cau chu kho hieu hoac loi ngu phap.';
 
   @override
-  String get aiSettings => 'Cài đặt AI';
+  String get aiSettings => 'CÃ i Ä‘áº·t AI';
 
   @override
-  String get aiSettingsSubtitle => 'Kiểm soát sắp xếp AI và ghi nhớ phong cách cho bộ sưu tập.';
+  String get aiSettingsSubtitle => 'Kiá»ƒm soÃ¡t sáº¯p xáº¿p AI vÃ  ghi nhá»› phong cÃ¡ch cho bá»™ sÆ°u táº­p.';
 
   @override
-  String get useAiSorting => 'Dùng sắp xếp AI';
+  String get useAiSorting => 'DÃ¹ng sáº¯p xáº¿p AI';
 
   @override
-  String get useAiSortingSubtitle => 'Tự động gợi ý nhóm thư mục dựa trên liên kết của bạn.';
+  String get useAiSortingSubtitle => 'Tá»± Ä‘á»™ng gá»£i Ã½ nhÃ³m thÆ° má»¥c dá»±a trÃªn liÃªn káº¿t cá»§a báº¡n.';
 
   @override
-  String get styleMemory => 'Ghi nhớ phong cách';
+  String get styleMemory => 'Ghi nhá»› phong cÃ¡ch';
 
   @override
-  String get styleMemoryEmpty => 'Đặt cách tên bộ sưu tập nên hiển thị.';
+  String get styleMemoryEmpty => 'Äáº·t cÃ¡ch tÃªn bá»™ sÆ°u táº­p nÃªn hiá»ƒn thá»‹.';
 
   @override
-  String get styleMemoryDesc => 'Ghi nhớ phong cách âm thầm học cách bạn đặt tên và sắp xếp bộ sưu tập - dùng emoji, CHỮ HOA hay đơn giản - rồi áp dụng cho lần sau.';
+  String get styleMemoryDesc => 'Ghi nhá»› phong cÃ¡ch Ã¢m tháº§m há»c cÃ¡ch báº¡n Ä‘áº·t tÃªn vÃ  sáº¯p xáº¿p bá»™ sÆ°u táº­p - dÃ¹ng emoji, CHá»® HOA hay Ä‘Æ¡n giáº£n - rá»“i Ã¡p dá»¥ng cho láº§n sau.';
 
   @override
-  String get styleMemorySpecificHint => 'Hãy cụ thể. Ví dụ: \"Dùng emoji cho công nghệ, CHỮ HOA cho công việc, đơn giản cho cá nhân.\"';
+  String get styleMemorySpecificHint => 'HÃ£y cá»¥ thá»ƒ. VÃ­ dá»¥: \"DÃ¹ng emoji cho cÃ´ng nghá»‡, CHá»® HOA cho cÃ´ng viá»‡c, Ä‘Æ¡n giáº£n cho cÃ¡ nhÃ¢n.\"';
 
   @override
-  String get styleMemoryTextHint => 'Mô tả phong cách đặt tên thư mục của bạn...';
+  String get styleMemoryTextHint => 'MÃ´ táº£ phong cÃ¡ch Ä‘áº·t tÃªn thÆ° má»¥c cá»§a báº¡n...';
 
   @override
-  String get styleMemorySaved => 'Đã lưu ghi nhớ phong cách.';
+  String get styleMemorySaved => 'ÄÃ£ lÆ°u ghi nhá»› phong cÃ¡ch.';
 
   @override
-  String get enableAiSortingFirst => 'Hãy bật Dùng sắp xếp AI trong Cài đặt trước.';
+  String get enableAiSortingFirst => 'HÃ£y báº­t DÃ¹ng sáº¯p xáº¿p AI trong CÃ i Ä‘áº·t trÆ°á»›c.';
 
   @override
-  String get saveMoreLinksTryAgain => 'Lưu thêm vài liên kết rồi thử lại';
+  String get saveMoreLinksTryAgain => 'LÆ°u thÃªm vÃ i liÃªn káº¿t rá»“i thá»­ láº¡i';
 
   @override
-  String get linksTooUnrelated => 'Các liên kết này quá rời rạc.';
+  String get linksTooUnrelated => 'CÃ¡c liÃªn káº¿t nÃ y quÃ¡ rá»i ráº¡c.';
 
   @override
-  String get linksAlreadySimilar => 'Các liên kết này đã khá giống nhau.';
+  String get linksAlreadySimilar => 'CÃ¡c liÃªn káº¿t nÃ y Ä‘Ã£ khÃ¡ giá»‘ng nhau.';
 
   @override
-  String get aiSortingSaved => 'Đã lưu sắp xếp AI.';
+  String get aiSortingSaved => 'ÄÃ£ lÆ°u sáº¯p xáº¿p AI.';
 
   @override
-  String get tryAgainTitle => 'Thử lại?';
+  String get tryAgainTitle => 'Thá»­ láº¡i?';
 
   @override
-  String get tryAgainQuestion => 'Bạn có muốn thử lại không?';
+  String get tryAgainQuestion => 'Báº¡n cÃ³ muá»‘n thá»­ láº¡i khÃ´ng?';
 
   @override
-  String get aiSortingResult => 'Kết quả sắp xếp AI';
+  String get aiSortingResult => 'Káº¿t quáº£ sáº¯p xáº¿p AI';
 
   @override
-  String get saveFolderTree => 'Lưu cây thư mục này?';
+  String get saveFolderTree => 'LÆ°u cÃ¢y thÆ° má»¥c nÃ y?';
 
   @override
-  String get yes => 'Có';
+  String get yes => 'CÃ³';
 
   @override
-  String get no => 'Không';
+  String get no => 'KhÃ´ng';
 
   @override
-  String get autoSortLinks => 'Tự động sắp xếp liên kết';
+  String get autoSortLinks => 'Tá»± Ä‘á»™ng sáº¯p xáº¿p liÃªn káº¿t';
 
   @override
   String folderCount(String name, int count) {
-    return 'Thư mục: $name ($count)';
+    return 'ThÆ° má»¥c: $name ($count)';
   }
 
   @override
   String moreCount(int count) {
-    return '- +$count thêm';
+    return '- +$count thÃªm';
   }
+
+  @override
+  String get loadingMessage1 => 'Chung toi dang chuan bi moi thu...';
+
+  @override
+  String get loadingMessage2 => 'Cho mot chut nhe, chung toi dang xu ly.';
+
+  @override
+  String get loadingMessage3 => 'Vui long doi mot lat trong khi chung toi chuan bi...';
+
+  @override
+  String get loadingMessage4 => 'Chung toi dang chuan bi cho ban...';
+
+  @override
+  String get loadingMessage5 => 'Se xong ngay thoi.';
+
+  @override
+  String get loadingMessage6 => 'Dieu hay ho dang den...';
+
+  @override
+  String get loadingMessage7 => 'Gan xong cho ban roi...';
+
+  @override
+  String get loadingMessage8 => 'Cho them chut nua, sap xong roi.';
+
+  @override
+  String get loadingMessage9 => 'Chung toi dang chuan bi dieu gi do tuyet...';
+
+  @override
+  String get loadingMessage10 => 'Dang khoi dong.';
 }

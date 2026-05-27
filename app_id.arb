@@ -1,4 +1,4 @@
-{
+﻿{
     "appTitle":  "Pile",
     "homeTitle":  "Pile",
     "searchHint":  "Cari tautan dan label...",
@@ -232,4 +232,15 @@
                                                       }
                                         }
                    }
+,
+    "loadingMessage1":  "Kami sedang menyiapkan semuanya...",
+    "loadingMessage2":  "Tunggu sebentar, kami sedang mengerjakannya.",
+    "loadingMessage3":  "Sebentar ya, kami siapkan semuanya...",
+    "loadingMessage4":  "Kami sedang menyiapkan semuanya untukmu...",
+    "loadingMessage5":  "Kami segera kembali.",
+    "loadingMessage6":  "Hal-hal baik sedang dalam perjalanan...",
+    "loadingMessage7":  "Hampir siap untukmu...",
+    "loadingMessage8":  "Tunggu sebentar lagi, hampir selesai.",
+    "loadingMessage9":  "Kami sedang menyiapkan sesuatu yang bagus...",
+    "loadingMessage10":  "Kami sedang memanaskannya."
 }
