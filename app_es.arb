@@ -1,316 +1,315 @@
-﻿{
-    "appTitle":  "Pile",
-    "homeTitle":  "Pile",
-    "searchHint":  "Buscar enlaces y etiquetas...",
-    "noLinksYet":  "AÃºn no se han guardado enlaces",
-    "noMatchingLinks":  "No se encontraron enlaces coincidentes",
-    "tapToAdd":  "Toca + para agregar tu primer enlace",
-    "deleteLinkTitle":  "Eliminar enlace",
-    "deleteLinkContent":  "Â¿EstÃ¡ seguro de que desea eliminar \"{name}\"?",
-    "@deleteLinkContent":  {
-                               "placeholders":  {
-                                                    "name":  {
-                                                                 "type":  "String"
-                                                             }
-                                                }
-                           },
-    "cancel":  "Cancelar",
-    "delete":  "Borrar",
-    "undo":  "Deshacer",
-    "deleted":  "{name} eliminado",
-    "@deleted":  {
-                     "placeholders":  {
-                                          "name":  {
-                                                       "type":  "String"
-                                                   }
-                                      }
-                 },
-    "errorLoading":  "Error al cargar datos: {error}",
-    "@errorLoading":  {
-                          "placeholders":  {
-                                               "error":  {
-                                                             "type":  "String"
-                                                         }
-                                           }
-                      },
-    "couldNotOpen":  "No se pudo abrir {url}",
-    "@couldNotOpen":  {
-                          "placeholders":  {
-                                               "url":  {
-                                                           "type":  "String"
-                                                       }
-                                           }
-                      },
-    "addLinkTitle":  "Agregar enlace",
-    "editLinkTitle":  "Editar enlace",
-    "linkTitleLabel":  "TÃ­tulo",
-    "urlLabel":  "URL",
-    "addTagLabel":  "Agregar etiqueta",
-    "save":  "Ahorrar",
-    "pleaseEnterUrl":  "Por favor ingresa una URL",
-    "accountTitle":  "Ajustes",
-    "language":  "Idioma",
-    "navHome":  "Hogar",
-    "navAccount":  "Ajustes",
-    "backupRestoreTitle":  "Copia de seguridad y restauraciÃ³n",
-    "exportLinksTitle":  "Enlaces de exportaciÃ³n",
-    "exportLinksSubtitle":  "Guarde sus enlaces en un archivo",
-    "enterPassword":  "Ingrese la contraseÃ±a (opcional)",
-    "password":  "ContraseÃ±a",
-    "encryptFile":  "cifrar",
-    "instagram":  "Instagram",
-    "faqTitle":  "Preguntas frecuentes",
-    "importLinksTitle":  "Restaurar enlaces",
-    "importLinksSubtitle":  "Restaurar enlaces desde un archivo",
-    "importSuccess":  "{count} enlaces importados correctamente",
-    "@importSuccess":  {
-                           "placeholders":  {
-                                                "count":  {
-                                                              "type":  "int"
-                                                          }
-                                            }
-                       },
-    "importFailed":  "Error de importaciÃ³n: {error}",
-    "@importFailed":  {
-                          "placeholders":  {
-                                               "error":  {
-                                                             "type":  "String"
-                                                         }
-                                           }
-                      },
-    "decryptFailed":  "Error de descifrado o formato no vÃ¡lido",
-    "wrongPassword":  "ContraseÃ±a incorrecta o archivo no vÃ¡lido",
-    "favoriteLimitReached":  "MÃ¡ximo 3 favoritos permitidos",
-    "termsOfService":  "TÃ©rminos de servicio",
-    "privacyPolicy":  "polÃ­tica de privacidad",
-    "welcomeTitle":  "Bienvenido a Pile",
-    "welcomeMessage":  "Lea y acepte nuestros TÃ©rminos de servicio y PolÃ­tica de privacidad para continuar.",
-    "accept":  "Aceptar",
-    "decline":  "Rechazar",
-    "setReminder":  "Establecer recordatorio",
-    "reminderSet":  "Recordatorio configurado para {date}",
-    "recentlyDeleted":  "Eliminado recientemente",
-    "@reminderSet":  {
-                         "placeholders":  {
-                                              "date":  {
-                                                           "type":  "String"
-                                                       }
-                                          }
-                     },
-    "reminderLimitReached":  "LÃ­mite de recordatorio alcanzado (10)",
-    "proVersion":  "VersiÃ³n Pro",
-    "notAvailableInYourCountry":  "No disponible en tu paÃ­s",
-    "upgradeToPro":  "Actualice a Pro para recibir recordatorios ilimitados",
-    "restored":  "{name} restaurado",
-    "@restored":  {
-                      "placeholders":  {
-                                           "name":  {
-                                                        "type":  "String"
-                                                    }
-                                       }
-                  },
-    "deletePermanentlyTitle":  "Â¿Eliminar permanentemente?",
-    "deletePermanentlyContent":  "Esta acciÃ³n no se puede deshacer.",
-    "selectAll":  "Seleccionar todo",
-    "selectedCount":  "seleccionado",
-    "deleteSelectedContent":  "Â¿Eliminar {count} enlaces?",
-    "@deleteSelectedContent":  {
-                                   "placeholders":  {
-                                                        "count":  {
-                                                                      "type":  "int"
-                                                                  }
-                                                    }
-                               },
-    "loginTitle":  "Acceso",
-    "emailLabel":  "Correo electrÃ³nico",
-    "usernameLabel":  "Nombre de usuario",
-    "passwordLabel":  "ContraseÃ±a",
-    "loginButton":  "Acceso",
-    "logoutButton":  "Finalizar la sesiÃ³n",
-    "skipLabel":  "Saltar por ahora",
-    "loggedInAs":  "Ha iniciado sesiÃ³n como {email}",
-    "@loggedInAs":  {
-                        "placeholders":  {
-                                             "email":  {
-                                                           "type":  "String"
-                                                       }
-                                         }
-                    },
-    "createAccount":  "Crear una cuenta",
-    "nameLabel":  "Nombre completo",
-    "confirmPasswordLabel":  "confirmar ContraseÃ±a",
-    "registerButton":  "Registro",
-    "signInWithGoogle":  "Iniciar sesiÃ³n con Google",
-    "googleSignInNotSupported":  "El inicio de sesiÃ³n de Google no estÃ¡ configurado en esta demostraciÃ³n.",
-    "accountCreated":  "Cuenta creada exitosamente",
-    "invalidCredentials":  "Nombre de usuario o contraseÃ±a no vÃ¡lidos",
-    "emailExists":  "El correo electrÃ³nico ya existe",
-    "noAccountCreateOne":  "Â¿Sin cuenta? Crea uno.",
-    "getStarted":  "Empezar",
-    "acceptAndContinue":  "Aceptar y continuar",
-    "acceptAndFinish":  "Aceptar y finalizar",
-    "stepTos":  "TÃ©rminos de servicio",
-    "stepPrivacy":  "polÃ­tica de privacidad",
-    "addedOn":  "AÃ±adido el: {date}",
-    "@addedOn":  {
-                     "placeholders":  {
-                                          "date":  {
-                                                       "type":  "String"
-                                                   }
-                                      }
-                 },
-    "sendFeedback":  "Enviar comentarios",
-    "feedbackSubject":  "Leer mÃ¡s tarde Comentarios",
-    "feedbackTitle":  "Enviar comentarios",
-    "feedbackName":  "Nombre (opcional)",
-    "feedbackEmail":  "Correo electrÃ³nico (opcional)",
-    "feedbackMessage":  "Mensaje",
-    "verifyHuman":  "Por favor verifica que eres humano",
-    "send":  "Enviar",
-    "tabLinks":  "Enlaces",
-    "tabDeleted":  "Eliminado",
-    "topLinksTitle":  "Enlaces principales",
-    "noDeletedLinks":  "No hay enlaces eliminados",
-    "restoreTooltip":  "Restaurar",
-    "remindersTitle":  "Recordatorios",
-    "noReminders":  "No hay recordatorios prÃ³ximos",
-    "didYouKnow":  "Â¿SabÃ­as?",
-    "shareToAppTip":  "Â¡Puedes agregar enlaces compartiÃ©ndolos en Pile!",
-    "commentsLabel":  "Comentarios (opcional)",
-    "accountSettings":  "Configuraciones de la cuenta",
-    "accountInformation":  "InformaciÃ³n de la cuenta",
-    "profilePicture":  "Foto de perfil",
-    "tapToChange":  "Toca para cambiar",
-    "changeProfilePicture":  "Cambiar foto de perfil",
-    "choosePhoto":  "Elegir foto",
-    "changePhoto":  "Cambiar foto",
-    "profilePictureChooseHint":  "Toca la imagen para elegir, recortar y subir una nueva foto de perfil.",
-    "changeUsername":  "Cambiar nombre de usuario",
-    "changeEmail":  "Cambiar correo electrÃ³nico",
-    "passwordLastChanged":  "Ãšltimo cambio: {date}",
-    "@passwordLastChanged":  {
-                                 "placeholders":  {
-                                                      "date":  {
-                                                                   "type":  "String"
-                                                               }
-                                                  }
-                             },
-    "never":  "Nunca",
-    "signIn":  "Iniciar sesiÃ³n",
-    "collectionsTitle":  "Colecciones",
-    "newCollection":  "Nueva colecciÃ³n",
-    "collectionName":  "Nombre de la colecciÃ³n",
-    "gridView":  "Vista de cuadrÃ­cula",
-    "listView":  "Vista de lista",
-    "editAccountTitle":  "Editar cuenta",
-    "changePasswordTitle":  "Cambiar contraseÃ±a de cuenta",
-    "signOutTitle":  "desconectar",
-    "signOutConfirm":  "Â¿EstÃ¡ seguro de que desea cerrar sesiÃ³n en su cuenta en este dispositivo?",
-    "deleteAccountTitle":  "Eliminar cuenta",
-    "deleteAccountWarning":  "Eliminar cuenta: lea esto atentamente.",
-    "deleteAccountConfirm":  "Vas a eliminar tu cuenta y todos los datos asociados. Esto no se podÃ­a deshacer. Â¿EstÃ¡ seguro?",
-    "deleteSuccess":  "Â¡Lamentamos que te vayas! Tu cuenta ha sido eliminada.",
-    "deleteFail":  "No se pudo eliminar la cuenta. IntÃ©ntelo de nuevo mÃ¡s tarde.",
-    "continueButton":  "Continuar",
-    "noCollectionsYet":  "AÃºn no hay colecciones",
-    "emptyFolder":  "Carpeta vacÃ­a",
-    "folderColor":  "Color de la carpeta",
-    "editAction":  "Editar",
-    "editCollection":  "Editar colecciÃ³n",
-    "changeColor":  "Cambiar color",
-    "deleteCollectionWarning":  "Los enlaces en el interior se moverÃ¡n a la raÃ­z.",
-    "moveAction":  "Mover",
-    "moveToCollection":  "Mover a colecciÃ³n",
-    "noCollection":  "Sin colecciÃ³n",
-    "noInternetConnection":  "Sin conexiÃ³n a internet",
-    "dismiss":  "DESCARTAR",
-    "tagAll":  "Todos",
-    "camera":  "CÃ¡mara",
-    "gallery":  "GalerÃ­a",
-    "classicAvatars":  "Avatares clÃ¡sicos",
-    "classic":  "ClÃ¡sico",
-    "usernameLengthError":  "El nombre de usuario debe tener entre 3 y 45 caracteres",
-    "usernameFormatError":  "Formato de nombre de usuario no vÃ¡lido.",
-    "usernameConsecutiveSymbols":  "El nombre de usuario no puede contener sÃ­mbolos consecutivos.",
-    "usernameRestrictedWords":  "El nombre de usuario contiene palabras restringidas.",
-    "failedUploadPic":  "No se pudo subir la foto de perfil.",
-    "accountUpdated":  "Cuenta actualizada con Ã©xito",
-    "failedUpdateAccount":  "No se pudo actualizar la cuenta. El correo electrÃ³nico puede estar en uso.",
-    "editAccountHint":  "Deje los campos en blanco si no desea cambiarlos. Toque la imagen para actualizar el avatar.",
-    "saveChanges":  "Guardar cambios",
-    "verifyIdentity":  "Verificar identidad",
-    "enterCurrentPassword":  "Por favor, ingrese su contraseÃ±a actual para continuar.",
-    "currentPassword":  "ContraseÃ±a actual",
-    "incorrectPassword":  "ContraseÃ±a incorrecta",
-    "verify":  "Verificar",
-    "googleVerifyFailed":  "No se pudo verificar la identidad con Google.",
-    "confirmIdentity":  "Para continuar, confirme que es usted primero.",
-    "verifyIdentityDesc":  "Necesitamos verificar su identidad para proteger su cuenta.",
-    "continueWithGoogle":  "Continuar con Google",
-    "editPassword":  "Editar contraseÃ±a",
-    "newPassword":  "Nueva contraseÃ±a",
-    "passwordUpdated":  "ContraseÃ±a actualizada con Ã©xito",
-    "failedUpdatePassword":  "No se pudo actualizar la contraseÃ±a",
-    "savePassword":  "Guardar contraseÃ±a",
-    "passwordsDoNotMatch":  "Las contraseÃ±as no coinciden",
-    "none":  "Ninguno",
-    "visitCount":  "{count} visitas",
-    "aiSettings":  "Ajustes de IA",
-    "aiSettingsSubtitle":  "Controla el ordenado con IA y la memoria de estilo para colecciones.",
-    "useAiSorting":  "Usar ordenado con IA",
-    "useAiSortingSubtitle":  "Sugiere automÃ¡ticamente agrupaciones de carpetas segÃºn tus enlaces.",
-    "styleMemory":  "Memoria de estilo",
-    "styleMemoryEmpty":  "Define cÃ³mo deben verse los nombres de colecciones.",
-    "styleMemoryDesc":  "La memoria de estilo aprende en silencio cÃ³mo nombras y organizas tus colecciones, ya sea con emojis, MAYÃšSCULAS o un estilo mÃ¡s simple, y aplica ese estilo la prÃ³xima vez.",
-    "styleMemorySpecificHint":  "SÃ© especÃ­fico. Ejemplo: \"Usa emojis para tecnologÃ­a, MAYÃšSCULAS para trabajo y estilo simple para lo personal.\"",
-    "styleMemoryTextHint":  "Describe tu estilo para nombrar carpetas...",
-    "styleMemorySaved":  "Memoria de estilo guardada.",
-    "enableAiSortingFirst":  "Activa Usar ordenado con IA en Ajustes primero.",
-    "saveMoreLinksTryAgain":  "Guarda algunos enlaces mÃ¡s y vuelve a intentarlo",
-    "linksTooUnrelated":  "Estos enlaces son demasiado distintos.",
-    "linksAlreadySimilar":  "Estos enlaces ya son bastante similares.",
-    "aiSortingSaved":  "Ordenado con IA guardado.",
-    "tryAgainTitle":  "Â¿Intentar de nuevo?",
-    "tryAgainQuestion":  "Â¿Te gustarÃ­a intentarlo de nuevo?",
-    "aiSortingResult":  "Resultado del ordenado con IA",
-    "saveFolderTree":  "Â¿Guardar este Ã¡rbol de carpetas?",
-    "yes":  "SÃ­",
-    "no":  "No",
-    "autoSortLinks":  "Ordenar enlaces automÃ¡ticamente",
-    "folderCount":  "Carpeta: {name} ({count})",
-    "moreCount":  "- +{count} mÃ¡s",
-    "@folderCount":  {
-                         "placeholders":  {
-                                              "name":  {
-                                                           "type":  "String"
-                                                       },
-                                              "count":  {
-                                                            "type":  "int"
-                                                        }
-                                          }
-                     },
-    "@moreCount":  {
-                       "placeholders":  {
-                                            "count":  {
-                                                          "type":  "int"
-                                                      }
-                                        }
-                   },
-    "feedbackConsumerButton":  "Comentarios de usuarios",
-    "translationsGitHubButton":  "Comentarios en GitHub",
-    "feedbackTranslationsButton":  "Comentarios de traduccion",
-    "feedbackConsumerNote":  "Comentarios de usuarios: comparte tu experiencia al usar la app, como errores, problemas de rendimiento, funciones o usabilidad general.",
-    "translationsGitHubNote":  "Comentarios en GitHub: informa problemas de idioma en GitHub, como traducciones incorrectas, redaccion poco clara o errores gramaticales.",
-    "feedbackTranslationsNote":  "Comentarios de traduccion: informa problemas de idioma, como traducciones incorrectas, redaccion poco clara o errores gramaticales."
-,
-    "loadingMessage1":  "Estamos preparando todo...",
-    "loadingMessage2":  "Un momento, ya casi esta.",
-    "loadingMessage3":  "Espera un momento mientras lo preparamos todo...",
-    "loadingMessage4":  "Estamos dejando todo listo para ti...",
-    "loadingMessage5":  "Enseguida estaremos contigo.",
-    "loadingMessage6":  "Se vienen cosas buenas...",
-    "loadingMessage7":  "Casi listo para ti...",
-    "loadingMessage8":  "Aguanta un poco, ya casi.",
-    "loadingMessage9":  "Estamos preparando algo genial...",
-    "loadingMessage10":  "Ya estamos calentando motores."
+{
+    "appTitle": "Pile",
+    "homeTitle": "Pile",
+    "searchHint": "Buscar enlaces y etiquetas...",
+    "noLinksYet": "Aún no se han guardado enlaces",
+    "noMatchingLinks": "No se encontraron enlaces coincidentes",
+    "tapToAdd": "Toca + para agregar tu primer enlace",
+    "deleteLinkTitle": "Eliminar enlace",
+    "deleteLinkContent": "¿Está seguro de que desea eliminar \"{name}\"?",
+    "@deleteLinkContent": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "cancel": "Cancelar",
+    "delete": "Borrar",
+    "undo": "Deshacer",
+    "deleted": "{name} eliminado",
+    "@deleted": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "errorLoading": "Error al cargar datos: {error}",
+    "@errorLoading": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "couldNotOpen": "No se pudo abrir {url}",
+    "@couldNotOpen": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "addLinkTitle": "Agregar enlace",
+    "editLinkTitle": "Editar enlace",
+    "linkTitleLabel": "Título",
+    "urlLabel": "URL",
+    "addTagLabel": "Agregar etiqueta",
+    "save": "Ahorrar",
+    "pleaseEnterUrl": "Por favor ingresa una URL",
+    "accountTitle": "Ajustes",
+    "language": "Idioma",
+    "navHome": "Hogar",
+    "navAccount": "Ajustes",
+    "backupRestoreTitle": "Copia de seguridad y restauración",
+    "exportLinksTitle": "Enlaces de exportación",
+    "exportLinksSubtitle": "Guarde sus enlaces en un archivo",
+    "enterPassword": "Ingrese la contraseña (opcional)",
+    "password": "Contraseña",
+    "encryptFile": "cifrar",
+    "instagram": "Instagram",
+    "faqTitle": "Preguntas frecuentes",
+    "importLinksTitle": "Restaurar enlaces",
+    "importLinksSubtitle": "Restaurar enlaces desde un archivo",
+    "importSuccess": "{count} enlaces importados correctamente",
+    "@importSuccess": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "importFailed": "Error de importación: {error}",
+    "@importFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "decryptFailed": "Error de descifrado o formato no válido",
+    "wrongPassword": "Contraseña incorrecta o archivo no válido",
+    "favoriteLimitReached": "Máximo 3 favoritos permitidos",
+    "termsOfService": "Términos de servicio",
+    "privacyPolicy": "política de privacidad",
+    "welcomeTitle": "Bienvenido a Pile",
+    "welcomeMessage": "Lea y acepte nuestros Términos de servicio y Política de privacidad para continuar.",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "setReminder": "Establecer recordatorio",
+    "reminderSet": "Recordatorio configurado para {date}",
+    "recentlyDeleted": "Eliminado recientemente",
+    "@reminderSet": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "reminderLimitReached": "Límite de recordatorio alcanzado (10)",
+    "proVersion": "Versión Pro",
+    "notAvailableInYourCountry": "No disponible en tu país",
+    "upgradeToPro": "Actualice a Pro para recibir recordatorios ilimitados",
+    "restored": "{name} restaurado",
+    "@restored": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "deletePermanentlyTitle": "¿Eliminar permanentemente?",
+    "deletePermanentlyContent": "Esta acción no se puede deshacer.",
+    "selectAll": "Seleccionar todo",
+    "selectedCount": "seleccionado",
+    "deleteSelectedContent": "¿Eliminar {count} enlaces?",
+    "@deleteSelectedContent": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "loginTitle": "Acceso",
+    "emailLabel": "Correo electrónico",
+    "usernameLabel": "Nombre de usuario",
+    "passwordLabel": "Contraseña",
+    "loginButton": "Acceso",
+    "logoutButton": "Finalizar la sesión",
+    "skipLabel": "Saltar por ahora",
+    "loggedInAs": "Ha iniciado sesión como {email}",
+    "@loggedInAs": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "createAccount": "Crear una cuenta",
+    "nameLabel": "Nombre completo",
+    "confirmPasswordLabel": "confirmar Contraseña",
+    "registerButton": "Registro",
+    "signInWithGoogle": "Iniciar sesión con Google",
+    "googleSignInNotSupported": "El inicio de sesión de Google no está configurado en esta demostración.",
+    "accountCreated": "Cuenta creada exitosamente",
+    "invalidCredentials": "Nombre de usuario o contraseña no válidos",
+    "emailExists": "El correo electrónico ya existe",
+    "noAccountCreateOne": "¿Sin cuenta? Crea uno.",
+    "getStarted": "Empezar",
+    "acceptAndContinue": "Aceptar y continuar",
+    "acceptAndFinish": "Aceptar y finalizar",
+    "stepTos": "Términos de servicio",
+    "stepPrivacy": "política de privacidad",
+    "addedOn": "Añadido el: {date}",
+    "@addedOn": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "sendFeedback": "Enviar comentarios",
+    "feedbackSubject": "Leer más tarde Comentarios",
+    "feedbackTitle": "Enviar comentarios",
+    "feedbackName": "Nombre (opcional)",
+    "feedbackEmail": "Correo electrónico (opcional)",
+    "feedbackMessage": "Mensaje",
+    "verifyHuman": "Por favor verifica que eres humano",
+    "send": "Enviar",
+    "tabLinks": "Enlaces",
+    "tabDeleted": "Eliminado",
+    "topLinksTitle": "Enlaces principales",
+    "noDeletedLinks": "No hay enlaces eliminados",
+    "restoreTooltip": "Restaurar",
+    "remindersTitle": "Recordatorios",
+    "noReminders": "No hay recordatorios próximos",
+    "didYouKnow": "¿Sabías?",
+    "shareToAppTip": "¡Puedes agregar enlaces compartiéndolos en Pile!",
+    "commentsLabel": "Comentarios (opcional)",
+    "accountSettings": "Configuraciones de la cuenta",
+    "accountInformation": "Información de la cuenta",
+    "profilePicture": "Foto de perfil",
+    "tapToChange": "Toca para cambiar",
+    "changeProfilePicture": "Cambiar foto de perfil",
+    "choosePhoto": "Elegir foto",
+    "changePhoto": "Cambiar foto",
+    "profilePictureChooseHint": "Toca la imagen para elegir, recortar y subir una nueva foto de perfil.",
+    "changeUsername": "Cambiar nombre de usuario",
+    "changeEmail": "Cambiar correo electrónico",
+    "passwordLastChanged": "Último cambio: {date}",
+    "@passwordLastChanged": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "never": "Nunca",
+    "signIn": "Iniciar sesión",
+    "collectionsTitle": "Colecciones",
+    "newCollection": "Nueva colección",
+    "collectionName": "Nombre de la colección",
+    "gridView": "Vista de cuadrícula",
+    "listView": "Vista de lista",
+    "editAccountTitle": "Editar cuenta",
+    "changePasswordTitle": "Cambiar contraseña de cuenta",
+    "signOutTitle": "desconectar",
+    "signOutConfirm": "¿Está seguro de que desea cerrar sesión en su cuenta en este dispositivo?",
+    "deleteAccountTitle": "Eliminar cuenta",
+    "deleteAccountWarning": "Eliminar cuenta: lea esto atentamente.",
+    "deleteAccountConfirm": "Vas a eliminar tu cuenta y todos los datos asociados. Esto no se podía deshacer. ¿Está seguro?",
+    "deleteSuccess": "¡Lamentamos que te vayas! Tu cuenta ha sido eliminada.",
+    "deleteFail": "No se pudo eliminar la cuenta. Inténtelo de nuevo más tarde.",
+    "continueButton": "Continuar",
+    "noCollectionsYet": "Aún no hay colecciones",
+    "emptyFolder": "Carpeta vacía",
+    "folderColor": "Color de la carpeta",
+    "editAction": "Editar",
+    "editCollection": "Editar colección",
+    "changeColor": "Cambiar color",
+    "deleteCollectionWarning": "Los enlaces en el interior se moverán a la raíz.",
+    "moveAction": "Mover",
+    "moveToCollection": "Mover a colección",
+    "noCollection": "Sin colección",
+    "noInternetConnection": "Sin conexión a internet",
+    "dismiss": "DESCARTAR",
+    "tagAll": "Todos",
+    "camera": "Cámara",
+    "gallery": "Galería",
+    "classicAvatars": "Avatares clásicos",
+    "classic": "Clásico",
+    "usernameLengthError": "El nombre de usuario debe tener entre 3 y 45 caracteres",
+    "usernameFormatError": "Formato de nombre de usuario no válido.",
+    "usernameConsecutiveSymbols": "El nombre de usuario no puede contener símbolos consecutivos.",
+    "usernameRestrictedWords": "El nombre de usuario contiene palabras restringidas.",
+    "failedUploadPic": "No se pudo subir la foto de perfil.",
+    "accountUpdated": "Cuenta actualizada con éxito",
+    "failedUpdateAccount": "No se pudo actualizar la cuenta. El correo electrónico puede estar en uso.",
+    "editAccountHint": "Deje los campos en blanco si no desea cambiarlos. Toque la imagen para actualizar el avatar.",
+    "saveChanges": "Guardar cambios",
+    "verifyIdentity": "Verificar identidad",
+    "enterCurrentPassword": "Por favor, ingrese su contraseña actual para continuar.",
+    "currentPassword": "Contraseña actual",
+    "incorrectPassword": "Contraseña incorrecta",
+    "verify": "Verificar",
+    "googleVerifyFailed": "No se pudo verificar la identidad con Google.",
+    "confirmIdentity": "Para continuar, confirme que es usted primero.",
+    "verifyIdentityDesc": "Necesitamos verificar su identidad para proteger su cuenta.",
+    "continueWithGoogle": "Continuar con Google",
+    "editPassword": "Editar contraseña",
+    "newPassword": "Nueva contraseña",
+    "passwordUpdated": "Contraseña actualizada con éxito",
+    "failedUpdatePassword": "No se pudo actualizar la contraseña",
+    "savePassword": "Guardar contraseña",
+    "passwordsDoNotMatch": "Las contraseñas no coinciden",
+    "none": "Ninguno",
+    "visitCount": "{count} visitas",
+    "aiSettings": "Ajustes de IA",
+    "aiSettingsSubtitle": "Controla el ordenado con IA y la memoria de estilo para colecciones.",
+    "useAiSorting": "Usar ordenado con IA",
+    "useAiSortingSubtitle": "Sugiere automáticamente agrupaciones de carpetas según tus enlaces.",
+    "styleMemory": "Memoria de estilo",
+    "styleMemoryEmpty": "Define cómo deben verse los nombres de colecciones.",
+    "styleMemoryDesc": "La memoria de estilo aprende en silencio cómo nombras y organizas tus colecciones, ya sea con emojis, MAYÚSCULAS o un estilo más simple, y aplica ese estilo la próxima vez.",
+    "styleMemorySpecificHint": "Sé específico. Ejemplo: \"Usa emojis para tecnología, MAYÚSCULAS para trabajo y estilo simple para lo personal.\"",
+    "styleMemoryTextHint": "Describe tu estilo para nombrar carpetas...",
+    "styleMemorySaved": "Memoria de estilo guardada.",
+    "enableAiSortingFirst": "Activa Usar ordenado con IA en Ajustes primero.",
+    "saveMoreLinksTryAgain": "Guarda algunos enlaces más y vuelve a intentarlo",
+    "linksTooUnrelated": "Estos enlaces son demasiado distintos.",
+    "linksAlreadySimilar": "Estos enlaces ya son bastante similares.",
+    "aiSortingSaved": "Ordenado con IA guardado.",
+    "tryAgainTitle": "¿Intentar de nuevo?",
+    "tryAgainQuestion": "¿Te gustaría intentarlo de nuevo?",
+    "aiSortingResult": "Resultado del ordenado con IA",
+    "saveFolderTree": "¿Guardar este árbol de carpetas?",
+    "yes": "Sí",
+    "no": "No",
+    "autoSortLinks": "Ordenar enlaces automáticamente",
+    "folderCount": "Carpeta: {name} ({count})",
+    "moreCount": "- +{count} más",
+    "@folderCount": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            },
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@moreCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "feedbackConsumerButton": "Comentarios de usuarios",
+    "translationsGitHubButton": "Comentarios en GitHub",
+    "feedbackTranslationsButton": "Comentarios de traduccion",
+    "feedbackConsumerNote": "Comentarios de usuarios: comparte tu experiencia al usar la app, como errores, problemas de rendimiento, funciones o usabilidad general.",
+    "translationsGitHubNote": "Comentarios en GitHub: informa problemas de idioma en GitHub, como traducciones incorrectas, redaccion poco clara o errores gramaticales.",
+    "feedbackTranslationsNote": "Comentarios de traduccion: informa problemas de idioma, como traducciones incorrectas, redaccion poco clara o errores gramaticales.",
+    "loadingMessage1": "We're getting things ready...",
+    "loadingMessage2": "Hold tight - we're on it.",
+    "loadingMessage3": "Just a moment while we prepare everything...",
+    "loadingMessage4": "Getting things ready for you...",
+    "loadingMessage5": "We'll be there shortly.",
+    "loadingMessage6": "Good things are on the way...",
+    "loadingMessage7": "Almost ready for you...",
+    "loadingMessage8": "Hang tight - almost there.",
+    "loadingMessage9": "We're cooking something nice...",
+    "loadingMessage10": "We're warming things up."
 }

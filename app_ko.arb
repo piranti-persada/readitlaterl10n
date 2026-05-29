@@ -1,316 +1,315 @@
-﻿{
-    "appTitle":  "Pile",
-    "homeTitle":  "Pile",
-    "searchHint":  "ë§í¬ ë° íƒœê·¸ ê²€ìƒ‰...",
-    "noLinksYet":  "ì•„ì§ ì €ìž¥ëœ ë§í¬ê°€ ì—†ìŠµë‹ˆë‹¤.",
-    "noMatchingLinks":  "ì¼ì¹˜í•˜ëŠ” ë§í¬ê°€ ì—†ìŠµë‹ˆë‹¤.",
-    "tapToAdd":  "ì²« ë²ˆì§¸ ë§í¬ë¥¼ ì¶”ê°€í•˜ë ¤ë©´ +ë¥¼ íƒ­í•˜ì„¸ìš”.",
-    "deleteLinkTitle":  "ë§í¬ ì‚­ì œ",
-    "deleteLinkContent":  "ì •ë§ë¡œ \"{name}\"ì„(ë¥¼) ì‚­ì œí•˜ì‹œê² ìŠµë‹ˆê¹Œ?",
-    "@deleteLinkContent":  {
-                               "placeholders":  {
-                                                    "name":  {
-                                                                 "type":  "String"
-                                                             }
-                                                }
-                           },
-    "cancel":  "ì·¨ì†Œ",
-    "delete":  "ì‚­ì œ",
-    "undo":  "ë„ë¥´ë‹¤",
-    "deleted":  "{name}ì´(ê°€) ì‚­ì œë˜ì—ˆìŠµë‹ˆë‹¤",
-    "@deleted":  {
-                     "placeholders":  {
-                                          "name":  {
-                                                       "type":  "String"
-                                                   }
-                                      }
-                 },
-    "errorLoading":  "ë°ì´í„° ë¡œë“œ ì¤‘ ì˜¤ë¥˜ ë°œìƒ: {error}",
-    "@errorLoading":  {
-                          "placeholders":  {
-                                               "error":  {
-                                                             "type":  "String"
-                                                         }
-                                           }
-                      },
-    "couldNotOpen":  "{url}ì„ ì—´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.",
-    "@couldNotOpen":  {
-                          "placeholders":  {
-                                               "url":  {
-                                                           "type":  "String"
-                                                       }
-                                           }
-                      },
-    "addLinkTitle":  "ë§í¬ ì¶”ê°€",
-    "editLinkTitle":  "ë§í¬ íŽ¸ì§‘",
-    "linkTitleLabel":  "ì œëª©",
-    "urlLabel":  "URL",
-    "addTagLabel":  "íƒœê·¸ ì¶”ê°€",
-    "save":  "êµ¬í•˜ë‹¤",
-    "pleaseEnterUrl":  "URLì„ ìž…ë ¥í•˜ì„¸ìš”",
-    "accountTitle":  "ì„¤ì •",
-    "language":  "ì–¸ì–´",
-    "navHome":  "ì§‘",
-    "navAccount":  "ì„¤ì •",
-    "backupRestoreTitle":  "ë°±ì—… ë° ë³µì›",
-    "exportLinksTitle":  "ë§í¬ ë‚´ë³´ë‚´ê¸°",
-    "exportLinksSubtitle":  "ë§í¬ë¥¼ íŒŒì¼ì— ì €ìž¥",
-    "enterPassword":  "ë¹„ë°€ë²ˆí˜¸ ìž…ë ¥(ì„ íƒì‚¬í•­)",
-    "password":  "ë¹„ë°€ë²ˆí˜¸",
-    "encryptFile":  "ì•”í˜¸í™”",
-    "instagram":  "ì¸ìŠ¤íƒ€ê·¸ëž¨",
-    "faqTitle":  "ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸",
-    "importLinksTitle":  "ë§í¬ ë³µì›",
-    "importLinksSubtitle":  "íŒŒì¼ì—ì„œ ë§í¬ ë³µì›",
-    "importSuccess":  "{count}ê°œì˜ ë§í¬ë¥¼ ì„±ê³µì ìœ¼ë¡œ ê°€ì ¸ì™”ìŠµë‹ˆë‹¤.",
-    "@importSuccess":  {
-                           "placeholders":  {
-                                                "count":  {
-                                                              "type":  "int"
-                                                          }
-                                            }
-                       },
-    "importFailed":  "ê°€ì ¸ì˜¤ê¸° ì‹¤íŒ¨: {error}",
-    "@importFailed":  {
-                          "placeholders":  {
-                                               "error":  {
-                                                             "type":  "String"
-                                                         }
-                                           }
-                      },
-    "decryptFailed":  "ì•”í˜¸ í•´ë…ì— ì‹¤íŒ¨í–ˆê±°ë‚˜ í˜•ì‹ì´ ìž˜ëª»ë˜ì—ˆìŠµë‹ˆë‹¤.",
-    "wrongPassword":  "ìž˜ëª»ëœ ë¹„ë°€ë²ˆí˜¸ ë˜ëŠ” ìž˜ëª»ëœ íŒŒì¼",
-    "favoriteLimitReached":  "ìµœëŒ€ 3ê°œì˜ ì¦ê²¨ì°¾ê¸°ê°€ í—ˆìš©ë©ë‹ˆë‹¤.",
-    "termsOfService":  "ì„œë¹„ìŠ¤ ì•½ê´€",
-    "privacyPolicy":  "ê°œì¸ ì •ë³´ ë³´í˜¸ ì •ì±…",
-    "welcomeTitle":  "Pileì— ì˜¤ì‹  ê²ƒì„ í™˜ì˜í•©ë‹ˆë‹¤",
-    "welcomeMessage":  "ê³„ì†í•˜ë ¤ë©´ ì„œë¹„ìŠ¤ ì•½ê´€ê³¼ ê°œì¸ì •ë³´ ë³´í˜¸ì •ì±…ì„ ì½ê³  ë™ì˜í•˜ì„¸ìš”.",
-    "accept":  "ìˆ˜ìš©í•˜ë‹¤",
-    "decline":  "ê°ì†Œ",
-    "setReminder":  "ì•Œë¦¼ ì„¤ì •",
-    "reminderSet":  "{date}ì— ì•Œë¦¼ì´ ì„¤ì •ë˜ì—ˆìŠµë‹ˆë‹¤.",
-    "recentlyDeleted":  "ìµœê·¼ ì‚­ì œëœ í•­ëª©",
-    "@reminderSet":  {
-                         "placeholders":  {
-                                              "date":  {
-                                                           "type":  "String"
-                                                       }
-                                          }
-                     },
-    "reminderLimitReached":  "ì•Œë¦¼ í•œë„ì— ë„ë‹¬í•¨(10)",
-    "proVersion":  "í”„ë¡œ ë²„ì „",
-    "notAvailableInYourCountry":  "í•´ë‹¹ êµ­ê°€ì—ì„œëŠ” ì‚¬ìš©í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.",
-    "upgradeToPro":  "ë¬´ì œí•œ ì•Œë¦¼ì„ ë°›ìœ¼ë ¤ë©´ Proë¡œ ì—…ê·¸ë ˆì´ë“œí•˜ì„¸ìš”.",
-    "restored":  "{name}ì´(ê°€) ë³µì›ë˜ì—ˆìŠµë‹ˆë‹¤",
-    "@restored":  {
-                      "placeholders":  {
-                                           "name":  {
-                                                        "type":  "String"
-                                                    }
-                                       }
-                  },
-    "deletePermanentlyTitle":  "ì˜êµ¬ì ìœ¼ë¡œ ì‚­ì œí•˜ì‹œê² ìŠµë‹ˆê¹Œ?",
-    "deletePermanentlyContent":  "ì´ ìž‘ì—…ì€ ì·¨ì†Œí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.",
-    "selectAll":  "ëª¨ë‘ ì„ íƒ",
-    "selectedCount":  "ì„ íƒëœ",
-    "deleteSelectedContent":  "{count}ê°œì˜ ë§í¬ë¥¼ ì‚­ì œí•˜ì‹œê² ìŠµë‹ˆê¹Œ?",
-    "@deleteSelectedContent":  {
-                                   "placeholders":  {
-                                                        "count":  {
-                                                                      "type":  "int"
-                                                                  }
-                                                    }
-                               },
-    "loginTitle":  "ë¡œê·¸ì¸",
-    "emailLabel":  "ì´ë©”ì¼",
-    "usernameLabel":  "ì‚¬ìš©ìž ì´ë¦„",
-    "passwordLabel":  "ë¹„ë°€ë²ˆí˜¸",
-    "loginButton":  "ë¡œê·¸ì¸",
-    "logoutButton":  "ë¡œê·¸ì•„ì›ƒ",
-    "skipLabel":  "ì§€ê¸ˆì€ ê±´ë„ˆë›°ì„¸ìš”",
-    "loggedInAs":  "{email}(ìœ¼)ë¡œ ë¡œê·¸ì¸ë¨",
-    "@loggedInAs":  {
-                        "placeholders":  {
-                                             "email":  {
-                                                           "type":  "String"
-                                                       }
-                                         }
-                    },
-    "createAccount":  "ê³„ì • ë§Œë“¤ê¸°",
-    "nameLabel":  "ì„±ëª…",
-    "confirmPasswordLabel":  "ë¹„ë°€ë²ˆí˜¸ í™•ì¸",
-    "registerButton":  "ë“±ë¡í•˜ë‹¤",
-    "signInWithGoogle":  "Googleë¡œ ë¡œê·¸ì¸",
-    "googleSignInNotSupported":  "ì´ ë°ëª¨ì—ì„œëŠ” Google ë¡œê·¸ì¸ì´ êµ¬ì„±ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.",
-    "accountCreated":  "ê³„ì •ì´ ì„±ê³µì ìœ¼ë¡œ ìƒì„±ë˜ì—ˆìŠµë‹ˆë‹¤",
-    "invalidCredentials":  "ìž˜ëª»ëœ ì‚¬ìš©ìž ì´ë¦„ ë˜ëŠ” ë¹„ë°€ë²ˆí˜¸",
-    "emailExists":  "ì´ë©”ì¼ì´ ì´ë¯¸ ì¡´ìž¬í•©ë‹ˆë‹¤.",
-    "noAccountCreateOne":  "ê³„ì •ì´ ì—†ë‚˜ìš”? í•˜ë‚˜ë¥¼ ë§Œë“œì„¸ìš”.",
-    "getStarted":  "ì‹œìž‘í•˜ê¸°",
-    "acceptAndContinue":  "ë™ì˜ ë° ê³„ì†",
-    "acceptAndFinish":  "ìˆ˜ë½ ë° ì™„ë£Œ",
-    "stepTos":  "ì„œë¹„ìŠ¤ ì•½ê´€",
-    "stepPrivacy":  "ê°œì¸ ì •ë³´ ë³´í˜¸ ì •ì±…",
-    "addedOn":  "ì¶”ê°€ ë‚ ì§œ: {date}",
-    "@addedOn":  {
-                     "placeholders":  {
-                                          "date":  {
-                                                       "type":  "String"
-                                                   }
-                                      }
-                 },
-    "sendFeedback":  "í”¼ë“œë°± ë³´ë‚´ê¸°",
-    "feedbackSubject":  "Pile í”¼ë“œë°±",
-    "feedbackTitle":  "í”¼ë“œë°± ë³´ë‚´ê¸°",
-    "feedbackName":  "ì´ë¦„(ì„ íƒì‚¬í•­)",
-    "feedbackEmail":  "ì´ë©”ì¼(ì„ íƒì‚¬í•­)",
-    "feedbackMessage":  "ë©”ì‹œì§€",
-    "verifyHuman":  "ë‹¹ì‹ ì´ ì¸ê°„ì¸ì§€ í™•ì¸í•´ì£¼ì„¸ìš”",
-    "send":  "ë³´ë‚´ë‹¤",
-    "tabLinks":  "ëª¨ëž˜ë°­",
-    "tabDeleted":  "ì‚­ì œë¨",
-    "topLinksTitle":  "ìƒìœ„ ë§í¬",
-    "noDeletedLinks":  "ì‚­ì œëœ ë§í¬ ì—†ìŒ",
-    "restoreTooltip":  "ë³µì›í•˜ë‹¤",
-    "remindersTitle":  "ì•Œë¦¼",
-    "noReminders":  "ì˜ˆì •ëœ ì•Œë¦¼ì´ ì—†ìŠµë‹ˆë‹¤.",
-    "didYouKnow":  "ì•Œê³  ê³„ì…¨ë‚˜ìš”?",
-    "shareToAppTip":  "Pileì— ê³µìœ í•˜ì—¬ ë§í¬ë¥¼ ì¶”ê°€í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤!",
-    "commentsLabel":  "ì„¤ëª…(ì„ íƒì‚¬í•­)",
-    "accountSettings":  "ê³„ì • ì„¤ì •",
-    "accountInformation":  "ê³„ì • ì •ë³´",
-    "profilePicture":  "í”„ë¡œí•„ ì‚¬ì§„",
-    "tapToChange":  "íƒ­í•˜ì—¬ ë³€ê²½",
-    "changeProfilePicture":  "í”„ë¡œí•„ ì‚¬ì§„ ë³€ê²½",
-    "choosePhoto":  "ì‚¬ì§„ ì„ íƒ",
-    "changePhoto":  "ì‚¬ì§„ ë³€ê²½",
-    "profilePictureChooseHint":  "ì‚¬ì§„ì„ íƒ­í•´ ìƒˆ í”„ë¡œí•„ ì‚¬ì§„ì„ ì„ íƒí•˜ê³  ìžë¥¸ ë’¤ ì—…ë¡œë“œí•˜ì„¸ìš”.",
-    "changeUsername":  "ì‚¬ìš©ìž ì´ë¦„ ë³€ê²½",
-    "changeEmail":  "ì´ë©”ì¼ ë³€ê²½",
-    "passwordLastChanged":  "ë§ˆì§€ë§‰ ë³€ê²½: {date}",
-    "@passwordLastChanged":  {
-                                 "placeholders":  {
-                                                      "date":  {
-                                                                   "type":  "String"
-                                                               }
-                                                  }
-                             },
-    "never":  "ì—†ìŒ",
-    "signIn":  "ë¡œê·¸ì¸",
-    "collectionsTitle":  "ì»¬ë ‰ì…˜",
-    "newCollection":  "ìƒˆë¡œìš´ ì»¬ë ‰ì…˜",
-    "collectionName":  "ì»¬ë ‰ì…˜ ì´ë¦„",
-    "gridView":  "ê·¸ë¦¬ë“œ ë³´ê¸°",
-    "listView":  "ëª©ë¡ ë³´ê¸°",
-    "editAccountTitle":  "ê³„ì • ìˆ˜ì •",
-    "changePasswordTitle":  "ê³„ì • ë¹„ë°€ë²ˆí˜¸ ë³€ê²½",
-    "signOutTitle":  "ë¡œê·¸ì•„ì›ƒ",
-    "signOutConfirm":  "ì´ ê¸°ê¸°ì˜ ê³„ì •ì—ì„œ ë¡œê·¸ì•„ì›ƒí•˜ì‹œê² ìŠµë‹ˆê¹Œ?",
-    "deleteAccountTitle":  "ê³„ì • ì‚­ì œ",
-    "deleteAccountWarning":  "ê³„ì • ì‚­ì œ: ì´ ë‚´ìš©ì„ ì£¼ì˜ ê¹Šê²Œ ì½ì–´ë³´ì‹œê¸° ë°”ëžë‹ˆë‹¤.",
-    "deleteAccountConfirm":  "ê·€í•˜ì˜ ê³„ì • ë° ëª¨ë“  ê´€ë ¨ ë°ì´í„°ê°€ ì‚­ì œë©ë‹ˆë‹¤. ì´ ìž‘ì—…ì€ ì·¨ì†Œí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤. í™•ì‹¤í•©ë‹ˆê¹Œ?",
-    "deleteSuccess":  "ë– ë‚˜ì‹œë‹¤ë‹ˆ ì•ˆíƒ€ê¹ìŠµë‹ˆë‹¤! ê·€í•˜ì˜ ê³„ì •ì´ ì‚­ì œë˜ì—ˆìŠµë‹ˆë‹¤.",
-    "deleteFail":  "ê³„ì •ì„ ì‚­ì œí•˜ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ë‚˜ì¤‘ì— ë‹¤ì‹œ ì‹œë„í•´ ì£¼ì„¸ìš”.",
-    "continueButton":  "ê³„ì†í•˜ê¸°",
-    "noCollectionsYet":  "ì•„ì§ ì»¬ë ‰ì…˜ì´ ì—†ìŠµë‹ˆë‹¤",
-    "emptyFolder":  "ë¹ˆ í´ë”",
-    "folderColor":  "í´ë” ìƒ‰ìƒ",
-    "editAction":  "íŽ¸ì§‘",
-    "editCollection":  "ì»¬ë ‰ì…˜ íŽ¸ì§‘",
-    "changeColor":  "ìƒ‰ìƒ ë³€ê²½",
-    "deleteCollectionWarning":  "ë‚´ë¶€ì˜ ë§í¬ëŠ” ë£¨íŠ¸ë¡œ ì´ë™ë©ë‹ˆë‹¤.",
-    "moveAction":  "ì´ë™",
-    "moveToCollection":  "ì»¬ë ‰ì…˜ìœ¼ë¡œ ì´ë™",
-    "noCollection":  "ì»¬ë ‰ì…˜ ì—†ìŒ",
-    "noInternetConnection":  "ì¸í„°ë„· ì—°ê²° ì•ˆë¨",
-    "dismiss":  "ë‹«ê¸°",
-    "tagAll":  "ì „ì²´",
-    "camera":  "ì¹´ë©”ë¼",
-    "gallery":  "ê°¤ëŸ¬ë¦¬",
-    "classicAvatars":  "í´ëž˜ì‹ ì•„ë°”íƒ€",
-    "classic":  "í´ëž˜ì‹",
-    "usernameLengthError":  "ì‚¬ìš©ìž ì´ë¦„ì€ 3~45ìž ì‚¬ì´ì—¬ì•¼ í•©ë‹ˆë‹¤",
-    "usernameFormatError":  "ìž˜ëª»ëœ ì‚¬ìš©ìž ì´ë¦„ í˜•ì‹ìž…ë‹ˆë‹¤.",
-    "usernameConsecutiveSymbols":  "ì‚¬ìš©ìž ì´ë¦„ì— ì—°ì†ëœ ê¸°í˜¸ë¥¼ ì‚¬ìš©í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.",
-    "usernameRestrictedWords":  "ì‚¬ìš©ìž ì´ë¦„ì— ì œí•œëœ ë‹¨ì–´ê°€ í¬í•¨ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.",
-    "failedUploadPic":  "í”„ë¡œí•„ ì‚¬ì§„ ì—…ë¡œë“œì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤.",
-    "accountUpdated":  "ê³„ì •ì´ ì„±ê³µì ìœ¼ë¡œ ì—…ë°ì´íŠ¸ë˜ì—ˆìŠµë‹ˆë‹¤",
-    "failedUpdateAccount":  "ê³„ì • ì—…ë°ì´íŠ¸ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. ì´ë©”ì¼ì´ ì´ë¯¸ ì‚¬ìš© ì¤‘ì¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.",
-    "editAccountHint":  "ë³€ê²½í•˜ì§€ ì•Šìœ¼ë ¤ë©´ í•„ë“œë¥¼ ë¹„ì›Œ ë‘ì„¸ìš”. ì´ë¯¸ì§€ë¥¼ ëˆŒëŸ¬ ì•„ë°”íƒ€ë¥¼ ì—…ë°ì´íŠ¸í•˜ì„¸ìš”.",
-    "saveChanges":  "ë³€ê²½ ì‚¬í•­ ì €ìž¥",
-    "verifyIdentity":  "ë³¸ì¸ í™•ì¸",
-    "enterCurrentPassword":  "ê³„ì†í•˜ë ¤ë©´ í˜„ìž¬ ë¹„ë°€ë²ˆí˜¸ë¥¼ ìž…ë ¥í•˜ì„¸ìš”.",
-    "currentPassword":  "í˜„ìž¬ ë¹„ë°€ë²ˆí˜¸",
-    "incorrectPassword":  "ìž˜ëª»ëœ ë¹„ë°€ë²ˆí˜¸",
-    "verify":  "í™•ì¸",
-    "googleVerifyFailed":  "Googleì„ í†µí•œ ë³¸ì¸ í™•ì¸ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤.",
-    "confirmIdentity":  "ê³„ì†í•˜ë ¤ë©´ ë¨¼ì € ë³¸ì¸ìž„ì„ í™•ì¸í•˜ì„¸ìš”.",
-    "verifyIdentityDesc":  "ê³„ì •ì„ ë³´í˜¸í•˜ê¸° ìœ„í•´ ë³¸ì¸ í™•ì¸ì´ í•„ìš”í•©ë‹ˆë‹¤.",
-    "continueWithGoogle":  "Googleë¡œ ê³„ì†í•˜ê¸°",
-    "editPassword":  "ë¹„ë°€ë²ˆí˜¸ íŽ¸ì§‘",
-    "newPassword":  "ìƒˆ ë¹„ë°€ë²ˆí˜¸",
-    "passwordUpdated":  "ë¹„ë°€ë²ˆí˜¸ê°€ ì„±ê³µì ìœ¼ë¡œ ì—…ë°ì´íŠ¸ë˜ì—ˆìŠµë‹ˆë‹¤",
-    "failedUpdatePassword":  "ë¹„ë°€ë²ˆí˜¸ ì—…ë°ì´íŠ¸ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤",
-    "savePassword":  "ë¹„ë°€ë²ˆí˜¸ ì €ìž¥",
-    "passwordsDoNotMatch":  "ë¹„ë°€ë²ˆí˜¸ê°€ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤",
-    "none":  "ì—†ìŒ",
-    "visitCount":  "{count}íšŒ ë°©ë¬¸",
-    "aiSettings":  "AI ì„¤ì •",
-    "aiSettingsSubtitle":  "ì»¬ë ‰ì…˜ì˜ AI ì •ë ¬ê³¼ ìŠ¤íƒ€ì¼ ë©”ëª¨ë¦¬ë¥¼ ê´€ë¦¬í•©ë‹ˆë‹¤.",
-    "useAiSorting":  "AI ì •ë ¬ ì‚¬ìš©",
-    "useAiSortingSubtitle":  "ë§í¬ë¥¼ ê¸°ë°˜ìœ¼ë¡œ í´ë” ê·¸ë£¹ì„ ìžë™ìœ¼ë¡œ ì œì•ˆí•©ë‹ˆë‹¤.",
-    "styleMemory":  "ìŠ¤íƒ€ì¼ ë©”ëª¨ë¦¬",
-    "styleMemoryEmpty":  "ì»¬ë ‰ì…˜ ì´ë¦„ í‘œì‹œ ìŠ¤íƒ€ì¼ì„ ì„¤ì •í•˜ì„¸ìš”.",
-    "styleMemoryDesc":  "ìŠ¤íƒ€ì¼ ë©”ëª¨ë¦¬ëŠ” ì´ëª¨ì§€, ëŒ€ë¬¸ìž, ë‹¨ìˆœí•œ ìŠ¤íƒ€ì¼ ë“± ë‹¹ì‹ ì˜ ì»¬ë ‰ì…˜ ì´ë¦„ ê·œì¹™ì„ ì¡°ìš©ížˆ í•™ìŠµí•´ ë‹¤ìŒ ì •ë¦¬ì— ì ìš©í•©ë‹ˆë‹¤.",
-    "styleMemorySpecificHint":  "êµ¬ì²´ì ìœ¼ë¡œ ìž‘ì„±í•˜ì„¸ìš”. ì˜ˆ: \"ê¸°ìˆ  í´ë”ëŠ” ì´ëª¨ì§€, ì—…ë¬´ëŠ” ëŒ€ë¬¸ìž, ê°œì¸ì€ ë‹¨ìˆœí•˜ê²Œ\".",
-    "styleMemoryTextHint":  "í´ë” ì´ë¦„ ìŠ¤íƒ€ì¼ì„ ì„¤ëª…í•´ ì£¼ì„¸ìš”...",
-    "styleMemorySaved":  "ìŠ¤íƒ€ì¼ ë©”ëª¨ë¦¬ê°€ ì €ìž¥ë˜ì—ˆìŠµë‹ˆë‹¤.",
-    "enableAiSortingFirst":  "ë¨¼ì € ì„¤ì •ì—ì„œ AI ì •ë ¬ ì‚¬ìš©ì„ ì¼œì„¸ìš”.",
-    "saveMoreLinksTryAgain":  "ë§í¬ë¥¼ ì¡°ê¸ˆ ë” ì €ìž¥í•œ í›„ ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”",
-    "linksTooUnrelated":  "ì´ ë§í¬ë“¤ì€ ì„œë¡œ ê´€ë ¨ì„±ì´ ë„ˆë¬´ ë‚®ìŠµë‹ˆë‹¤.",
-    "linksAlreadySimilar":  "ì´ ë§í¬ë“¤ì€ ì´ë¯¸ ê½¤ ë¹„ìŠ·í•©ë‹ˆë‹¤.",
-    "aiSortingSaved":  "AI ì •ë ¬ì´ ì €ìž¥ë˜ì—ˆìŠµë‹ˆë‹¤.",
-    "tryAgainTitle":  "ë‹¤ì‹œ ì‹œë„í• ê¹Œìš”?",
-    "tryAgainQuestion":  "ë‹¤ì‹œ ì‹œë„í•˜ì‹œê² ì–´ìš”?",
-    "aiSortingResult":  "AI ì •ë ¬ ê²°ê³¼",
-    "saveFolderTree":  "ì´ í´ë” íŠ¸ë¦¬ë¥¼ ì €ìž¥í• ê¹Œìš”?",
-    "yes":  "ì˜ˆ",
-    "no":  "ì•„ë‹ˆìš”",
-    "autoSortLinks":  "ë§í¬ ìžë™ ì •ë ¬",
-    "folderCount":  "í´ë”: {name} ({count})",
-    "moreCount":  "- +{count}ê°œ ë”",
-    "@folderCount":  {
-                         "placeholders":  {
-                                              "name":  {
-                                                           "type":  "String"
-                                                       },
-                                              "count":  {
-                                                            "type":  "int"
-                                                        }
-                                          }
-                     },
-    "@moreCount":  {
-                       "placeholders":  {
-                                            "count":  {
-                                                          "type":  "int"
-                                                      }
-                                        }
-                   },
-    "feedbackConsumerButton":  "ì‚¬ìš©ìž í”¼ë“œë°±",
-    "translationsGitHubButton":  "GitHub í”¼ë“œë°±",
-    "feedbackTranslationsButton":  "ë²ˆì—­ í”¼ë“œë°±",
-    "feedbackConsumerNote":  "ì‚¬ìš©ìž í”¼ë“œë°±: ë²„ê·¸, ì„±ëŠ¥ ë¬¸ì œ, ê¸°ëŠ¥, ì „ë°˜ì ì¸ ì‚¬ìš©ì„± ë“± ì•± ì‚¬ìš© ê²½í—˜ì„ ê³µìœ í•´ ì£¼ì„¸ìš”.",
-    "translationsGitHubNote":  "GitHub í”¼ë“œë°±: GitHubì—ì„œ ìž˜ëª»ëœ ë²ˆì—­, ë¶ˆëª…í™•í•œ í‘œí˜„, ë¬¸ë²• ì˜¤ë¥˜ ë“± ì–¸ì–´ ê´€ë ¨ ë¬¸ì œë¥¼ ì•Œë ¤ ì£¼ì„¸ìš”.",
-    "feedbackTranslationsNote":  "ë²ˆì—­ í”¼ë“œë°±: ìž˜ëª»ëœ ë²ˆì—­, ë¶ˆëª…í™•í•œ í‘œí˜„, ë¬¸ë²• ì˜¤ë¥˜ ë“± ì–¸ì–´ ê´€ë ¨ ë¬¸ì œë¥¼ ì•Œë ¤ ì£¼ì„¸ìš”."
-,
-    "loadingMessage1":  "모든 것을 준비하고 있어요...",
-    "loadingMessage2":  "잠시만요, 처리 중이에요.",
-    "loadingMessage3":  "모든 준비를 마칠 때까지 잠시만 기다려 주세요...",
-    "loadingMessage4":  "당신을 위해 준비하고 있어요...",
-    "loadingMessage5":  "곧 완료돼요.",
-    "loadingMessage6":  "좋은 것이 곧 도착해요...",
-    "loadingMessage7":  "거의 준비됐어요...",
-    "loadingMessage8":  "조금만 더 기다려 주세요.",
-    "loadingMessage9":  "멋진 것을 준비하고 있어요...",
-    "loadingMessage10":  "마무리 중이에요."
+{
+    "appTitle": "Pile",
+    "homeTitle": "Pile",
+    "searchHint": "링크 및 태그 검색...",
+    "noLinksYet": "아직 저장된 링크가 없습니다.",
+    "noMatchingLinks": "일치하는 링크가 없습니다.",
+    "tapToAdd": "첫 번째 링크를 추가하려면 +를 탭하세요.",
+    "deleteLinkTitle": "링크 삭제",
+    "deleteLinkContent": "정말로 \"{name}\"을(를) 삭제하시겠습니까?",
+    "@deleteLinkContent": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "cancel": "취소",
+    "delete": "삭제",
+    "undo": "끄르다",
+    "deleted": "{name}이(가) 삭제되었습니다",
+    "@deleted": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "errorLoading": "데이터 로드 중 오류 발생: {error}",
+    "@errorLoading": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "couldNotOpen": "{url}을 열 수 없습니다.",
+    "@couldNotOpen": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "addLinkTitle": "링크 추가",
+    "editLinkTitle": "링크 편집",
+    "linkTitleLabel": "제목",
+    "urlLabel": "URL",
+    "addTagLabel": "태그 추가",
+    "save": "구하다",
+    "pleaseEnterUrl": "URL을 입력하세요",
+    "accountTitle": "설정",
+    "language": "언어",
+    "navHome": "집",
+    "navAccount": "설정",
+    "backupRestoreTitle": "백업 및 복원",
+    "exportLinksTitle": "링크 내보내기",
+    "exportLinksSubtitle": "링크를 파일에 저장",
+    "enterPassword": "비밀번호 입력(선택사항)",
+    "password": "비밀번호",
+    "encryptFile": "암호화",
+    "instagram": "인스타그램",
+    "faqTitle": "자주 묻는 질문",
+    "importLinksTitle": "링크 복원",
+    "importLinksSubtitle": "파일에서 링크 복원",
+    "importSuccess": "{count}개의 링크를 성공적으로 가져왔습니다.",
+    "@importSuccess": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "importFailed": "가져오기 실패: {error}",
+    "@importFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "decryptFailed": "암호 해독에 실패했거나 형식이 잘못되었습니다.",
+    "wrongPassword": "잘못된 비밀번호 또는 잘못된 파일",
+    "favoriteLimitReached": "최대 3개의 즐겨찾기가 허용됩니다.",
+    "termsOfService": "서비스 약관",
+    "privacyPolicy": "개인 정보 보호 정책",
+    "welcomeTitle": "Pile에 오신 것을 환영합니다",
+    "welcomeMessage": "계속하려면 서비스 약관과 개인정보 보호정책을 읽고 동의하세요.",
+    "accept": "수용하다",
+    "decline": "감소",
+    "setReminder": "알림 설정",
+    "reminderSet": "{date}에 알림이 설정되었습니다.",
+    "recentlyDeleted": "최근 삭제된 항목",
+    "@reminderSet": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "reminderLimitReached": "알림 한도에 도달함(10)",
+    "proVersion": "프로 버전",
+    "notAvailableInYourCountry": "해당 국가에서는 사용할 수 없습니다.",
+    "upgradeToPro": "무제한 알림을 받으려면 Pro로 업그레이드하세요.",
+    "restored": "{name}이(가) 복원되었습니다",
+    "@restored": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "deletePermanentlyTitle": "영구적으로 삭제하시겠습니까?",
+    "deletePermanentlyContent": "이 작업은 취소할 수 없습니다.",
+    "selectAll": "모두 선택",
+    "selectedCount": "선택된",
+    "deleteSelectedContent": "{count}개의 링크를 삭제하시겠습니까?",
+    "@deleteSelectedContent": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "loginTitle": "로그인",
+    "emailLabel": "이메일",
+    "usernameLabel": "사용자 이름",
+    "passwordLabel": "비밀번호",
+    "loginButton": "로그인",
+    "logoutButton": "로그아웃",
+    "skipLabel": "지금은 건너뛰세요",
+    "loggedInAs": "{email}(으)로 로그인됨",
+    "@loggedInAs": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "createAccount": "계정 만들기",
+    "nameLabel": "성명",
+    "confirmPasswordLabel": "비밀번호 확인",
+    "registerButton": "등록하다",
+    "signInWithGoogle": "Google로 로그인",
+    "googleSignInNotSupported": "이 데모에서는 Google 로그인이 구성되지 않았습니다.",
+    "accountCreated": "계정이 성공적으로 생성되었습니다",
+    "invalidCredentials": "잘못된 사용자 이름 또는 비밀번호",
+    "emailExists": "이메일이 이미 존재합니다.",
+    "noAccountCreateOne": "계정이 없나요? 하나를 만드세요.",
+    "getStarted": "시작하기",
+    "acceptAndContinue": "동의 및 계속",
+    "acceptAndFinish": "수락 및 완료",
+    "stepTos": "서비스 약관",
+    "stepPrivacy": "개인 정보 보호 정책",
+    "addedOn": "추가 날짜: {date}",
+    "@addedOn": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "sendFeedback": "피드백 보내기",
+    "feedbackSubject": "Pile 피드백",
+    "feedbackTitle": "피드백 보내기",
+    "feedbackName": "이름(선택사항)",
+    "feedbackEmail": "이메일(선택사항)",
+    "feedbackMessage": "메시지",
+    "verifyHuman": "당신이 인간인지 확인해주세요",
+    "send": "보내다",
+    "tabLinks": "모래밭",
+    "tabDeleted": "삭제됨",
+    "topLinksTitle": "상위 링크",
+    "noDeletedLinks": "삭제된 링크 없음",
+    "restoreTooltip": "복원하다",
+    "remindersTitle": "알림",
+    "noReminders": "예정된 알림이 없습니다.",
+    "didYouKnow": "알고 계셨나요?",
+    "shareToAppTip": "Pile에 공유하여 링크를 추가할 수 있습니다!",
+    "commentsLabel": "설명(선택사항)",
+    "accountSettings": "계정 설정",
+    "accountInformation": "계정 정보",
+    "profilePicture": "프로필 사진",
+    "tapToChange": "탭하여 변경",
+    "changeProfilePicture": "프로필 사진 변경",
+    "choosePhoto": "사진 선택",
+    "changePhoto": "사진 변경",
+    "profilePictureChooseHint": "사진을 탭해 새 프로필 사진을 선택하고 자른 뒤 업로드하세요.",
+    "changeUsername": "사용자 이름 변경",
+    "changeEmail": "이메일 변경",
+    "passwordLastChanged": "마지막 변경: {date}",
+    "@passwordLastChanged": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "never": "없음",
+    "signIn": "로그인",
+    "collectionsTitle": "컬렉션",
+    "newCollection": "새로운 컬렉션",
+    "collectionName": "컬렉션 이름",
+    "gridView": "그리드 보기",
+    "listView": "목록 보기",
+    "editAccountTitle": "계정 수정",
+    "changePasswordTitle": "계정 비밀번호 변경",
+    "signOutTitle": "로그아웃",
+    "signOutConfirm": "이 기기의 계정에서 로그아웃하시겠습니까?",
+    "deleteAccountTitle": "계정 삭제",
+    "deleteAccountWarning": "계정 삭제: 이 내용을 주의 깊게 읽어보시기 바랍니다.",
+    "deleteAccountConfirm": "귀하의 계정 및 모든 관련 데이터가 삭제됩니다. 이 작업은 취소할 수 없습니다. 확실합니까?",
+    "deleteSuccess": "떠나시다니 안타깝습니다! 귀하의 계정이 삭제되었습니다.",
+    "deleteFail": "계정을 삭제하지 못했습니다. 나중에 다시 시도해 주세요.",
+    "continueButton": "계속하기",
+    "noCollectionsYet": "아직 컬렉션이 없습니다",
+    "emptyFolder": "빈 폴더",
+    "folderColor": "폴더 색상",
+    "editAction": "편집",
+    "editCollection": "컬렉션 편집",
+    "changeColor": "색상 변경",
+    "deleteCollectionWarning": "내부의 링크는 루트로 이동됩니다.",
+    "moveAction": "이동",
+    "moveToCollection": "컬렉션으로 이동",
+    "noCollection": "컬렉션 없음",
+    "noInternetConnection": "인터넷 연결 안됨",
+    "dismiss": "닫기",
+    "tagAll": "전체",
+    "camera": "카메라",
+    "gallery": "갤러리",
+    "classicAvatars": "클래식 아바타",
+    "classic": "클래식",
+    "usernameLengthError": "사용자 이름은 3~45자 사이여야 합니다",
+    "usernameFormatError": "잘못된 사용자 이름 형식입니다.",
+    "usernameConsecutiveSymbols": "사용자 이름에 연속된 기호를 사용할 수 없습니다.",
+    "usernameRestrictedWords": "사용자 이름에 제한된 단어가 포함되어 있습니다.",
+    "failedUploadPic": "프로필 사진 업로드에 실패했습니다.",
+    "accountUpdated": "계정이 성공적으로 업데이트되었습니다",
+    "failedUpdateAccount": "계정 업데이트에 실패했습니다. 이메일이 이미 사용 중일 수 있습니다.",
+    "editAccountHint": "변경하지 않으려면 필드를 비워 두세요. 이미지를 눌러 아바타를 업데이트하세요.",
+    "saveChanges": "변경 사항 저장",
+    "verifyIdentity": "본인 확인",
+    "enterCurrentPassword": "계속하려면 현재 비밀번호를 입력하세요.",
+    "currentPassword": "현재 비밀번호",
+    "incorrectPassword": "잘못된 비밀번호",
+    "verify": "확인",
+    "googleVerifyFailed": "Google을 통한 본인 확인에 실패했습니다.",
+    "confirmIdentity": "계속하려면 먼저 본인임을 확인하세요.",
+    "verifyIdentityDesc": "계정을 보호하기 위해 본인 확인이 필요합니다.",
+    "continueWithGoogle": "Google로 계속하기",
+    "editPassword": "비밀번호 편집",
+    "newPassword": "새 비밀번호",
+    "passwordUpdated": "비밀번호가 성공적으로 업데이트되었습니다",
+    "failedUpdatePassword": "비밀번호 업데이트에 실패했습니다",
+    "savePassword": "비밀번호 저장",
+    "passwordsDoNotMatch": "비밀번호가 일치하지 않습니다",
+    "none": "없음",
+    "visitCount": "{count}회 방문",
+    "aiSettings": "AI 설정",
+    "aiSettingsSubtitle": "컬렉션의 AI 정렬과 스타일 메모리를 관리합니다.",
+    "useAiSorting": "AI 정렬 사용",
+    "useAiSortingSubtitle": "링크를 기반으로 폴더 그룹을 자동으로 제안합니다.",
+    "styleMemory": "스타일 메모리",
+    "styleMemoryEmpty": "컬렉션 이름 표시 스타일을 설정하세요.",
+    "styleMemoryDesc": "스타일 메모리는 이모지, 대문자, 단순한 스타일 등 당신의 컬렉션 이름 규칙을 조용히 학습해 다음 정리에 적용합니다.",
+    "styleMemorySpecificHint": "구체적으로 작성하세요. 예: \"기술 폴더는 이모지, 업무는 대문자, 개인은 단순하게\".",
+    "styleMemoryTextHint": "폴더 이름 스타일을 설명해 주세요...",
+    "styleMemorySaved": "스타일 메모리가 저장되었습니다.",
+    "enableAiSortingFirst": "먼저 설정에서 AI 정렬 사용을 켜세요.",
+    "saveMoreLinksTryAgain": "링크를 조금 더 저장한 후 다시 시도하세요",
+    "linksTooUnrelated": "이 링크들은 서로 관련성이 너무 낮습니다.",
+    "linksAlreadySimilar": "이 링크들은 이미 꽤 비슷합니다.",
+    "aiSortingSaved": "AI 정렬이 저장되었습니다.",
+    "tryAgainTitle": "다시 시도할까요?",
+    "tryAgainQuestion": "다시 시도하시겠어요?",
+    "aiSortingResult": "AI 정렬 결과",
+    "saveFolderTree": "이 폴더 트리를 저장할까요?",
+    "yes": "예",
+    "no": "아니요",
+    "autoSortLinks": "링크 자동 정렬",
+    "folderCount": "폴더: {name} ({count})",
+    "moreCount": "- +{count}개 더",
+    "@folderCount": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            },
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@moreCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "feedbackConsumerButton": "사용자 피드백",
+    "translationsGitHubButton": "GitHub 피드백",
+    "feedbackTranslationsButton": "번역 피드백",
+    "feedbackConsumerNote": "사용자 피드백: 버그, 성능 문제, 기능, 전반적인 사용성 등 앱 사용 경험을 공유해 주세요.",
+    "translationsGitHubNote": "GitHub 피드백: GitHub에서 잘못된 번역, 불명확한 표현, 문법 오류 등 언어 관련 문제를 알려 주세요.",
+    "feedbackTranslationsNote": "번역 피드백: 잘못된 번역, 불명확한 표현, 문법 오류 등 언어 관련 문제를 알려 주세요.",
+    "loadingMessage1": "We're getting things ready...",
+    "loadingMessage2": "Hold tight - we're on it.",
+    "loadingMessage3": "Just a moment while we prepare everything...",
+    "loadingMessage4": "Getting things ready for you...",
+    "loadingMessage5": "We'll be there shortly.",
+    "loadingMessage6": "Good things are on the way...",
+    "loadingMessage7": "Almost ready for you...",
+    "loadingMessage8": "Hang tight - almost there.",
+    "loadingMessage9": "We're cooking something nice...",
+    "loadingMessage10": "We're warming things up."
 }

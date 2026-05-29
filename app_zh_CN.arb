@@ -1,317 +1,316 @@
-﻿{
-    "appTitle":  "Pile",
-    "homeTitle":  "Pile",
-    "searchHint":  "æœç´¢é“¾æŽ¥å’Œæ ‡ç­¾...",
-    "noLinksYet":  "å°šæœªä¿å­˜é“¾æŽ¥",
-    "noMatchingLinks":  "æ²¡æœ‰æ‰¾åˆ°åŒ¹é…çš„é“¾æŽ¥",
-    "tapToAdd":  "ç‚¹å‡» + æ·»åŠ æ‚¨çš„ç¬¬ä¸€ä¸ªé“¾æŽ¥",
-    "deleteLinkTitle":  "åˆ é™¤é“¾æŽ¥",
-    "deleteLinkContent":  "æ‚¨ç¡®å®šè¦åˆ é™¤â€œ{name}â€å—ï¼Ÿ",
-    "@deleteLinkContent":  {
-                               "placeholders":  {
-                                                    "name":  {
-                                                                 "type":  "String"
-                                                             }
-                                                }
-                           },
-    "cancel":  "å–æ¶ˆ",
-    "delete":  "åˆ é™¤",
-    "undo":  "æ’¤æ¶ˆ",
-    "deleted":  "{name}å·²åˆ é™¤",
-    "@deleted":  {
-                     "placeholders":  {
-                                          "name":  {
-                                                       "type":  "String"
-                                                   }
-                                      }
-                 },
-    "errorLoading":  "åŠ è½½æ•°æ®æ—¶å‡ºé”™ï¼š{error}",
-    "@errorLoading":  {
-                          "placeholders":  {
-                                               "error":  {
-                                                             "type":  "String"
-                                                         }
-                                           }
-                      },
-    "couldNotOpen":  "æ— æ³•æ‰“å¼€ {url}",
-    "@couldNotOpen":  {
-                          "placeholders":  {
-                                               "url":  {
-                                                           "type":  "String"
-                                                       }
-                                           }
-                      },
-    "addLinkTitle":  "æ·»åŠ é“¾æŽ¥",
-    "editLinkTitle":  "ç¼–è¾‘é“¾æŽ¥",
-    "linkTitleLabel":  "æ ‡é¢˜",
-    "urlLabel":  "ç½‘å€",
-    "addTagLabel":  "æ·»åŠ æ ‡ç­¾",
-    "save":  "ä¿å­˜",
-    "pleaseEnterUrl":  "è¯·è¾“å…¥ç½‘å€",
-    "accountTitle":  "è®¾ç½®",
-    "language":  "è¯­è¨€",
-    "navHome":  "é¦–é¡µ",
-    "navAccount":  "è®¾ç½®",
-    "backupRestoreTitle":  "å¤‡ä»½ä¸Žæ¢å¤",
-    "exportLinksTitle":  "å¯¼å‡ºé“¾æŽ¥",
-    "exportLinksSubtitle":  "å°†é“¾æŽ¥ä¿å­˜åˆ°æ–‡ä»¶",
-    "enterPassword":  "è¾“å…¥å¯†ç ï¼ˆå¯é€‰ï¼‰",
-    "password":  "å¯†ç ",
-    "encryptFile":  "åŠ å¯†",
-    "instagram":  "Instagram",
-    "faqTitle":  "å¸¸è§é—®é¢˜è§£ç­”",
-    "importLinksTitle":  "æ¢å¤é“¾æŽ¥",
-    "importLinksSubtitle":  "ä»Žæ–‡ä»¶æ¢å¤é“¾æŽ¥",
-    "importSuccess":  "å·²æˆåŠŸå¯¼å…¥ {count} ä¸ªé“¾æŽ¥",
-    "@importSuccess":  {
-                           "placeholders":  {
-                                                "count":  {
-                                                              "type":  "int"
-                                                          }
-                                            }
-                       },
-    "importFailed":  "å¯¼å…¥å¤±è´¥ï¼š{error}",
-    "@importFailed":  {
-                          "placeholders":  {
-                                               "error":  {
-                                                             "type":  "String"
-                                                         }
-                                           }
-                      },
-    "decryptFailed":  "è§£å¯†å¤±è´¥æˆ–æ ¼å¼æ— æ•ˆ",
-    "wrongPassword":  "å¯†ç é”™è¯¯æˆ–æ–‡ä»¶æ— æ•ˆ",
-    "favoriteLimitReached":  "æœ€å¤šå…è®¸ 3 ä¸ªæ”¶è—å¤¹",
-    "termsOfService":  "æœåŠ¡æ¡æ¬¾",
-    "privacyPolicy":  "éšç§æ”¿ç­–",
-    "welcomeTitle":  "æ¬¢è¿ŽPile",
-    "welcomeMessage":  "è¯·é˜…è¯»å¹¶æŽ¥å—æˆ‘ä»¬çš„æœåŠ¡æ¡æ¬¾å’Œéšç§æ”¿ç­–ä»¥ç»§ç»­ã€‚",
-    "accept":  "æŽ¥å—",
-    "decline":  "æ‹’ç»",
-    "setReminder":  "è®¾ç½®æé†’",
-    "reminderSet":  "è®¾ç½®ä¸º {date} çš„æé†’",
-    "recentlyDeleted":  "æœ€è¿‘åˆ é™¤",
-    "@reminderSet":  {
-                         "placeholders":  {
-                                              "date":  {
-                                                           "type":  "String"
-                                                       }
-                                          }
-                     },
-    "reminderLimitReached":  "å·²è¾¾åˆ°æé†’é™åˆ¶ (10)",
-    "notificationsOrExactAlarmPermissionsBlocked":  "é€šçŸ¥å’Œ/æˆ–ç²¾ç¡®é—¹é’Ÿæƒé™è¢«é˜»æ­¢",
-    "proVersion":  "ä¸“ä¸šç‰ˆ",
-    "notAvailableInYourCountry":  "åœ¨æ‚¨æ‰€åœ¨çš„å›½å®¶/åœ°åŒºä¸å¯ç”¨",
-    "upgradeToPro":  "å‡çº§è‡³ä¸“ä¸šç‰ˆå¯æ— é™æ¬¡æé†’",
-    "restored":  "{name}å·²æ¢å¤",
-    "@restored":  {
-                      "placeholders":  {
-                                           "name":  {
-                                                        "type":  "String"
-                                                    }
-                                       }
-                  },
-    "deletePermanentlyTitle":  "æ°¸ä¹…åˆ é™¤ï¼Ÿ",
-    "deletePermanentlyContent":  "æ­¤æ“ä½œæ— æ³•æ’¤æ¶ˆã€‚",
-    "selectAll":  "é€‰æ‹©å…¨éƒ¨",
-    "selectedCount":  "å·²é€‰æ‹©",
-    "deleteSelectedContent":  "åˆ é™¤ {count} ä¸ªé“¾æŽ¥ï¼Ÿ",
-    "@deleteSelectedContent":  {
-                                   "placeholders":  {
-                                                        "count":  {
-                                                                      "type":  "int"
-                                                                  }
-                                                    }
-                               },
-    "loginTitle":  "ç™»å½•",
-    "emailLabel":  "ç”µå­é‚®ä»¶",
-    "usernameLabel":  "ç”¨æˆ·å",
-    "passwordLabel":  "å¯†ç ",
-    "loginButton":  "ç™»å½•",
-    "logoutButton":  "é€€å‡º",
-    "skipLabel":  "æš‚æ—¶è·³è¿‡",
-    "loggedInAs":  "ä»¥ {email} èº«ä»½ç™»å½•",
-    "@loggedInAs":  {
-                        "placeholders":  {
-                                             "email":  {
-                                                           "type":  "String"
-                                                       }
-                                         }
-                    },
-    "createAccount":  "åˆ›å»ºè´¦æˆ·",
-    "nameLabel":  "å§“å",
-    "confirmPasswordLabel":  "ç¡®è®¤å¯†ç ",
-    "registerButton":  "ç™»è®°",
-    "signInWithGoogle":  "ä½¿ç”¨ Google ç™»å½•",
-    "googleSignInNotSupported":  "æ­¤æ¼”ç¤ºä¸­æœªé…ç½® Google Sign Inã€‚",
-    "accountCreated":  "è´¦æˆ·åˆ›å»ºæˆåŠŸ",
-    "invalidCredentials":  "ç”¨æˆ·åæˆ–å¯†ç æ— æ•ˆ",
-    "emailExists":  "ç”µå­é‚®ä»¶å·²å­˜åœ¨",
-    "noAccountCreateOne":  "æ²¡æœ‰è´¦æˆ·ï¼Ÿç«‹å³æ³¨å†Œã€‚",
-    "getStarted":  "å¼€å§‹ä½¿ç”¨",
-    "acceptAndContinue":  "æŽ¥å—å¹¶ç»§ç»­",
-    "acceptAndFinish":  "æŽ¥å—å¹¶å®Œæˆ",
-    "stepTos":  "æœåŠ¡æ¡æ¬¾",
-    "stepPrivacy":  "éšç§æ”¿ç­–",
-    "addedOn":  "æ·»åŠ æ—¥æœŸï¼š{date}",
-    "@addedOn":  {
-                     "placeholders":  {
-                                          "date":  {
-                                                       "type":  "String"
-                                                   }
-                                      }
-                 },
-    "sendFeedback":  "å‘é€åé¦ˆ",
-    "feedbackSubject":  "ç¨åŽé˜…è¯»åé¦ˆ",
-    "feedbackTitle":  "å‘é€åé¦ˆ",
-    "feedbackName":  "å§“åï¼ˆå¯é€‰ï¼‰",
-    "feedbackEmail":  "ç”µå­é‚®ä»¶ï¼ˆå¯é€‰ï¼‰",
-    "feedbackMessage":  "æ¶ˆæ¯å†…å®¹",
-    "verifyHuman":  "è¯·éªŒè¯æ‚¨æ˜¯äººç±»",
-    "send":  "å‘é€",
-    "tabLinks":  "é“¾æŽ¥",
-    "tabDeleted":  "å·²åˆ é™¤",
-    "topLinksTitle":  "çƒ­é—¨é“¾æŽ¥",
-    "noDeletedLinks":  "æ²¡æœ‰åˆ é™¤çš„é“¾æŽ¥",
-    "restoreTooltip":  "æ¢å¤",
-    "remindersTitle":  "æé†’äº‹é¡¹",
-    "noReminders":  "æ²¡æœ‰å³å°†åˆ°æ¥çš„æé†’",
-    "didYouKnow":  "ä½ å¯çŸ¥é“ï¼Ÿ",
-    "shareToAppTip":  "æ‚¨å¯ä»¥é€šè¿‡å°†å…¶åˆ†äº«åˆ° Pile æ¥æ·»åŠ é“¾æŽ¥ï¼",
-    "commentsLabel":  "è¯„è®ºï¼ˆå¯é€‰ï¼‰",
-    "accountSettings":  "è´¦æˆ·è®¾ç½®",
-    "accountInformation":  "è´¦æˆ·ä¿¡æ¯",
-    "profilePicture":  "å¤´åƒ",
-    "tapToChange":  "ç‚¹æŒ‰æ›´æ”¹",
-    "changeProfilePicture":  "æ›´æ”¹å¤´åƒ",
-    "choosePhoto":  "é€‰æ‹©ç…§ç‰‡",
-    "changePhoto":  "æ›´æ”¹ç…§ç‰‡",
-    "profilePictureChooseHint":  "ç‚¹æŒ‰å›¾ç‰‡ä»¥é€‰æ‹©ã€è£å‰ªå¹¶ä¸Šä¼ æ–°çš„å¤´åƒã€‚",
-    "changeUsername":  "æ›´æ”¹ç”¨æˆ·å",
-    "changeEmail":  "æ›´æ”¹ç”µå­é‚®ç®±",
-    "passwordLastChanged":  "ä¸Šæ¬¡æ›´æ”¹ï¼š{date}",
-    "@passwordLastChanged":  {
-                                 "placeholders":  {
-                                                      "date":  {
-                                                                   "type":  "String"
-                                                               }
-                                                  }
-                             },
-    "never":  "ä»Žæœª",
-    "signIn":  "ç™»å½•",
-    "collectionsTitle":  "æ”¶è—",
-    "newCollection":  "æ–°æ”¶è—",
-    "collectionName":  "æ”¶è—åç§°",
-    "gridView":  "ç½‘æ ¼è§†å›¾",
-    "listView":  "åˆ—è¡¨è§†å›¾",
-    "editAccountTitle":  "ç¼–è¾‘è´¦æˆ·",
-    "changePasswordTitle":  "æ›´æ”¹è´¦æˆ·å¯†ç ",
-    "signOutTitle":  "ç™»å‡º",
-    "signOutConfirm":  "æ‚¨ç¡®å®šè¦ä»Žæ­¤è®¾å¤‡ä¸­çš„è´¦æˆ·æ³¨é”€å—ï¼Ÿ",
-    "deleteAccountTitle":  "åˆ é™¤è´¦æˆ·",
-    "deleteAccountWarning":  "åˆ é™¤è´¦æˆ·ï¼šè¯·ä»”ç»†é˜…è¯»æ­¤å†…å®¹ã€‚",
-    "deleteAccountConfirm":  "æ‚¨å°†åˆ é™¤æ‚¨çš„è´¦æˆ·ä»¥åŠæ‰€æœ‰ç›¸å…³æ•°æ®ã€‚è¿™æ˜¯æ— æ³•æ’¤é”€çš„ã€‚ä½ ç¡®å®šå—ï¼Ÿ",
-    "deleteSuccess":  "çœ‹åˆ°ä½ ç¦»å¼€æˆ‘ä»¬æ„Ÿåˆ°å¾ˆé—æ†¾ï¼æ‚¨çš„è´¦æˆ·å·²è¢«åˆ é™¤ã€‚",
-    "deleteFail":  "åˆ é™¤è´¦æˆ·å¤±è´¥ã€‚è¯·ç¨åŽé‡è¯•ã€‚",
-    "continueButton":  "ç»§ç»­",
-    "noCollectionsYet":  "æš‚æ— æ”¶è—",
-    "emptyFolder":  "ç©ºæ–‡ä»¶å¤¹",
-    "folderColor":  "æ–‡ä»¶å¤¹é¢œè‰²",
-    "editAction":  "ç¼–è¾‘",
-    "editCollection":  "ç¼–è¾‘æ”¶è—",
-    "changeColor":  "æ›´æ”¹é¢œè‰²",
-    "deleteCollectionWarning":  "é‡Œé¢çš„é“¾æŽ¥å°†è¢«ç§»è‡³æ ¹ç›®å½•ã€‚",
-    "moveAction":  "ç§»åŠ¨",
-    "moveToCollection":  "ç§»è‡³æ”¶è—",
-    "noCollection":  "æ— æ”¶è—",
-    "noInternetConnection":  "æ— ç½‘ç»œè¿žæŽ¥",
-    "dismiss":  "å…³é—­",
-    "tagAll":  "å…¨éƒ¨",
-    "camera":  "ç›¸æœº",
-    "gallery":  "ç›¸å†Œ",
-    "classicAvatars":  "ç»å…¸å¤´åƒ",
-    "classic":  "ç»å…¸",
-    "usernameLengthError":  "ç”¨æˆ·åå¿…é¡»åœ¨3åˆ°45ä¸ªå­—ç¬¦ä¹‹é—´",
-    "usernameFormatError":  "ç”¨æˆ·åæ ¼å¼æ— æ•ˆã€‚",
-    "usernameConsecutiveSymbols":  "ç”¨æˆ·åä¸èƒ½åŒ…å«è¿žç»­çš„ç¬¦å·ã€‚",
-    "usernameRestrictedWords":  "ç”¨æˆ·ååŒ…å«å—é™è¯æ±‡ã€‚",
-    "failedUploadPic":  "ä¸Šä¼ å¤´åƒå¤±è´¥ã€‚",
-    "accountUpdated":  "è´¦æˆ·æ›´æ–°æˆåŠŸ",
-    "failedUpdateAccount":  "è´¦æˆ·æ›´æ–°å¤±è´¥ã€‚é‚®ç®±å¯èƒ½å·²è¢«ä½¿ç”¨ã€‚",
-    "editAccountHint":  "å¦‚æžœä¸æƒ³æ›´æ”¹ï¼Œè¯·å°†å­—æ®µç•™ç©ºã€‚ç‚¹å‡»å›¾ç‰‡æ›´æ–°å¤´åƒã€‚",
-    "saveChanges":  "ä¿å­˜æ›´æ”¹",
-    "verifyIdentity":  "éªŒè¯èº«ä»½",
-    "enterCurrentPassword":  "è¯·è¾“å…¥å½“å‰å¯†ç ä»¥ç»§ç»­ã€‚",
-    "currentPassword":  "å½“å‰å¯†ç ",
-    "incorrectPassword":  "å¯†ç ä¸æ­£ç¡®",
-    "verify":  "éªŒè¯",
-    "googleVerifyFailed":  "é€šè¿‡GoogleéªŒè¯èº«ä»½å¤±è´¥ã€‚",
-    "confirmIdentity":  "è¦ç»§ç»­ï¼Œè¯·å…ˆç¡®è®¤æ˜¯æ‚¨æœ¬äººã€‚",
-    "verifyIdentityDesc":  "æˆ‘ä»¬éœ€è¦éªŒè¯æ‚¨çš„èº«ä»½ä»¥ä¿æŠ¤æ‚¨çš„è´¦æˆ·ã€‚",
-    "continueWithGoogle":  "ä½¿ç”¨Googleç»§ç»­",
-    "editPassword":  "ä¿®æ”¹å¯†ç ",
-    "newPassword":  "æ–°å¯†ç ",
-    "passwordUpdated":  "å¯†ç æ›´æ–°æˆåŠŸ",
-    "failedUpdatePassword":  "å¯†ç æ›´æ–°å¤±è´¥",
-    "savePassword":  "ä¿å­˜å¯†ç ",
-    "passwordsDoNotMatch":  "ä¸¤æ¬¡å¯†ç ä¸ä¸€è‡´",
-    "none":  "æ— ",
-    "visitCount":  "{count} æ¬¡è®¿é—®",
-    "aiSettings":  "AI è®¾ç½®",
-    "aiSettingsSubtitle":  "æŽ§åˆ¶é›†åˆçš„ AI æŽ’åºå’Œé£Žæ ¼è®°å¿†ã€‚",
-    "useAiSorting":  "ä½¿ç”¨ AI æŽ’åº",
-    "useAiSortingSubtitle":  "æ ¹æ®ä½ çš„é“¾æŽ¥è‡ªåŠ¨å»ºè®®æ–‡ä»¶å¤¹åˆ†ç»„ã€‚",
-    "styleMemory":  "é£Žæ ¼è®°å¿†",
-    "styleMemoryEmpty":  "è®¾ç½®é›†åˆå‘½åçš„é£Žæ ¼ã€‚",
-    "styleMemoryDesc":  "é£Žæ ¼è®°å¿†ä¼šæ‚„æ‚„å­¦ä¹ ä½ å¦‚ä½•å‘½åå’Œæ•´ç†é›†åˆ - æ— è®ºä½ å–œæ¬¢è¡¨æƒ…ã€å…¨å¤§å†™è¿˜æ˜¯æ›´ç®€æ´çš„é£Žæ ¼ - å¹¶åœ¨ä¸‹æ¬¡æ•´ç†æ—¶åº”ç”¨ã€‚",
-    "styleMemorySpecificHint":  "è¯·å°½é‡å…·ä½“ã€‚ä¾‹å¦‚ï¼šâ€œæŠ€æœ¯ç±»ç”¨è¡¨æƒ…ï¼Œå·¥ä½œç±»ç”¨å…¨å¤§å†™ï¼Œä¸ªäººç±»ä¿æŒç®€æ´ã€‚â€",
-    "styleMemoryTextHint":  "æè¿°ä½ çš„æ–‡ä»¶å¤¹å‘½åé£Žæ ¼...",
-    "styleMemorySaved":  "é£Žæ ¼è®°å¿†å·²ä¿å­˜ã€‚",
-    "enableAiSortingFirst":  "è¯·å…ˆåœ¨è®¾ç½®ä¸­å¯ç”¨â€œä½¿ç”¨ AI æŽ’åºâ€ã€‚",
-    "saveMoreLinksTryAgain":  "è¯·å†ä¿å­˜ä¸€äº›é“¾æŽ¥åŽé‡è¯•",
-    "linksTooUnrelated":  "è¿™äº›é“¾æŽ¥å…³è”æ€§å¤ªå¼±ã€‚",
-    "linksAlreadySimilar":  "è¿™äº›é“¾æŽ¥å·²ç»å¾ˆç›¸ä¼¼äº†ã€‚",
-    "aiSortingSaved":  "AI æŽ’åºå·²ä¿å­˜ã€‚",
-    "tryAgainTitle":  "å†è¯•ä¸€æ¬¡ï¼Ÿ",
-    "tryAgainQuestion":  "ä½ æƒ³å†è¯•ä¸€æ¬¡å—ï¼Ÿ",
-    "aiSortingResult":  "AI æŽ’åºç»“æžœ",
-    "saveFolderTree":  "ä¿å­˜è¿™ä¸ªæ–‡ä»¶å¤¹æ ‘å—ï¼Ÿ",
-    "yes":  "æ˜¯",
-    "no":  "å¦",
-    "autoSortLinks":  "è‡ªåŠ¨æŽ’åºé“¾æŽ¥",
-    "folderCount":  "æ–‡ä»¶å¤¹ï¼š{name}ï¼ˆ{count}ï¼‰",
-    "moreCount":  "- å¦å¤– {count} é¡¹",
-    "@folderCount":  {
-                         "placeholders":  {
-                                              "name":  {
-                                                           "type":  "String"
-                                                       },
-                                              "count":  {
-                                                            "type":  "int"
-                                                        }
-                                          }
-                     },
-    "@moreCount":  {
-                       "placeholders":  {
-                                            "count":  {
-                                                          "type":  "int"
-                                                      }
-                                        }
-                   },
-    "feedbackConsumerButton":  "ç”¨æˆ·åé¦ˆ",
-    "translationsGitHubButton":  "GitHub åé¦ˆ",
-    "feedbackTranslationsButton":  "ç¿»è¯‘åé¦ˆ",
-    "feedbackConsumerNote":  "ç”¨æˆ·åé¦ˆï¼šåˆ†äº«ä½ ä½¿ç”¨åº”ç”¨çš„ä½“éªŒï¼Œä¾‹å¦‚æ¼æ´žã€æ€§èƒ½é—®é¢˜ã€åŠŸèƒ½æˆ–æ•´ä½“æ˜“ç”¨æ€§ã€‚",
-    "translationsGitHubNote":  "GitHub åé¦ˆï¼šåœ¨ GitHub ä¸Šåé¦ˆè¯­è¨€é—®é¢˜ï¼Œä¾‹å¦‚ç¿»è¯‘ä¸æ­£ç¡®ã€æŽªè¾žä¸æ¸…æ™°æˆ–è¯­æ³•é”™è¯¯ã€‚",
-    "feedbackTranslationsNote":  "ç¿»è¯‘åé¦ˆï¼šåé¦ˆè¯­è¨€é—®é¢˜ï¼Œä¾‹å¦‚ç¿»è¯‘ä¸æ­£ç¡®ã€æŽªè¾žä¸æ¸…æ™°æˆ–è¯­æ³•é”™è¯¯ã€‚"
-,
-    "loadingMessage1":  "正在为你准备中...",
-    "loadingMessage2":  "请稍等，我们马上处理好。",
-    "loadingMessage3":  "再等一下，我们正在准备全部内容...",
-    "loadingMessage4":  "正在为你整理中...",
-    "loadingMessage5":  "很快就好。",
-    "loadingMessage6":  "好东西马上就来...",
-    "loadingMessage7":  "快准备好了...",
-    "loadingMessage8":  "再坚持一下，马上完成。",
-    "loadingMessage9":  "我们正在准备一些很棒的内容...",
-    "loadingMessage10":  "正在预热中。"
+{
+    "appTitle": "Pile",
+    "homeTitle": "Pile",
+    "searchHint": "搜索链接和标签...",
+    "noLinksYet": "尚未保存链接",
+    "noMatchingLinks": "没有找到匹配的链接",
+    "tapToAdd": "点击 + 添加您的第一个链接",
+    "deleteLinkTitle": "删除链接",
+    "deleteLinkContent": "您确定要删除“{name}”吗？",
+    "@deleteLinkContent": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "cancel": "取消",
+    "delete": "删除",
+    "undo": "撤消",
+    "deleted": "{name}已删除",
+    "@deleted": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "errorLoading": "加载数据时出错：{error}",
+    "@errorLoading": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "couldNotOpen": "无法打开 {url}",
+    "@couldNotOpen": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "addLinkTitle": "添加链接",
+    "editLinkTitle": "编辑链接",
+    "linkTitleLabel": "标题",
+    "urlLabel": "网址",
+    "addTagLabel": "添加标签",
+    "save": "保存",
+    "pleaseEnterUrl": "请输入网址",
+    "accountTitle": "设置",
+    "language": "语言",
+    "navHome": "首页",
+    "navAccount": "设置",
+    "backupRestoreTitle": "备份与恢复",
+    "exportLinksTitle": "导出链接",
+    "exportLinksSubtitle": "将链接保存到文件",
+    "enterPassword": "输入密码（可选）",
+    "password": "密码",
+    "encryptFile": "加密",
+    "instagram": "Instagram",
+    "faqTitle": "常见问题解答",
+    "importLinksTitle": "恢复链接",
+    "importLinksSubtitle": "从文件恢复链接",
+    "importSuccess": "已成功导入 {count} 个链接",
+    "@importSuccess": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "importFailed": "导入失败：{error}",
+    "@importFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "decryptFailed": "解密失败或格式无效",
+    "wrongPassword": "密码错误或文件无效",
+    "favoriteLimitReached": "最多允许 3 个收藏夹",
+    "termsOfService": "服务条款",
+    "privacyPolicy": "隐私政策",
+    "welcomeTitle": "欢迎Pile",
+    "welcomeMessage": "请阅读并接受我们的服务条款和隐私政策以继续。",
+    "accept": "接受",
+    "decline": "拒绝",
+    "setReminder": "设置提醒",
+    "reminderSet": "设置为 {date} 的提醒",
+    "recentlyDeleted": "最近删除",
+    "@reminderSet": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "reminderLimitReached": "已达到提醒限制 (10)",
+    "notificationsOrExactAlarmPermissionsBlocked": "通知和/或精确闹钟权限被阻止",
+    "proVersion": "专业版",
+    "notAvailableInYourCountry": "在您所在的国家/地区不可用",
+    "upgradeToPro": "升级至专业版可无限次提醒",
+    "restored": "{name}已恢复",
+    "@restored": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "deletePermanentlyTitle": "永久删除？",
+    "deletePermanentlyContent": "此操作无法撤消。",
+    "selectAll": "选择全部",
+    "selectedCount": "已选择",
+    "deleteSelectedContent": "删除 {count} 个链接？",
+    "@deleteSelectedContent": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "loginTitle": "登录",
+    "emailLabel": "电子邮件",
+    "usernameLabel": "用户名",
+    "passwordLabel": "密码",
+    "loginButton": "登录",
+    "logoutButton": "退出",
+    "skipLabel": "暂时跳过",
+    "loggedInAs": "以 {email} 身份登录",
+    "@loggedInAs": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "createAccount": "创建账户",
+    "nameLabel": "姓名",
+    "confirmPasswordLabel": "确认密码",
+    "registerButton": "登记",
+    "signInWithGoogle": "使用 Google 登录",
+    "googleSignInNotSupported": "此演示中未配置 Google Sign In。",
+    "accountCreated": "账户创建成功",
+    "invalidCredentials": "用户名或密码无效",
+    "emailExists": "电子邮件已存在",
+    "noAccountCreateOne": "没有账户？立即注册。",
+    "getStarted": "开始使用",
+    "acceptAndContinue": "接受并继续",
+    "acceptAndFinish": "接受并完成",
+    "stepTos": "服务条款",
+    "stepPrivacy": "隐私政策",
+    "addedOn": "添加日期：{date}",
+    "@addedOn": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "sendFeedback": "发送反馈",
+    "feedbackSubject": "稍后阅读反馈",
+    "feedbackTitle": "发送反馈",
+    "feedbackName": "姓名（可选）",
+    "feedbackEmail": "电子邮件（可选）",
+    "feedbackMessage": "消息内容",
+    "verifyHuman": "请验证您是人类",
+    "send": "发送",
+    "tabLinks": "链接",
+    "tabDeleted": "已删除",
+    "topLinksTitle": "热门链接",
+    "noDeletedLinks": "没有删除的链接",
+    "restoreTooltip": "恢复",
+    "remindersTitle": "提醒事项",
+    "noReminders": "没有即将到来的提醒",
+    "didYouKnow": "你可知道？",
+    "shareToAppTip": "您可以通过将其分享到 Pile 来添加链接！",
+    "commentsLabel": "评论（可选）",
+    "accountSettings": "账户设置",
+    "accountInformation": "账户信息",
+    "profilePicture": "头像",
+    "tapToChange": "点按更改",
+    "changeProfilePicture": "更改头像",
+    "choosePhoto": "选择照片",
+    "changePhoto": "更改照片",
+    "profilePictureChooseHint": "点按图片以选择、裁剪并上传新的头像。",
+    "changeUsername": "更改用户名",
+    "changeEmail": "更改电子邮箱",
+    "passwordLastChanged": "上次更改：{date}",
+    "@passwordLastChanged": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "never": "从未",
+    "signIn": "登录",
+    "collectionsTitle": "收藏",
+    "newCollection": "新收藏",
+    "collectionName": "收藏名称",
+    "gridView": "网格视图",
+    "listView": "列表视图",
+    "editAccountTitle": "编辑账户",
+    "changePasswordTitle": "更改账户密码",
+    "signOutTitle": "登出",
+    "signOutConfirm": "您确定要从此设备中的账户注销吗？",
+    "deleteAccountTitle": "删除账户",
+    "deleteAccountWarning": "删除账户：请仔细阅读此内容。",
+    "deleteAccountConfirm": "您将删除您的账户以及所有相关数据。这是无法撤销的。你确定吗？",
+    "deleteSuccess": "看到你离开我们感到很遗憾！您的账户已被删除。",
+    "deleteFail": "删除账户失败。请稍后重试。",
+    "continueButton": "继续",
+    "noCollectionsYet": "暂无收藏",
+    "emptyFolder": "空文件夹",
+    "folderColor": "文件夹颜色",
+    "editAction": "编辑",
+    "editCollection": "编辑收藏",
+    "changeColor": "更改颜色",
+    "deleteCollectionWarning": "里面的链接将被移至根目录。",
+    "moveAction": "移动",
+    "moveToCollection": "移至收藏",
+    "noCollection": "无收藏",
+    "noInternetConnection": "无网络连接",
+    "dismiss": "关闭",
+    "tagAll": "全部",
+    "camera": "相机",
+    "gallery": "相册",
+    "classicAvatars": "经典头像",
+    "classic": "经典",
+    "usernameLengthError": "用户名必须在3到45个字符之间",
+    "usernameFormatError": "用户名格式无效。",
+    "usernameConsecutiveSymbols": "用户名不能包含连续的符号。",
+    "usernameRestrictedWords": "用户名包含受限词汇。",
+    "failedUploadPic": "上传头像失败。",
+    "accountUpdated": "账户更新成功",
+    "failedUpdateAccount": "账户更新失败。邮箱可能已被使用。",
+    "editAccountHint": "如果不想更改，请将字段留空。点击图片更新头像。",
+    "saveChanges": "保存更改",
+    "verifyIdentity": "验证身份",
+    "enterCurrentPassword": "请输入当前密码以继续。",
+    "currentPassword": "当前密码",
+    "incorrectPassword": "密码不正确",
+    "verify": "验证",
+    "googleVerifyFailed": "通过Google验证身份失败。",
+    "confirmIdentity": "要继续，请先确认是您本人。",
+    "verifyIdentityDesc": "我们需要验证您的身份以保护您的账户。",
+    "continueWithGoogle": "使用Google继续",
+    "editPassword": "修改密码",
+    "newPassword": "新密码",
+    "passwordUpdated": "密码更新成功",
+    "failedUpdatePassword": "密码更新失败",
+    "savePassword": "保存密码",
+    "passwordsDoNotMatch": "两次密码不一致",
+    "none": "无",
+    "visitCount": "{count} 次访问",
+    "aiSettings": "AI 设置",
+    "aiSettingsSubtitle": "控制集合的 AI 排序和风格记忆。",
+    "useAiSorting": "使用 AI 排序",
+    "useAiSortingSubtitle": "根据你的链接自动建议文件夹分组。",
+    "styleMemory": "风格记忆",
+    "styleMemoryEmpty": "设置集合命名的风格。",
+    "styleMemoryDesc": "风格记忆会悄悄学习你如何命名和整理集合 - 无论你喜欢表情、全大写还是更简洁的风格 - 并在下次整理时应用。",
+    "styleMemorySpecificHint": "请尽量具体。例如：“技术类用表情，工作类用全大写，个人类保持简洁。”",
+    "styleMemoryTextHint": "描述你的文件夹命名风格...",
+    "styleMemorySaved": "风格记忆已保存。",
+    "enableAiSortingFirst": "请先在设置中启用“使用 AI 排序”。",
+    "saveMoreLinksTryAgain": "请再保存一些链接后重试",
+    "linksTooUnrelated": "这些链接关联性太弱。",
+    "linksAlreadySimilar": "这些链接已经很相似了。",
+    "aiSortingSaved": "AI 排序已保存。",
+    "tryAgainTitle": "再试一次？",
+    "tryAgainQuestion": "你想再试一次吗？",
+    "aiSortingResult": "AI 排序结果",
+    "saveFolderTree": "保存这个文件夹树吗？",
+    "yes": "是",
+    "no": "否",
+    "autoSortLinks": "自动排序链接",
+    "folderCount": "文件夹：{name}（{count}）",
+    "moreCount": "- 另外 {count} 项",
+    "@folderCount": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            },
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@moreCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "feedbackConsumerButton": "用户反馈",
+    "translationsGitHubButton": "GitHub 反馈",
+    "feedbackTranslationsButton": "翻译反馈",
+    "feedbackConsumerNote": "用户反馈：分享你使用应用的体验，例如漏洞、性能问题、功能或整体易用性。",
+    "translationsGitHubNote": "GitHub 反馈：在 GitHub 上反馈语言问题，例如翻译不正确、措辞不清晰或语法错误。",
+    "feedbackTranslationsNote": "翻译反馈：反馈语言问题，例如翻译不正确、措辞不清晰或语法错误。",
+    "loadingMessage1": "We're getting things ready...",
+    "loadingMessage2": "Hold tight - we're on it.",
+    "loadingMessage3": "Just a moment while we prepare everything...",
+    "loadingMessage4": "Getting things ready for you...",
+    "loadingMessage5": "We'll be there shortly.",
+    "loadingMessage6": "Good things are on the way...",
+    "loadingMessage7": "Almost ready for you...",
+    "loadingMessage8": "Hang tight - almost there.",
+    "loadingMessage9": "We're cooking something nice...",
+    "loadingMessage10": "We're warming things up."
 }

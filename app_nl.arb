@@ -1,316 +1,315 @@
-﻿{
-    "appTitle":  "Pile",
-    "homeTitle":  "Pile",
-    "searchHint":  "Zoek links en tags...",
-    "noLinksYet":  "Nog geen links opgeslagen",
-    "noMatchingLinks":  "Geen overeenkomende links gevonden",
-    "tapToAdd":  "Tik op + om uw eerste link toe te voegen",
-    "deleteLinkTitle":  "Koppeling verwijderen",
-    "deleteLinkContent":  "Weet u zeker dat u \"{name}\" wilt verwijderen?",
-    "@deleteLinkContent":  {
-                               "placeholders":  {
-                                                    "name":  {
-                                                                 "type":  "String"
-                                                             }
-                                                }
-                           },
-    "cancel":  "Annuleren",
-    "delete":  "Verwijderen",
-    "undo":  "Ongedaan maken",
-    "deleted":  "{name} verwijderd",
-    "@deleted":  {
-                     "placeholders":  {
-                                          "name":  {
-                                                       "type":  "String"
-                                                   }
-                                      }
-                 },
-    "errorLoading":  "Fout bij het laden van gegevens: {error}",
-    "@errorLoading":  {
-                          "placeholders":  {
-                                               "error":  {
-                                                             "type":  "String"
-                                                         }
-                                           }
-                      },
-    "couldNotOpen":  "Kon {url} niet openen",
-    "@couldNotOpen":  {
-                          "placeholders":  {
-                                               "url":  {
-                                                           "type":  "String"
-                                                       }
-                                           }
-                      },
-    "addLinkTitle":  "Koppeling toevoegen",
-    "editLinkTitle":  "Link bewerken",
-    "linkTitleLabel":  "Titel",
-    "urlLabel":  "URL",
-    "addTagLabel":  "Label toevoegen",
-    "save":  "Redden",
-    "pleaseEnterUrl":  "Voer een URL in",
-    "accountTitle":  "Instellingen",
-    "language":  "Taal",
-    "navHome":  "Thuis",
-    "navAccount":  "Instellingen",
-    "backupRestoreTitle":  "Back-up en herstel",
-    "exportLinksTitle":  "Links exporteren",
-    "exportLinksSubtitle":  "Sla uw koppelingen op in een bestand",
-    "enterPassword":  "Wachtwoord invoeren (optioneel)",
-    "password":  "Wachtwoord",
-    "encryptFile":  "Versleutelen",
-    "instagram":  "Instagram",
-    "faqTitle":  "Veelgestelde vragen",
-    "importLinksTitle":  "Koppelingen herstellen",
-    "importLinksSubtitle":  "Koppelingen uit een bestand herstellen",
-    "importSuccess":  "{count} links zijn succesvol geÃ¯mporteerd",
-    "@importSuccess":  {
-                           "placeholders":  {
-                                                "count":  {
-                                                              "type":  "int"
-                                                          }
-                                            }
-                       },
-    "importFailed":  "Importeren mislukt: {error}",
-    "@importFailed":  {
-                          "placeholders":  {
-                                               "error":  {
-                                                             "type":  "String"
-                                                         }
-                                           }
-                      },
-    "decryptFailed":  "Decodering mislukt of ongeldig formaat",
-    "wrongPassword":  "Verkeerd wachtwoord of ongeldig bestand",
-    "favoriteLimitReached":  "Max. 3 favorieten toegestaan",
-    "termsOfService":  "Servicevoorwaarden",
-    "privacyPolicy":  "Privacybeleid",
-    "welcomeTitle":  "Welkom bij Pile",
-    "welcomeMessage":  "Lees en accepteer onze Servicevoorwaarden en Privacybeleid om door te gaan.",
-    "accept":  "Accepteren",
-    "decline":  "Afwijzen",
-    "setReminder":  "Herinnering instellen",
-    "reminderSet":  "Herinnering ingesteld voor {date}",
-    "recentlyDeleted":  "Onlangs verwijderd",
-    "@reminderSet":  {
-                         "placeholders":  {
-                                              "date":  {
-                                                           "type":  "String"
-                                                       }
-                                          }
-                     },
-    "reminderLimitReached":  "Herinneringslimiet bereikt (10)",
-    "proVersion":  "Pro-versie",
-    "notAvailableInYourCountry":  "Niet beschikbaar in uw land",
-    "upgradeToPro":  "Upgrade naar Pro voor onbeperkte herinneringen",
-    "restored":  "{name} hersteld",
-    "@restored":  {
-                      "placeholders":  {
-                                           "name":  {
-                                                        "type":  "String"
-                                                    }
-                                       }
-                  },
-    "deletePermanentlyTitle":  "Permanent verwijderen?",
-    "deletePermanentlyContent":  "Deze actie kan niet ongedaan worden gemaakt.",
-    "selectAll":  "Selecteer Alles",
-    "selectedCount":  "gekozen",
-    "deleteSelectedContent":  "{count} links verwijderen?",
-    "@deleteSelectedContent":  {
-                                   "placeholders":  {
-                                                        "count":  {
-                                                                      "type":  "int"
-                                                                  }
-                                                    }
-                               },
-    "loginTitle":  "Login",
-    "emailLabel":  "E-mail",
-    "usernameLabel":  "Gebruikersnaam",
-    "passwordLabel":  "Wachtwoord",
-    "loginButton":  "Inloggen",
-    "logoutButton":  "Uitloggen",
-    "skipLabel":  "Overslaan voor nu",
-    "loggedInAs":  "Ingelogd als {email}",
-    "@loggedInAs":  {
-                        "placeholders":  {
-                                             "email":  {
-                                                           "type":  "String"
-                                                       }
-                                         }
-                    },
-    "createAccount":  "Account aanmaken",
-    "nameLabel":  "Volledige naam",
-    "confirmPasswordLabel":  "Bevestig wachtwoord",
-    "registerButton":  "Registreren",
-    "signInWithGoogle":  "Log in met Google",
-    "googleSignInNotSupported":  "Inloggen bij Google is niet geconfigureerd in deze demo.",
-    "accountCreated":  "Account aangemaakt",
-    "invalidCredentials":  "Ongeldige gebruikersnaam of wachtwoord",
-    "emailExists":  "E-mail bestaat al",
-    "noAccountCreateOne":  "Geen rekening? Maak er een.",
-    "getStarted":  "Aan de slag",
-    "acceptAndContinue":  "Accepteren en doorgaan",
-    "acceptAndFinish":  "Accepteren en voltooien",
-    "stepTos":  "Servicevoorwaarden",
-    "stepPrivacy":  "Privacybeleid",
-    "addedOn":  "Toegevoegd op: {date}",
-    "@addedOn":  {
-                     "placeholders":  {
-                                          "date":  {
-                                                       "type":  "String"
-                                                   }
-                                      }
-                 },
-    "sendFeedback":  "Feedback verzenden",
-    "feedbackSubject":  "Pile-feedback",
-    "feedbackTitle":  "Feedback verzenden",
-    "feedbackName":  "Naam (optioneel)",
-    "feedbackEmail":  "E-mail (optioneel)",
-    "feedbackMessage":  "Bericht",
-    "verifyHuman":  "Controleer of u een mens bent",
-    "send":  "Versturen",
-    "tabLinks":  "Koppelingen",
-    "tabDeleted":  "Verwijderd",
-    "topLinksTitle":  "Toplinks",
-    "noDeletedLinks":  "Geen verwijderde links",
-    "restoreTooltip":  "Herstellen",
-    "remindersTitle":  "Herinneringen",
-    "noReminders":  "Geen aanstaande herinneringen",
-    "didYouKnow":  "Wist je dat?",
-    "shareToAppTip":  "U kunt links toevoegen door deze te delen met Pile!",
-    "commentsLabel":  "Opmerkingen (optioneel)",
-    "accountSettings":  "Accountinstellingen",
-    "accountInformation":  "Accountinformatie",
-    "profilePicture":  "Profielfoto",
-    "tapToChange":  "Tik om te wijzigen",
-    "changeProfilePicture":  "Profielfoto wijzigen",
-    "choosePhoto":  "Foto kiezen",
-    "changePhoto":  "Foto wijzigen",
-    "profilePictureChooseHint":  "Tik op de foto om een nieuwe profielfoto te kiezen, bij te snijden en te uploaden.",
-    "changeUsername":  "Gebruikersnaam wijzigen",
-    "changeEmail":  "E-mail wijzigen",
-    "passwordLastChanged":  "Laatst gewijzigd: {date}",
-    "@passwordLastChanged":  {
-                                 "placeholders":  {
-                                                      "date":  {
-                                                                   "type":  "String"
-                                                               }
-                                                  }
-                             },
-    "never":  "Nooit",
-    "signIn":  "Inloggen",
-    "collectionsTitle":  "Collecties",
-    "newCollection":  "Nieuwe collectie",
-    "collectionName":  "Collectienaam",
-    "gridView":  "Rasterweergave",
-    "listView":  "Lijstweergave",
-    "editAccountTitle":  "Account bewerken",
-    "changePasswordTitle":  "Accountwachtwoord wijzigen",
-    "signOutTitle":  "Meld u af",
-    "signOutConfirm":  "Weet u zeker dat u zich wilt afmelden bij uw account op dit apparaat?",
-    "deleteAccountTitle":  "Account verwijderen",
-    "deleteAccountWarning":  "Account verwijderen: lees dit aandachtig.",
-    "deleteAccountConfirm":  "U gaat uw account en alle bijbehorende gegevens verwijderen. Dit kon niet ongedaan worden gemaakt. Weet je het zeker?",
-    "deleteSuccess":  "We vinden het jammer dat je weggaat! Uw account is verwijderd.",
-    "deleteFail":  "Kan account niet verwijderen. Probeer het later opnieuw.",
-    "continueButton":  "Verder",
-    "noCollectionsYet":  "Nog geen collecties",
-    "emptyFolder":  "Lege map",
-    "folderColor":  "Mapkleur",
-    "editAction":  "Bewerken",
-    "editCollection":  "Collectie bewerken",
-    "changeColor":  "Kleur wijzigen",
-    "deleteCollectionWarning":  "Links erin worden naar de hoofdmap verplaatst.",
-    "moveAction":  "Verplaatsen",
-    "moveToCollection":  "Verplaatsen naar collectie",
-    "noCollection":  "Geen collectie",
-    "noInternetConnection":  "Geen internetverbinding",
-    "dismiss":  "SLUITEN",
-    "tagAll":  "Alle",
-    "camera":  "Camera",
-    "gallery":  "Galerij",
-    "classicAvatars":  "Klassieke avatars",
-    "classic":  "Klassiek",
-    "usernameLengthError":  "Gebruikersnaam moet tussen 3 en 45 tekens lang zijn",
-    "usernameFormatError":  "Ongeldig gebruikersnaamformaat.",
-    "usernameConsecutiveSymbols":  "Gebruikersnaam mag geen opeenvolgende symbolen bevatten.",
-    "usernameRestrictedWords":  "Gebruikersnaam bevat beperkte woorden.",
-    "failedUploadPic":  "Profielfoto uploaden mislukt.",
-    "accountUpdated":  "Account succesvol bijgewerkt",
-    "failedUpdateAccount":  "Account bijwerken mislukt. E-mail is mogelijk al in gebruik.",
-    "editAccountHint":  "Laat velden leeg als u ze niet wilt wijzigen. Tik op de afbeelding om de avatar bij te werken.",
-    "saveChanges":  "Wijzigingen opslaan",
-    "verifyIdentity":  "Identiteit verifiÃ«ren",
-    "enterCurrentPassword":  "Voer uw huidige wachtwoord in om door te gaan.",
-    "currentPassword":  "Huidig wachtwoord",
-    "incorrectPassword":  "Onjuist wachtwoord",
-    "verify":  "VerifiÃ«ren",
-    "googleVerifyFailed":  "Identiteitsverificatie met Google mislukt.",
-    "confirmIdentity":  "Om door te gaan, bevestig eerst dat u het bent.",
-    "verifyIdentityDesc":  "We moeten uw identiteit verifiÃ«ren om uw account te beschermen.",
-    "continueWithGoogle":  "Doorgaan met Google",
-    "editPassword":  "Wachtwoord bewerken",
-    "newPassword":  "Nieuw wachtwoord",
-    "passwordUpdated":  "Wachtwoord succesvol bijgewerkt",
-    "failedUpdatePassword":  "Wachtwoord bijwerken mislukt",
-    "savePassword":  "Wachtwoord opslaan",
-    "passwordsDoNotMatch":  "Wachtwoorden komen niet overeen",
-    "none":  "Geen",
-    "visitCount":  "{count} bezoeken",
-    "aiSettings":  "AI-instellingen",
-    "aiSettingsSubtitle":  "Beheer AI-sortering en stijlgeheugen voor collecties.",
-    "useAiSorting":  "AI-sortering gebruiken",
-    "useAiSortingSubtitle":  "Stelt automatisch mapgroeperingen voor op basis van je links.",
-    "styleMemory":  "Stijlgeheugen",
-    "styleMemoryEmpty":  "Stel in hoe collectienamen eruit moeten zien.",
-    "styleMemoryDesc":  "Stijlgeheugen leert stilletjes hoe je collecties benoemt en ordent - met emoji, HOOFDLETTERS of eenvoudiger stijl - en past dit de volgende keer toe.",
-    "styleMemorySpecificHint":  "Wees specifiek. Voorbeeld: \"Emoji voor tech, HOOFDLETTERS voor werk, persoonlijk eenvoudig.\"",
-    "styleMemoryTextHint":  "Beschrijf je stijl voor mapnamen...",
-    "styleMemorySaved":  "Stijlgeheugen opgeslagen.",
-    "enableAiSortingFirst":  "Schakel eerst AI-sortering gebruiken in bij Instellingen.",
-    "saveMoreLinksTryAgain":  "Sla nog een paar links op en probeer opnieuw",
-    "linksTooUnrelated":  "Deze links zijn te weinig verwant.",
-    "linksAlreadySimilar":  "Deze links lijken al behoorlijk op elkaar.",
-    "aiSortingSaved":  "AI-sortering opgeslagen.",
-    "tryAgainTitle":  "Opnieuw proberen?",
-    "tryAgainQuestion":  "Wil je het opnieuw proberen?",
-    "aiSortingResult":  "Resultaat van AI-sortering",
-    "saveFolderTree":  "Deze mappenboom opslaan?",
-    "yes":  "Ja",
-    "no":  "Nee",
-    "autoSortLinks":  "Links automatisch sorteren",
-    "folderCount":  "Map: {name} ({count})",
-    "moreCount":  "- +{count} meer",
-    "@folderCount":  {
-                         "placeholders":  {
-                                              "name":  {
-                                                           "type":  "String"
-                                                       },
-                                              "count":  {
-                                                            "type":  "int"
-                                                        }
-                                          }
-                     },
-    "@moreCount":  {
-                       "placeholders":  {
-                                            "count":  {
-                                                          "type":  "int"
-                                                      }
-                                        }
-                   },
-    "feedbackConsumerButton":  "Gebruikersfeedback",
-    "translationsGitHubButton":  "GitHub-feedback",
-    "feedbackTranslationsButton":  "Vertalingsfeedback",
-    "feedbackConsumerNote":  "Gebruikersfeedback: deel je ervaring met de app, zoals bugs, prestatieproblemen, functies of algemene gebruiksvriendelijkheid.",
-    "translationsGitHubNote":  "GitHub-feedback: meld taalproblemen op GitHub, zoals onjuiste vertalingen, onduidelijke formuleringen of grammaticafouten.",
-    "feedbackTranslationsNote":  "Vertalingsfeedback: meld taalproblemen, zoals onjuiste vertalingen, onduidelijke formuleringen of grammaticafouten."
-,
-    "loadingMessage1":  "We maken alles klaar...",
-    "loadingMessage2":  "Even geduld, we zijn ermee bezig.",
-    "loadingMessage3":  "Nog heel even terwijl we alles voorbereiden...",
-    "loadingMessage4":  "We maken alles voor je klaar...",
-    "loadingMessage5":  "We zijn er zo.",
-    "loadingMessage6":  "Goede dingen zijn onderweg...",
-    "loadingMessage7":  "Bijna klaar voor je...",
-    "loadingMessage8":  "Nog even volhouden, bijna klaar.",
-    "loadingMessage9":  "We bereiden iets moois voor...",
-    "loadingMessage10":  "We warmen alles op."
+{
+    "appTitle": "Pile",
+    "homeTitle": "Pile",
+    "searchHint": "Zoek links en tags...",
+    "noLinksYet": "Nog geen links opgeslagen",
+    "noMatchingLinks": "Geen overeenkomende links gevonden",
+    "tapToAdd": "Tik op + om uw eerste link toe te voegen",
+    "deleteLinkTitle": "Koppeling verwijderen",
+    "deleteLinkContent": "Weet u zeker dat u \"{name}\" wilt verwijderen?",
+    "@deleteLinkContent": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "undo": "Ongedaan maken",
+    "deleted": "{name} verwijderd",
+    "@deleted": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "errorLoading": "Fout bij het laden van gegevens: {error}",
+    "@errorLoading": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "couldNotOpen": "Kon {url} niet openen",
+    "@couldNotOpen": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "addLinkTitle": "Koppeling toevoegen",
+    "editLinkTitle": "Link bewerken",
+    "linkTitleLabel": "Titel",
+    "urlLabel": "URL",
+    "addTagLabel": "Label toevoegen",
+    "save": "Redden",
+    "pleaseEnterUrl": "Voer een URL in",
+    "accountTitle": "Instellingen",
+    "language": "Taal",
+    "navHome": "Thuis",
+    "navAccount": "Instellingen",
+    "backupRestoreTitle": "Back-up en herstel",
+    "exportLinksTitle": "Links exporteren",
+    "exportLinksSubtitle": "Sla uw koppelingen op in een bestand",
+    "enterPassword": "Wachtwoord invoeren (optioneel)",
+    "password": "Wachtwoord",
+    "encryptFile": "Versleutelen",
+    "instagram": "Instagram",
+    "faqTitle": "Veelgestelde vragen",
+    "importLinksTitle": "Koppelingen herstellen",
+    "importLinksSubtitle": "Koppelingen uit een bestand herstellen",
+    "importSuccess": "{count} links zijn succesvol geïmporteerd",
+    "@importSuccess": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "importFailed": "Importeren mislukt: {error}",
+    "@importFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "decryptFailed": "Decodering mislukt of ongeldig formaat",
+    "wrongPassword": "Verkeerd wachtwoord of ongeldig bestand",
+    "favoriteLimitReached": "Max. 3 favorieten toegestaan",
+    "termsOfService": "Servicevoorwaarden",
+    "privacyPolicy": "Privacybeleid",
+    "welcomeTitle": "Welkom bij Pile",
+    "welcomeMessage": "Lees en accepteer onze Servicevoorwaarden en Privacybeleid om door te gaan.",
+    "accept": "Accepteren",
+    "decline": "Afwijzen",
+    "setReminder": "Herinnering instellen",
+    "reminderSet": "Herinnering ingesteld voor {date}",
+    "recentlyDeleted": "Onlangs verwijderd",
+    "@reminderSet": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "reminderLimitReached": "Herinneringslimiet bereikt (10)",
+    "proVersion": "Pro-versie",
+    "notAvailableInYourCountry": "Niet beschikbaar in uw land",
+    "upgradeToPro": "Upgrade naar Pro voor onbeperkte herinneringen",
+    "restored": "{name} hersteld",
+    "@restored": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "deletePermanentlyTitle": "Permanent verwijderen?",
+    "deletePermanentlyContent": "Deze actie kan niet ongedaan worden gemaakt.",
+    "selectAll": "Selecteer Alles",
+    "selectedCount": "gekozen",
+    "deleteSelectedContent": "{count} links verwijderen?",
+    "@deleteSelectedContent": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "loginTitle": "Login",
+    "emailLabel": "E-mail",
+    "usernameLabel": "Gebruikersnaam",
+    "passwordLabel": "Wachtwoord",
+    "loginButton": "Inloggen",
+    "logoutButton": "Uitloggen",
+    "skipLabel": "Overslaan voor nu",
+    "loggedInAs": "Ingelogd als {email}",
+    "@loggedInAs": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "createAccount": "Account aanmaken",
+    "nameLabel": "Volledige naam",
+    "confirmPasswordLabel": "Bevestig wachtwoord",
+    "registerButton": "Registreren",
+    "signInWithGoogle": "Log in met Google",
+    "googleSignInNotSupported": "Inloggen bij Google is niet geconfigureerd in deze demo.",
+    "accountCreated": "Account aangemaakt",
+    "invalidCredentials": "Ongeldige gebruikersnaam of wachtwoord",
+    "emailExists": "E-mail bestaat al",
+    "noAccountCreateOne": "Geen rekening? Maak er een.",
+    "getStarted": "Aan de slag",
+    "acceptAndContinue": "Accepteren en doorgaan",
+    "acceptAndFinish": "Accepteren en voltooien",
+    "stepTos": "Servicevoorwaarden",
+    "stepPrivacy": "Privacybeleid",
+    "addedOn": "Toegevoegd op: {date}",
+    "@addedOn": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "sendFeedback": "Feedback verzenden",
+    "feedbackSubject": "Pile-feedback",
+    "feedbackTitle": "Feedback verzenden",
+    "feedbackName": "Naam (optioneel)",
+    "feedbackEmail": "E-mail (optioneel)",
+    "feedbackMessage": "Bericht",
+    "verifyHuman": "Controleer of u een mens bent",
+    "send": "Versturen",
+    "tabLinks": "Koppelingen",
+    "tabDeleted": "Verwijderd",
+    "topLinksTitle": "Toplinks",
+    "noDeletedLinks": "Geen verwijderde links",
+    "restoreTooltip": "Herstellen",
+    "remindersTitle": "Herinneringen",
+    "noReminders": "Geen aanstaande herinneringen",
+    "didYouKnow": "Wist je dat?",
+    "shareToAppTip": "U kunt links toevoegen door deze te delen met Pile!",
+    "commentsLabel": "Opmerkingen (optioneel)",
+    "accountSettings": "Accountinstellingen",
+    "accountInformation": "Accountinformatie",
+    "profilePicture": "Profielfoto",
+    "tapToChange": "Tik om te wijzigen",
+    "changeProfilePicture": "Profielfoto wijzigen",
+    "choosePhoto": "Foto kiezen",
+    "changePhoto": "Foto wijzigen",
+    "profilePictureChooseHint": "Tik op de foto om een nieuwe profielfoto te kiezen, bij te snijden en te uploaden.",
+    "changeUsername": "Gebruikersnaam wijzigen",
+    "changeEmail": "E-mail wijzigen",
+    "passwordLastChanged": "Laatst gewijzigd: {date}",
+    "@passwordLastChanged": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "never": "Nooit",
+    "signIn": "Inloggen",
+    "collectionsTitle": "Collecties",
+    "newCollection": "Nieuwe collectie",
+    "collectionName": "Collectienaam",
+    "gridView": "Rasterweergave",
+    "listView": "Lijstweergave",
+    "editAccountTitle": "Account bewerken",
+    "changePasswordTitle": "Accountwachtwoord wijzigen",
+    "signOutTitle": "Meld u af",
+    "signOutConfirm": "Weet u zeker dat u zich wilt afmelden bij uw account op dit apparaat?",
+    "deleteAccountTitle": "Account verwijderen",
+    "deleteAccountWarning": "Account verwijderen: lees dit aandachtig.",
+    "deleteAccountConfirm": "U gaat uw account en alle bijbehorende gegevens verwijderen. Dit kon niet ongedaan worden gemaakt. Weet je het zeker?",
+    "deleteSuccess": "We vinden het jammer dat je weggaat! Uw account is verwijderd.",
+    "deleteFail": "Kan account niet verwijderen. Probeer het later opnieuw.",
+    "continueButton": "Verder",
+    "noCollectionsYet": "Nog geen collecties",
+    "emptyFolder": "Lege map",
+    "folderColor": "Mapkleur",
+    "editAction": "Bewerken",
+    "editCollection": "Collectie bewerken",
+    "changeColor": "Kleur wijzigen",
+    "deleteCollectionWarning": "Links erin worden naar de hoofdmap verplaatst.",
+    "moveAction": "Verplaatsen",
+    "moveToCollection": "Verplaatsen naar collectie",
+    "noCollection": "Geen collectie",
+    "noInternetConnection": "Geen internetverbinding",
+    "dismiss": "SLUITEN",
+    "tagAll": "Alle",
+    "camera": "Camera",
+    "gallery": "Galerij",
+    "classicAvatars": "Klassieke avatars",
+    "classic": "Klassiek",
+    "usernameLengthError": "Gebruikersnaam moet tussen 3 en 45 tekens lang zijn",
+    "usernameFormatError": "Ongeldig gebruikersnaamformaat.",
+    "usernameConsecutiveSymbols": "Gebruikersnaam mag geen opeenvolgende symbolen bevatten.",
+    "usernameRestrictedWords": "Gebruikersnaam bevat beperkte woorden.",
+    "failedUploadPic": "Profielfoto uploaden mislukt.",
+    "accountUpdated": "Account succesvol bijgewerkt",
+    "failedUpdateAccount": "Account bijwerken mislukt. E-mail is mogelijk al in gebruik.",
+    "editAccountHint": "Laat velden leeg als u ze niet wilt wijzigen. Tik op de afbeelding om de avatar bij te werken.",
+    "saveChanges": "Wijzigingen opslaan",
+    "verifyIdentity": "Identiteit verifiëren",
+    "enterCurrentPassword": "Voer uw huidige wachtwoord in om door te gaan.",
+    "currentPassword": "Huidig wachtwoord",
+    "incorrectPassword": "Onjuist wachtwoord",
+    "verify": "Verifiëren",
+    "googleVerifyFailed": "Identiteitsverificatie met Google mislukt.",
+    "confirmIdentity": "Om door te gaan, bevestig eerst dat u het bent.",
+    "verifyIdentityDesc": "We moeten uw identiteit verifiëren om uw account te beschermen.",
+    "continueWithGoogle": "Doorgaan met Google",
+    "editPassword": "Wachtwoord bewerken",
+    "newPassword": "Nieuw wachtwoord",
+    "passwordUpdated": "Wachtwoord succesvol bijgewerkt",
+    "failedUpdatePassword": "Wachtwoord bijwerken mislukt",
+    "savePassword": "Wachtwoord opslaan",
+    "passwordsDoNotMatch": "Wachtwoorden komen niet overeen",
+    "none": "Geen",
+    "visitCount": "{count} bezoeken",
+    "aiSettings": "AI-instellingen",
+    "aiSettingsSubtitle": "Beheer AI-sortering en stijlgeheugen voor collecties.",
+    "useAiSorting": "AI-sortering gebruiken",
+    "useAiSortingSubtitle": "Stelt automatisch mapgroeperingen voor op basis van je links.",
+    "styleMemory": "Stijlgeheugen",
+    "styleMemoryEmpty": "Stel in hoe collectienamen eruit moeten zien.",
+    "styleMemoryDesc": "Stijlgeheugen leert stilletjes hoe je collecties benoemt en ordent - met emoji, HOOFDLETTERS of eenvoudiger stijl - en past dit de volgende keer toe.",
+    "styleMemorySpecificHint": "Wees specifiek. Voorbeeld: \"Emoji voor tech, HOOFDLETTERS voor werk, persoonlijk eenvoudig.\"",
+    "styleMemoryTextHint": "Beschrijf je stijl voor mapnamen...",
+    "styleMemorySaved": "Stijlgeheugen opgeslagen.",
+    "enableAiSortingFirst": "Schakel eerst AI-sortering gebruiken in bij Instellingen.",
+    "saveMoreLinksTryAgain": "Sla nog een paar links op en probeer opnieuw",
+    "linksTooUnrelated": "Deze links zijn te weinig verwant.",
+    "linksAlreadySimilar": "Deze links lijken al behoorlijk op elkaar.",
+    "aiSortingSaved": "AI-sortering opgeslagen.",
+    "tryAgainTitle": "Opnieuw proberen?",
+    "tryAgainQuestion": "Wil je het opnieuw proberen?",
+    "aiSortingResult": "Resultaat van AI-sortering",
+    "saveFolderTree": "Deze mappenboom opslaan?",
+    "yes": "Ja",
+    "no": "Nee",
+    "autoSortLinks": "Links automatisch sorteren",
+    "folderCount": "Map: {name} ({count})",
+    "moreCount": "- +{count} meer",
+    "@folderCount": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            },
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@moreCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "feedbackConsumerButton": "Gebruikersfeedback",
+    "translationsGitHubButton": "GitHub-feedback",
+    "feedbackTranslationsButton": "Vertalingsfeedback",
+    "feedbackConsumerNote": "Gebruikersfeedback: deel je ervaring met de app, zoals bugs, prestatieproblemen, functies of algemene gebruiksvriendelijkheid.",
+    "translationsGitHubNote": "GitHub-feedback: meld taalproblemen op GitHub, zoals onjuiste vertalingen, onduidelijke formuleringen of grammaticafouten.",
+    "feedbackTranslationsNote": "Vertalingsfeedback: meld taalproblemen, zoals onjuiste vertalingen, onduidelijke formuleringen of grammaticafouten.",
+    "loadingMessage1": "We're getting things ready...",
+    "loadingMessage2": "Hold tight - we're on it.",
+    "loadingMessage3": "Just a moment while we prepare everything...",
+    "loadingMessage4": "Getting things ready for you...",
+    "loadingMessage5": "We'll be there shortly.",
+    "loadingMessage6": "Good things are on the way...",
+    "loadingMessage7": "Almost ready for you...",
+    "loadingMessage8": "Hang tight - almost there.",
+    "loadingMessage9": "We're cooking something nice...",
+    "loadingMessage10": "We're warming things up."
 }

@@ -15,665 +15,635 @@ class AppLocalizationsAr extends AppLocalizations {
   String get homeTitle => 'Pile';
 
   @override
-  String get searchHint => 'Ø§Ù„Ø¨Ø­Ø« ÙÙŠ Ø§Ù„Ø±ÙˆØ§Ø¨Ø· ÙˆØ§Ù„Ø¹Ù„Ø§Ù…Ø§Øª...';
+  String get searchHint => 'البحث في الروابط والعلامات...';
 
   @override
-  String get noLinksYet => 'Ù„Ù… ÙŠØªÙ… Ø­ÙØ¸ Ø£ÙŠ Ø±ÙˆØ§Ø¨Ø· Ø­ØªÙ‰ Ø§Ù„Ø¢Ù†';
+  String get noLinksYet => 'لم يتم حفظ أي روابط حتى الآن';
 
   @override
-  String get noMatchingLinks => 'Ù„Ù… ÙŠØªÙ… Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ø±ÙˆØ§Ø¨Ø· Ù…Ø·Ø§Ø¨Ù‚Ø©';
+  String get noMatchingLinks => 'لم يتم العثور على روابط مطابقة';
 
   @override
-  String get tapToAdd => 'Ø§Ø¶ØºØ· Ø¹Ù„Ù‰ + Ù„Ø¥Ø¶Ø§ÙØ© Ø±Ø§Ø¨Ø·Ùƒ Ø§Ù„Ø£ÙˆÙ„';
+  String get tapToAdd => 'اضغط على + لإضافة رابطك الأول';
 
   @override
-  String get deleteLinkTitle => 'Ø­Ø°Ù Ø§Ù„Ø±Ø§Ø¨Ø·';
+  String get deleteLinkTitle => 'حذف الرابط';
 
   @override
   String deleteLinkContent(String name) {
-    return 'Ù‡Ù„ Ø£Ù†Øª Ù…ØªØ£ÙƒØ¯ Ø£Ù†Ùƒ ØªØ±ÙŠØ¯ Ø­Ø°Ù \"$name\"ØŸ';
+    return 'هل أنت متأكد أنك تريد حذف \"$name\"؟';
   }
 
   @override
-  String get cancel => 'ÙŠÙ„ØºÙŠ';
+  String get cancel => 'يلغي';
 
   @override
-  String get delete => 'ÙŠÙ…Ø³Ø­';
+  String get delete => 'يمسح';
 
   @override
-  String get undo => 'ØªØ±Ø§Ø¬Ø¹';
+  String get undo => 'تراجع';
 
   @override
   String deleted(String name) {
-    return '$name Ù…Ø­Ø°ÙˆÙ';
+    return '$name محذوف';
   }
 
   @override
   String errorLoading(String error) {
-    return 'Ø®Ø·Ø£ ÙÙŠ ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª: $error';
+    return 'خطأ في تحميل البيانات: $error';
   }
 
   @override
   String couldNotOpen(String url) {
-    return 'Ù„Ø§ ÙŠÙ…ÙƒÙ† ÙØªØ­ $url';
+    return 'لا يمكن فتح $url';
   }
 
   @override
-  String get addLinkTitle => 'Ø¥Ø¶Ø§ÙØ© Ø±Ø§Ø¨Ø·';
+  String get addLinkTitle => 'إضافة رابط';
 
   @override
-  String get editLinkTitle => 'ØªØ¹Ø¯ÙŠÙ„ Ø§Ù„Ø±Ø§Ø¨Ø·';
+  String get editLinkTitle => 'تعديل الرابط';
 
   @override
-  String get linkTitleLabel => 'Ø¹Ù†ÙˆØ§Ù†';
+  String get linkTitleLabel => 'عنوان';
 
   @override
-  String get urlLabel => 'Ø¹Ù†ÙˆØ§Ù† URL';
+  String get urlLabel => 'عنوان URL';
 
   @override
-  String get addTagLabel => 'Ø¥Ø¶Ø§ÙØ© Ø¹Ù„Ø§Ù…Ø©';
+  String get addTagLabel => 'إضافة علامة';
 
   @override
-  String get save => 'ÙŠØ­ÙØ¸';
+  String get save => 'يحفظ';
 
   @override
-  String get pleaseEnterUrl => 'Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø¥Ø¯Ø®Ø§Ù„ Ø¹Ù†ÙˆØ§Ù† URL';
+  String get pleaseEnterUrl => 'الرجاء إدخال عنوان URL';
 
   @override
-  String get accountTitle => 'Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª';
+  String get accountTitle => 'إعدادات';
 
   @override
-  String get language => 'Ù„ØºØ©';
+  String get language => 'لغة';
 
   @override
-  String get navHome => 'Ø¨ÙŠØª';
+  String get navHome => 'بيت';
 
   @override
-  String get navAccount => 'Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª';
+  String get navAccount => 'إعدادات';
 
   @override
-  String get backupRestoreTitle => 'Ø§Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠ ÙˆØ§Ù„Ø§Ø³ØªØ¹Ø§Ø¯Ø©';
+  String get backupRestoreTitle => 'النسخ الاحتياطي والاستعادة';
 
   @override
-  String get exportLinksTitle => 'Ø±ÙˆØ§Ø¨Ø· Ø§Ù„ØªØµØ¯ÙŠØ±';
+  String get exportLinksTitle => 'روابط التصدير';
 
   @override
-  String get exportLinksSubtitle => 'Ø§Ø­ÙØ¸ Ø§Ù„Ø±ÙˆØ§Ø¨Ø· Ø§Ù„Ø®Ø§ØµØ© Ø¨Ùƒ ÙÙŠ Ù…Ù„Ù';
+  String get exportLinksSubtitle => 'احفظ الروابط الخاصة بك في ملف';
 
   @override
-  String get enterPassword => 'Ø£Ø¯Ø®Ù„ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)';
+  String get enterPassword => 'أدخل كلمة المرور (اختياري)';
 
   @override
-  String get password => 'ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±';
+  String get password => 'كلمة المرور';
 
   @override
-  String get encryptFile => 'ØªØ´ÙÙŠØ±';
+  String get encryptFile => 'تشفير';
 
   @override
-  String get instagram => 'Ø§Ù†Ø³ØªØºØ±Ø§Ù…';
+  String get instagram => 'انستغرام';
 
   @override
-  String get faqTitle => 'Ø§Ù„Ø£Ø³Ø¦Ù„Ø© Ø§Ù„Ù…ØªØ¯Ø§ÙˆÙ„Ø©';
+  String get faqTitle => 'الأسئلة المتداولة';
 
   @override
-  String get importLinksTitle => 'Ø§Ø³ØªØ¹Ø§Ø¯Ø© Ø§Ù„Ø±ÙˆØ§Ø¨Ø·';
+  String get importLinksTitle => 'استعادة الروابط';
 
   @override
-  String get importLinksSubtitle => 'Ø§Ø³ØªØ¹Ø§Ø¯Ø© Ø§Ù„Ø±ÙˆØ§Ø¨Ø· Ù…Ù† Ù…Ù„Ù';
+  String get importLinksSubtitle => 'استعادة الروابط من ملف';
 
   @override
   String importSuccess(int count) {
-    return 'ØªÙ… Ø§Ø³ØªÙŠØ±Ø§Ø¯ $count Ù…Ù† Ø§Ù„Ø±ÙˆØ§Ø¨Ø· Ø¨Ù†Ø¬Ø§Ø­';
+    return 'تم استيراد $count من الروابط بنجاح';
   }
 
   @override
   String importFailed(String error) {
-    return 'ÙØ´Ù„ Ø§Ù„Ø§Ø³ØªÙŠØ±Ø§Ø¯: $error';
+    return 'فشل الاستيراد: $error';
   }
 
   @override
-  String get decryptFailed => 'ÙØ´Ù„ ÙÙƒ Ø§Ù„ØªØ´ÙÙŠØ± Ø£Ùˆ Ø§Ù„ØªÙ†Ø³ÙŠÙ‚ ØºÙŠØ± ØµØ§Ù„Ø­';
+  String get decryptFailed => 'فشل فك التشفير أو التنسيق غير صالح';
 
   @override
-  String get wrongPassword => 'ÙƒÙ„Ù…Ø© Ù…Ø±ÙˆØ± Ø®Ø§Ø·Ø¦Ø© Ø£Ùˆ Ù…Ù„Ù ØºÙŠØ± ØµØ§Ù„Ø­';
+  String get wrongPassword => 'كلمة مرور خاطئة أو ملف غير صالح';
 
   @override
-  String get favoriteLimitReached => 'Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£Ù‚ØµÙ‰ Ø§Ù„Ù…Ø³Ù…ÙˆØ­ Ø¨Ù‡ Ù‡Ùˆ 3 Ù…ÙØ¶Ù„Ø§Øª';
+  String get favoriteLimitReached => 'الحد الأقصى المسموح به هو 3 مفضلات';
 
   @override
-  String get termsOfService => 'Ø´Ø±ÙˆØ· Ø§Ù„Ø®Ø¯Ù…Ø©';
+  String get termsOfService => 'شروط الخدمة';
 
   @override
-  String get privacyPolicy => 'Ø³ÙŠØ§Ø³Ø© Ø§Ù„Ø®ØµÙˆØµÙŠØ©';
+  String get privacyPolicy => 'سياسة الخصوصية';
 
   @override
-  String get welcomeTitle => 'Ù…Ø±Ø­Ø¨Ù‹Ø§ Ø¨Ùƒ ÙÙŠ Pile';
+  String get welcomeTitle => 'مرحبًا بك في Pile';
 
   @override
-  String get welcomeMessage => 'ÙŠØ±Ø¬Ù‰ Ù‚Ø±Ø§Ø¡Ø© ÙˆÙ‚Ø¨ÙˆÙ„ Ø´Ø±ÙˆØ· Ø§Ù„Ø®Ø¯Ù…Ø© ÙˆØ³ÙŠØ§Ø³Ø© Ø§Ù„Ø®ØµÙˆØµÙŠØ© Ø§Ù„Ø®Ø§ØµØ© Ø¨Ù†Ø§ Ù„Ù„Ù…ØªØ§Ø¨Ø¹Ø©.';
+  String get welcomeMessage => 'يرجى قراءة وقبول شروط الخدمة وسياسة الخصوصية الخاصة بنا للمتابعة.';
 
   @override
-  String get accept => 'ÙŠÙ‚Ø¨Ù„';
+  String get accept => 'يقبل';
 
   @override
-  String get decline => 'Ø§Ù†Ø®ÙØ§Ø¶';
+  String get decline => 'انخفاض';
 
   @override
-  String get setReminder => 'ØªØ¹ÙŠÙŠÙ† ØªØ°ÙƒÙŠØ±';
+  String get setReminder => 'تعيين تذكير';
 
   @override
   String reminderSet(String date) {
-    return 'ØªÙ… Ø¶Ø¨Ø· Ø§Ù„ØªØ°ÙƒÙŠØ± Ø¨ØªØ§Ø±ÙŠØ® $date';
+    return 'تم ضبط التذكير بتاريخ $date';
   }
 
   @override
-  String get recentlyDeleted => 'ØªÙ… Ø­Ø°ÙÙ‡ Ù…Ø¤Ø®Ø±Ù‹Ø§';
+  String get recentlyDeleted => 'تم حذفه مؤخرًا';
 
   @override
-  String get reminderLimitReached => 'ØªÙ… Ø§Ù„ÙˆØµÙˆÙ„ Ø¥Ù„Ù‰ Ø­Ø¯ Ø§Ù„ØªØ°ÙƒÙŠØ± (10)';
+  String get reminderLimitReached => 'تم الوصول إلى حد التذكير (10)';
 
   @override
   String get notificationsOrExactAlarmPermissionsBlocked => 'Notifications and/or exact alarm permissions blocked';
 
   @override
-  String get proVersion => 'Ø§Ù„Ù†Ø³Ø®Ø© Ø§Ù„Ø§Ø­ØªØ±Ø§ÙÙŠØ©';
+  String get proVersion => 'النسخة الاحترافية';
 
   @override
-  String get notAvailableInYourCountry => 'ØºÙŠØ± Ù…ØªÙˆÙØ± ÙÙŠ Ø¨Ù„Ø¯Ùƒ';
+  String get notAvailableInYourCountry => 'غير متوفر في بلدك';
 
   @override
-  String get upgradeToPro => 'Ø§Ù„ØªØ±Ù‚ÙŠØ© Ø¥Ù„Ù‰ Pro Ù„Ù„Ø­ØµÙˆÙ„ Ø¹Ù„Ù‰ ØªØ°ÙƒÙŠØ±Ø§Øª ØºÙŠØ± Ù…Ø­Ø¯ÙˆØ¯Ø©';
+  String get upgradeToPro => 'الترقية إلى Pro للحصول على تذكيرات غير محدودة';
 
   @override
   String restored(String name) {
-    return 'ØªÙ…Øª Ø§Ø³ØªØ¹Ø§Ø¯Ø© $name.';
+    return 'تمت استعادة $name.';
   }
 
   @override
-  String get deletePermanentlyTitle => 'Ù‡Ù„ ØªØ±ÙŠØ¯ Ø§Ù„Ø­Ø°Ù Ù†Ù‡Ø§Ø¦ÙŠÙ‹Ø§ØŸ';
+  String get deletePermanentlyTitle => 'هل تريد الحذف نهائيًا؟';
 
   @override
-  String get deletePermanentlyContent => 'Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø§Ù„ØªØ±Ø§Ø¬Ø¹ Ø¹Ù† Ù‡Ø°Ø§ Ø§Ù„Ø¥Ø¬Ø±Ø§Ø¡.';
+  String get deletePermanentlyContent => 'لا يمكن التراجع عن هذا الإجراء.';
 
   @override
-  String get selectAll => 'Ø­Ø¯Ø¯ Ø§Ù„ÙƒÙ„';
+  String get selectAll => 'حدد الكل';
 
   @override
-  String get selectedCount => 'Ù…Ø®ØªØ§Ø±Ø©';
+  String get selectedCount => 'مختارة';
 
   @override
   String deleteSelectedContent(int count) {
-    return 'Ù‡Ù„ ØªØ±ÙŠØ¯ Ø­Ø°Ù $count Ù…Ù† Ø§Ù„Ø±ÙˆØ§Ø¨Ø·ØŸ';
+    return 'هل تريد حذف $count من الروابط؟';
   }
 
   @override
-  String get loginTitle => 'ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„';
+  String get loginTitle => 'تسجيل الدخول';
 
   @override
-  String get emailLabel => 'Ø¨Ø±ÙŠØ¯ Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ';
+  String get emailLabel => 'بريد إلكتروني';
 
   @override
-  String get usernameLabel => 'Ø§Ø³Ù… Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…';
+  String get usernameLabel => 'اسم المستخدم';
 
   @override
-  String get passwordLabel => 'ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±';
+  String get passwordLabel => 'كلمة المرور';
 
   @override
-  String get loginButton => 'ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„';
+  String get loginButton => 'تسجيل الدخول';
 
   @override
-  String get logoutButton => 'ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø®Ø±ÙˆØ¬';
+  String get logoutButton => 'تسجيل الخروج';
 
   @override
-  String get skipLabel => 'ØªØ®Ø·ÙŠ Ø§Ù„Ø¢Ù†';
+  String get skipLabel => 'تخطي الآن';
 
   @override
   String loggedInAs(String email) {
-    return 'ØªÙ… ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¨Ø§Ø³Ù… $email';
+    return 'تم تسجيل الدخول باسم $email';
   }
 
   @override
-  String get createAccount => 'Ø¥Ù†Ø´Ø§Ø¡ Ø­Ø³Ø§Ø¨';
+  String get createAccount => 'إنشاء حساب';
 
   @override
-  String get nameLabel => 'Ø§Ù„Ø§Ø³Ù… Ø§Ù„ÙƒØ§Ù…Ù„';
+  String get nameLabel => 'الاسم الكامل';
 
   @override
-  String get confirmPasswordLabel => 'ØªØ£ÙƒÙŠØ¯ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±';
+  String get confirmPasswordLabel => 'تأكيد كلمة المرور';
 
   @override
-  String get registerButton => 'ÙŠØ³Ø¬Ù„';
+  String get registerButton => 'يسجل';
 
   @override
-  String get signInWithGoogle => 'Ù‚Ù… Ø¨ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø¬ÙˆØ¬Ù„';
+  String get signInWithGoogle => 'قم بتسجيل الدخول باستخدام جوجل';
 
   @override
-  String get googleSignInNotSupported => 'Ù„Ù… ÙŠØªÙ… ØªÙƒÙˆÙŠÙ† ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¨Ù€ Google ÙÙŠ Ù‡Ø°Ø§ Ø§Ù„Ø¹Ø±Ø¶ Ø§Ù„ØªÙˆØ¶ÙŠØ­ÙŠ.';
+  String get googleSignInNotSupported => 'لم يتم تكوين تسجيل الدخول بـ Google في هذا العرض التوضيحي.';
 
   @override
-  String get accountCreated => 'ØªÙ… Ø¥Ù†Ø´Ø§Ø¡ Ø§Ù„Ø­Ø³Ø§Ø¨ Ø¨Ù†Ø¬Ø§Ø­';
+  String get accountCreated => 'تم إنشاء الحساب بنجاح';
 
   @override
-  String get invalidCredentials => 'Ø§Ø³Ù… Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… Ø£Ùˆ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± ØºÙŠØ± ØµØ§Ù„Ø­Ø©';
+  String get invalidCredentials => 'اسم المستخدم أو كلمة المرور غير صالحة';
 
   @override
-  String get emailExists => 'Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ù…ÙˆØ¬ÙˆØ¯ Ø¨Ø§Ù„ÙØ¹Ù„';
+  String get emailExists => 'البريد الإلكتروني موجود بالفعل';
 
   @override
-  String get noAccountCreateOne => 'Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø­Ø³Ø§Ø¨ØŸ Ù‚Ù… Ø¨Ø¥Ù†Ø´Ø§Ø¡ ÙˆØ§Ø­Ø¯Ø©.';
+  String get noAccountCreateOne => 'لا يوجد حساب؟ قم بإنشاء واحدة.';
 
   @override
-  String get getStarted => 'Ø§Ø¨Ø¯Ø£';
+  String get getStarted => 'ابدأ';
 
   @override
-  String get acceptAndContinue => 'Ù‚Ø¨ÙˆÙ„ ÙˆÙ…ØªØ§Ø¨Ø¹Ø©';
+  String get acceptAndContinue => 'قبول ومتابعة';
 
   @override
-  String get acceptAndFinish => 'Ù‚Ø¨ÙˆÙ„ ÙˆØ¥Ù†Ù‡Ø§Ø¡';
+  String get acceptAndFinish => 'قبول وإنهاء';
 
   @override
-  String get stepTos => 'Ø´Ø±ÙˆØ· Ø§Ù„Ø®Ø¯Ù…Ø©';
+  String get stepTos => 'شروط الخدمة';
 
   @override
-  String get stepPrivacy => 'Ø³ÙŠØ§Ø³Ø© Ø§Ù„Ø®ØµÙˆØµÙŠØ©';
+  String get stepPrivacy => 'سياسة الخصوصية';
 
   @override
   String addedOn(String date) {
-    return 'ØªÙ…Øª Ø§Ù„Ø¥Ø¶Ø§ÙØ© ÙÙŠ: $date';
+    return 'تمت الإضافة في: $date';
   }
 
   @override
-  String get sendFeedback => 'Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ù…Ù„Ø§Ø­Ø¸Ø§Øª';
+  String get sendFeedback => 'إرسال الملاحظات';
 
   @override
-  String get feedbackSubject => 'Ù‚Ø±Ø§Ø¡Ø© ÙÙŠ ÙˆÙ‚Øª Ù„Ø§Ø­Ù‚ Ø±Ø¯ÙˆØ¯ Ø§Ù„ÙØ¹Ù„';
+  String get feedbackSubject => 'قراءة في وقت لاحق ردود الفعل';
 
   @override
-  String get feedbackTitle => 'Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ù…Ù„Ø§Ø­Ø¸Ø§Øª';
+  String get feedbackTitle => 'إرسال الملاحظات';
 
   @override
-  String get feedbackName => 'Ø§Ù„Ø§Ø³Ù… (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)';
+  String get feedbackName => 'الاسم (اختياري)';
 
   @override
-  String get feedbackEmail => 'Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)';
+  String get feedbackEmail => 'البريد الإلكتروني (اختياري)';
 
   @override
-  String get feedbackMessage => 'Ø±Ø³Ø§Ù„Ø©';
+  String get feedbackMessage => 'رسالة';
 
   @override
-  String get verifyHuman => 'ÙŠØ±Ø¬Ù‰ Ø§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ø£Ù†Ùƒ Ø¥Ù†Ø³Ø§Ù†';
+  String get verifyHuman => 'يرجى التحقق من أنك إنسان';
 
   @override
-  String get send => 'ÙŠØ±Ø³Ù„';
+  String get send => 'يرسل';
 
   @override
-  String get tabLinks => 'Ø±ÙˆØ§Ø¨Ø·';
+  String get tabLinks => 'روابط';
 
   @override
-  String get tabDeleted => 'ØªÙ… Ø§Ù„Ø­Ø°Ù';
+  String get tabDeleted => 'تم الحذف';
 
   @override
-  String get topLinksTitle => 'Ø£Ø¹Ù„Ù‰ Ø§Ù„Ø±ÙˆØ§Ø¨Ø·';
+  String get topLinksTitle => 'أعلى الروابط';
 
   @override
-  String get noDeletedLinks => 'Ù„Ø§ ØªÙˆØ¬Ø¯ Ø±ÙˆØ§Ø¨Ø· Ù…Ø­Ø°ÙˆÙØ©';
+  String get noDeletedLinks => 'لا توجد روابط محذوفة';
 
   @override
-  String get restoreTooltip => 'ÙŠØ¹ÙŠØ¯';
+  String get restoreTooltip => 'يعيد';
 
   @override
-  String get remindersTitle => 'ØªØ°ÙƒÙŠØ±Ø§Øª';
+  String get remindersTitle => 'تذكيرات';
 
   @override
-  String get noReminders => 'Ù„Ø§ ØªÙˆØ¬Ø¯ ØªØ°ÙƒÙŠØ±Ø§Øª Ù‚Ø§Ø¯Ù…Ø©';
+  String get noReminders => 'لا توجد تذكيرات قادمة';
 
   @override
-  String get didYouKnow => 'Ù‡Ù„ ØªØ¹Ù„Ù…ØŸ';
+  String get didYouKnow => 'هل تعلم؟';
 
   @override
-  String get shareToAppTip => 'ÙŠÙ…ÙƒÙ†Ùƒ Ø¥Ø¶Ø§ÙØ© Ø±ÙˆØ§Ø¨Ø· Ù…Ù† Ø®Ù„Ø§Ù„ Ù…Ø´Ø§Ø±ÙƒØªÙ‡Ø§ Ø¹Ù„Ù‰ Pile!';
+  String get shareToAppTip => 'يمكنك إضافة روابط من خلال مشاركتها على Pile!';
 
   @override
-  String get commentsLabel => 'Ø§Ù„ØªØ¹Ù„ÙŠÙ‚Ø§Øª (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)';
+  String get commentsLabel => 'التعليقات (اختياري)';
 
   @override
-  String get accountSettings => 'Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ø­Ø³Ø§Ø¨';
+  String get accountSettings => 'إعدادات الحساب';
 
   @override
-  String get accountInformation => 'Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø§Ù„Ø­Ø³Ø§Ø¨';
+  String get accountInformation => 'معلومات الحساب';
 
   @override
-  String get profilePicture => 'ØµÙˆØ±Ø© Ø§Ù„Ù…Ù„Ù Ø§Ù„Ø´Ø®ØµÙŠ';
+  String get profilePicture => 'صورة الملف الشخصي';
 
   @override
-  String get tapToChange => 'Ø§Ø¶ØºØ· Ù„Ù„ØªØºÙŠÙŠØ±';
+  String get tapToChange => 'اضغط للتغيير';
 
   @override
-  String get changeProfilePicture => 'ØªØºÙŠÙŠØ± ØµÙˆØ±Ø© Ø§Ù„Ù…Ù„Ù Ø§Ù„Ø´Ø®ØµÙŠ';
+  String get changeProfilePicture => 'تغيير صورة الملف الشخصي';
 
   @override
-  String get choosePhoto => 'Ø§Ø®ØªÙŠØ§Ø± ØµÙˆØ±Ø©';
+  String get choosePhoto => 'اختيار صورة';
 
   @override
-  String get changePhoto => 'ØªØºÙŠÙŠØ± Ø§Ù„ØµÙˆØ±Ø©';
+  String get changePhoto => 'تغيير الصورة';
 
   @override
-  String get profilePictureChooseHint => 'Ø§Ø¶ØºØ· Ø¹Ù„Ù‰ Ø§Ù„ØµÙˆØ±Ø© Ù„Ø§Ø®ØªÙŠØ§Ø± ØµÙˆØ±Ø© Ù…Ù„Ù Ø´Ø®ØµÙŠ Ø¬Ø¯ÙŠØ¯Ø© ÙˆÙ‚ØµÙ‡Ø§ ÙˆØ±ÙØ¹Ù‡Ø§.';
+  String get profilePictureChooseHint => 'اضغط على الصورة لاختيار صورة ملف شخصي جديدة وقصها ورفعها.';
 
   @override
-  String get changeUsername => 'ØªØºÙŠÙŠØ± Ø§Ø³Ù… Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…';
+  String get changeUsername => 'تغيير اسم المستخدم';
 
   @override
-  String get changeEmail => 'ØªØºÙŠÙŠØ± Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ';
+  String get changeEmail => 'تغيير البريد الإلكتروني';
 
   @override
   String passwordLastChanged(String date) {
-    return 'Ø¢Ø®Ø± ØªØºÙŠÙŠØ±: $date';
+    return 'آخر تغيير: $date';
   }
 
   @override
-  String get never => 'Ø£Ø¨Ø¯Ù‹Ø§';
+  String get never => 'أبدًا';
 
   @override
-  String get signIn => 'ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„';
+  String get signIn => 'تسجيل الدخول';
 
   @override
-  String get collectionsTitle => 'Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø§Øª';
+  String get collectionsTitle => 'المجموعات';
 
   @override
-  String get newCollection => 'Ù…Ø¬Ù…ÙˆØ¹Ø© Ø¬Ø¯ÙŠØ¯Ø©';
+  String get newCollection => 'مجموعة جديدة';
 
   @override
-  String get collectionName => 'Ø§Ø³Ù… Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø©';
+  String get collectionName => 'اسم المجموعة';
 
   @override
-  String get gridView => 'Ø¹Ø±Ø¶ Ø§Ù„Ø´Ø¨ÙƒØ©';
+  String get gridView => 'عرض الشبكة';
 
   @override
-  String get listView => 'Ø¹Ø±Ø¶ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø©';
+  String get listView => 'عرض القائمة';
 
   @override
-  String get editAccountTitle => 'ØªØ­Ø±ÙŠØ± Ø§Ù„Ø­Ø³Ø§Ø¨';
+  String get editAccountTitle => 'تحرير الحساب';
 
   @override
-  String get changePasswordTitle => 'ØªØºÙŠÙŠØ± ÙƒÙ„Ù…Ø© Ù…Ø±ÙˆØ± Ø§Ù„Ø­Ø³Ø§Ø¨';
+  String get changePasswordTitle => 'تغيير كلمة مرور الحساب';
 
   @override
-  String get signOutTitle => 'ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø®Ø±ÙˆØ¬';
+  String get signOutTitle => 'تسجيل الخروج';
 
   @override
-  String get signOutConfirm => 'Ù‡Ù„ Ø£Ù†Øª Ù…ØªØ£ÙƒØ¯ Ø£Ù†Ùƒ ØªØ±ÙŠØ¯ ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø®Ø±ÙˆØ¬ Ù…Ù† Ø­Ø³Ø§Ø¨Ùƒ ÙÙŠ Ù‡Ø°Ø§ Ø§Ù„Ø¬Ù‡Ø§Ø²ØŸ';
+  String get signOutConfirm => 'هل أنت متأكد أنك تريد تسجيل الخروج من حسابك في هذا الجهاز؟';
 
   @override
-  String get deleteAccountTitle => 'Ø­Ø°Ù Ø§Ù„Ø­Ø³Ø§Ø¨';
+  String get deleteAccountTitle => 'حذف الحساب';
 
   @override
-  String get deleteAccountWarning => 'Ø­Ø°Ù Ø§Ù„Ø­Ø³Ø§Ø¨: ÙŠØ±Ø¬Ù‰ Ù‚Ø±Ø§Ø¡Ø© Ù‡Ø°Ø§ Ø¨Ø¹Ù†Ø§ÙŠØ©.';
+  String get deleteAccountWarning => 'حذف الحساب: يرجى قراءة هذا بعناية.';
 
   @override
-  String get deleteAccountConfirm => 'Ø³ØªÙ‚ÙˆÙ… Ø¨Ø­Ø°Ù Ø­Ø³Ø§Ø¨Ùƒ ÙˆØ¬Ù…ÙŠØ¹ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„Ù…Ø±ØªØ¨Ø·Ø© Ø¨Ù‡. Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø§Ù„ØªØ±Ø§Ø¬Ø¹ Ø¹Ù† Ù‡Ø°Ø§. Ù‡Ù„ Ø£Ù†Øª Ù…ØªØ£ÙƒØ¯ØŸ';
+  String get deleteAccountConfirm => 'ستقوم بحذف حسابك وجميع البيانات المرتبطة به. لا يمكن التراجع عن هذا. هل أنت متأكد؟';
 
   @override
-  String get deleteSuccess => 'Ù†Ø£Ø³Ù Ù„Ø±Ø¤ÙŠØªÙƒ ØªØºØ§Ø¯Ø±! Ù„Ù‚Ø¯ ØªÙ… Ø­Ø°Ù Ø­Ø³Ø§Ø¨Ùƒ.';
+  String get deleteSuccess => 'نأسف لرؤيتك تغادر! لقد تم حذف حسابك.';
 
   @override
-  String get deleteFail => 'ÙØ´Ù„ ÙÙŠ Ø­Ø°Ù Ø§Ù„Ø­Ø³Ø§Ø¨. ÙŠØ±Ø¬Ù‰ Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø© Ù…Ø±Ø© Ø£Ø®Ø±Ù‰ ÙÙŠ ÙˆÙ‚Øª Ù„Ø§Ø­Ù‚.';
+  String get deleteFail => 'فشل في حذف الحساب. يرجى المحاولة مرة أخرى في وقت لاحق.';
 
   @override
-  String get continueButton => 'Ù…ØªØ§Ø¨Ø¹Ø©';
+  String get continueButton => 'متابعة';
 
   @override
-  String get noCollectionsYet => 'Ù„Ø§ ØªÙˆØ¬Ø¯ Ù…Ø¬Ù…ÙˆØ¹Ø§Øª Ø¨Ø¹Ø¯';
+  String get noCollectionsYet => 'لا توجد مجموعات بعد';
 
   @override
-  String get emptyFolder => 'Ù…Ø¬Ù„Ø¯ ÙØ§Ø±Øº';
+  String get emptyFolder => 'مجلد فارغ';
 
   @override
-  String get folderColor => 'Ù„ÙˆÙ† Ø§Ù„Ù…Ø¬Ù„Ø¯';
+  String get folderColor => 'لون المجلد';
 
   @override
-  String get editAction => 'ØªØ­Ø±ÙŠØ±';
+  String get editAction => 'تحرير';
 
   @override
-  String get editCollection => 'ØªØ­Ø±ÙŠØ± Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø©';
+  String get editCollection => 'تحرير المجموعة';
 
   @override
-  String get changeColor => 'ØªØºÙŠÙŠØ± Ø§Ù„Ù„ÙˆÙ†';
+  String get changeColor => 'تغيير اللون';
 
   @override
-  String get deleteCollectionWarning => 'Ø³ÙŠØªÙ… Ù†Ù‚Ù„ Ø§Ù„Ø±ÙˆØ§Ø¨Ø· Ø§Ù„Ù…ÙˆØ¬ÙˆØ¯Ø© Ø¨Ø§Ù„Ø¯Ø§Ø®Ù„ Ø¥Ù„Ù‰ Ø§Ù„Ø¬Ø°Ø±.';
+  String get deleteCollectionWarning => 'سيتم نقل الروابط الموجودة بالداخل إلى الجذر.';
 
   @override
-  String get moveAction => 'Ù†Ù‚Ù„';
+  String get moveAction => 'نقل';
 
   @override
-  String get moveToCollection => 'Ù†Ù‚Ù„ Ø¥Ù„Ù‰ Ù…Ø¬Ù…ÙˆØ¹Ø©';
+  String get moveToCollection => 'نقل إلى مجموعة';
 
   @override
-  String get noCollection => 'Ø¨Ø¯ÙˆÙ† Ù…Ø¬Ù…ÙˆØ¹Ø©';
+  String get noCollection => 'بدون مجموعة';
 
   @override
-  String get noInternetConnection => 'Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø§ØªØµØ§Ù„ Ø¨Ø§Ù„Ø¥Ù†ØªØ±Ù†Øª';
+  String get noInternetConnection => 'لا يوجد اتصال بالإنترنت';
 
   @override
-  String get dismiss => 'ØªØ¬Ø§Ù‡Ù„';
+  String get dismiss => 'تجاهل';
 
   @override
-  String get tagAll => 'Ø§Ù„ÙƒÙ„';
+  String get tagAll => 'الكل';
 
   @override
-  String get camera => 'Ø§Ù„ÙƒØ§Ù…ÙŠØ±Ø§';
+  String get camera => 'الكاميرا';
 
   @override
-  String get gallery => 'Ø§Ù„Ù…Ø¹Ø±Ø¶';
+  String get gallery => 'المعرض';
 
   @override
-  String get classicAvatars => 'ØµÙˆØ± Ø±Ù…Ø²ÙŠØ© ÙƒÙ„Ø§Ø³ÙŠÙƒÙŠØ©';
+  String get classicAvatars => 'صور رمزية كلاسيكية';
 
   @override
-  String get classic => 'ÙƒÙ„Ø§Ø³ÙŠÙƒÙŠ';
+  String get classic => 'كلاسيكي';
 
   @override
-  String get usernameLengthError => 'ÙŠØ¬Ø¨ Ø£Ù† ÙŠÙƒÙˆÙ† Ø§Ø³Ù… Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… Ø¨ÙŠÙ† 3 Ùˆ 45 Ø­Ø±ÙÙ‹Ø§';
+  String get usernameLengthError => 'يجب أن يكون اسم المستخدم بين 3 و 45 حرفًا';
 
   @override
-  String get usernameFormatError => 'ØµÙŠØºØ© Ø§Ø³Ù… Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… ØºÙŠØ± ØµØ§Ù„Ø­Ø©.';
+  String get usernameFormatError => 'صيغة اسم المستخدم غير صالحة.';
 
   @override
   String visitCount(int count) {
-    return '$count Ø²ÙŠØ§Ø±Ø©';
+    return '$count زيارة';
   }
 
   @override
-  String get usernameConsecutiveSymbols => 'Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø£Ù† ÙŠØ­ØªÙˆÙŠ Ø§Ø³Ù… Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… Ø¹Ù„Ù‰ Ø±Ù…ÙˆØ² Ù…ØªØªØ§Ù„ÙŠØ©.';
+  String get usernameConsecutiveSymbols => 'لا يمكن أن يحتوي اسم المستخدم على رموز متتالية.';
 
   @override
-  String get usernameRestrictedWords => 'Ø§Ø³Ù… Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… ÙŠØ­ØªÙˆÙŠ Ø¹Ù„Ù‰ ÙƒÙ„Ù…Ø§Øª Ù…Ø­Ø¸ÙˆØ±Ø©.';
+  String get usernameRestrictedWords => 'اسم المستخدم يحتوي على كلمات محظورة.';
 
   @override
-  String get failedUploadPic => 'ÙØ´Ù„ ÙÙŠ Ø±ÙØ¹ ØµÙˆØ±Ø© Ø§Ù„Ù…Ù„Ù Ø§Ù„Ø´Ø®ØµÙŠ.';
+  String get failedUploadPic => 'فشل في رفع صورة الملف الشخصي.';
 
   @override
-  String get accountUpdated => 'ØªÙ… ØªØ­Ø¯ÙŠØ« Ø§Ù„Ø­Ø³Ø§Ø¨ Ø¨Ù†Ø¬Ø§Ø­';
+  String get accountUpdated => 'تم تحديث الحساب بنجاح';
 
   @override
-  String get failedUpdateAccount => 'ÙØ´Ù„ ÙÙŠ ØªØ­Ø¯ÙŠØ« Ø§Ù„Ø­Ø³Ø§Ø¨. Ù‚Ø¯ ÙŠÙƒÙˆÙ† Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ù…Ø³ØªØ®Ø¯Ù…Ù‹Ø§ Ø¨Ø§Ù„ÙØ¹Ù„.';
+  String get failedUpdateAccount => 'فشل في تحديث الحساب. قد يكون البريد الإلكتروني مستخدمًا بالفعل.';
 
   @override
-  String get editAccountHint => 'Ø§ØªØ±Ùƒ Ø§Ù„Ø­Ù‚ÙˆÙ„ ÙØ§Ø±ØºØ© Ø¥Ø°Ø§ Ù„Ù… ØªØ±Ø¯ ØªØºÙŠÙŠØ±Ù‡Ø§. Ø§Ù†Ù‚Ø± Ø¹Ù„Ù‰ Ø§Ù„ØµÙˆØ±Ø© Ù„ØªØ­Ø¯ÙŠØ« Ø§Ù„ØµÙˆØ±Ø© Ø§Ù„Ø±Ù…Ø²ÙŠØ©.';
+  String get editAccountHint => 'اترك الحقول فارغة إذا لم ترد تغييرها. انقر على الصورة لتحديث الصورة الرمزية.';
 
   @override
-  String get saveChanges => 'Ø­ÙØ¸ Ø§Ù„ØªØºÙŠÙŠØ±Ø§Øª';
+  String get saveChanges => 'حفظ التغييرات';
 
   @override
-  String get verifyIdentity => 'Ø§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ø§Ù„Ù‡ÙˆÙŠØ©';
+  String get verifyIdentity => 'التحقق من الهوية';
 
   @override
-  String get enterCurrentPassword => 'ÙŠØ±Ø¬Ù‰ Ø¥Ø¯Ø®Ø§Ù„ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ø§Ù„Ø­Ø§Ù„ÙŠØ© Ù„Ù„Ù…ØªØ§Ø¨Ø¹Ø©.';
+  String get enterCurrentPassword => 'يرجى إدخال كلمة المرور الحالية للمتابعة.';
 
   @override
-  String get currentPassword => 'ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ø§Ù„Ø­Ø§Ù„ÙŠØ©';
+  String get currentPassword => 'كلمة المرور الحالية';
 
   @override
-  String get incorrectPassword => 'ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± ØºÙŠØ± ØµØ­ÙŠØ­Ø©';
+  String get incorrectPassword => 'كلمة المرور غير صحيحة';
 
   @override
-  String get verify => 'ØªØ­Ù‚Ù‚';
+  String get verify => 'تحقق';
 
   @override
-  String get googleVerifyFailed => 'ÙØ´Ù„ Ø§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ø§Ù„Ù‡ÙˆÙŠØ© Ø¹Ø¨Ø± Google.';
+  String get googleVerifyFailed => 'فشل التحقق من الهوية عبر Google.';
 
   @override
-  String get confirmIdentity => 'Ù„Ù„Ù…ØªØ§Ø¨Ø¹Ø©ØŒ ØªØ£ÙƒØ¯ Ù…Ù† Ø£Ù†Ùƒ Ø£Ù†Øª Ø£ÙˆÙ„Ø§Ù‹.';
+  String get confirmIdentity => 'للمتابعة، تأكد من أنك أنت أولاً.';
 
   @override
-  String get verifyIdentityDesc => 'Ù†Ø­ØªØ§Ø¬ Ù„Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ù‡ÙˆÙŠØªÙƒ Ù„Ø­Ù…Ø§ÙŠØ© Ø­Ø³Ø§Ø¨Ùƒ.';
+  String get verifyIdentityDesc => 'نحتاج للتحقق من هويتك لحماية حسابك.';
 
   @override
-  String get continueWithGoogle => 'Ø§Ù„Ù…ØªØ§Ø¨Ø¹Ø© Ù…Ø¹ Google';
+  String get continueWithGoogle => 'المتابعة مع Google';
 
   @override
-  String get editPassword => 'ØªØ¹Ø¯ÙŠÙ„ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±';
+  String get editPassword => 'تعديل كلمة المرور';
 
   @override
-  String get newPassword => 'ÙƒÙ„Ù…Ø© Ù…Ø±ÙˆØ± Ø¬Ø¯ÙŠØ¯Ø©';
+  String get newPassword => 'كلمة مرور جديدة';
 
   @override
-  String get passwordUpdated => 'ØªÙ… ØªØ­Ø¯ÙŠØ« ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ø¨Ù†Ø¬Ø§Ø­';
+  String get passwordUpdated => 'تم تحديث كلمة المرور بنجاح';
 
   @override
-  String get failedUpdatePassword => 'ÙØ´Ù„ ÙÙŠ ØªØ­Ø¯ÙŠØ« ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±';
+  String get failedUpdatePassword => 'فشل في تحديث كلمة المرور';
 
   @override
-  String get savePassword => 'Ø­ÙØ¸ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±';
+  String get savePassword => 'حفظ كلمة المرور';
 
   @override
-  String get passwordsDoNotMatch => 'ÙƒÙ„Ù…ØªØ§ Ø§Ù„Ù…Ø±ÙˆØ± ØºÙŠØ± Ù…ØªØ·Ø§Ø¨Ù‚ØªÙŠÙ†';
+  String get passwordsDoNotMatch => 'كلمتا المرور غير متطابقتين';
 
   @override
-  String get none => 'Ù„Ø§ Ø´ÙŠØ¡';
+  String get none => 'لا شيء';
 
   @override
-  String get feedbackConsumerButton => 'Ù…Ù„Ø§Ø­Ø¸Ø§Øª Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…';
+  String get feedbackConsumerButton => 'ملاحظات المستخدم';
 
   @override
-  String get translationsGitHubButton => 'Ù…Ù„Ø§Ø­Ø¸Ø§Øª GitHub';
+  String get translationsGitHubButton => 'ملاحظات GitHub';
 
   @override
-  String get feedbackTranslationsButton => 'Ù…Ù„Ø§Ø­Ø¸Ø§Øª Ø§Ù„ØªØ±Ø¬Ù…Ø©';
+  String get feedbackTranslationsButton => 'ملاحظات الترجمة';
 
   @override
-  String get feedbackConsumerNote => 'Ù…Ù„Ø§Ø­Ø¸Ø§Øª Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…: Ø´Ø§Ø±Ùƒ ØªØ¬Ø±Ø¨ØªÙƒ ÙÙŠ Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ØŒ Ù…Ø«Ù„ Ø§Ù„Ø£Ø®Ø·Ø§Ø¡ØŒ ÙˆÙ…Ø´ÙƒÙ„Ø§Øª Ø§Ù„Ø£Ø¯Ø§Ø¡ØŒ ÙˆØ§Ù„Ù…ÙŠØ²Ø§ØªØŒ Ø£Ùˆ Ø³Ù‡ÙˆÙ„Ø© Ø§Ù„Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø¨Ø´ÙƒÙ„ Ø¹Ø§Ù….';
+  String get feedbackConsumerNote => 'ملاحظات المستخدم: شارك تجربتك في استخدام التطبيق، مثل الأخطاء، ومشكلات الأداء، والميزات، أو سهولة الاستخدام بشكل عام.';
 
   @override
-  String get translationsGitHubNote => 'Ù…Ù„Ø§Ø­Ø¸Ø§Øª GitHub: Ø£Ø¨Ù„Øº Ø¹Ù† Ù…Ø´ÙƒÙ„Ø§Øª Ø§Ù„Ù„ØºØ© Ø¹Ù„Ù‰ GitHubØŒ Ù…Ø«Ù„ Ø§Ù„ØªØ±Ø¬Ù…Ø§Øª ØºÙŠØ± Ø§Ù„ØµØ­ÙŠØ­Ø©ØŒ Ø£Ùˆ Ø§Ù„ØµÙŠØ§ØºØ© ØºÙŠØ± Ø§Ù„ÙˆØ§Ø¶Ø­Ø©ØŒ Ø£Ùˆ Ø§Ù„Ø£Ø®Ø·Ø§Ø¡ Ø§Ù„Ù†Ø­ÙˆÙŠØ©.';
+  String get translationsGitHubNote => 'ملاحظات GitHub: أبلغ عن مشكلات اللغة على GitHub، مثل الترجمات غير الصحيحة، أو الصياغة غير الواضحة، أو الأخطاء النحوية.';
 
   @override
-  String get feedbackTranslationsNote => 'Ù…Ù„Ø§Ø­Ø¸Ø§Øª Ø§Ù„ØªØ±Ø¬Ù…Ø©: Ø£Ø¨Ù„Øº Ø¹Ù† Ù…Ø´ÙƒÙ„Ø§Øª Ø§Ù„Ù„ØºØ©ØŒ Ù…Ø«Ù„ Ø§Ù„ØªØ±Ø¬Ù…Ø§Øª ØºÙŠØ± Ø§Ù„ØµØ­ÙŠØ­Ø©ØŒ Ø£Ùˆ Ø§Ù„ØµÙŠØ§ØºØ© ØºÙŠØ± Ø§Ù„ÙˆØ§Ø¶Ø­Ø©ØŒ Ø£Ùˆ Ø§Ù„Ø£Ø®Ø·Ø§Ø¡ Ø§Ù„Ù†Ø­ÙˆÙŠØ©.';
+  String get feedbackTranslationsNote => 'ملاحظات الترجمة: أبلغ عن مشكلات اللغة، مثل الترجمات غير الصحيحة، أو الصياغة غير الواضحة، أو الأخطاء النحوية.';
 
   @override
-  String get aiSettings => 'Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ';
+  String get aiSettings => 'إعدادات الذكاء الاصطناعي';
 
   @override
-  String get aiSettingsSubtitle => 'Ø§Ù„ØªØ­ÙƒÙ… ÙÙŠ ÙØ±Ø² Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ ÙˆØ°Ø§ÙƒØ±Ø© Ø§Ù„Ù†Ù…Ø· Ù„Ù„Ù…Ø¬Ù…ÙˆØ¹Ø§Øª.';
+  String get aiSettingsSubtitle => 'التحكم في فرز الذكاء الاصطناعي وذاكرة النمط للمجموعات.';
 
   @override
-  String get useAiSorting => 'Ø§Ø³ØªØ®Ø¯Ø§Ù… ÙØ±Ø² Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ';
+  String get useAiSorting => 'استخدام فرز الذكاء الاصطناعي';
 
   @override
-  String get useAiSortingSubtitle => 'ÙŠÙ‚ØªØ±Ø­ ØªØ¬Ù…ÙŠØ¹ Ø§Ù„Ù…Ø¬Ù„Ø¯Ø§Øª ØªÙ„Ù‚Ø§Ø¦ÙŠØ§Ù‹ Ø¨Ù†Ø§Ø¡Ù‹ Ø¹Ù„Ù‰ Ø±ÙˆØ§Ø¨Ø·Ùƒ.';
+  String get useAiSortingSubtitle => 'يقترح تجميع المجلدات تلقائياً بناءً على روابطك.';
 
   @override
-  String get styleMemory => 'Ø°Ø§ÙƒØ±Ø© Ø§Ù„Ù†Ù…Ø·';
+  String get styleMemory => 'ذاكرة النمط';
 
   @override
-  String get styleMemoryEmpty => 'Ø­Ø¯Ø¯ Ø´ÙƒÙ„ Ø£Ø³Ù…Ø§Ø¡ Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø§Øª.';
+  String get styleMemoryEmpty => 'حدد شكل أسماء المجموعات.';
 
   @override
-  String get styleMemoryDesc => 'ØªØªØ¹Ù„Ù… Ø°Ø§ÙƒØ±Ø© Ø§Ù„Ù†Ù…Ø· Ø¨Ù‡Ø¯ÙˆØ¡ Ø·Ø±ÙŠÙ‚Ø© ØªØ³Ù…ÙŠØªÙƒ ÙˆØªÙ†Ø¸ÙŠÙ…Ùƒ Ù„Ù„Ù…Ø¬Ù…ÙˆØ¹Ø§Øª - Ø³ÙˆØ§Ø¡ ÙƒÙ†Øª ØªÙØ¶Ù„ Ø§Ù„Ø±Ù…ÙˆØ² Ø§Ù„ØªØ¹Ø¨ÙŠØ±ÙŠØ© Ø£Ùˆ Ø§Ù„Ø£Ø­Ø±Ù Ø§Ù„ÙƒØ¨ÙŠØ±Ø© Ø£Ùˆ Ø§Ù„Ù…Ø¸Ù‡Ø± Ø§Ù„Ø¨Ø³ÙŠØ· - ÙˆØªØ·Ø¨Ù‚ Ø°Ù„Ùƒ Ù„Ø§Ø­Ù‚Ø§Ù‹.';
+  String get styleMemoryDesc => 'تتعلم ذاكرة النمط بهدوء طريقة تسميتك وتنظيمك للمجموعات - سواء كنت تفضل الرموز التعبيرية أو الأحرف الكبيرة أو المظهر البسيط - وتطبق ذلك لاحقاً.';
 
   @override
-  String get styleMemorySpecificHint => 'ÙƒÙ† Ù…Ø­Ø¯Ø¯Ø§Ù‹. Ù…Ø«Ø§Ù„: \"Ø§Ø³ØªØ®Ø¯Ù… Ø±Ù…ÙˆØ²Ø§Ù‹ Ù„Ù„ØªÙ‚Ù†ÙŠØ©ØŒ Ø£Ø­Ø±ÙØ§Ù‹ ÙƒØ¨ÙŠØ±Ø© Ù„Ù„Ø¹Ù…Ù„ØŒ ÙˆÙ…Ø¸Ù‡Ø±Ø§Ù‹ Ø¨Ø³ÙŠØ·Ø§Ù‹ Ù„Ù„Ø´Ø®ØµÙŠ.\"';
+  String get styleMemorySpecificHint => 'كن محدداً. مثال: \"استخدم رموزاً للتقنية، أحرفاً كبيرة للعمل، ومظهراً بسيطاً للشخصي.\"';
 
   @override
-  String get styleMemoryTextHint => 'ØµÙ Ø£Ø³Ù„ÙˆØ¨Ùƒ ÙÙŠ ØªØ³Ù…ÙŠØ© Ø§Ù„Ù…Ø¬Ù„Ø¯Ø§Øª...';
+  String get styleMemoryTextHint => 'صف أسلوبك في تسمية المجلدات...';
 
   @override
-  String get styleMemorySaved => 'ØªÙ… Ø­ÙØ¸ Ø°Ø§ÙƒØ±Ø© Ø§Ù„Ù†Ù…Ø·.';
+  String get styleMemorySaved => 'تم حفظ ذاكرة النمط.';
 
   @override
-  String get enableAiSortingFirst => 'ÙØ¹Ù‘Ù„ Ø§Ø³ØªØ®Ø¯Ø§Ù… ÙØ±Ø² Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ Ù…Ù† Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø£ÙˆÙ„Ø§Ù‹.';
+  String get enableAiSortingFirst => 'فعّل استخدام فرز الذكاء الاصطناعي من الإعدادات أولاً.';
 
   @override
-  String get saveMoreLinksTryAgain => 'Ø§Ø­ÙØ¸ Ø§Ù„Ù…Ø²ÙŠØ¯ Ù…Ù† Ø§Ù„Ø±ÙˆØ§Ø¨Ø· Ø«Ù… Ø­Ø§ÙˆÙ„ Ù…Ø±Ø© Ø£Ø®Ø±Ù‰';
+  String get saveMoreLinksTryAgain => 'احفظ المزيد من الروابط ثم حاول مرة أخرى';
 
   @override
-  String get linksTooUnrelated => 'Ù‡Ø°Ù‡ Ø§Ù„Ø±ÙˆØ§Ø¨Ø· ØºÙŠØ± Ù…ØªØ±Ø§Ø¨Ø·Ø© Ø¬Ø¯Ø§Ù‹.';
+  String get linksTooUnrelated => 'هذه الروابط غير مترابطة جداً.';
 
   @override
-  String get linksAlreadySimilar => 'Ù‡Ø°Ù‡ Ø§Ù„Ø±ÙˆØ§Ø¨Ø· Ù…ØªØ´Ø§Ø¨Ù‡Ø© Ø¨Ø§Ù„ÙØ¹Ù„ Ø¥Ù„Ù‰ Ø­Ø¯ ÙƒØ¨ÙŠØ±.';
+  String get linksAlreadySimilar => 'هذه الروابط متشابهة بالفعل إلى حد كبير.';
 
   @override
-  String get aiSortingSaved => 'ØªÙ… Ø­ÙØ¸ ÙØ±Ø² Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ.';
+  String get aiSortingSaved => 'تم حفظ فرز الذكاء الاصطناعي.';
 
   @override
-  String get tryAgainTitle => 'Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø© Ù…Ø±Ø© Ø£Ø®Ø±Ù‰ØŸ';
+  String get tryAgainTitle => 'المحاولة مرة أخرى؟';
 
   @override
-  String get tryAgainQuestion => 'Ù‡Ù„ ØªØ±ØºØ¨ ÙÙŠ Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø© Ù…Ø±Ø© Ø£Ø®Ø±Ù‰ØŸ';
+  String get tryAgainQuestion => 'هل ترغب في المحاولة مرة أخرى؟';
 
   @override
-  String get aiSortingResult => 'Ù†ØªÙŠØ¬Ø© ÙØ±Ø² Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ';
+  String get aiSortingResult => 'نتيجة فرز الذكاء الاصطناعي';
 
   @override
-  String get saveFolderTree => 'Ø­ÙØ¸ Ø´Ø¬Ø±Ø© Ø§Ù„Ù…Ø¬Ù„Ø¯Ø§Øª Ù‡Ø°Ù‡ØŸ';
+  String get saveFolderTree => 'حفظ شجرة المجلدات هذه؟';
 
   @override
-  String get yes => 'Ù†Ø¹Ù…';
+  String get yes => 'نعم';
 
   @override
-  String get no => 'Ù„Ø§';
+  String get no => 'لا';
 
   @override
-  String get autoSortLinks => 'ÙØ±Ø² Ø§Ù„Ø±ÙˆØ§Ø¨Ø· ØªÙ„Ù‚Ø§Ø¦ÙŠØ§Ù‹';
+  String get autoSortLinks => 'فرز الروابط تلقائياً';
 
   @override
   String folderCount(String name, int count) {
-    return 'Ù…Ø¬Ù„Ø¯: $name ($count)';
+    return 'مجلد: $name ($count)';
   }
 
   @override
   String moreCount(int count) {
-    return '- +$count Ø§Ù„Ù…Ø²ÙŠØ¯';
+    return '- +$count المزيد';
   }
-
-  @override
-  String get loadingMessage1 => 'نحن نجهز كل شيء...';
-
-  @override
-  String get loadingMessage2 => 'تمهل قليلا، نعمل على ذلك.';
-
-  @override
-  String get loadingMessage3 => 'لحظة واحدة بينما نجهز كل شيء...';
-
-  @override
-  String get loadingMessage4 => 'نجهز الأمور لك...';
-
-  @override
-  String get loadingMessage5 => 'سنكون معك قريبا.';
-
-  @override
-  String get loadingMessage6 => 'أشياء جميلة في الطريق...';
-
-  @override
-  String get loadingMessage7 => 'اقتربنا من الجاهزية...';
-
-  @override
-  String get loadingMessage8 => 'تمهل، أوشكنا على الانتهاء.';
-
-  @override
-  String get loadingMessage9 => 'نعد لك شيئا رائعا...';
-
-  @override
-  String get loadingMessage10 => 'نقوم بالتجهيز الآن.';
 }
