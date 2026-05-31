@@ -311,5 +311,27 @@
     "loadingMessage7": "Almost ready for you...",
     "loadingMessage8": "Hang tight - almost there.",
     "loadingMessage9": "We're cooking something nice...",
-    "loadingMessage10": "We're warming things up."
+    "loadingMessage10": "We're warming things up.",
+    "otpVerificationTitle": "Подтверждение OTP",
+    "otpSentTo": "Мы отправили 6-значный код на вашу почту {email}",
+    "@otpSentTo": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "otpInvalidOrExpired": "Неверный или просроченный код",
+    "otpCodeResent": "Код отправлен повторно",
+    "otpResendFailed": "Не удалось повторно отправить код. Попробуйте ещё раз.",
+    "otpResendCountdown": "Повторная отправка через {seconds}с",
+    "@otpResendCountdown": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "otpResendAvailable": "Вы можете повторно отправить код сейчас",
+    "otpResendCode": "Отправить код повторно"
 }

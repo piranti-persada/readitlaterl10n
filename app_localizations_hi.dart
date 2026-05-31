@@ -646,4 +646,62 @@ class AppLocalizationsHi extends AppLocalizations {
   String moreCount(int count) {
     return '- +$count और';
   }
+
+  @override
+  String get loadingMessage1 => 'We\'re getting things ready...';
+
+  @override
+  String get loadingMessage2 => 'Hold tight - we\'re on it.';
+
+  @override
+  String get loadingMessage3 => 'Just a moment while we prepare everything...';
+
+  @override
+  String get loadingMessage4 => 'Getting things ready for you...';
+
+  @override
+  String get loadingMessage5 => 'We\'ll be there shortly.';
+
+  @override
+  String get loadingMessage6 => 'Good things are on the way...';
+
+  @override
+  String get loadingMessage7 => 'Almost ready for you...';
+
+  @override
+  String get loadingMessage8 => 'Hang tight - almost there.';
+
+  @override
+  String get loadingMessage9 => 'We\'re cooking something nice...';
+
+  @override
+  String get loadingMessage10 => 'We\'re warming things up.';
+
+  @override
+  String get otpVerificationTitle => 'OTP सत्यापन';
+
+  @override
+  String otpSentTo(String email) {
+    return 'हमने आपके ईमेल $email पर 6 अंकों का कोड भेजा है';
+  }
+
+  @override
+  String get otpInvalidOrExpired => 'अमान्य या समय सीमा समाप्त कोड';
+
+  @override
+  String get otpCodeResent => 'कोड पुनः भेजा गया';
+
+  @override
+  String get otpResendFailed => 'कोड पुनः भेजने में विफल। कृपया पुनः प्रयास करें।';
+
+  @override
+  String otpResendCountdown(int seconds) {
+    return '$seconds सेकंड में पुनः भेजा जा सकता है';
+  }
+
+  @override
+  String get otpResendAvailable => 'आप अभी कोड पुनः भेज सकते हैं';
+
+  @override
+  String get otpResendCode => 'कोड पुनः भेजें';
 }

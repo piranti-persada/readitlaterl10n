@@ -311,5 +311,27 @@
     "loadingMessage7": "Almost ready for you...",
     "loadingMessage8": "Hang tight - almost there.",
     "loadingMessage9": "We're cooking something nice...",
-    "loadingMessage10": "We're warming things up."
+    "loadingMessage10": "We're warming things up.",
+    "otpVerificationTitle": "OTP認証",
+    "otpSentTo": "{email} に6桁のコードを送信しました",
+    "@otpSentTo": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "otpInvalidOrExpired": "無効または期限切れのコードです",
+    "otpCodeResent": "コードを再送信しました",
+    "otpResendFailed": "コードの再送信に失敗しました。もう一度お試しください。",
+    "otpResendCountdown": "{seconds}秒後に再送信できます",
+    "@otpResendCountdown": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "otpResendAvailable": "今すぐコードを再送信できます",
+    "otpResendCode": "コードを再送信"
 }

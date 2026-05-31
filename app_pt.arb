@@ -311,5 +311,27 @@
     "loadingMessage7": "Almost ready for you...",
     "loadingMessage8": "Hang tight - almost there.",
     "loadingMessage9": "We're cooking something nice...",
-    "loadingMessage10": "We're warming things up."
+    "loadingMessage10": "We're warming things up.",
+    "otpVerificationTitle": "Verificação OTP",
+    "otpSentTo": "Enviamos um código de 6 dígitos para o seu e-mail {email}",
+    "@otpSentTo": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "otpInvalidOrExpired": "Código inválido ou expirado",
+    "otpCodeResent": "Código reenviado",
+    "otpResendFailed": "Falha ao reenviar o código. Tente novamente.",
+    "otpResendCountdown": "Reenvio disponível em {seconds}s",
+    "@otpResendCountdown": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "otpResendAvailable": "Você pode reenviar o código agora",
+    "otpResendCode": "Reenviar código"
 }

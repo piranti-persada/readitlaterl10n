@@ -311,5 +311,27 @@
     "loadingMessage7": "Almost ready for you...",
     "loadingMessage8": "Hang tight - almost there.",
     "loadingMessage9": "We're cooking something nice...",
-    "loadingMessage10": "We're warming things up."
+    "loadingMessage10": "We're warming things up.",
+    "otpVerificationTitle": "OTP सत्यापन",
+    "otpSentTo": "हमने आपके ईमेल {email} पर 6 अंकों का कोड भेजा है",
+    "@otpSentTo": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "otpInvalidOrExpired": "अमान्य या समय सीमा समाप्त कोड",
+    "otpCodeResent": "कोड पुनः भेजा गया",
+    "otpResendFailed": "कोड पुनः भेजने में विफल। कृपया पुनः प्रयास करें।",
+    "otpResendCountdown": "{seconds} सेकंड में पुनः भेजा जा सकता है",
+    "@otpResendCountdown": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "otpResendAvailable": "आप अभी कोड पुनः भेज सकते हैं",
+    "otpResendCode": "कोड पुनः भेजें"
 }

@@ -311,5 +311,27 @@
     "loadingMessage7": "Almost ready for you...",
     "loadingMessage8": "Hang tight - almost there.",
     "loadingMessage9": "We're cooking something nice...",
-    "loadingMessage10": "We're warming things up."
+    "loadingMessage10": "We're warming things up.",
+    "otpVerificationTitle": "Xác minh OTP",
+    "otpSentTo": "Chúng tôi đã gửi mã 6 chữ số đến email {email} của bạn",
+    "@otpSentTo": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "otpInvalidOrExpired": "Mã không hợp lệ hoặc đã hết hạn",
+    "otpCodeResent": "Đã gửi lại mã",
+    "otpResendFailed": "Không thể gửi lại mã. Vui lòng thử lại.",
+    "otpResendCountdown": "Gửi lại sau {seconds} giây",
+    "@otpResendCountdown": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "otpResendAvailable": "Bạn có thể gửi lại mã ngay bây giờ",
+    "otpResendCode": "Gửi lại mã"
 }

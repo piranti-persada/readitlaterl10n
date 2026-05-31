@@ -646,6 +646,64 @@ class AppLocalizationsZh extends AppLocalizations {
   String moreCount(int count) {
     return '- 另外 $count 项';
   }
+
+  @override
+  String get loadingMessage1 => 'We\'re getting things ready...';
+
+  @override
+  String get loadingMessage2 => 'Hold tight - we\'re on it.';
+
+  @override
+  String get loadingMessage3 => 'Just a moment while we prepare everything...';
+
+  @override
+  String get loadingMessage4 => 'Getting things ready for you...';
+
+  @override
+  String get loadingMessage5 => 'We\'ll be there shortly.';
+
+  @override
+  String get loadingMessage6 => 'Good things are on the way...';
+
+  @override
+  String get loadingMessage7 => 'Almost ready for you...';
+
+  @override
+  String get loadingMessage8 => 'Hang tight - almost there.';
+
+  @override
+  String get loadingMessage9 => 'We\'re cooking something nice...';
+
+  @override
+  String get loadingMessage10 => 'We\'re warming things up.';
+
+  @override
+  String get otpVerificationTitle => 'OTP 验证';
+
+  @override
+  String otpSentTo(String email) {
+    return '我们已向您的邮箱 $email 发送了一个6位数验证码';
+  }
+
+  @override
+  String get otpInvalidOrExpired => '验证码无效或已过期';
+
+  @override
+  String get otpCodeResent => '验证码已重新发送';
+
+  @override
+  String get otpResendFailed => '重新发送验证码失败，请重试。';
+
+  @override
+  String otpResendCountdown(int seconds) {
+    return '$seconds秒后可重新发送';
+  }
+
+  @override
+  String get otpResendAvailable => '您现在可以重新发送验证码';
+
+  @override
+  String get otpResendCode => '重新发送验证码';
 }
 
 /// The translations for Chinese, as used in China (`zh_CN`).
@@ -1290,6 +1348,64 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String moreCount(int count) {
     return '- 另外 $count 项';
   }
+
+  @override
+  String get loadingMessage1 => 'We\'re getting things ready...';
+
+  @override
+  String get loadingMessage2 => 'Hold tight - we\'re on it.';
+
+  @override
+  String get loadingMessage3 => 'Just a moment while we prepare everything...';
+
+  @override
+  String get loadingMessage4 => 'Getting things ready for you...';
+
+  @override
+  String get loadingMessage5 => 'We\'ll be there shortly.';
+
+  @override
+  String get loadingMessage6 => 'Good things are on the way...';
+
+  @override
+  String get loadingMessage7 => 'Almost ready for you...';
+
+  @override
+  String get loadingMessage8 => 'Hang tight - almost there.';
+
+  @override
+  String get loadingMessage9 => 'We\'re cooking something nice...';
+
+  @override
+  String get loadingMessage10 => 'We\'re warming things up.';
+
+  @override
+  String get otpVerificationTitle => 'OTP 验证';
+
+  @override
+  String otpSentTo(String email) {
+    return '我们已向您的邮箱 $email 发送了一个6位数验证码';
+  }
+
+  @override
+  String get otpInvalidOrExpired => '验证码无效或已过期';
+
+  @override
+  String get otpCodeResent => '验证码已重新发送';
+
+  @override
+  String get otpResendFailed => '重新发送验证码失败，请重试。';
+
+  @override
+  String otpResendCountdown(int seconds) {
+    return '$seconds秒后可重新发送';
+  }
+
+  @override
+  String get otpResendAvailable => '您现在可以重新发送验证码';
+
+  @override
+  String get otpResendCode => '重新发送验证码';
 }
 
 /// The translations for Chinese, as used in Hong Kong (`zh_HK`).
@@ -1934,6 +2050,64 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String moreCount(int count) {
     return '- 另外 $count 項';
   }
+
+  @override
+  String get loadingMessage1 => 'We\'re getting things ready...';
+
+  @override
+  String get loadingMessage2 => 'Hold tight - we\'re on it.';
+
+  @override
+  String get loadingMessage3 => 'Just a moment while we prepare everything...';
+
+  @override
+  String get loadingMessage4 => 'Getting things ready for you...';
+
+  @override
+  String get loadingMessage5 => 'We\'ll be there shortly.';
+
+  @override
+  String get loadingMessage6 => 'Good things are on the way...';
+
+  @override
+  String get loadingMessage7 => 'Almost ready for you...';
+
+  @override
+  String get loadingMessage8 => 'Hang tight - almost there.';
+
+  @override
+  String get loadingMessage9 => 'We\'re cooking something nice...';
+
+  @override
+  String get loadingMessage10 => 'We\'re warming things up.';
+
+  @override
+  String get otpVerificationTitle => 'OTP 驗證';
+
+  @override
+  String otpSentTo(String email) {
+    return '我們已向您的電郵 $email 發送了一個6位數驗證碼';
+  }
+
+  @override
+  String get otpInvalidOrExpired => '驗證碼無效或已過期';
+
+  @override
+  String get otpCodeResent => '驗證碼已重新發送';
+
+  @override
+  String get otpResendFailed => '重新發送驗證碼失敗，請重試。';
+
+  @override
+  String otpResendCountdown(int seconds) {
+    return '$seconds秒後可重新發送';
+  }
+
+  @override
+  String get otpResendAvailable => '您現在可以重新發送驗證碼';
+
+  @override
+  String get otpResendCode => '重新發送驗證碼';
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -2578,4 +2752,62 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String moreCount(int count) {
     return '- 另外 $count 項';
   }
+
+  @override
+  String get loadingMessage1 => 'We\'re getting things ready...';
+
+  @override
+  String get loadingMessage2 => 'Hold tight - we\'re on it.';
+
+  @override
+  String get loadingMessage3 => 'Just a moment while we prepare everything...';
+
+  @override
+  String get loadingMessage4 => 'Getting things ready for you...';
+
+  @override
+  String get loadingMessage5 => 'We\'ll be there shortly.';
+
+  @override
+  String get loadingMessage6 => 'Good things are on the way...';
+
+  @override
+  String get loadingMessage7 => 'Almost ready for you...';
+
+  @override
+  String get loadingMessage8 => 'Hang tight - almost there.';
+
+  @override
+  String get loadingMessage9 => 'We\'re cooking something nice...';
+
+  @override
+  String get loadingMessage10 => 'We\'re warming things up.';
+
+  @override
+  String get otpVerificationTitle => 'OTP 驗證';
+
+  @override
+  String otpSentTo(String email) {
+    return '我們已向您的電子郵件 $email 發送了一個6位數驗證碼';
+  }
+
+  @override
+  String get otpInvalidOrExpired => '驗證碼無效或已過期';
+
+  @override
+  String get otpCodeResent => '驗證碼已重新發送';
+
+  @override
+  String get otpResendFailed => '重新發送驗證碼失敗，請重試。';
+
+  @override
+  String otpResendCountdown(int seconds) {
+    return '$seconds秒後可重新發送';
+  }
+
+  @override
+  String get otpResendAvailable => '您現在可以重新發送驗證碼';
+
+  @override
+  String get otpResendCode => '重新發送驗證碼';
 }

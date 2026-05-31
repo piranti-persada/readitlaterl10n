@@ -311,5 +311,27 @@
     "loadingMessage7": "Almost ready for you...",
     "loadingMessage8": "Hang tight - almost there.",
     "loadingMessage9": "We're cooking something nice...",
-    "loadingMessage10": "We're warming things up."
+    "loadingMessage10": "We're warming things up.",
+    "otpVerificationTitle": "التحقق من الرمز",
+    "otpSentTo": "أرسلنا رمزًا مكونًا من 6 أرقام إلى بريدك الإلكتروني {email}",
+    "@otpSentTo": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "otpInvalidOrExpired": "الرمز غير صالح أو منتهي الصلاحية",
+    "otpCodeResent": "تم إعادة إرسال الرمز",
+    "otpResendFailed": "فشل في إعادة إرسال الرمز. يرجى المحاولة مرة أخرى.",
+    "otpResendCountdown": "إعادة الإرسال متاحة خلال {seconds} ثانية",
+    "@otpResendCountdown": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "otpResendAvailable": "يمكنك إعادة إرسال الرمز الآن",
+    "otpResendCode": "إعادة إرسال الرمز"
 }

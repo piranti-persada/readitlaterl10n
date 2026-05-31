@@ -312,5 +312,27 @@
     "loadingMessage7": "Almost ready for you...",
     "loadingMessage8": "Hang tight - almost there.",
     "loadingMessage9": "We're cooking something nice...",
-    "loadingMessage10": "We're warming things up."
+    "loadingMessage10": "We're warming things up.",
+    "otpVerificationTitle": "OTP 驗證",
+    "otpSentTo": "我們已向您的電郵 {email} 發送了一個6位數驗證碼",
+    "@otpSentTo": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "otpInvalidOrExpired": "驗證碼無效或已過期",
+    "otpCodeResent": "驗證碼已重新發送",
+    "otpResendFailed": "重新發送驗證碼失敗，請重試。",
+    "otpResendCountdown": "{seconds}秒後可重新發送",
+    "@otpResendCountdown": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "otpResendAvailable": "您現在可以重新發送驗證碼",
+    "otpResendCode": "重新發送驗證碼"
 }

@@ -646,4 +646,62 @@ class AppLocalizationsKo extends AppLocalizations {
   String moreCount(int count) {
     return '- +$count개 더';
   }
+
+  @override
+  String get loadingMessage1 => 'We\'re getting things ready...';
+
+  @override
+  String get loadingMessage2 => 'Hold tight - we\'re on it.';
+
+  @override
+  String get loadingMessage3 => 'Just a moment while we prepare everything...';
+
+  @override
+  String get loadingMessage4 => 'Getting things ready for you...';
+
+  @override
+  String get loadingMessage5 => 'We\'ll be there shortly.';
+
+  @override
+  String get loadingMessage6 => 'Good things are on the way...';
+
+  @override
+  String get loadingMessage7 => 'Almost ready for you...';
+
+  @override
+  String get loadingMessage8 => 'Hang tight - almost there.';
+
+  @override
+  String get loadingMessage9 => 'We\'re cooking something nice...';
+
+  @override
+  String get loadingMessage10 => 'We\'re warming things up.';
+
+  @override
+  String get otpVerificationTitle => 'OTP 인증';
+
+  @override
+  String otpSentTo(String email) {
+    return '$email로 6자리 코드를 보냈습니다';
+  }
+
+  @override
+  String get otpInvalidOrExpired => '잘못되었거나 만료된 코드입니다';
+
+  @override
+  String get otpCodeResent => '코드가 재전송되었습니다';
+
+  @override
+  String get otpResendFailed => '코드 재전송에 실패했습니다. 다시 시도해 주세요.';
+
+  @override
+  String otpResendCountdown(int seconds) {
+    return '$seconds초 후에 재전송 가능';
+  }
+
+  @override
+  String get otpResendAvailable => '지금 코드를 재전송할 수 있습니다';
+
+  @override
+  String get otpResendCode => '코드 재전송';
 }

@@ -646,4 +646,62 @@ class AppLocalizationsAr extends AppLocalizations {
   String moreCount(int count) {
     return '- +$count المزيد';
   }
+
+  @override
+  String get loadingMessage1 => 'We\'re getting things ready...';
+
+  @override
+  String get loadingMessage2 => 'Hold tight - we\'re on it.';
+
+  @override
+  String get loadingMessage3 => 'Just a moment while we prepare everything...';
+
+  @override
+  String get loadingMessage4 => 'Getting things ready for you...';
+
+  @override
+  String get loadingMessage5 => 'We\'ll be there shortly.';
+
+  @override
+  String get loadingMessage6 => 'Good things are on the way...';
+
+  @override
+  String get loadingMessage7 => 'Almost ready for you...';
+
+  @override
+  String get loadingMessage8 => 'Hang tight - almost there.';
+
+  @override
+  String get loadingMessage9 => 'We\'re cooking something nice...';
+
+  @override
+  String get loadingMessage10 => 'We\'re warming things up.';
+
+  @override
+  String get otpVerificationTitle => 'التحقق من الرمز';
+
+  @override
+  String otpSentTo(String email) {
+    return 'أرسلنا رمزًا مكونًا من 6 أرقام إلى بريدك الإلكتروني $email';
+  }
+
+  @override
+  String get otpInvalidOrExpired => 'الرمز غير صالح أو منتهي الصلاحية';
+
+  @override
+  String get otpCodeResent => 'تم إعادة إرسال الرمز';
+
+  @override
+  String get otpResendFailed => 'فشل في إعادة إرسال الرمز. يرجى المحاولة مرة أخرى.';
+
+  @override
+  String otpResendCountdown(int seconds) {
+    return 'إعادة الإرسال متاحة خلال $seconds ثانية';
+  }
+
+  @override
+  String get otpResendAvailable => 'يمكنك إعادة إرسال الرمز الآن';
+
+  @override
+  String get otpResendCode => 'إعادة إرسال الرمز';
 }

@@ -1341,6 +1341,114 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'- +{count} more'**
   String moreCount(int count);
+
+  /// No description provided for @loadingMessage1.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'re getting things ready...'**
+  String get loadingMessage1;
+
+  /// No description provided for @loadingMessage2.
+  ///
+  /// In en, this message translates to:
+  /// **'Hold tight - we\'re on it.'**
+  String get loadingMessage2;
+
+  /// No description provided for @loadingMessage3.
+  ///
+  /// In en, this message translates to:
+  /// **'Just a moment while we prepare everything...'**
+  String get loadingMessage3;
+
+  /// No description provided for @loadingMessage4.
+  ///
+  /// In en, this message translates to:
+  /// **'Getting things ready for you...'**
+  String get loadingMessage4;
+
+  /// No description provided for @loadingMessage5.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'ll be there shortly.'**
+  String get loadingMessage5;
+
+  /// No description provided for @loadingMessage6.
+  ///
+  /// In en, this message translates to:
+  /// **'Good things are on the way...'**
+  String get loadingMessage6;
+
+  /// No description provided for @loadingMessage7.
+  ///
+  /// In en, this message translates to:
+  /// **'Almost ready for you...'**
+  String get loadingMessage7;
+
+  /// No description provided for @loadingMessage8.
+  ///
+  /// In en, this message translates to:
+  /// **'Hang tight - almost there.'**
+  String get loadingMessage8;
+
+  /// No description provided for @loadingMessage9.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'re cooking something nice...'**
+  String get loadingMessage9;
+
+  /// No description provided for @loadingMessage10.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'re warming things up.'**
+  String get loadingMessage10;
+
+  /// No description provided for @otpVerificationTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'OTP Verification'**
+  String get otpVerificationTitle;
+
+  /// No description provided for @otpSentTo.
+  ///
+  /// In en, this message translates to:
+  /// **'We sent a 6-digit code to your email at {email}'**
+  String otpSentTo(String email);
+
+  /// No description provided for @otpInvalidOrExpired.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid or expired code'**
+  String get otpInvalidOrExpired;
+
+  /// No description provided for @otpCodeResent.
+  ///
+  /// In en, this message translates to:
+  /// **'Code resent'**
+  String get otpCodeResent;
+
+  /// No description provided for @otpResendFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to resend code. Please try again.'**
+  String get otpResendFailed;
+
+  /// No description provided for @otpResendCountdown.
+  ///
+  /// In en, this message translates to:
+  /// **'Resend available in {seconds}s'**
+  String otpResendCountdown(int seconds);
+
+  /// No description provided for @otpResendAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'You can resend the code now'**
+  String get otpResendAvailable;
+
+  /// No description provided for @otpResendCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Resend Code'**
+  String get otpResendCode;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

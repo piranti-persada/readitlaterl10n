@@ -241,5 +241,27 @@
     "loadingMessage7": "Almost ready for you...",
     "loadingMessage8": "Hang tight - almost there.",
     "loadingMessage9": "We're cooking something nice...",
-    "loadingMessage10": "We're warming things up."
+    "loadingMessage10": "We're warming things up.",
+    "otpVerificationTitle": "Verifikasi OTP",
+    "otpSentTo": "Kami telah mengirim kode 6 digit ke email Anda di {email}",
+    "@otpSentTo": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "otpInvalidOrExpired": "Kode tidak valid atau sudah kedaluwarsa",
+    "otpCodeResent": "Kode telah dikirim ulang",
+    "otpResendFailed": "Gagal mengirim ulang kode. Silakan coba lagi.",
+    "otpResendCountdown": "Kirim ulang tersedia dalam {seconds} detik",
+    "@otpResendCountdown": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "otpResendAvailable": "Anda dapat mengirim ulang kode sekarang",
+    "otpResendCode": "Kirim Ulang Kode"
 }

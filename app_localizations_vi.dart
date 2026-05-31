@@ -646,4 +646,62 @@ class AppLocalizationsVi extends AppLocalizations {
   String moreCount(int count) {
     return '- +$count thêm';
   }
+
+  @override
+  String get loadingMessage1 => 'We\'re getting things ready...';
+
+  @override
+  String get loadingMessage2 => 'Hold tight - we\'re on it.';
+
+  @override
+  String get loadingMessage3 => 'Just a moment while we prepare everything...';
+
+  @override
+  String get loadingMessage4 => 'Getting things ready for you...';
+
+  @override
+  String get loadingMessage5 => 'We\'ll be there shortly.';
+
+  @override
+  String get loadingMessage6 => 'Good things are on the way...';
+
+  @override
+  String get loadingMessage7 => 'Almost ready for you...';
+
+  @override
+  String get loadingMessage8 => 'Hang tight - almost there.';
+
+  @override
+  String get loadingMessage9 => 'We\'re cooking something nice...';
+
+  @override
+  String get loadingMessage10 => 'We\'re warming things up.';
+
+  @override
+  String get otpVerificationTitle => 'Xác minh OTP';
+
+  @override
+  String otpSentTo(String email) {
+    return 'Chúng tôi đã gửi mã 6 chữ số đến email $email của bạn';
+  }
+
+  @override
+  String get otpInvalidOrExpired => 'Mã không hợp lệ hoặc đã hết hạn';
+
+  @override
+  String get otpCodeResent => 'Đã gửi lại mã';
+
+  @override
+  String get otpResendFailed => 'Không thể gửi lại mã. Vui lòng thử lại.';
+
+  @override
+  String otpResendCountdown(int seconds) {
+    return 'Gửi lại sau $seconds giây';
+  }
+
+  @override
+  String get otpResendAvailable => 'Bạn có thể gửi lại mã ngay bây giờ';
+
+  @override
+  String get otpResendCode => 'Gửi lại mã';
 }

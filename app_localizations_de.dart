@@ -646,4 +646,62 @@ class AppLocalizationsDe extends AppLocalizations {
   String moreCount(int count) {
     return '- +$count mehr';
   }
+
+  @override
+  String get loadingMessage1 => 'We\'re getting things ready...';
+
+  @override
+  String get loadingMessage2 => 'Hold tight - we\'re on it.';
+
+  @override
+  String get loadingMessage3 => 'Just a moment while we prepare everything...';
+
+  @override
+  String get loadingMessage4 => 'Getting things ready for you...';
+
+  @override
+  String get loadingMessage5 => 'We\'ll be there shortly.';
+
+  @override
+  String get loadingMessage6 => 'Good things are on the way...';
+
+  @override
+  String get loadingMessage7 => 'Almost ready for you...';
+
+  @override
+  String get loadingMessage8 => 'Hang tight - almost there.';
+
+  @override
+  String get loadingMessage9 => 'We\'re cooking something nice...';
+
+  @override
+  String get loadingMessage10 => 'We\'re warming things up.';
+
+  @override
+  String get otpVerificationTitle => 'OTP-Verifizierung';
+
+  @override
+  String otpSentTo(String email) {
+    return 'Wir haben einen 6-stelligen Code an Ihre E-Mail $email gesendet';
+  }
+
+  @override
+  String get otpInvalidOrExpired => 'Ungültiger oder abgelaufener Code';
+
+  @override
+  String get otpCodeResent => 'Code erneut gesendet';
+
+  @override
+  String get otpResendFailed => 'Code konnte nicht erneut gesendet werden. Bitte versuchen Sie es erneut.';
+
+  @override
+  String otpResendCountdown(int seconds) {
+    return 'Erneut senden verfügbar in ${seconds}s';
+  }
+
+  @override
+  String get otpResendAvailable => 'Sie können den Code jetzt erneut senden';
+
+  @override
+  String get otpResendCode => 'Code erneut senden';
 }
